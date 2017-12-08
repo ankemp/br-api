@@ -1,4 +1,4 @@
-
+const matchesFallback = require('../../hooks/matches-fallback');
 
 module.exports = {
   before: {
@@ -12,9 +12,10 @@ module.exports = {
   },
 
   after: {
-    all: [],
-    find: [],
-    get: [],
+    all: [
+    ],
+    find: [matchesFallback.find()],
+    get: [matchesFallback.get()],
     create: [],
     update: [],
     patch: [],
@@ -24,7 +25,7 @@ module.exports = {
   error: {
     all: [],
     find: [],
-    get: [],
+    get: [matchesFallback.get()],
     create: [],
     update: [],
     patch: [],
