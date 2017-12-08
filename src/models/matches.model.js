@@ -6,17 +6,46 @@ const DataTypes = Sequelize.DataTypes;
 module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
   const matches = sequelizeClient.define('matches', {
-    text: {
-      type: DataTypes.STRING,
-      allowNull: false
-    }
+    // id: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    //   primaryKey: true
+    // },
+    // createdAt: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false
+    // },
+    // duration: {
+    //   type: DataTypes.INTEGER,
+    //   allowNull: false
+    // },
+    // gameMode: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false
+    // },
+    // patchVersion: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false
+    // },
+    // shardId: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false
+    // },
+    // stats: {
+    //   type: DataTypes.JSON,
+    //   allowNull: false
+    // },
+    // map: {
+    //   type: DataTypes.JSONB,
+    //   allowNull: false
+    // }
   }, {
-    hooks: {
-      beforeCount(options) {
-        options.raw = true;
+      hooks: {
+        beforeCount(options) {
+          options.raw = true;
+        }
       }
-    }
-  });
+    });
 
   matches.associate = function (models) { // eslint-disable-line no-unused-vars
     // Define associations here
