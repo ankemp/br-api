@@ -12,10 +12,9 @@ module.exports = {
   },
 
   after: {
-    all: [
-    ],
-    find: [matchesFallback.find()],
-    get: [matchesFallback.get()],
+    all: [],
+    find: [matchesFallback()],
+    get: [],
     create: [],
     update: [],
     patch: [],
@@ -25,7 +24,7 @@ module.exports = {
   error: {
     all: [],
     find: [],
-    get: [matchesFallback.get()],
+    get: [],
     create: [],
     update: [],
     patch: [],
