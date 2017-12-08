@@ -26,7 +26,9 @@
     "eslint": "eslint src/. test/. --config .eslintrc.json",
     "start": "node src/",
     "start:dev": "nodemon --watch src",
-    "mocha": "mocha test/ --recursive --exit"
+    "mocha": "mocha test/ --recursive --exit",
+    "migration:create": "sequelize migration:create",
+    "migration:run": "sequelize db:migrate"
   },
   "dependencies": {
     "@feathersjs/configuration": "^1.0.1",
