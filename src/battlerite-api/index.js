@@ -1,4 +1,6 @@
 module.exports = {
   getMatch: require('./methods/getMatch'),
-  searchMatches: require('./methods/searchMatches')
+  searchMatches: require('./methods/searchMatches'),
+  getPlayer: require('./methods/getPlayer'),
+  getPlayers: require('./methods/getPlayers')
 };

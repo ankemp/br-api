@@ -86,8 +86,15 @@ function _mapMatches({ data, included }) {
   })
 }
 
+function _mapPlayer({ data, included }) {
+  const player = _flattenAttributes(data.attributes);
+  _.set(player, ['id'], data.id);
+  return JSON.parse(JSON.stringify(player));
+}
+
 module.exports = {
   match: _mapMatch,
   matches: _mapMatches,
+  player: _mapPlayer,
   playerMatches: _mapPlayerMatches
 }
