@@ -37,6 +37,7 @@
     "@feathersjs/feathers": "^3.0.2",
     "compression": "^1.7.1",
     "cors": "^2.8.4",
+    "feathers-hooks-common": "^3.10.0",
     "feathers-sequelize": "^3.0.0",
     "helmet": "^3.9.0",
     "lodash": "^4.17.4",
