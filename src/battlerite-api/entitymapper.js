@@ -26,9 +26,7 @@ function _mapIncluded(_included, { type, id }) {
     _.forEach(include.relationships, (relationship, key) => {
       if (!!relationship.data) {
         if (_.isArray(relationship.data) && !!relationship.data.length) {
-          include[`${key}`] = _.map(relationship.data, d => {
-            return _mapIncluded(_included, d);
-          })
+          include[`${key}`] = _.map(relationship.data, d => _mapIncluded(_included, d));
         } else {
           _.set(include, [`${key}`], _mapIncluded(_included, relationship.data));
         }
@@ -52,6 +50,10 @@ function _flattenAttributes(attributes) {
 
       case 'actor':
         obj['champion'] = getChampionById(value);
+        break;
+
+      case 'won':
+        obj['won'] = value === 'true' ? true : false
         break;
 
       default:
