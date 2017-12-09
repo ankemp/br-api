@@ -1,10 +1,12 @@
 
 
+const playersFallback = require('../../hooks/players-fallback');
+
 module.exports = {
   before: {
     all: [],
     find: [],
-    get: [],
+    get: [playersFallback()],
     create: [],
     update: [],
     patch: [],
