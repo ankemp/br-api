@@ -35,10 +35,6 @@ module.exports = {
       stats: {
         type: Sequelize.JSON,
         allowNull: false
-      },
-      map: {
-        type: Sequelize.JSONB,
-        allowNull: false
       }
     })
   },

@@ -38,10 +38,6 @@ module.exports = function (app) {
     stats: {
       type: DataTypes.JSON,
       allowNull: false
-    },
-    map: {
-      type: DataTypes.JSONB,
-      allowNull: false
     }
   }, {
       hooks: {
