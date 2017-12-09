@@ -1,9 +1,10 @@
 const matchesFallback = require('../../hooks/matches-fallback');
+const defaultSort = require('../../hooks/default-sort');
 
 module.exports = {
   before: {
     all: [],
-    find: [],
+    find: [defaultSort()],
     get: [],
     create: [],
     update: [],
