@@ -1,8 +1,11 @@
 'use strict';
 
+const tableName = 'players'
+const indexParams = {fields:['id'],unique:true}
+
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('players', {
+    return queryInterface.createTable(tableName, {
       id: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -21,9 +24,12 @@ module.exports = {
         type: Sequelize.STRING,
       }
     })
+    .then(()=>queryInterface.removeIndex(tableName,indexParams.fields))
+    .then(()=>queryInterface.addIndex(tableName,indexParams));
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('players');
+    return queryInterface.dropTable(tableName)
+      .then(()=>queryInterface.removeIndex(tableName,indexParams.fields))
   }
 };

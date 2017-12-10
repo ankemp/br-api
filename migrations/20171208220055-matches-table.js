@@ -1,8 +1,11 @@
 'use strict';
 
+const tableName = 'matches'
+const indexParams = {fields:['id'],unique:true}
+
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('matches', {
+    return queryInterface.createTable(tableName, {
       id: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -37,9 +40,12 @@ module.exports = {
         allowNull: false
       }
     })
+    .then(()=>queryInterface.removeIndex(tableName, indexParams.fields))
+    .then(()=>queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('matches');
+    return queryInterface.dropTable(tableName)
+    .then(()=>queryInterface.removeIndex(tableName, indexParams.fields));
   }
 };
