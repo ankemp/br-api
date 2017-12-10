@@ -26,7 +26,7 @@ describe('\'defaultSort\' hook', () => {
     const hook = defaultSort();
 
     return hook(mock).then(result => {
-      assert.equal(result.params.query.$sort.createdAt, -1, 'Returns the expected hook object');
+      assert.deepEqual(result, { params: { query: { $sort: { createdAt: -1 } } } }, 'Returns the expected hook object');
     });
   });
 
@@ -43,7 +43,7 @@ describe('\'defaultSort\' hook', () => {
     const hook = defaultSort();
 
     return hook(mock).then(result => {
-      assert.equal(result.params.query.$sort.createdAt, 1, 'Returns the expected hook object');
+      assert.deepEqual(result, mock, 'Returns the expected hook object');
     });
   });
 });
