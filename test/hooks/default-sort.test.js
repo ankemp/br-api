@@ -14,4 +14,36 @@ describe('\'defaultSort\' hook', () => {
       assert.equal(result, mock, 'Returns the expected hook object');
     });
   });
+
+  it('set to default sort', () => {
+    const mock = {
+      params: {
+        query: {
+          '$sort': undefined
+        }
+      }
+    };
+    const hook = defaultSort();
+
+    return hook(mock).then(result => {
+      assert.equal(result.params.query.$sort.createdAt, -1, 'Returns the expected hook object');
+    });
+  });
+
+  it('sort unchanged', () => {
+    const mock = {
+      params: {
+        query: {
+          '$sort': {
+            createdAt: 1
+          }
+        }
+      }
+    };
+    const hook = defaultSort();
+
+    return hook(mock).then(result => {
+      assert.equal(result.params.query.$sort.createdAt, 1, 'Returns the expected hook object');
+    });
+  });
 });

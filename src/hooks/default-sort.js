@@ -3,7 +3,9 @@
 
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
-    context.params.query.$sort = context.params.query.$sort || { createdAt: -1 };
+    if (!!context.params && !!context.params.query) {
+      context.params.query.$sort = context.params.query.$sort || { createdAt: -1 };
+    }
     return context;
   };
 };
