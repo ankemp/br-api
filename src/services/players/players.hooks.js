@@ -7,10 +7,18 @@ module.exports = {
     all: [],
     find: [],
     get: [playersFallback()],
-    create: [],
-    update: [],
-    patch: [],
-    remove: []
+    create: [
+      common.disallow('external')
+    ],
+    update: [
+      common.disallow('external')
+    ],
+    patch: [
+      common.disallow('external')
+    ],
+    remove: [
+      common.disallow('external')
+    ]
   },
 
   after: {

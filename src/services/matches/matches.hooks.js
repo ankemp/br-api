@@ -6,10 +6,18 @@ module.exports = {
     all: [],
     find: [defaultSort()],
     get: [],
-    create: [],
-    update: [],
-    patch: [],
-    remove: []
+    create: [
+      common.disallow('external')
+    ],
+    update: [
+      common.disallow('external')
+    ],
+    patch: [
+      common.disallow('external')
+    ],
+    remove: [
+      common.disallow('external')
+    ]
   },
 
   after: {
