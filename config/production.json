@@ -1,4 +1,8 @@
 {
   "host": "br-history-188417.appspot.com",
-  "port": "8080"
+  "port": "8080",
+  "sqlUser": "prod",
+  "sqlPass": "QR26Vy0!5m18",
+  "sqlDb": "battlerite",
+  "socketPath": "/cloudsql/br-history-188417:us-central1:br-db"
 }
