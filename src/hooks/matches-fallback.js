@@ -17,6 +17,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       }
       context.result.data = matches;
       context.result.total = matches.length;
+      
     }
     return context;
   };

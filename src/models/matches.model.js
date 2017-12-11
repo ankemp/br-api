@@ -48,8 +48,7 @@ module.exports = function (app) {
     });
 
   matches.associate = function (models) { // eslint-disable-line no-unused-vars
-    // Define associations here
-    // See http://docs.sequelizejs.com/en/latest/docs/associations/
+    
   };
 
   return matches;

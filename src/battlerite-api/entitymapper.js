@@ -80,6 +80,13 @@ function _mapMatch({ data, included }) {
   return JSON.parse(JSON.stringify(match));
 }
 
+function _mapGeneric( data ) {
+  return _.map(data, d => {
+    return d;
+  });
+}
+
+
 function _mapMatches({ data, included }) {
   return _.map(data, d => {
     return _mapMatch({ data: d, included })
@@ -96,5 +103,6 @@ module.exports = {
   match: _mapMatch,
   matches: _mapMatches,
   player: _mapPlayer,
+  generic: _mapGeneric,
   playerMatches: _mapPlayerMatches
 }

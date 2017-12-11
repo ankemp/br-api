@@ -1,13 +1,9 @@
-const common = require('feathers-hooks-common');
-const matchesFallback = require('../../hooks/matches-fallback');
-const matchesRosters = require('../../hooks/matches-rosters');
 const rosterParticipants = require('../../hooks/rosters-participants');
-const defaultSort = require('../../hooks/default-sort');
 
 module.exports = {
   before: {
     all: [],
-    find: [defaultSort()],
+    find: [],
     get: [],
     create: [],
     update: [],
@@ -17,7 +13,7 @@ module.exports = {
 
   after: {
     all: [],
-    find: [matchesFallback(),matchesRosters()],
+    find: [],
     get: [],
     create: [],
     update: [],
