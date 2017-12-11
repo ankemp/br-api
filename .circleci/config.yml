@@ -69,7 +69,6 @@ jobs:
     environment:
       - GOOGLE_APPLICATION_CREDENTIALS: "/tmp/gcloud-service-key.json"
       - INSTANCE_CONNECTION_NAME: "br-history-188417:us-central1:br-db"
-
     steps:
       - checkout
       - restore_cache:
@@ -89,7 +88,8 @@ workflows:
     jobs:
       - build
       - test:
-          requires: build
+          requires:
+            - build
       - prod_deps:
           filters:
             branches:
@@ -97,4 +97,5 @@ workflows:
           requires:
             - test
       - deploy:
-          requires: prod_deps
+          requires:
+            - prod_deps
