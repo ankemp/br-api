@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  test:
+  build:
     working_directory: ~/repo
     docker:
       - image: 'circleci/node:8.9'
@@ -15,6 +15,17 @@ jobs:
           paths:
             - node_modules
           key: 'dev-dependencies-{{ checksum "yarn.lock" }}'
+
+  test:
+    working_directory: ~/repo
+    docker:
+      - image: 'circleci/node:8.9'
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - 'dev-dependencies-{{ checksum "yarn.lock" }}'
+            - dev-dependencies-
       - run: yarn run mocha
 
   prod_deps:
@@ -76,7 +87,9 @@ workflows:
   version: 2
   test-and-deploy:
     jobs:
-      - test
+      - build
+      - test:
+          requires: build
       - prod_deps:
           filters:
             branches:
@@ -84,5 +97,4 @@ workflows:
           requires:
             - test
       - deploy:
-          requires:
-            - prod_deps
+          requires: prod_deps
