@@ -1,3 +1,4 @@
+const common = require('feathers-hooks-common');
 const matchesFallback = require('../../hooks/matches-fallback');
 const defaultSort = require('../../hooks/default-sort');
 
