@@ -18,9 +18,8 @@ function _mapPlayerMatches({ data, included }) {
 
 function _mapIncluded(_included, { type, id }) {
   let include = _included.find(i => i.id === id);
-  if (!_.isUndefined(include) && !_.isUndefined(include.attributes)) {
-    include = _.assign(include, _flattenAttributes(include.attributes))
-    include = _.omit(include, 'attributes');
+  if (!_.isUndefined(include)) {
+    include = _flattenAttributes(include, type);
   }
   if (!_.isUndefined(include) && !_.isUndefined(include.relationships) && !!_.keys(include.relationships).length) {
     _.forEach(include.relationships, (relationship, key) => {
@@ -37,15 +36,28 @@ function _mapIncluded(_included, { type, id }) {
   return include;
 }
 
-function _flattenAttributes(attributes) {
-  return _.transform(attributes, (obj, value, key) => {
+function _flattenAttributes(data, type) {
+  return _.transform(data, (obj, value, key) => {
     switch (key) {
-      case 'createdAt':
-        obj[key] = new Date(value);
+      case 'attributes':
+        obj = _.merge(obj, _flattenAttributes(value, type));
         break;
 
-      case 'titleId':
-        //  Die.
+      case 'stats':
+        if (type === 'participant') {
+          obj['stats'] = value;
+        } else if (type === 'match') {
+          if (key === 'stats') {
+            obj['matchType'] = value.type;
+            obj['map'] = getMapById(value.mapID);
+          }
+        } else {
+          obj = _.merge(obj, _flattenAttributes(value, type));
+        }
+        break;
+
+      case 'createdAt':
+        obj['createdAt'] = new Date(value);
         break;
 
       case 'actor':
@@ -54,6 +66,13 @@ function _flattenAttributes(attributes) {
 
       case 'won':
         obj['won'] = value === 'true' ? true : false
+        break;
+
+      case 'titleId':
+      case 'patchVersion':
+      case 'shardId':
+      case 'type':
+        //  Die.
         break;
 
       default:
@@ -65,9 +84,7 @@ function _flattenAttributes(attributes) {
 
 function _mapMatch({ data, included }) {
   const _included = _(included);
-  const match = _flattenAttributes(data.attributes);
-  _.set(match, ['id'], data.id);
-  _.set(match, ['map'], getMapById(match.stats.mapID));
+  let match = _flattenAttributes(data, 'match');
   if (data.relationships) {
     for (const [name, relData] of _.toPairs(data.relationships)) {
       if (_.isArray(relData.data)) {
@@ -75,12 +92,13 @@ function _mapMatch({ data, included }) {
       } else {
         _.set(match, [`${name}`], relData.data);
       }
+      match = _.omit(match, 'relationships');
     }
   }
   return JSON.parse(JSON.stringify(match));
 }
 
-function _mapGeneric( data ) {
+function _mapGeneric(data) {
   return _.map(data, d => {
     return d;
   });
