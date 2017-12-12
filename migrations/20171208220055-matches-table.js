@@ -44,12 +44,10 @@ module.exports = {
         allowNull: true,
       }
     })
-      .then(() => queryInterface.removeIndex(tableName, indexParams.fields))
       .then(() => queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable(tableName)
-      .then(() => queryInterface.removeIndex(tableName, indexParams.fields));
+    return queryInterface.dropTable(tableName);
   }
 };

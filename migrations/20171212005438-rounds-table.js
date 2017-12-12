@@ -1,6 +1,8 @@
 'use strict';
 
 const tableName = 'rounds'
+const indexParams = { fields: ['id'], unique: true }
+
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.createTable(tableName, {
@@ -30,6 +32,7 @@ module.exports = {
         allowNull: true
       }
     })
+    .then(() => queryInterface.addIndex(tableName, indexParams));
   },
   down: (queryInterface, Sequelize) => {
     return queryInterface.dropTable(tableName);

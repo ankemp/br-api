@@ -1,6 +1,8 @@
 'use strict';
 
 const tableName = 'rosters'
+const indexParams = { fields: ['id'], unique: true }
+
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.createTable(tableName, {
@@ -25,7 +27,7 @@ module.exports = {
         type: Sequelize.BOOLEAN,
         allowNull: false,
       }
-    });
+    }).then(() => queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {

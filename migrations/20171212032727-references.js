@@ -19,7 +19,10 @@ module.exports = {
               model: 'matches',
               key: 'id'
             }
-          })
+          })  
+      })
+      .then(() =>{
+        return queryInterface.addIndex('rounds',{ fields: ['matchId'] })
       })
       .then(() => {
         return queryInterface
@@ -31,6 +34,9 @@ module.exports = {
               key: 'id',
             },
           })
+      })
+      .then(() =>{
+        return queryInterface.addIndex('rosters',{ fields: ['matchId']})
       })
       .then(() => {
         return queryInterface
@@ -75,6 +81,9 @@ module.exports = {
               key: 'id',
             }
           })
+      })
+      .then(() =>{
+        return queryInterface.addIndex('participants',{ fields: ['matchId','rosterId','playerId']})
       })
   },
 

@@ -1,7 +1,7 @@
 'use strict';
 
 const tableName = 'participants'
-const indexParams = { fields: ['id', 'matchId', 'playerId'], unique: true }
+const indexParams = { fields: ['id'], unique: true }
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
@@ -22,8 +22,9 @@ module.exports = {
       json: {
         type: Sequelize.JSON,
         allowNull: true,
-      },
+      }
     })
+    .then(() => queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {

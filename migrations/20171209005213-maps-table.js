@@ -24,6 +24,7 @@ module.exports = {
         allowNull: false
       },
     })
+    .then(() => queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {

@@ -1,6 +1,8 @@
 'use strict';
 
 const tableName = 'champions'
+const indexParams = { fields: ['id'], unique: true }
+
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.createTable(tableName, {
@@ -21,7 +23,7 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false
       }
-    })
+    }).then(() => queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {

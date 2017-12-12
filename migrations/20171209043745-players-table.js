@@ -1,7 +1,7 @@
 'use strict';
 
 const tableName = 'players'
-const indexParams = { fields: ['id'], unique: true }
+const indexParams = { fields: ['id','name'] }
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
@@ -22,7 +22,7 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false,
       }
-    })
+    }).then(() => queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {
