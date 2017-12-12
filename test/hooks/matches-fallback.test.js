@@ -14,22 +14,4 @@ describe('\'matches-fallback\' hook', () => {
       assert.equal(result, mock, 'Returns the expected hook object');
     });
   });
-
-  it('gets matches from brAPI when result.data is empty', () => {
-    const mock = {
-      params: {
-        query: {
-          count: 1
-        },
-      },
-      result: {
-        data: [],
-      },
-    };
-    const hook = matchesFallback();
-
-    return hook(mock).then(result => {
-      assert.equal(result.result.data.length, 1, 'Returns the expected hook object');
-    });
-  })
 });
