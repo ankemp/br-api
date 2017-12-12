@@ -11,11 +11,6 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         participant.rosterId = roster.id;
         participant.championId = participant.champion.id;
         participant.playerId = participant.player.id;
-        playersService.get(participant.player.id)
-          .then(p => console.log(p.id))
-          .catch(() => {
-            playersService.create(participant.player);
-          })
         return participant;
       });
       context.app.service('participants').create(participants);

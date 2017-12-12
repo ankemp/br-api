@@ -7,7 +7,7 @@ const map = require('../battlerite-api/entitymapper');
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.app && !!!context.params.query.id) {
-      if (!!context.result && Array.isArray(context.result.data)) {
+      if (!!context.result && Array.isArray(context.result.data) && !!!context.result.data.length) {
         const response = await brApi.searchMatches(context.params.query || {});
         const matches = map.matches(response);
         const matchesService = context.app.service('matches');
