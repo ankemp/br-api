@@ -35,8 +35,8 @@ module.exports = function (app) {
       type: DataTypes.STRING,
       allowNull: false
     },
-    stats: {
-      type: DataTypes.JSON,
+    matchType: {
+      type: DataTypes.STRING,
       allowNull: false
     }
   }, {
@@ -47,8 +47,11 @@ module.exports = function (app) {
       }
     });
 
-  matches.associate = function (models) { // eslint-disable-line no-unused-vars
-    
+  matches.associate = function (models) {
+    matches.belongsTo(models.maps, { as: 'map' });
+    matches.hasMany(models.rosters, { as: 'roster' });
+    matches.hasMany(models.rounds, { as: 'round' });
+    matches.hasMany(models.participants, { as: 'participant' });
   };
 
   return matches;

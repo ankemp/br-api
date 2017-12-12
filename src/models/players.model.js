@@ -7,21 +7,20 @@ module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
   const players = sequelizeClient.define('players', {
     id: {
-      type: DataTypes.STRING,
+      type: Sequelize.STRING,
       allowNull: false,
       primaryKey: true
     },
     name: {
-      type: DataTypes.STRING
+      type: Sequelize.STRING
     },
-    patchVersion: {
-      type: DataTypes.STRING,
+    createdAt: {
+      type: Sequelize.DATE,
+      allowNull: false,
     },
-    shardId: {
-      type: DataTypes.STRING,
-    },
-    titleId: {
-      type: DataTypes.STRING,
+    updatedAt: {
+      type: Sequelize.DATE,
+      allowNull: false,
     }
   }, {
       hooks: {
@@ -32,8 +31,6 @@ module.exports = function (app) {
     });
 
   players.associate = function (models) { // eslint-disable-line no-unused-vars
-    // Define associations here
-    // See http://docs.sequelizejs.com/en/latest/docs/associations/
   };
 
   return players;

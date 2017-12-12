@@ -5,11 +5,14 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
-  const participants = sequelizeClient.define('participants', {
+  const champions = sequelizeClient.define('champions', {
     id: {
       type: Sequelize.STRING,
       allowNull: false,
       primaryKey: true
+    },
+    name: {
+      type: Sequelize.STRING
     },
     createdAt: {
       type: Sequelize.DATE,
@@ -18,10 +21,6 @@ module.exports = function (app) {
     updatedAt: {
       type: Sequelize.DATE,
       allowNull: false,
-    },
-    json: {
-      type: Sequelize.JSON,
-      allowNull: true,
     }
   }, {
       hooks: {
@@ -31,12 +30,8 @@ module.exports = function (app) {
       }
     });
 
-  participants.associate = function (models) {
-    participants.belongsTo(models.matches, { as: 'match' });
-    participants.belongsTo(models.rosters, { as: 'roster' });
-    participants.belongsTo(models.players, { as: 'player' });
-    participants.belongsTo(models.champions, { as: 'champion' });
+  champions.associate = function (models) { // eslint-disable-line no-unused-vars
   };
 
-  return participants;
+  return champions;
 };

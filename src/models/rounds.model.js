@@ -5,15 +5,11 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
-  const maps = sequelizeClient.define('maps', {
+  const rounds = sequelizeClient.define('rounds', {
     id: {
-      type: DataTypes.STRING,
+      type: DataTypes.DATE,
       allowNull: false,
       primaryKey: true
-    },
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false
     },
     createdAt: {
       type: DataTypes.DATE,
@@ -23,6 +19,18 @@ module.exports = function (app) {
       type: DataTypes.DATE,
       allowNull: false
     },
+    duration: {
+      type: DataTypes.INTEGER,
+      allowNull: true
+    },
+    ordinal: {
+      type: DataTypes.INTEGER,
+      allowNull: true
+    },
+    winningTeam: {
+      type: DataTypes.INTEGER,
+      allowNull: true
+    },
   }, {
       hooks: {
         beforeCount(options) {
@@ -31,8 +39,9 @@ module.exports = function (app) {
       }
     });
 
-  maps.associate = function (models) { // eslint-disable-line no-unused-vars
+  rounds.associate = function (models) { // eslint-disable-line no-unused-vars
+    rounds.belongsTo(models.matches, { as: 'match' });
   };
 
-  return maps;
+  return rounds;
 };

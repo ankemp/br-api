@@ -7,27 +7,37 @@ module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
   const rosters = sequelizeClient.define('rosters', {
     id: {
-      type: DataTypes.STRING,
+      type: Sequelize.STRING,
       allowNull: false,
       primaryKey: true
     },
-    shardId:{
-      type: DataTypes.STRING,
+    createdAt: {
+      type: Sequelize.DATE,
+      allowNull: false,
     },
-    matchId:{
-      type: DataTypes.STRING,
+    updatedAt: {
+      type: Sequelize.DATE,
+      allowNull: false,
+    },
+    score: {
+      type: Sequelize.INTEGER,
+      allowNull: true,
+    },
+    won: {
+      type: Sequelize.BOOLEAN,
+      allowNull: false,
     }
   }, {
-    hooks: {
-      beforeCount(options) {
-        options.raw = true;
+      hooks: {
+        beforeCount(options) {
+          options.raw = true;
+        }
       }
-    }
-  });
+    });
 
-  rosters.associate = function (models) { // eslint-disable-line no-unused-vars
-    // Define associations here
-    // See http://docs.sequelizejs.com/en/latest/docs/associations/
+  rosters.associate = function (models) {
+    rosters.belongsTo(models.matches, { as: 'match' });
+    rosters.hasMany(models.participants, { as: 'participant' });
   };
 
   return rosters;
