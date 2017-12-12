@@ -110,8 +110,7 @@ function _mapMatches({ data, included }) {
 }
 
 function _mapPlayer({ data, included }) {
-  const player = _flattenAttributes(data.attributes);
-  _.set(player, ['id'], data.id);
+  const player = _flattenAttributes(data);
   return JSON.parse(JSON.stringify(player));
 }
 

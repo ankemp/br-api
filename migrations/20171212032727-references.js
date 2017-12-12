@@ -19,10 +19,10 @@ module.exports = {
               model: 'matches',
               key: 'id'
             }
-          })  
+          })
       })
-      .then(() =>{
-        return queryInterface.addIndex('rounds',{ fields: ['matchId'] })
+      .then(() => {
+        return queryInterface.addIndex('rounds', { fields: ['matchId'] })
       })
       .then(() => {
         return queryInterface
@@ -35,8 +35,8 @@ module.exports = {
             },
           })
       })
-      .then(() =>{
-        return queryInterface.addIndex('rosters',{ fields: ['matchId']})
+      .then(() => {
+        return queryInterface.addIndex('rosters', { fields: ['matchId'] })
       })
       .then(() => {
         return queryInterface
@@ -82,30 +82,30 @@ module.exports = {
             }
           })
       })
-      .then(() =>{
-        return queryInterface.addIndex('participants',{ fields: ['matchId','rosterId','playerId']})
+      .then(() => {
+        return queryInterface.addIndex('participants', { fields: ['matchId', 'rosterId', 'playerId'] })
       })
   },
 
   down: (queryInterface, Sequelize) => {
     return queryInterface.dropTable('participants')
-    .then(()=>{
-      return queryInterface.dropTable('rosters')
-    })
-    .then(()=>{
-      return queryInterface.dropTable('rounds')
-    })
-    .then(()=>{
-      return queryInterface.dropTable('matches')
-    })
-    .then(()=>{
-      return queryInterface.dropTable('players')
-    })
-    .then(()=>{
-      return queryInterface.dropTable('champions')
-    })
-    .then(()=>{
-      return queryInterface.dropTable('maps')
-    })
+      .then(() => {
+        return queryInterface.dropTable('rosters')
+      })
+      .then(() => {
+        return queryInterface.dropTable('rounds')
+      })
+      .then(() => {
+        return queryInterface.dropTable('matches')
+      })
+      .then(() => {
+        return queryInterface.dropTable('players')
+      })
+      .then(() => {
+        return queryInterface.dropTable('champions')
+      })
+      .then(() => {
+        return queryInterface.dropTable('maps')
+      })
   }
 };
