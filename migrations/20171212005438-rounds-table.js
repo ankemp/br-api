@@ -9,46 +9,36 @@ module.exports = {
         allowNull: false,
         primaryKey: true
       },
-      id: {
+      createdAt: {
+        type: Sequelize.DATE,
+        allowNull: false
+      },
+      updatedAt: {
+        type: Sequelize.DATE,
+        allowNull: false
+      },
+      duration: {
+        type: Sequelize.INTEGER,
+        allowNull: true
+      },
+      ordinal: {
+        type: Sequelize.INTEGER,
+        allowNull: true
+      },
+      winningTeam: {
+        type: Sequelize.INTEGER,
+        allowNull: true
+      },
+      matchId: {
         type: Sequelize.STRING,
-        allowNull: false,
-        primaryKey: true
-      },
-      duration:{
-        type:Sequelize.INTEGER,
-      },
-      gameMode:{
-        type:Sequelize.STRING,
-      },
-      patchMode:{
-        type:Sequelize.STRING,
-      },
-      shardId:{
-        type:Sequelize.STRING,
-      },
-      createdAt:{
-        type:Sequelize.DATE
-      },
-      updatedAt:{
-        type:Sequelize.DATE
-      },
-      matchId:{
-        type:Sequelize.STRING,
         references: {
           model: 'matches',
           key: 'id'
         }
       }
-  })
-},
-    down: (queryInterface, Sequelize) => {
-      /*
-        Add reverting commands here.
-        Return a promise to correctly handle asynchronicity.
-  
-        Example:
-        return queryInterface.dropTable('users');
-      */
-    }
-  };
-  
+    })
+  },
+  down: (queryInterface, Sequelize) => {
+    return queryInterface.dropTable(tableName);
+  }
+};
