@@ -6,14 +6,14 @@ const map = require('../battlerite-api/entitymapper');
 
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
-    if (!!context.app && !!!context.params.query.id) {
-      if (!!context.result && Array.isArray(context.result.data) && !!!context.result.data.length) {
+    if (!!context.app && context.method === 'find') {
+      if (!!context.result && context.params.fallbackFrom) {
+        context.params.query.fromDate = context.params.fallbackFrom;
         const response = await brApi.searchMatches(context.params.query || {});
         const matches = map.matches(response);
         const matchesService = context.app.service('matches');
         matches.forEach(match => {
-          matchesService.get({ id: match.id })
-            .then(m => { console.log(m.id) })
+          matchesService.get(match.id)
             .catch(() => {
               matchesService.create(match)
                 .then(() => {
