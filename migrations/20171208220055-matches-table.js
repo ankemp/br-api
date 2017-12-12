@@ -39,6 +39,10 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
+      telemetry: {
+        type: Sequelize.STRING,
+        allowNull: true,
+      },
       mapId: {
         type: Sequelize.STRING,
         allowNull: false,
