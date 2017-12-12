@@ -11,7 +11,10 @@ const matchesSchema = {
       service: 'rosters', parentField: 'id', childField: 'matchId',
       include: {
         service: 'participants', parentField: 'id', childField: 'rosterId',
-        include: { service: 'players', nameAs: 'player', parentField: 'playerId', childField: 'id' }
+        include: [
+          { service: 'players', nameAs: 'player', parentField: 'playerId', childField: 'id' },
+          { service: 'champions', nameAs: 'champion', parentField: 'championId', childField: 'id' }
+        ],
       }
     }
   ]
