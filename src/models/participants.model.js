@@ -32,10 +32,10 @@ module.exports = function (app) {
     });
 
   participants.associate = function (models) {
-    participants.belongsTo(models.matches, { as: 'match' });
-    participants.belongsTo(models.rosters, { as: 'roster' });
-    participants.belongsTo(models.players, { as: 'player' });
-    participants.belongsTo(models.champions, { as: 'champion' });
+    participants.belongsTo(models.matches);
+    participants.belongsTo(models.rosters);
+    participants.belongsTo(models.players);
+    participants.belongsTo(models.champions);
   };
 
   return participants;

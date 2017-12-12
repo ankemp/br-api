@@ -1,11 +1,14 @@
-
+const { setNow, populate } = require('feathers-hooks-common');
 
 module.exports = {
   before: {
     all: [],
     find: [],
     get: [],
-    create: [],
+    create: [
+      setNow('createdAt'),
+      setNow('updatedAt'),
+    ],
     update: [],
     patch: [],
     remove: []
@@ -13,7 +16,9 @@ module.exports = {
 
   after: {
     all: [],
-    find: [],
+    find: [
+      populate({ schema: { include: { service: 'matches', parentField: 'matchId', childField: 'id' } } }),
+    ],
     get: [],
     create: [],
     update: [],

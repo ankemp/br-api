@@ -7,9 +7,9 @@ const map = require('../battlerite-api/entitymapper');
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.id) {
-      const response = await brApi.getPlayer(context.id);
+      const response = await brApi.getPlayer(context.id.id);
       const player = map.player(response);
-      // context.app.services.players.create(player);
+      context.app.service('players').create(player);
       context.result = {};
       context.result.data = player;
     }

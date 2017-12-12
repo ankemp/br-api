@@ -7,7 +7,7 @@ module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
   const rounds = sequelizeClient.define('rounds', {
     id: {
-      type: DataTypes.DATE,
+      type: DataTypes.STRING,
       allowNull: false,
       primaryKey: true
     },
@@ -39,8 +39,8 @@ module.exports = function (app) {
       }
     });
 
-  rounds.associate = function (models) { // eslint-disable-line no-unused-vars
-    rounds.belongsTo(models.matches, { as: 'match' });
+  rounds.associate = function (models) {
+    rounds.belongsTo(models.matches);
   };
 
   return rounds;

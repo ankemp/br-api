@@ -1,12 +1,13 @@
-const common = require('feathers-hooks-common');
+const { setNow, populate } = require('feathers-hooks-common');
 const playersFallback = require('../../hooks/players-fallback');
 
 module.exports = {
   before: {
     all: [],
     find: [],
-    get: [playersFallback()],
-    create: [],
+    // get: [playersFallback()],
+    get: [],
+    create: [setNow('createdAt'), setNow('updatedAt')],
     update: [],
     patch: [],
     remove: []

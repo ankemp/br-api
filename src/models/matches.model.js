@@ -52,10 +52,10 @@ module.exports = function (app) {
     });
 
   matches.associate = function (models) {
-    matches.belongsTo(models.maps, { as: 'map' });
-    matches.hasMany(models.rosters, { as: 'roster' });
-    matches.hasMany(models.rounds, { as: 'round' });
-    matches.hasMany(models.participants, { as: 'participant' });
+    matches.belongsTo(models.maps);
+    matches.hasMany(models.rosters);
+    matches.hasMany(models.rounds);
+    matches.hasMany(models.participants);
   };
 
   return matches;

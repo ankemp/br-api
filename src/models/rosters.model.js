@@ -36,8 +36,8 @@ module.exports = function (app) {
     });
 
   rosters.associate = function (models) {
-    rosters.belongsTo(models.matches, { as: 'match' });
-    rosters.hasMany(models.participants, { as: 'participant' });
+    rosters.belongsTo(models.matches);
+    rosters.hasMany(models.participants);
   };
 
   return rosters;

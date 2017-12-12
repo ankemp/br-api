@@ -1,11 +1,15 @@
-const rosterParticipants = require('../../hooks/rosters-participants');
+const { setNow, populate } = require('feathers-hooks-common');
+const rosterParticipants = require('../../hooks/roster-participants');
 
 module.exports = {
   before: {
     all: [],
     find: [],
     get: [],
-    create: [],
+    create: [
+      setNow('createdAt'),
+      setNow('updatedAt'),
+    ],
     update: [],
     patch: [],
     remove: []
@@ -15,7 +19,7 @@ module.exports = {
     all: [],
     find: [],
     get: [],
-    create: [],
+    create: [rosterParticipants()],
     update: [],
     patch: [],
     remove: []
