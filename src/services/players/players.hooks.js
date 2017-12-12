@@ -1,5 +1,4 @@
-
-
+const common = require('feathers-hooks-common');
 const playersFallback = require('../../hooks/players-fallback');
 
 module.exports = {

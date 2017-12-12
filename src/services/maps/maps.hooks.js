@@ -1,10 +1,11 @@
-
+const common = require('feathers-hooks-common');
 
 module.exports = {
   before: {
     all: [],
     find: [],
-    get: [],
+    get: [
+    ],
     create: [],
     update: [],
     patch: [],

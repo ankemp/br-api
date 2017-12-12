@@ -1,19 +1,20 @@
 // Application hooks that run for every service
 const logger = require('./hooks/logger');
+const common = require('feathers-hooks-common');
 
 module.exports = {
   before: {
-    all: [ logger() ],
+    all: [logger()],
     find: [],
     get: [],
-    create: [],
-    update: [],
-    patch: [],
-    remove: []
+    create: [common.disallow('external')],
+    update: [common.disallow('external')],
+    patch: [common.disallow('external')],
+    remove: [common.disallow('external')]
   },
 
   after: {
-    all: [ logger() ],
+    all: [logger()],
     find: [],
     get: [],
     create: [],
@@ -23,7 +24,7 @@ module.exports = {
   },
 
   error: {
-    all: [ logger() ],
+    all: [logger()],
     find: [],
     get: [],
     create: [],
