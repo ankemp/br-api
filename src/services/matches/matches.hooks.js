@@ -2,7 +2,6 @@ const { setNow, populate } = require('feathers-hooks-common');
 const matchesFallback = require('../../hooks/matches-fallback');
 const defaultSort = require('../../hooks/default-sort');
 const shouldFallback = require('../../hooks/should-fallback');
-const matchesFallback = require('../../hooks/matches-fallback');
 
 const matchesSchema = {
   include: [
