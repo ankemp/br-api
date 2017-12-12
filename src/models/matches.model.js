@@ -38,7 +38,11 @@ module.exports = function (app) {
     matchType: {
       type: DataTypes.STRING,
       allowNull: false
-    }
+    },
+    telemetry: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
   }, {
       hooks: {
         beforeCount(options) {
