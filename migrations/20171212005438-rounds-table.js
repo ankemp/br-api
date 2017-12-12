@@ -35,6 +35,5 @@ module.exports = {
     .then(() => queryInterface.addIndex(tableName, indexParams));
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable(tableName);
   }
 };
