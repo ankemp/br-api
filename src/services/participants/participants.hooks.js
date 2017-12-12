@@ -1,10 +1,18 @@
-const { setNow, populate } = require('feathers-hooks-common');
+const { setNow, populate, paramsFromClient } = require('feathers-hooks-common');
 const participantPlayers = require('../../hooks/participant-players');
+const shouldFallback = require('../../hooks/should-fallback');
+const pluckMatches = require('../../hooks/pluck-matches');
+
+const matchesSchema = {
+  include: [
+    { service: 'matches', nameAs: 'matches', parentField: 'matchId', childField: 'id', useInnerPopulate: true },
+  ]
+};
 
 module.exports = {
   before: {
     all: [],
-    find: [],
+    find: [paramsFromClient('fallbackFrom')],
     get: [],
     create: [setNow('createdAt'), setNow('updatedAt'), participantPlayers()],
     update: [],
@@ -14,7 +22,7 @@ module.exports = {
 
   after: {
     all: [],
-    find: [],
+    find: [shouldFallback(), populate({ schema: matchesSchema }), pluckMatches()],
     get: [],
     create: [],
     update: [],

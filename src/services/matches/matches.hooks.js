@@ -1,6 +1,7 @@
 const { setNow, populate } = require('feathers-hooks-common');
 const matchesFallback = require('../../hooks/matches-fallback');
 const defaultSort = require('../../hooks/default-sort');
+const shouldFallback = require('../../hooks/should-fallback');
 const matchesFallback = require('../../hooks/matches-fallback');
 
 const matchesSchema = {
@@ -11,7 +12,7 @@ const matchesSchema = {
       service: 'rosters', parentField: 'id', childField: 'matchId',
       include: {
         service: 'participants', parentField: 'id', childField: 'rosterId',
-        include: { service: 'players', parentField: 'playerId', childField: 'id' }
+        include: { service: 'players', nameAs: 'player', parentField: 'playerId', childField: 'id' }
       }
     }
   ]
@@ -22,9 +23,7 @@ module.exports = {
     all: [],
     find: [defaultSort()],
     get: [],
-    create: [
-      setNow('updatedAt'),
-    ],
+    create: [setNow('updatedAt'),],
     update: [],
     patch: [],
     remove: []
@@ -33,6 +32,7 @@ module.exports = {
   after: {
     all: [],
     find: [
+      shouldFallback(),
       matchesFallback(),
       populate({ schema: matchesSchema }),
     ],
