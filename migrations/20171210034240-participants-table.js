@@ -19,12 +19,12 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false,
       },
-      json: {
+      stats: {
         type: Sequelize.JSON,
         allowNull: true,
       }
     })
-    .then(() => queryInterface.addIndex(tableName, indexParams));
+      .then(() => queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {

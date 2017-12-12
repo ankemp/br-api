@@ -19,7 +19,7 @@ module.exports = function (app) {
       type: Sequelize.DATE,
       allowNull: false,
     },
-    json: {
+    stats: {
       type: Sequelize.JSON,
       allowNull: true,
     }
