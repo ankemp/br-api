@@ -12,7 +12,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
             playersService.create(participant.player.id);
           })
       });
-      return context;
     }
+    return context;
   };
 };
