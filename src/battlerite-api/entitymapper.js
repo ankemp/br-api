@@ -49,7 +49,7 @@ function _flattenAttributes(data, type) {
         } else if (type === 'match') {
           if (key === 'stats') {
             obj['matchType'] = value.type;
-            obj['map'] = getMapById(value.mapID);
+            obj['mapId'] = value.mapID;
           }
         } else {
           obj = _.merge(obj, _flattenAttributes(value, type));
@@ -69,8 +69,6 @@ function _flattenAttributes(data, type) {
         break;
 
       case 'titleId':
-      case 'patchVersion':
-      case 'shardId':
       case 'type':
         //  Die.
         break;
