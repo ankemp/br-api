@@ -9,14 +9,6 @@ module.exports = {
         allowNull: false,
         primaryKey: true
       },
-      matchId: {
-        type: Sequelize.STRING,
-        allowNull: false,
-        references: {
-          model: 'matches',
-          key: 'id',
-        },
-      },
       createdAt: {
         type: Sequelize.DATE,
         allowNull: false,
@@ -37,12 +29,6 @@ module.exports = {
   },
 
   down: (queryInterface, Sequelize) => {
-    /*
-      Add reverting commands here.
-      Return a promise to correctly handle asynchronicity.
-
-      Example:
-      return queryInterface.dropTable('users');
-    */
+    return queryInterface.dropTable(tableName);
   }
 };

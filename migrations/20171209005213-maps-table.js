@@ -1,7 +1,7 @@
 'use strict';
 
 const tableName = 'maps'
-const indexParams = {fields:['id'],unique:true}
+const indexParams = { fields: ['id'], unique: true }
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
@@ -24,12 +24,9 @@ module.exports = {
         allowNull: false
       },
     })
-    .then(()=>queryInterface.removeIndex(tableName, indexParams.fields))
-    .then(()=>queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable(tableName)
-      .then(()=>queryInterface.addIndex(tableName, indexParams.fields));
+    return queryInterface.dropTable(tableName);
   }
 };

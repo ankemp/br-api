@@ -42,14 +42,6 @@ module.exports = {
       telemetry: {
         type: Sequelize.STRING,
         allowNull: true,
-      },
-      mapId: {
-        type: Sequelize.STRING,
-        allowNull: false,
-        references: {
-          model: 'maps',
-          key: 'id',
-        }
       }
     })
       .then(() => queryInterface.removeIndex(tableName, indexParams.fields))

@@ -28,13 +28,6 @@ module.exports = {
       winningTeam: {
         type: Sequelize.INTEGER,
         allowNull: true
-      },
-      matchId: {
-        type: Sequelize.STRING,
-        references: {
-          model: 'matches',
-          key: 'id'
-        }
       }
     })
   },
