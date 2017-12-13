@@ -140,6 +140,12 @@ module.exports = {
         name: 'Pearl',
         createdAt: new Date(),
         updatedAt: new Date()
+      },
+      {
+        id: '613085868',
+        name: 'Alysia',
+        createdAt: new Date(),
+        updatedAt: new Date()
       }
     ]);
   },
