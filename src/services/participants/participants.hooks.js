@@ -2,6 +2,7 @@ const { setNow, populate, paramsFromClient } = require('feathers-hooks-common');
 const participantPlayers = require('../../hooks/participant-players');
 const shouldFallback = require('../../hooks/should-fallback');
 const pluckMatches = require('../../hooks/pluck-matches');
+const matchesFallback = require('../../hooks/matches-fallback');
 
 const matchesSchema = {
   include: [
@@ -22,7 +23,7 @@ module.exports = {
 
   after: {
     all: [],
-    find: [shouldFallback(), populate({ schema: matchesSchema }), pluckMatches()],
+    find: [populate({ schema: matchesSchema }), pluckMatches()],
     get: [],
     create: [],
     update: [],

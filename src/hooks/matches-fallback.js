@@ -8,11 +8,11 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.app && context.method === 'find') {
       if (!!context.params.fallbackFrom) {
-        context.params.query.fromDate = context.params.fallbackFrom;
-        const response = await brApi.searchMatches(context.params.query || {});
+        let params = Object.assign({}, { fromDate: context.params.fallbackFrom });
+        const response = await brApi.searchMatches(params || {});
         const matches = map.matches(response);
         const matchesService = context.app.service('matches');
-        matches.forEach(match => {
+        return Promise.all(matches.map(match => {
           const { rounds, rosters } = match;
           matchesService.get(match.id)
             .catch(() => {
@@ -34,9 +34,8 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
                     }));
                 });
             });
-        })
-        context.result.data = matches;
-        context.result.total = matches.length;
+        }))
+          .then(() => context);
       }
     }
     return context;
