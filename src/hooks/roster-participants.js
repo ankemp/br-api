@@ -10,6 +10,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         return context.app
           .service('participants')
           .create(roster.participants.map(participant => {
+            participant.createdAt = roster.createdAt;
             participant.matchId = roster.matchId;
             participant.rosterId = roster.id;
             participant.playerId = participant.player.id || '1337_bot';

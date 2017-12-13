@@ -23,8 +23,8 @@ const matchesSchema = {
 module.exports = {
   before: {
     all: [],
-    find: [defaultSort()],
-    get: [],
+    find: [defaultSort(), (context) => console.log(context.method + ' match ' + JSON.stringify(context.params))],
+    get: [(context) => console.log(context.method + ' match ' + context.id)],
     create: [setNow('updatedAt')],
     update: [setNow('updatedAt')],
     patch: [setNow('updatedAt')],

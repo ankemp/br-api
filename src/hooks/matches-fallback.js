@@ -12,6 +12,8 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         const response = await brApi.searchMatches(params || {});
         const matches = map.matches(response);
         const matchesService = context.app.service('matches');
+        context.result.data = matches;
+        context.result.total = matches.length;
         return Promise.all(matches.map(match => {
           const { rounds, rosters } = match;
           matchesService.get(match.id)
@@ -21,6 +23,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
                   return context.app
                     .service('rounds')
                     .create(rounds.map(round => {
+                      round.createdAt = match.createdAt;
                       round.matchId = match.id;
                       return round;
                     }));
@@ -29,6 +32,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
                   return context.app
                     .service('rosters')
                     .create(rosters.map(roster => {
+                      roster.createdAt = match.createdAt;
                       roster.matchId = match.id;
                       return roster;
                     }));

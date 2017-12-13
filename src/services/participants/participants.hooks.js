@@ -1,8 +1,9 @@
 const { setNow, populate, paramsFromClient } = require('feathers-hooks-common');
+const defaultSort = require('../../hooks/default-sort');
 const participantPlayers = require('../../hooks/participant-players');
 const shouldFallback = require('../../hooks/should-fallback');
-const pluckMatches = require('../../hooks/pluck-matches');
 const matchesFallback = require('../../hooks/matches-fallback');
+const pluckMatches = require('../../hooks/pluck-matches');
 
 const matchesSchema = {
   include: [
@@ -13,9 +14,9 @@ const matchesSchema = {
 module.exports = {
   before: {
     all: [],
-    find: [paramsFromClient('fallbackFrom')],
+    find: [defaultSort(), paramsFromClient('fallbackFrom')],
     get: [],
-    create: [setNow('createdAt'), setNow('updatedAt'), participantPlayers()],
+    create: [setNow('updatedAt'), participantPlayers()],
     update: [setNow('updatedAt')],
     patch: [setNow('updatedAt')],
     remove: []

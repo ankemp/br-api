@@ -6,10 +6,7 @@ module.exports = {
     all: [],
     find: [],
     get: [],
-    create: [
-      setNow('createdAt'),
-      setNow('updatedAt'),
-    ],
+    create: [setNow('updatedAt')],
     update: [setNow('updatedAt')],
     patch: [setNow('updatedAt')],
     remove: []
