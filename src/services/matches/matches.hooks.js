@@ -25,9 +25,9 @@ module.exports = {
     all: [],
     find: [defaultSort()],
     get: [],
-    create: [setNow('updatedAt'),],
-    update: [],
-    patch: [],
+    create: [setNow('updatedAt')],
+    update: [setNow('updatedAt')],
+    patch: [setNow('updatedAt')],
     remove: []
   },
 

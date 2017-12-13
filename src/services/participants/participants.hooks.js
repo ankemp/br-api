@@ -15,8 +15,8 @@ module.exports = {
     find: [paramsFromClient('fallbackFrom')],
     get: [],
     create: [setNow('createdAt'), setNow('updatedAt'), participantPlayers()],
-    update: [],
-    patch: [],
+    update: [setNow('updatedAt')],
+    patch: [setNow('updatedAt')],
     remove: []
   },
 

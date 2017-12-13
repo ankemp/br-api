@@ -9,8 +9,8 @@ module.exports = {
       setNow('createdAt'),
       setNow('updatedAt'),
     ],
-    update: [],
-    patch: [],
+    update: [setNow('updatedAt')],
+    patch: [setNow('updatedAt')],
     remove: []
   },
 
