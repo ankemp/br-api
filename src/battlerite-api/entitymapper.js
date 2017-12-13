@@ -1,6 +1,4 @@
 const _ = require('lodash');
-const { getChampionById } = require('./data/champions');
-const { getMapById } = require('./data/maps');
 
 function _mapPlayerMatches({ data, included }) {
   const _included = _(included);
@@ -61,7 +59,7 @@ function _flattenAttributes(data, type) {
         break;
 
       case 'actor':
-        obj['champion'] = getChampionById(value);
+        obj['championId'] = value;
         break;
 
       case 'won':

@@ -10,8 +10,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         const participants = roster.participants.map(participant => {
           participant.matchId = roster.matchId;
           participant.rosterId = roster.id;
-          participant.championId = participant.champion.id;
-          participant.playerId = participant.player.id;
+          participant.playerId = participant.player.id || '1337_bot';
           return participant;
         });
         context.app.service('participants').create(participants);
