@@ -6,15 +6,17 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
     if (!!context.data && !!context.app) {
       const rosters = context.data;
       const playersService = context.app.service('players');
-      rosters.forEach(roster => {
-        const participants = roster.participants.map(participant => {
-          participant.matchId = roster.matchId;
-          participant.rosterId = roster.id;
-          participant.playerId = participant.player.id || '1337_bot';
-          return participant;
-        });
-        context.app.service('participants').create(participants);
-      });
+      return Promise.all(rosters.map(roster => {
+        return context.app
+          .service('participants')
+          .create(roster.participants.map(participant => {
+            participant.matchId = roster.matchId;
+            participant.rosterId = roster.id;
+            participant.playerId = participant.player.id || '1337_bot';
+            return participant;
+          }));
+      }))
+        .then(() => context);
     }
     return context;
   };

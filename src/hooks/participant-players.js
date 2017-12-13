@@ -6,12 +6,11 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
     if (!!context.data && !!context.app) {
       const participants = context.data;
       const playersService = context.app.service('players');
-      participants.forEach(participant => {
-        playersService.get(participant.player.id)
-          .catch(() => {
-            playersService.create(participant.player.id);
-          })
-      });
+      return Promise.all(participants.map(participant => {
+        return playersService.get(participant.player.id)
+          .catch(() => playersService.create(participant.player))
+      }))
+        .then(() => context);
     }
     return context;
   };
