@@ -38,7 +38,9 @@ module.exports = {
       matchesFallback(),
       populate({ schema: matchesSchema }),
     ],
-    get: [],
+    get: [
+      populate({ schema: matchesSchema }),
+    ],
     create: [],
     update: [],
     patch: [],
