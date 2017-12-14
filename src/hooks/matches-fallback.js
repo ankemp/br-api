@@ -48,7 +48,7 @@ function saveMatches(app, matches) {
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.app && context.method === 'find') {
-      if (!!context.params.fallbackFrom) {
+      if (!_.isUndefined(context.params.fallbackFrom) && _.isUndefined(context.params.query.id)) {
         let params = Object.assign({}, { fromDate: context.params.fallbackFrom });
         const response = await brApi.searchMatches(params || {});
         const fromAPI = map.matches(response);
@@ -59,7 +59,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         context.result.data = _.take(_.sortBy(_.concat(difference, fromDB), 'createdAt'), 10);
         context.result.total = context.result.data.length;
 
-        saveMatches(context.app, difference).then(() => context);
+        saveMatches(context.app, difference)
       }
     }
     return context;
