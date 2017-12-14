@@ -12,7 +12,8 @@ module.exports = function (app) {
       primaryKey: true
     },
     name: {
-      type: Sequelize.STRING
+      type: Sequelize.STRING,
+      allowNull: true,
     },
     createdAt: {
       type: Sequelize.DATE,
@@ -21,6 +22,22 @@ module.exports = function (app) {
     updatedAt: {
       type: Sequelize.DATE,
       allowNull: false,
+    },
+    newestMatch: {
+      type: Sequelize.DATE,
+      allowNull: true,
+    },
+    oldestMatch: {
+      type: Sequelize.DATE,
+      allowNull: true,
+    },
+    title: {
+      type: Sequelize.STRING,
+      allowNull: true,
+    },
+    picture: {
+      type: Sequelize.STRING,
+      allowNull: true,
     }
   }, {
       hooks: {
