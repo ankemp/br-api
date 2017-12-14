@@ -24,7 +24,7 @@ module.exports = {
   before: {
     all: [],
     find: [defaultSort(), (context) => console.log(context.method + ' match ' + JSON.stringify(context.params))],
-    get: [(context) => console.log(context.method + ' match ' + context.id)],
+    get: [],
     create: [setNow('updatedAt')],
     update: [setNow('updatedAt')],
     patch: [setNow('updatedAt')],

@@ -14,6 +14,7 @@ module.exports = function (app) {
   };
 
   // Initialize our service with any options it requires
+  // TODO-REFACTOR: Extend createService with findAndCount function from sequelize.
   app.use('/participants', createService(options));
 
   // Get our initialized service so that we can register hooks and filters
