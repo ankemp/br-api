@@ -26,12 +26,10 @@ module.exports = function (filters) {
     params['filter[createdAt-end]'] =
       typeof filters.toDate === 'string'
         ? filters.toDate
-        : (filters.fromDate).toISOString();
+        : (filters.toDate).toISOString();
   }
 
-  if (filters.count) {
-    params['page[limit]'] = filters.count;
-  }
+  params['page[limit]'] = filters.count || 10;
 
   const options = { qs: params };
   return fetch(`matches`, options);

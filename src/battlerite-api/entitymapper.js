@@ -94,12 +94,6 @@ function _mapMatch({ data, included }) {
   return JSON.parse(JSON.stringify(match));
 }
 
-function _mapGeneric(data) {
-  return _.map(data, d => {
-    return d;
-  });
-}
-
 
 function _mapMatches({ data, included }) {
   return _.map(data, d => {
@@ -112,10 +106,17 @@ function _mapPlayer({ data, included }) {
   return JSON.parse(JSON.stringify(player));
 }
 
+function _mapPlayers({ data, included }) {
+  const players = _.map(data, player => {
+    return _flattenAttributes(player)
+  });
+  return JSON.parse(JSON.stringify(players));
+}
+
 module.exports = {
   match: _mapMatch,
   matches: _mapMatches,
   player: _mapPlayer,
-  generic: _mapGeneric,
+  players: _mapPlayers,
   playerMatches: _mapPlayerMatches
 }
