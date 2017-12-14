@@ -18,7 +18,9 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
           const { rounds, rosters } = match;
 
           
-      var count = context.app.get('sequelizeClient').models.matches.findAndCount()
+      var count = context.app.get('sequelizeClient').models.matches.findAndCount({
+          where: {id:match.id}
+      })
       .then(function (result) {
           if(result.count ==0)
               matchesService.create(match)
