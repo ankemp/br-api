@@ -4,7 +4,7 @@
 const brApi = require('../battlerite-api');
 const map = require('../battlerite-api/entitymapper');
 
-async function saveMatches(app, matches) {
+function saveMatches(app, matches) {
   const matchesService = app.service('matches');
   const sequelizeClient = app.get('sequelizeClient');
 
