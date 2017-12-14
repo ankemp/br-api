@@ -1,6 +1,7 @@
 // Use this hook to manipulate incoming or outgoing data.
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
+const _ = require('lodash');
 const brApi = require('../battlerite-api');
 const map = require('../battlerite-api/entitymapper');
 
@@ -50,12 +51,15 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       if (!!context.params.fallbackFrom) {
         let params = Object.assign({}, { fromDate: context.params.fallbackFrom });
         const response = await brApi.searchMatches(params || {});
-        const matches = map.matches(response);
+        const fromAPI = map.matches(response);
+        const fromDB = context.result.data;
 
-        context.result.data = matches;
-        context.result.total = matches.length;
+        const difference = _.differenceBy(fromDB, fromAPI, 'id');
 
-        return saveMatches(context.app, matches).then(() => context);
+        context.result.data = _.take(_.sortBy(_.concat(difference, fromDB), 'createdAt'), 10);
+        context.result.total = context.result.data.length;
+
+        saveMatches(context.app, difference).then(() => context);
       }
     }
     return context;
