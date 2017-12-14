@@ -16,8 +16,11 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         context.result.total = matches.length;
         return Promise.all(matches.map(match => {
           const { rounds, rosters } = match;
-          matchesService.get(match.id)
-            .catch(() => {
+
+          
+      var count = context.app.get('sequelizeClient').models.matches.findAndCount()
+      .then(function (result) {
+          if(result.count ==0)
               matchesService.create(match)
                 .then(() => {
                   return context.app
