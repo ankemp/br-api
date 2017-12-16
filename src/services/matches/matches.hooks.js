@@ -1,7 +1,5 @@
 const { setNow, populate } = require('feathers-hooks-common');
-const matchesFallback = require('../../hooks/matches-fallback');
 const defaultSort = require('../../hooks/default-sort');
-const shouldFallback = require('../../hooks/should-fallback');
 
 const matchesSchema = {
   include: [
@@ -23,7 +21,7 @@ const matchesSchema = {
 module.exports = {
   before: {
     all: [],
-    find: [defaultSort(), (context) => console.log(context.method + ' match ' + JSON.stringify(context.params))],
+    find: [defaultSort()],
     get: [],
     create: [setNow('updatedAt')],
     update: [setNow('updatedAt')],
@@ -34,8 +32,6 @@ module.exports = {
   after: {
     all: [],
     find: [
-      shouldFallback(),
-      matchesFallback(),
       populate({ schema: matchesSchema }),
     ],
     get: [

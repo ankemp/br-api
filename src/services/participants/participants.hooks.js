@@ -4,6 +4,7 @@ const participantPlayers = require('../../hooks/participant-players');
 const shouldFallback = require('../../hooks/should-fallback');
 const matchesFallback = require('../../hooks/matches-fallback');
 const pluckMatches = require('../../hooks/pluck-matches');
+const setNewestMatch = require('../../hooks/set-newest-match');
 
 const matchesSchema = {
   include: [
@@ -24,7 +25,12 @@ module.exports = {
 
   after: {
     all: [],
-    find: [populate({ schema: matchesSchema }), pluckMatches()],
+    find: [
+      shouldFallback(),
+      matchesFallback(),
+      populate({ schema: matchesSchema }),
+      setNewestMatch()
+    ],
     get: [],
     create: [],
     update: [],

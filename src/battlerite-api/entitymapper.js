@@ -42,7 +42,7 @@ function _flattenAttributes(data, type) {
         break;
 
       case 'stats':
-        if (type === 'participant') {
+        if (type === 'participant' || type === 'player') {
           obj['stats'] = value;
         } else if (type === 'match') {
           if (key === 'stats') {
@@ -90,6 +90,7 @@ function _mapMatch({ data, included }) {
       }
       match = _.omit(match, 'relationships');
     }
+    _.set(match, ['telemetry'], _.find(match.assets, { name: 'telemetry' }).URL);
   }
   return JSON.parse(JSON.stringify(match));
 }
@@ -102,7 +103,7 @@ function _mapMatches({ data, included }) {
 }
 
 function _mapPlayer({ data, included }) {
-  const player = _flattenAttributes(data);
+  const player = _flattenAttributes(data, 'player');
   return JSON.parse(JSON.stringify(player));
 }
 

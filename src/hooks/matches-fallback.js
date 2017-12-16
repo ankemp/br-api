@@ -10,10 +10,10 @@ function saveMatches(app, matches) {
   const sequelizeClient = app.get('sequelizeClient');
 
   return Promise.all(
-    matches.map(match => {
+    matches.map(async match => {
       const { rounds, rosters } = match;
 
-      return sequelizeClient.models.matches
+      return await sequelizeClient.models.matches
         .findAndCount({ where: { id: match.id } })
         .then(({ count }) => count === 0)
         .then(cont => cont ? matchesService.create(match) : false)
@@ -40,7 +40,7 @@ function saveMatches(app, matches) {
               }));
           }
           return false;
-        });
+        })
     })
   )
 }
@@ -49,15 +49,17 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.app && context.method === 'find') {
       if (!_.isUndefined(context.params.fallbackFrom) && _.isUndefined(context.params.query.id)) {
-        let params = Object.assign({}, { fromDate: context.params.fallbackFrom });
+        console.log('falling back', context.params.fallbackFrom);
+        let params = Object.assign({}, { fromDate: context.params.fallbackFrom, playerIds: context.params.query.playerId });
         const response = await brApi.searchMatches(params || {});
         const fromAPI = map.matches(response);
         const fromDB = context.result.data;
-        
+
         const difference = _.differenceBy(fromAPI, fromDB, 'id');
         context.result.data = _.take(_.sortBy(_.concat(difference, fromDB), 'createdAt'), 10);
         context.result.total = context.result.data.length;
-        return saveMatches(context.app, difference).then(()=>context);
+
+        return saveMatches(context.app, difference).then(() => context);
       }
     }
     return context;

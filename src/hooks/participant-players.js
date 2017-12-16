@@ -19,20 +19,16 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       const playerIds = participants.map(({ player }) => player.id);
 
       return Promise.all(
-        playerIds.filter(async (id) =>
-          sequelizeClient.models.players
-            .findAndCount({ where: { id: id } })
-            .then(({ count }) => count === 0)
-        )
-      )
-        .then(playerIds => _.chunk(playerIds, 6))
-        .then(playerIdChunks =>
-          Promise.all(playerIdChunks.map(async (idsChunk) => {
-            const response = await brApi.getPlayers({ playerIds: idsChunk });
-            return map.players(response);
-          }))
-        )
-        .then(playersChunked => _.flatten(playersChunked))
+        playerIds.map(async id => await sequelizeClient.models.players
+          .findAndCount({ where: { id: id } })
+          .then(({ count }) => count === 0 ? id : undefined)
+        ))
+        .then(playerIds => playerIds.filter(Boolean))
+        .then(playerIds => {
+          console.log(playerIds);
+          return brApi.getPlayers({ playerIds })
+            .then(response => map.players(response));
+        })
         .then(players => savePlayers(context.app, players))
         .then(() => context);
     }

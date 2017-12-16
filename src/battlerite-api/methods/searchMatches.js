@@ -27,9 +27,12 @@ module.exports = function (filters) {
       typeof filters.toDate === 'string'
         ? filters.toDate
         : (filters.toDate).toISOString();
+  } else {
+    const now = new Date();
+    params['filter[createdAt-end]'] = now.toISOString();
   }
 
-  params['page[limit]'] = filters.count || 10;
+  params['page[limit]'] = filters.count || 5;
 
   const options = { qs: params };
   return fetch(`matches`, options);
