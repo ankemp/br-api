@@ -7,38 +7,42 @@ module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
   const players = sequelizeClient.define('players', {
     id: {
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       primaryKey: true
     },
     name: {
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
       allowNull: true,
     },
     createdAt: {
-      type: Sequelize.DATE,
+      type: DataTypes.DATE,
       allowNull: false,
     },
     updatedAt: {
-      type: Sequelize.DATE,
+      type: DataTypes.DATE,
       allowNull: false,
     },
     newestMatch: {
-      type: Sequelize.DATE,
+      type: DataTypes.DATE,
       allowNull: true,
     },
     oldestMatch: {
-      type: Sequelize.DATE,
+      type: DataTypes.DATE,
       allowNull: true,
     },
     title: {
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
       allowNull: true,
     },
     picture: {
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
       allowNull: true,
-    }
+    },
+    // stats: {
+    //   type: DataTypes.JSON,
+    //   allowNull: true,
+    // }
   }, {
       hooks: {
         beforeCount(options) {

@@ -7,19 +7,19 @@ module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
   const champions = sequelizeClient.define('champions', {
     id: {
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       primaryKey: true
     },
     name: {
-      type: Sequelize.STRING
+      type: DataTypes.STRING
     },
     createdAt: {
-      type: Sequelize.DATE,
+      type: DataTypes.DATE,
       allowNull: false,
     },
     updatedAt: {
-      type: Sequelize.DATE,
+      type: DataTypes.DATE,
       allowNull: false,
     }
   }, {

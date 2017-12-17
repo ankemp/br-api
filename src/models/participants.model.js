@@ -7,20 +7,20 @@ module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
   const participants = sequelizeClient.define('participants', {
     id: {
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       primaryKey: true
     },
     createdAt: {
-      type: Sequelize.DATE,
+      type: DataTypes.DATE,
       allowNull: false,
     },
     updatedAt: {
-      type: Sequelize.DATE,
+      type: DataTypes.DATE,
       allowNull: false,
     },
     stats: {
-      type: Sequelize.JSON,
+      type: DataTypes.JSON,
       allowNull: true,
     }
   }, {
