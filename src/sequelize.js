@@ -9,18 +9,17 @@ module.exports = function (app) {
     }
   };
   let sequelize;
-  if (process.env.NODE_ENV === 'production') {
-    const sqlUser = app.get('sqlUser');
-    const sqlPass = app.get('sqlPass');
-    const sqlDb = app.get('sqlDb');
-    const socketPath = app.get('socketPath');
+
+  if (app.get('environment') === 'production') {
     const options = Object.assign(defaults, {
-      dialectOptions: {
-        socketPath
-      }
+      username: app.get('sqlUser'),
+      password: app.get('sqlPass'),
+      database: app.get('sqlDb'),
+      host: app.get('socketPath'),
+      protocol: 'unix',
     });
-    sequelize = new Sequelize(sqlDb, sqlPass, sqlPass, options);
-  } else if (process.env.NODE_ENV === 'migrate') {
+    sequelize = new Sequelize(options);
+  } else if (app.get('environment') === 'migrate') {
     const sqlUser = app.get('sqlUser');
     const sqlPass = app.get('sqlPass');
     const sqlDb = app.get('sqlDb');
@@ -34,6 +33,7 @@ module.exports = function (app) {
     const options = Object.assign(defaults, {});
     sequelize = new Sequelize(connectionString, options);
   }
+
   const oldSetup = app.setup;
 
   app.set('sequelizeClient', sequelize);
