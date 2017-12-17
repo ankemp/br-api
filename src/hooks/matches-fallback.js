@@ -51,15 +51,22 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       if (!_.isUndefined(context.params.fallbackFrom) && _.isUndefined(context.params.query.id)) {
         console.log('falling back', context.params.fallbackFrom);
         let params = Object.assign({}, { fromDate: context.params.fallbackFrom, playerIds: context.params.query.playerId });
-        const response = await brApi.searchMatches(params || {});
-        const fromAPI = map.matches(response);
-        const fromDB = context.result.data;
-
-        const difference = _.differenceBy(fromAPI, fromDB, 'id');
-        context.result.data = _.take(_.sortBy(_.concat(difference, fromDB), 'createdAt'), 10);
-        context.result.total = context.result.data.length;
-
-        return saveMatches(context.app, difference).then(() => context);
+        return brApi.searchMatches(params)
+          .then(response => {
+            if (!!response) {
+              const fromAPI = map.matches(response);
+              const fromDB = context.result.data;
+              const difference = _.differenceBy(fromAPI, fromDB, 'id');
+              context.result.data = _.take(_.sortBy(_.concat(difference, fromDB), 'createdAt'), 10);
+              context.result.total = context.result.data.length;
+              return saveMatches(context.app, difference).then(() => context);
+            }
+            return context;
+          })
+          .catch(error => {
+            console.error('API ERROR: ', error.statusCode);
+            return context;
+          })
       }
     }
     return context;
