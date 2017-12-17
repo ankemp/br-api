@@ -1,12 +1,12 @@
 const assert = require('assert');
-const matchesFallback = require('../../src/hooks/matches-fallback');
+const rosterParticipants = require('../../src/hooks/roster-participants');
 
-describe('\'matches-fallback\' hook', () => {
+describe('\'rosterParticipants\' hook', () => {
   it('runs the hook', () => {
     // A mock hook object
     const mock = {};
     // Initialize our hook with no options
-    const hook = matchesFallback();
+    const hook = rosterParticipants();
 
     // Run the hook function (which returns a promise)
     // and compare the resulting hook object

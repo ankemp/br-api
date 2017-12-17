@@ -1,18 +1,14 @@
 const { setNow, populate } = require('feathers-hooks-common');
-const playersFallback = require('../../hooks/players-fallback');
+const rosterParticipants = require('../../hooks/roster-participants');
 
 module.exports = {
   before: {
     all: [],
-    find: [playersFallback()],
-    get: [playersFallback()],
-    create: [setNow('createdAt'), setNow('updatedAt')],
-    update: [
-      setNow('updatedAt')
-    ],
-    patch: [
-      setNow('updatedAt')
-    ],
+    find: [],
+    get: [],
+    create: [setNow('updatedAt')],
+    update: [setNow('updatedAt')],
+    patch: [setNow('updatedAt')],
     remove: []
   },
 
@@ -20,7 +16,7 @@ module.exports = {
     all: [],
     find: [],
     get: [],
-    create: [],
+    create: [rosterParticipants()],
     update: [],
     patch: [],
     remove: []

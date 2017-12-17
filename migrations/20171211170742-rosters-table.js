@@ -1,6 +1,6 @@
 'use strict';
 
-const tableName = 'maps'
+const tableName = 'rosters'
 const indexParams = { fields: ['id'], unique: true }
 
 module.exports = {
@@ -11,20 +11,23 @@ module.exports = {
         allowNull: false,
         primaryKey: true
       },
-      name: {
-        type: Sequelize.STRING,
-        allowNull: false
-      },
       createdAt: {
         type: Sequelize.DATE,
-        allowNull: false
+        allowNull: false,
       },
       updatedAt: {
         type: Sequelize.DATE,
-        allowNull: false
+        allowNull: false,
       },
-    })
-    .then(() => queryInterface.addIndex(tableName, indexParams));
+      score: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+      },
+      won: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
+      }
+    }).then(() => queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {

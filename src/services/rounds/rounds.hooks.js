@@ -1,24 +1,21 @@
 const { setNow, populate } = require('feathers-hooks-common');
-const playersFallback = require('../../hooks/players-fallback');
 
 module.exports = {
   before: {
     all: [],
-    find: [playersFallback()],
-    get: [playersFallback()],
-    create: [setNow('createdAt'), setNow('updatedAt')],
-    update: [
-      setNow('updatedAt')
-    ],
-    patch: [
-      setNow('updatedAt')
-    ],
+    find: [],
+    get: [],
+    create: [setNow('updatedAt')],
+    update: [setNow('updatedAt')],
+    patch: [setNow('updatedAt')],
     remove: []
   },
 
   after: {
     all: [],
-    find: [],
+    find: [
+      populate({ schema: { include: { service: 'matches', parentField: 'matchId', childField: 'id' } } }),
+    ],
     get: [],
     create: [],
     update: [],

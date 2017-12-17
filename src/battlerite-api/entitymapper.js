@@ -1,6 +1,4 @@
 const _ = require('lodash');
-const { getChampionById } = require('./data/champions');
-const { getMapById } = require('./data/maps');
 
 function _mapPlayerMatches({ data, included }) {
   const _included = _(included);
@@ -18,9 +16,8 @@ function _mapPlayerMatches({ data, included }) {
 
 function _mapIncluded(_included, { type, id }) {
   let include = _included.find(i => i.id === id);
-  if (!_.isUndefined(include) && !_.isUndefined(include.attributes)) {
-    include = _.assign(include, _flattenAttributes(include.attributes))
-    include = _.omit(include, 'attributes');
+  if (!_.isUndefined(include)) {
+    include = _flattenAttributes(include, type);
   }
   if (!_.isUndefined(include) && !_.isUndefined(include.relationships) && !!_.keys(include.relationships).length) {
     _.forEach(include.relationships, (relationship, key) => {
@@ -37,23 +34,41 @@ function _mapIncluded(_included, { type, id }) {
   return include;
 }
 
-function _flattenAttributes(attributes) {
-  return _.transform(attributes, (obj, value, key) => {
+function _flattenAttributes(data, type) {
+  return _.transform(data, (obj, value, key) => {
     switch (key) {
-      case 'createdAt':
-        obj[key] = new Date(value);
+      case 'attributes':
+        obj = _.merge(obj, _flattenAttributes(value, type));
         break;
 
-      case 'titleId':
-        //  Die.
+      case 'stats':
+        if (type === 'participant' || type === 'player') {
+          obj['stats'] = value;
+        } else if (type === 'match') {
+          if (key === 'stats') {
+            obj['matchType'] = value.type;
+            obj['mapId'] = value.mapID;
+          }
+        } else {
+          obj = _.merge(obj, _flattenAttributes(value, type));
+        }
+        break;
+
+      case 'createdAt':
+        obj['createdAt'] = new Date(value);
         break;
 
       case 'actor':
-        obj['champion'] = getChampionById(value);
+        obj['championId'] = value;
         break;
 
       case 'won':
         obj['won'] = value === 'true' ? true : false
+        break;
+
+      case 'titleId':
+      case 'type':
+        //  Die.
         break;
 
       default:
@@ -65,9 +80,7 @@ function _flattenAttributes(attributes) {
 
 function _mapMatch({ data, included }) {
   const _included = _(included);
-  const match = _flattenAttributes(data.attributes);
-  _.set(match, ['id'], data.id);
-  _.set(match, ['map'], getMapById(match.stats.mapID));
+  let match = _flattenAttributes(data, 'match');
   if (data.relationships) {
     for (const [name, relData] of _.toPairs(data.relationships)) {
       if (_.isArray(relData.data)) {
@@ -75,10 +88,13 @@ function _mapMatch({ data, included }) {
       } else {
         _.set(match, [`${name}`], relData.data);
       }
+      match = _.omit(match, 'relationships');
     }
+    _.set(match, ['telemetry'], _.find(match.assets, { name: 'telemetry' }).URL);
   }
   return JSON.parse(JSON.stringify(match));
 }
+
 
 function _mapMatches({ data, included }) {
   return _.map(data, d => {
@@ -87,14 +103,21 @@ function _mapMatches({ data, included }) {
 }
 
 function _mapPlayer({ data, included }) {
-  const player = _flattenAttributes(data.attributes);
-  _.set(player, ['id'], data.id);
+  const player = _flattenAttributes(data, 'player');
   return JSON.parse(JSON.stringify(player));
+}
+
+function _mapPlayers({ data, included }) {
+  const players = _.map(data, player => {
+    return _flattenAttributes(player)
+  });
+  return JSON.parse(JSON.stringify(players));
 }
 
 module.exports = {
   match: _mapMatch,
   matches: _mapMatches,
   player: _mapPlayer,
+  players: _mapPlayers,
   playerMatches: _mapPlayerMatches
 }

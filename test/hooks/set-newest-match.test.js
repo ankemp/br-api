@@ -1,12 +1,12 @@
 const assert = require('assert');
-const matchesFallback = require('../../src/hooks/matches-fallback');
+const setNewestMatch = require('../../src/hooks/set-newest-match');
 
-describe('\'matches-fallback\' hook', () => {
+describe('\'setNewestMatch\' hook', () => {
   it('runs the hook', () => {
     // A mock hook object
     const mock = {};
     // Initialize our hook with no options
-    const hook = matchesFallback();
+    const hook = setNewestMatch();
 
     // Run the hook function (which returns a promise)
     // and compare the resulting hook object

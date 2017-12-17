@@ -1,6 +1,6 @@
 'use strict';
 
-const tableName = 'maps'
+const tableName = 'rounds'
 const indexParams = { fields: ['id'], unique: true }
 
 module.exports = {
@@ -11,10 +11,6 @@ module.exports = {
         allowNull: false,
         primaryKey: true
       },
-      name: {
-        type: Sequelize.STRING,
-        allowNull: false
-      },
       createdAt: {
         type: Sequelize.DATE,
         allowNull: false
@@ -23,10 +19,21 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false
       },
+      duration: {
+        type: Sequelize.INTEGER,
+        allowNull: true
+      },
+      ordinal: {
+        type: Sequelize.INTEGER,
+        allowNull: true
+      },
+      winningTeam: {
+        type: Sequelize.INTEGER,
+        allowNull: true
+      }
     })
     .then(() => queryInterface.addIndex(tableName, indexParams));
   },
-
   down: (queryInterface, Sequelize) => {
   }
 };

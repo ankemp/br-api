@@ -5,15 +5,11 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
-  const players = sequelizeClient.define('players', {
+  const participants = sequelizeClient.define('participants', {
     id: {
       type: DataTypes.STRING,
       allowNull: false,
       primaryKey: true
-    },
-    name: {
-      type: DataTypes.STRING,
-      allowNull: true,
     },
     createdAt: {
       type: DataTypes.DATE,
@@ -23,26 +19,10 @@ module.exports = function (app) {
       type: DataTypes.DATE,
       allowNull: false,
     },
-    newestMatch: {
-      type: DataTypes.DATE,
+    stats: {
+      type: DataTypes.JSON,
       allowNull: true,
-    },
-    oldestMatch: {
-      type: DataTypes.DATE,
-      allowNull: true,
-    },
-    title: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
-    picture: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
-    // stats: {
-    //   type: DataTypes.JSON,
-    //   allowNull: true,
-    // }
+    }
   }, {
       hooks: {
         beforeCount(options) {
@@ -51,8 +31,12 @@ module.exports = function (app) {
       }
     });
 
-  players.associate = function (models) { // eslint-disable-line no-unused-vars
+  participants.associate = function (models) {
+    participants.belongsTo(models.matches);
+    participants.belongsTo(models.rosters);
+    participants.belongsTo(models.players);
+    participants.belongsTo(models.champions);
   };
 
-  return players;
+  return participants;
 };

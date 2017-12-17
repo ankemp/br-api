@@ -1,7 +1,7 @@
 'use strict';
 
 const tableName = 'matches'
-const indexParams = {fields:['id'],unique:true}
+const indexParams = { fields: ['id'], unique: true }
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
@@ -35,17 +35,18 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      stats: {
-        type: Sequelize.JSON,
+      matchType: {
+        type: Sequelize.STRING,
         allowNull: false
+      },
+      telemetry: {
+        type: Sequelize.STRING,
+        allowNull: true,
       }
     })
-    .then(()=>queryInterface.removeIndex(tableName, indexParams.fields))
-    .then(()=>queryInterface.addIndex(tableName, indexParams));
+      .then(() => queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable(tableName)
-    .then(()=>queryInterface.removeIndex(tableName, indexParams.fields));
   }
 };

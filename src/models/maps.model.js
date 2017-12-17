@@ -32,8 +32,6 @@ module.exports = function (app) {
     });
 
   maps.associate = function (models) { // eslint-disable-line no-unused-vars
-    // Define associations here
-    // See http://docs.sequelizejs.com/en/latest/docs/associations/
   };
 
   return maps;

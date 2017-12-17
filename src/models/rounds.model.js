@@ -5,7 +5,7 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
-  const matches = sequelizeClient.define('matches', {
+  const rounds = sequelizeClient.define('rounds', {
     id: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -21,27 +21,15 @@ module.exports = function (app) {
     },
     duration: {
       type: DataTypes.INTEGER,
-      allowNull: false
+      allowNull: true
     },
-    gameMode: {
-      type: DataTypes.STRING,
-      allowNull: false
+    ordinal: {
+      type: DataTypes.INTEGER,
+      allowNull: true
     },
-    patchVersion: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    shardId: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    matchType: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    telemetry: {
-      type: DataTypes.STRING,
-      allowNull: true,
+    winningTeam: {
+      type: DataTypes.INTEGER,
+      allowNull: true
     },
   }, {
       hooks: {
@@ -51,12 +39,9 @@ module.exports = function (app) {
       }
     });
 
-  matches.associate = function (models) {
-    matches.belongsTo(models.maps);
-    matches.hasMany(models.rosters);
-    matches.hasMany(models.rounds);
-    matches.hasMany(models.participants);
+  rounds.associate = function (models) {
+    rounds.belongsTo(models.matches);
   };
 
-  return matches;
+  return rounds;
 };
