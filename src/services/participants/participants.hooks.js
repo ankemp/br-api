@@ -8,7 +8,7 @@ const setNewestMatch = require('../../hooks/set-newest-match');
 
 const matchesSchema = {
   include: [
-    { service: 'matches', nameAs: 'matches', parentField: 'matchId', childField: 'id', useInnerPopulate: true },
+    { service: 'matches', nameAs: 'match', parentField: 'matchId', childField: 'id', useInnerPopulate: true },
   ]
 };
 
@@ -26,9 +26,10 @@ module.exports = {
   after: {
     all: [],
     find: [
+      populate({ schema: matchesSchema }),
+      pluckMatches(),
       shouldFallback(),
       matchesFallback(),
-      populate({ schema: matchesSchema }),
       setNewestMatch()
     ],
     get: [],

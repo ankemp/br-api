@@ -26,7 +26,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
                   if (cont) {
                     return playersService.create(player);
                   }
-                  return playersService.patch(player);
+                  return playersService.patch(player.id, player);
                 })
             })
           )

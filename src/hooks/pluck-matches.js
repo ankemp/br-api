@@ -4,7 +4,7 @@
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.result && !!context.result.data) {
-      context.result.data = context.result.data.map(parent => parent.matches)
+      context.result.data = context.result.data.map(parent => parent.match)
     }
     return context;
   };
