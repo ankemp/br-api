@@ -57,7 +57,7 @@ jobs:
             - 'prod-dependencies-{{ checksum "yarn.lock" }}'
             - prod-dependencies-
       - run: 'touch $GOOGLE_APPLICATION_CREDENTIALS'
-      - run: 'echo $GCLOUD_SA_203 | base64 -d > $GOOGLE_APPLICATION_CREDENTIALS'
+      - run: 'echo $GCLOUD_DEPLOY_KEY | base64 -d > $GOOGLE_APPLICATION_CREDENTIALS'
       - run: 'gcloud auth activate-service-account --key-file $GOOGLE_APPLICATION_CREDENTIALS'
       - run: 'gcloud config set project $GCLOUD_PROJECT'
       - run: 'gcloud -q app deploy app.yaml'
@@ -69,6 +69,7 @@ jobs:
     environment:
       - GOOGLE_APPLICATION_CREDENTIALS: "/tmp/gcloud-service-key.json"
       - INSTANCE_CONNECTION_NAME: "br-history-188417:us-central1:br-db"
+      - NODE_ENV: migrate
     steps:
       - checkout
       - restore_cache:
@@ -76,10 +77,10 @@ jobs:
             - 'dev-dependencies-{{ checksum "yarn.lock" }}'
             - dev-dependencies-
       - run: 'touch $GOOGLE_APPLICATION_CREDENTIALS'
-      - run: 'echo $GCLOUD_SA_203 | base64 -d > $GOOGLE_APPLICATION_CREDENTIALS'
+      - run: 'echo $GCLOUD_MIGRATE_KEY | base64 -d > $GOOGLE_APPLICATION_CREDENTIALS'
       - run: 'gcloud auth activate-service-account --key-file $GOOGLE_APPLICATION_CREDENTIALS'
       - run: 'gcloud config set project $GCLOUD_PROJECT'
-      - run: '/usr/local/bin/cloud_sql_proxy -instances=$INSTANCE_CONNECTION_NAME=tcp:3306'
+      - run: '/usr/local/bin/cloud_sql_proxy -instances=$INSTANCE_CONNECTION_NAME=tcp:3306 -credential_file=$GOOGLE_APPLICATION_CREDENTIALS'
       - run: 'npm run migration:run'
 
 workflows:

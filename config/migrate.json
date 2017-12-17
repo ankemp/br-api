@@ -1,0 +1,6 @@
+{
+  "sqlUser": "prod",
+  "sqlPass": "QR26Vy0!5m18",
+  "sqlDb": "battlerite",
+  "postgres": "postgres://prod:QR26Vy0!5m18@localhost:3306/battlerite"
+}

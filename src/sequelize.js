@@ -15,8 +15,8 @@ module.exports = function (app) {
       username: app.get('sqlUser'),
       password: app.get('sqlPass'),
       database: app.get('sqlDb'),
+      port: '5432',
       host: app.get('socketPath'),
-      protocol: 'unix',
     });
     sequelize = new Sequelize(options);
   } else if (app.get('environment') === 'migrate') {
