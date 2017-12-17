@@ -14,23 +14,19 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       const playerIds = participants.map(({ player }) => player.id);
       const playersService = context.app.service('players');
 
-      return brApi.getPlayers({ playerIds })
-        .then(response => map.players(response))
-        .then(players => {
-          return Promise.all(
-            players.map(async player => {
-              return await sequelizeClient.models.players
-                .findAndCount({ where: { id: player.id } })
-                .then(({ count }) => count === 0)
-                .then(cont => {
-                  if (cont) {
-                    return playersService.create(player);
-                  }
-                  return playersService.patch(player.id, player);
-                })
+      return Promise.all(
+        playerIds.map(async id => {
+          return await sequelizeClient.models.players
+            .findAndCount({ where: { id: id } })
+            .then(({ count }) => count === 0)
+            .then(cont => {
+              if (cont) {
+                return playersService.create({ id });
+              }
+              return Promise.resolve();
             })
-          )
         })
+      )
         .then(() => context);
     }
     return context;
