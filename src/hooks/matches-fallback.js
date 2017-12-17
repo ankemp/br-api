@@ -49,7 +49,6 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.app && context.method === 'find') {
       if (!_.isUndefined(context.params.fallbackFrom) && _.isUndefined(context.params.query.id)) {
-        console.log('falling back', context.params.fallbackFrom);
         let params = Object.assign({}, { fromDate: context.params.fallbackFrom, playerIds: context.params.query.playerId });
         return brApi.searchMatches(params)
           .then(response => {

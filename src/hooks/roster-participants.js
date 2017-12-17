@@ -7,7 +7,6 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.data && !!context.app) {
       const rosters = context.data;
-      console.log('Total Rosters: ', rosters.length);
 
       let participants = rosters.map(roster => {
         return roster.participants.map(participant => {
@@ -19,7 +18,6 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         });
       });
       participants = _.flatten(participants);
-      console.log('Saving Participants:', participants.length);
 
       return context.app.service('participants').create(participants).then(() => context);
     }

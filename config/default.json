@@ -1,5 +1,6 @@
 {
   "host": "localhost",
+  "environment": "NODE_ENV",
   "port": 3030,
   "paginate": {
     "default": 10,
