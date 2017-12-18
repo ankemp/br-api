@@ -22,8 +22,19 @@ const app = express(feathers());
 
 // Load app configuration
 app.configure(configuration());
+// CORS Config
+const whitelist = ['https://battlelegend.com', 'dot-br-history-188417.appspot.com']
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (app.get('environment') !== 'production' || whitelist.indexOf(origin) !== -1) {
+      callback(null, true)
+    } else {
+      callback(new Error(`Unauthorized Access Attempt from ${origin}`))
+    }
+  }
+}
 // Enable CORS, security, compression, favicon and body parsing
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(helmet());
 app.use(compress());
 app.use(express.json());
