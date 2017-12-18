@@ -1,5 +1,7 @@
 const _ = require('lodash');
 const getStackableById = require('./mapping/stackables');
+const { getChampionById } = require('./data/champions');		
+const { getMapById } = require('./data/maps');
 
 function _mapIncluded(_included, { type, id }) {
   let include = _included.find(i => i.id === id);
@@ -46,8 +48,8 @@ function _flattenAttributes(data, type) {
         break;
 
       case 'actor':
-        obj['championId'] = value;
-        break;
+        obj['champion'] = getChampionById(value);
+      break;
 
       case 'won':
         obj['won'] = value === 'true' ? true : false
@@ -68,6 +70,7 @@ function _flattenAttributes(data, type) {
 function _mapMatch({ data, included }) {
   const _included = _(included);
   let match = _flattenAttributes(data, 'match');
+  _.set(match, ['map'], getMapById(match.stats.mapID));
   if (data.relationships) {
     for (const [name, relData] of _.toPairs(data.relationships)) {
       if (_.isArray(relData.data)) {
