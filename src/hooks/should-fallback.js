@@ -11,13 +11,13 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       const minsAgo = moment().subtract(20, 'minutes');
 
       return sequelizeClient.models.players
-        .find({ where: { id: context.params.query.playerId } })
+        .find({ where: { id: playerId } })
         .then(player => {
           if (!!player && !!player.newestMatch && moment(player.newestMatch).isBefore(minsAgo)) {
             context.params.fallbackFrom = player.newestMatch;
           } else {
             const weekAgo = moment().subtract(7, 'days')
-            context.params.fallbackFrom = weekAgo.toISOString();
+            context.params.fallbackFrom = weekAgo.toDate();
           }
         })
         .then(() => context);
