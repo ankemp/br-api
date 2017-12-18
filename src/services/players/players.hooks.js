@@ -4,7 +4,7 @@ const playersFallback = require('../../hooks/players-fallback');
 module.exports = {
   before: {
     all: [],
-    find: [playersFallback()],
+    find: [],
     get: [playersFallback()],
     create: [setNow('createdAt'), setNow('updatedAt')],
     update: [

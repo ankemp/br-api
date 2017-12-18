@@ -11,11 +11,12 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       const playersService = context.app.service('players');
       const response = await brApi.getPlayer(context.id);
       const player = map.player(response);
+
       return sequelizeClient.models.players
-        .findAndCount({ where: { id: player.id } })
+        .findAndCount({ where: { id: context.id } })
         .then(({ count }) => count !== 0)
         .then(exists => {
-          if (exists) {
+          if (!exists) {
             return playersService.create(player);
           }
           return playersService.patch(player.id, player);
