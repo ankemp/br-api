@@ -17,7 +17,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
             context.params.fallbackFrom = player.newestMatch;
           } else {
             const weekAgo = moment().subtract(7, 'days')
-            context.params.fallbackFrom = weekAgo.toISOString();
+            context.params.fallbackFrom = weekAgo.toDate();
           }
         })
         .then(() => context);

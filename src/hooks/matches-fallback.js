@@ -1,6 +1,7 @@
 // Use this hook to manipulate incoming or outgoing data.
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
+const Promise = require('bluebird');
 const _ = require('lodash');
 const brApi = require('../battlerite-api');
 const map = require('../battlerite-api/entitymapper');
@@ -9,40 +10,38 @@ function saveMatches(app, matches) {
   const matchesService = app.service('matches');
   const sequelizeClient = app.get('sequelizeClient');
 
-  return Promise.all(
-    matches.map(async match => {
-      const { rounds, rosters } = match;
+  return Promise.mapSeries(matches, match => {
+    const { rounds, rosters } = match;
 
-      return await sequelizeClient.models.matches
-        .findAndCount({ where: { id: match.id } })
-        .then(({ count }) => count !== 0)
-        .then(exists => !exists ? matchesService.create(match) : false)
-        .then(cont => {
-          if (cont) {
-            return app
-              .service('rounds')
-              .create(rounds.map(round => {
-                round.createdAt = match.createdAt;
-                round.matchId = match.id;
-                return round;
-              }))
-          }
-          return false;
-        })
-        .then(cont => {
-          if (cont) {
-            return app
-              .service('rosters')
-              .create(rosters.map(roster => {
-                roster.createdAt = match.createdAt;
-                roster.matchId = match.id;
-                return roster;
-              }));
-          }
-          return false;
-        })
-    })
-  )
+    return sequelizeClient.models.matches
+      .findAndCount({ where: { id: match.id } })
+      .then(({ count }) => count !== 0)
+      .then(exists => !exists ? matchesService.create(match) : false)
+      .then(cont => {
+        if (cont) {
+          return app
+            .service('rounds')
+            .create(rounds.map(round => {
+              round.createdAt = match.createdAt;
+              round.matchId = match.id;
+              return round;
+            }))
+        }
+        return false;
+      })
+      .then(cont => {
+        if (cont) {
+          return app
+            .service('rosters')
+            .create(rosters.map(roster => {
+              roster.createdAt = match.createdAt;
+              roster.matchId = match.id;
+              return roster;
+            }));
+        }
+        return false;
+      })
+  })
 }
 
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
