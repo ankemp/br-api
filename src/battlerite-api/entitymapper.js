@@ -1,18 +1,5 @@
 const _ = require('lodash');
-
-function _mapPlayerMatches({ data, included }) {
-  const _included = _(included);
-  return _.map(data, match => {
-    const rosters = match.relationships.rosters.data;
-    let players = _.map(rosters, r =>
-      _mapIncluded(_included, r)
-        .participants
-        .map(p => p.player.id)
-    );
-    players = _.flatten(players);
-    return { matchId: match.id, players };
-  });
-}
+const getStackableById = require('./mapping/stackables');
 
 function _mapIncluded(_included, { type, id }) {
   let include = _included.find(i => i.id === id);
@@ -104,6 +91,18 @@ function _mapMatches({ data, included }) {
 
 function _mapPlayer({ data, included }) {
   const player = _flattenAttributes(data, 'player');
+  Object.keys(player.stats).forEach(function(key) {
+    const val = player.stats[key];
+    const stack = getStackableById(key);
+    if(stack)
+    {
+      player.stats[key] = undefined;
+      _.set(stack,'value',val)
+      _.set(player, stack.DevName,stack);
+
+      console.log(stack);
+    }
+  });
   return JSON.parse(JSON.stringify(player));
 }
 
@@ -118,6 +117,5 @@ module.exports = {
   match: _mapMatch,
   matches: _mapMatches,
   player: _mapPlayer,
-  players: _mapPlayers,
-  playerMatches: _mapPlayerMatches
+  players: _mapPlayers
 }
