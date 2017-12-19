@@ -94,6 +94,7 @@ function _mapMatches({ data, included }) {
 
 function _mapPlayer({ data, included }) {
   let player = _flattenAttributes(data, 'player');
+  const champions = new Set();
 
   player.stats = _.reduce(player.stats, (acc, value, key) => {
     const stack = getByStackableId(key);
@@ -101,7 +102,16 @@ function _mapPlayer({ data, included }) {
       if (stack.DevName === stack.StackableRangeName) {
         _.set(acc, _.camelCase(stack.DevName), value);
       } else {
-        _.set(acc, `${_.camelCase(stack.DevName)}.${_.camelCase(stack.StackableRangeName)}`, value);
+        if (champions.has(stack.DevName)) {
+          const obj = _.find(acc.champions, { champion: _.camelCase(stack.DevName) })
+          _.set(obj, _.camelCase(stack.StackableRangeName), value);
+        } else {
+          champions.add(stack.DevName);
+          acc.champions = acc.champions || [];
+          const obj = { champion: _.camelCase(stack.DevName), localizedName: stack.LocalizedName };
+          _.set(obj, _.camelCase(stack.StackableRangeName), value);
+          acc.champions.push(obj);
+        }
       }
     }
     return acc;
