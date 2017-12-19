@@ -1,6 +1,6 @@
 const _ = require('lodash');
-const getStackables = require('./mapping/stackables');
-const { getChampionById } = require('./data/champions');		
+const { getByStackableId } = require('./mapping/stackables');
+const { getChampionById } = require('./data/champions');
 const { getMapById } = require('./data/maps');
 
 function _mapIncluded(_included, { type, id }) {
@@ -49,7 +49,7 @@ function _flattenAttributes(data, type) {
 
       case 'actor':
         obj['champion'] = getChampionById(value);
-      break;
+        break;
 
       case 'won':
         obj['won'] = value === 'true' ? true : false
@@ -93,20 +93,18 @@ function _mapMatches({ data, included }) {
 }
 
 function _mapPlayer({ data, included }) {
-  const player = _flattenAttributes(data, 'player');
+  let player = _flattenAttributes(data, 'player');
 
-  const stackableList = _(getStackables());
-
-  Object.keys(player.stats).forEach(function(key) {
-    const val = player.stats[key];
-    let stack = stackableList.find(f=>f.StackableId == key);
-    if(stack)
-    {
-      player.stats[key] = undefined;
-      _.set(stack,'value',val)
-      _.set(player, stack.DevName,stack);
+  player.stats = _.reduce(player.stats, (acc, value, key) => {
+    const stack = getByStackableId(key);
+    if (stack) {
+      _.set(acc, _.camelCase(stack.DevName), value);
     }
-  });
+    return acc;
+  }, {});
+
+  console.log(player);
+
   return JSON.parse(JSON.stringify(player));
 }
 

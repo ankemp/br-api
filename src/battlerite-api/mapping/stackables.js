@@ -1,5 +1,7 @@
-const stackable =
-[
+const _ = require('lodash');
+
+const _stackable = _(
+  [
     {
       "LocalizedName": "",
       "DevName": "Wins",
@@ -12651,10 +12653,9 @@ const stackable =
       "StackableRangeName": "VictoryPoses",
       "StackableId": 200176
     }
-]
+  ]
+);
 
-
-module.exports = function getStackables() {
-  return stackable;
+module.exports.getByStackableId = function (id) {
+  return _stackable.find(s => s.StackableId == id);
 }
-
