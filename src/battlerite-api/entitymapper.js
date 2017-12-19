@@ -85,7 +85,6 @@ function _mapMatch({ data, included }) {
   return JSON.parse(JSON.stringify(match));
 }
 
-
 function _mapMatches({ data, included }) {
   return _.map(data, d => {
     return _mapMatch({ data: d, included })
