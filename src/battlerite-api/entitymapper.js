@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const getStackableById = require('./mapping/stackables');
+const getStackables = require('./mapping/stackables');
 const { getChampionById } = require('./data/champions');		
 const { getMapById } = require('./data/maps');
 
@@ -94,9 +94,13 @@ function _mapMatches({ data, included }) {
 
 function _mapPlayer({ data, included }) {
   const player = _flattenAttributes(data, 'player');
+
+  const stackableList = _(getStackables());
+
   Object.keys(player.stats).forEach(function(key) {
     const val = player.stats[key];
-    const stack = getStackableById(key);
+    console.log(stackableList);
+    let stack = stackableList.find(f=>f.StackableId == key);
     if(stack)
     {
       player.stats[key] = undefined;

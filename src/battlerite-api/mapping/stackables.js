@@ -12654,7 +12654,7 @@ const stackable =
 ]
 
 
-module.exports = function getStackableById(stackableId) {
-  return stackable.find(s => s.StackableId == stackableId);
+module.exports = function getStackables() {
+  return stackable;
 }
 
