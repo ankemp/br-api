@@ -99,15 +99,12 @@ function _mapPlayer({ data, included }) {
 
   Object.keys(player.stats).forEach(function(key) {
     const val = player.stats[key];
-    console.log(stackableList);
     let stack = stackableList.find(f=>f.StackableId == key);
     if(stack)
     {
       player.stats[key] = undefined;
       _.set(stack,'value',val)
       _.set(player, stack.DevName,stack);
-
-      console.log(stack);
     }
   });
   return JSON.parse(JSON.stringify(player));
