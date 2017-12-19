@@ -98,12 +98,14 @@ function _mapPlayer({ data, included }) {
   player.stats = _.reduce(player.stats, (acc, value, key) => {
     const stack = getByStackableId(key);
     if (stack) {
-      _.set(acc, _.camelCase(stack.DevName), value);
+      if (stack.DevName === stack.StackableRangeName) {
+        _.set(acc, _.camelCase(stack.DevName), value);
+      } else {
+        _.set(acc, `${_.camelCase(stack.DevName)}.${_.camelCase(stack.StackableRangeName)}`, value);
+      }
     }
     return acc;
   }, {});
-
-  console.log(player);
 
   return JSON.parse(JSON.stringify(player));
 }
