@@ -94,5 +94,5 @@ const champions = [
 ];
 
 exports.getChampionById = function (id) {
-  return champions.find(c => c.id === id);
+  return champions.find(c => c.id == id);
 }
