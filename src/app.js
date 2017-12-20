@@ -23,10 +23,10 @@ const app = express(feathers());
 // Load app configuration
 app.configure(configuration());
 // CORS Config
-const whitelist = ['https://battlelegend.com', 'localhost', 'dot-br-history-188417.appspot.com']
 const corsOptions = {
   origin: function (origin, callback) {
-    if (app.get('environment') !== 'production' || whitelist.findIndex(w => origin.includes(w)) !== -1) {
+    const whitelist = ['https://battlelegend.com', 'localhost', 'dot-br-history-188417.appspot.com'];
+    if (app.get('environment') !== 'production' || typeof origin === 'undefined' || whitelist.findIndex(w => origin.includes(w)) !== -1) {
       callback(null, true)
     } else {
       callback(new Error(`Unauthorized Access Attempt from ${origin}`))

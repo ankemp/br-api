@@ -31,18 +31,10 @@ module.exports = function (app) {
       type: DataTypes.DATE,
       allowNull: true,
     },
-    title: {
-      type: DataTypes.STRING,
+    stats: {
+      type: DataTypes.JSON,
       allowNull: true,
-    },
-    picture: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
-    // stats: {
-    //   type: DataTypes.JSON,
-    //   allowNull: true,
-    // }
+    }
   }, {
       hooks: {
         beforeCount(options) {
