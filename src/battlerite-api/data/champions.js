@@ -90,6 +90,10 @@ const champions = [
   {
     id: '44962063',
     name: 'Pearl'
+  },
+  {
+    id: '613085868',
+    name: 'Alysia'
   }
 ];
 

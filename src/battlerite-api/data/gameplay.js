@@ -18986,3 +18986,7 @@ const _gameplay = _(
 exports.getByLocalizedName = function (localizedName) {
   return _gameplay.find({ name: localizedName });
 }
+
+exports.getByDevName = function (devName) {
+  return _gameplay.find({ devName })
+}

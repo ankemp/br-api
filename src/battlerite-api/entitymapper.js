@@ -1,6 +1,6 @@
 const _ = require('lodash');
 const { getByStackableId } = require('./data/stackables');
-const { getByLocalizedName } = require('./data/gameplay');
+const { getByDevName } = require('./data/gameplay');
 const { getChampionById } = require('./data/champions');
 const { getMapById } = require('./data/maps');
 
@@ -102,7 +102,7 @@ function _mapPlayer({ data, included }) {
       if (stack.DevName === stack.StackableRangeName) {
         _.set(acc, _.camelCase(stack.DevName), value);
       } else {
-        const gameplay = getByLocalizedName(stack.LocalizedName);
+        const gameplay = getByDevName(stack.DevName);
         if (champions.has(stack.DevName)) {
           const obj = _.find(acc.champions, { localizedName: stack.LocalizedName })
           _.set(obj, _.camelCase(stack.StackableRangeName), value);
