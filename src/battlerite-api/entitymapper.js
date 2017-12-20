@@ -34,11 +34,10 @@ function _flattenAttributes(data, type) {
       case 'stats':
         if (type === 'participant' || type === 'player') {
           obj['stats'] = value;
-        } else if (type === 'match') {
-          if (key === 'stats') {
-            obj['matchType'] = value.type;
-            obj['map'] = getMapById(value.mapID);
-          }
+        } else if (type === 'match' && key === 'stats') {
+          obj['matchType'] = value.type;
+          obj['mapId'] = value.mapID;
+          obj['map'] = getMapById(value.mapID);
         } else {
           obj = _.merge(obj, _flattenAttributes(value, type));
         }
@@ -49,6 +48,7 @@ function _flattenAttributes(data, type) {
         break;
 
       case 'actor':
+        obj['championId'] = value;
         obj['champion'] = getChampionById(value);
         break;
 
