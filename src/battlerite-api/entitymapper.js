@@ -37,7 +37,7 @@ function _flattenAttributes(data, type) {
         } else if (type === 'match') {
           if (key === 'stats') {
             obj['matchType'] = value.type;
-            obj['mapId'] = value.mapID;
+            obj['map'] = getMapById(value.mapID);
           }
         } else {
           obj = _.merge(obj, _flattenAttributes(value, type));
@@ -71,7 +71,6 @@ function _flattenAttributes(data, type) {
 function _mapMatch({ data, included }) {
   const _included = _(included);
   let match = _flattenAttributes(data, 'match');
-  _.set(match, ['map'], getMapById(match.stats.mapID));
   if (data.relationships) {
     for (const [name, relData] of _.toPairs(data.relationships)) {
       if (_.isArray(relData.data)) {
