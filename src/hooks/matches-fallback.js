@@ -51,7 +51,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         let params = Object.assign({}, { fromDate: context.params.fallbackFrom, playerIds: context.params.query.playerId });
         return brApi.searchMatches(params)
           .then(response => {
-            if (!!response) {
+            if (!!response && response.data.length > 0) {
               const fromAPI = map.matches(response);
               const fromDB = context.result.data;
               const difference = _.differenceBy(fromAPI, fromDB, 'id');
