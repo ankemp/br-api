@@ -18,7 +18,7 @@ module.exports = {
 
   after: {
     all: [],
-    find: [],
+    find: [playersFallback()],
     get: [playersFallback()],
     create: [],
     update: [],
