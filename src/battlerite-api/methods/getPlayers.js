@@ -7,6 +7,10 @@ module.exports = function (filters, count = 5) {
     params['filter[playerIds]'] = queryArray(filters.playerIds);
   }
 
+  if (filters.playerNames) {
+    params['filter[playerNames]'] = queryArray(filters.playerNames);
+  }
+
   const options = { qs: params };
   return fetch('players', options);
 }

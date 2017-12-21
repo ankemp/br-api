@@ -11,6 +11,12 @@ function getPlayerData(playerId) {
     .then(response => map.player(response))
 }
 
+function getPlayerByName(name) {
+  const filter = { playerNames: name };
+  return brApi.getPlayers(filter)
+    .then(response => map.players(response))
+}
+
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.app && _.isUndefined(context.params.fallbackFrom)) {
@@ -50,10 +56,32 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
               })
               .then(() => context);
           }
+        } else {
+          const query = context.params.query;
+          if (query.name) {
+            return getPlayerByName(query.name)
+              .then(players => _.isArray(players) ? players.shift() : Promise.reject())
+              .then(player => {
+                return sequelizeClient.models.players
+                  .findAndCount({ where: { id: player.id } })
+                  .then(({ count }) => count !== 0)
+                  .then(exists => {
+                    if (exists) {
+                      return playersService.patch(player.id, player);
+                    }
+                    return playersService.create(player);
+                  })
+                  .then(player => {
+                    context.result = {};
+                    context.result = player;
+                    return context;
+                  })
+                  .catch(() => context);
+              })
+          }
         }
       }
-
     }
     return context;
-  };
-};
+  }
+}
