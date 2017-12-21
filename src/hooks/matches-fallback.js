@@ -55,7 +55,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
               const fromAPI = map.matches(response);
               const fromDB = context.result.data;
               const difference = _.differenceBy(fromAPI, fromDB, 'id');
-              context.result.data = _.take(_.sortBy(_.concat(difference, fromDB), 'createdAt'), 10);
+              context.result.data = _.take(_.orderBy(_.concat(difference, fromDB), ['createdAt'], ['desc']), 10);
               context.result.total = context.result.total + difference.length;
               return saveMatches(context.app, difference).then(() => context);
             }
