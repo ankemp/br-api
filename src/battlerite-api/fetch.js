@@ -1,6 +1,6 @@
 const request = require('request-promise-native');
 
-const battlerite_api_key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmNGMzMTU3MC1iNWZmLTAxMzUtMDlkMC0wYTU4NjQ2MGYwOTUiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTExODI4NDY5LCJwdWIiOiJzdHVubG9jay1zdHVkaW9zIiwidGl0bGUiOiJiYXR0bGVyaXRlIiwiYXBwIjoibXljb29sYXBwIiwic2NvcGUiOiJjb21tdW5pdHkiLCJsaW1pdCI6MTB9.axeG3WZWUjdVizrdKqmYm9UE6-hVcbMbDdG1I70QJlg';
+const battlerite_api_key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3NWVlMDgwMC1jNjI4LTAxMzUtODA2Mi0wYTU4NjQ2MGRjM2YiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTEzNjA1MDg0LCJwdWIiOiJzdHVubG9jay1zdHVkaW9zIiwidGl0bGUiOiJiYXR0bGVyaXRlIiwiYXBwIjoiYmF0dGxlbGVnZW5kLWRldiIsInNjb3BlIjoiY29tbXVuaXR5IiwibGltaXQiOjUwfQ.kJxEF-Zk-n2Xk-OrPKOGS_Q9eOFBRuLXlQNo3aQdYOE';
 const API_ROOT = 'https://api.dc01.gamelockerapp.com/shards/global';
 const headers = {
   'Accept': 'application/vnd.api+json',

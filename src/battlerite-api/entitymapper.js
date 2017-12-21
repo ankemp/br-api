@@ -1,18 +1,8 @@
 const _ = require('lodash');
-
-function _mapPlayerMatches({ data, included }) {
-  const _included = _(included);
-  return _.map(data, match => {
-    const rosters = match.relationships.rosters.data;
-    let players = _.map(rosters, r =>
-      _mapIncluded(_included, r)
-        .participants
-        .map(p => p.player.id)
-    );
-    players = _.flatten(players);
-    return { matchId: match.id, players };
-  });
-}
+const { getByStackableId } = require('./data/stackables');
+const { getByDevName } = require('./data/gameplay');
+const { getChampionById } = require('./data/champions');
+const { getMapById } = require('./data/maps');
 
 function _mapIncluded(_included, { type, id }) {
   let include = _included.find(i => i.id === id);
@@ -44,11 +34,10 @@ function _flattenAttributes(data, type) {
       case 'stats':
         if (type === 'participant' || type === 'player') {
           obj['stats'] = value;
-        } else if (type === 'match') {
-          if (key === 'stats') {
-            obj['matchType'] = value.type;
-            obj['mapId'] = value.mapID;
-          }
+        } else if (type === 'match' && key === 'stats') {
+          obj['matchType'] = value.type;
+          obj['mapId'] = value.mapID;
+          obj['map'] = getMapById(value.mapID);
         } else {
           obj = _.merge(obj, _flattenAttributes(value, type));
         }
@@ -60,6 +49,7 @@ function _flattenAttributes(data, type) {
 
       case 'actor':
         obj['championId'] = value;
+        obj['champion'] = getChampionById(value);
         break;
 
       case 'won':
@@ -95,7 +85,6 @@ function _mapMatch({ data, included }) {
   return JSON.parse(JSON.stringify(match));
 }
 
-
 function _mapMatches({ data, included }) {
   return _.map(data, d => {
     return _mapMatch({ data: d, included })
@@ -103,7 +92,31 @@ function _mapMatches({ data, included }) {
 }
 
 function _mapPlayer({ data, included }) {
-  const player = _flattenAttributes(data, 'player');
+  let player = _flattenAttributes(data, 'player');
+  const champions = new Set();
+
+  player.stats = _.reduce(player.stats, (acc, value, key) => {
+    const stack = getByStackableId(key);
+    if (stack) {
+      if (stack.DevName === stack.StackableRangeName) {
+        _.set(acc, _.camelCase(stack.DevName), value);
+      } else {
+        const gameplay = getByDevName(stack.DevName);
+        if (champions.has(stack.DevName)) {
+          const obj = _.find(acc.champions, { localizedName: stack.LocalizedName })
+          _.set(obj, _.camelCase(stack.StackableRangeName), value);
+        } else {
+          champions.add(stack.DevName);
+          acc.champions = acc.champions || [];
+          const obj = { champion: getChampionById(gameplay.typeID), localizedName: stack.LocalizedName };
+          _.set(obj, _.camelCase(stack.StackableRangeName), value);
+          acc.champions.push(obj);
+        }
+      }
+    }
+    return acc;
+  }, {});
+
   return JSON.parse(JSON.stringify(player));
 }
 
@@ -118,6 +131,5 @@ module.exports = {
   match: _mapMatch,
   matches: _mapMatches,
   player: _mapPlayer,
-  players: _mapPlayers,
-  playerMatches: _mapPlayerMatches
+  players: _mapPlayers
 }

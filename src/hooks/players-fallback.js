@@ -33,7 +33,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
                 .then(player => playersService.create(player))
                 .then(player => {
                   context.result = {};
-                  context.result.data = player;
+                  context.result = player;
                   return;
                 })
                 .then(() => context);
@@ -51,7 +51,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
               .then(player => playersService.patch(context.id, player))
               .then(player => {
                 context.result = {};
-                context.result.data = player;
+                context.result = player;
                 return;
               })
               .then(() => context);
