@@ -1,5 +1,6 @@
 const { setNow, populate } = require('feathers-hooks-common');
 const playersFallback = require('../../hooks/players-fallback');
+const playerSearchFallback = require('../../hooks/player-search-fallback');
 
 module.exports = {
   before: {
@@ -18,7 +19,7 @@ module.exports = {
 
   after: {
     all: [],
-    find: [playersFallback()],
+    find: [playerSearchFallback()],
     get: [playersFallback()],
     create: [],
     update: [],
