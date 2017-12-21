@@ -20,7 +20,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       const { name } = context.params.query;
       if (name) {
         return getPlayerByName(name)
-          .then(players => _.isArray(players) && players.length ? players.shift() : Promise.reject())
+          .then(players => Array.isArray(players) && players.length ? players.shift() : Promise.reject())
           .then(player => {
             return sequelizeClient.models.players
               .findAndCount({ where: { id: player.id } })
