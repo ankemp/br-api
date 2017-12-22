@@ -101,16 +101,20 @@ function _mapPlayer({ data, included }) {
       if (stack.DevName === stack.StackableRangeName) {
         _.set(acc, _.camelCase(stack.DevName), value);
       } else {
-        const gameplay = getByDevName(stack.DevName);
         if (champions.has(stack.DevName)) {
           const obj = _.find(acc.champions, { localizedName: stack.LocalizedName })
           _.set(obj, _.camelCase(stack.StackableRangeName), value);
         } else {
           champions.add(stack.DevName);
-          acc.champions = acc.champions || [];
-          const obj = { champion: getChampionById(gameplay.typeID), localizedName: stack.LocalizedName };
-          _.set(obj, _.camelCase(stack.StackableRangeName), value);
-          acc.champions.push(obj);
+          const gameplay = getByDevName(stack.DevName);
+          if (gameplay) {
+            let obj = _.stubObject();
+            obj.localizedName = stack.LocalizedName
+            obj.champion = getChampionById(gameplay.typeID);
+            acc.champions = acc.champions || [];
+            _.set(obj, _.camelCase(stack.StackableRangeName), value);
+            acc.champions.push(obj);
+          }
         }
       }
     }
@@ -122,7 +126,7 @@ function _mapPlayer({ data, included }) {
 
 function _mapPlayers({ data, included }) {
   const players = _.map(data, player => {
-    return _flattenAttributes(player)
+    return _mapPlayer({ data: player, included });
   });
   return JSON.parse(JSON.stringify(players));
 }
