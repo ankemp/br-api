@@ -3,6 +3,7 @@ const { queryArray } = require('../utils');
 
 module.exports = function (filters, count = 5) {
   let params = {};
+
   if (filters.playerIds) {
     params['tag[playerIds]'] = queryArray(filters.playerIds);
   }
