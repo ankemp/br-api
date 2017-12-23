@@ -31,7 +31,7 @@ module.exports = function (app) {
     });
 
   teams.associate = function (models) { // eslint-disable-line no-unused-vars
-    // teams.hasMany(models.players);
+    teams.belongsToMany(models.players, { through: models.teamMembers, foreignKey: 'teamId' });
   };
 
   return teams;
