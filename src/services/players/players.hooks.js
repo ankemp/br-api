@@ -8,12 +8,8 @@ module.exports = {
     find: [],
     get: [playersFallback()],
     create: [setNow('createdAt'), setNow('updatedAt')],
-    update: [
-      setNow('updatedAt')
-    ],
-    patch: [
-      setNow('updatedAt')
-    ],
+    update: [setNow('updatedAt')],
+    patch: [setNow('updatedAt')],
     remove: []
   },
 

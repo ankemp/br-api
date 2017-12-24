@@ -44,7 +44,7 @@ module.exports = function (app) {
     });
 
   players.associate = function (models) { // eslint-disable-line no-unused-vars
-    players.belongsToMany(models.teams);
+    // players.belongsToMany(models.teams);
   };
 
   return players;
