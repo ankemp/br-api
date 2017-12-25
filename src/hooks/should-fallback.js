@@ -1,7 +1,7 @@
 // Use this hook to manipulate incoming or outgoing data.
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
-const moment = require('moment');
+const moment = require('moment-timezone');
 
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
@@ -9,11 +9,13 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       const sequelizeClient = context.app.get('sequelizeClient');
       const { playerId } = context.params.query;
       const minsAgo = moment().subtract(20, 'minutes');
+      const timezone = moment.tz.guess();
 
       return sequelizeClient.models.players
         .find({ where: { id: playerId } })
         .then(player => {
-          if (!!player && !!player.newestMatch && moment(player.newestMatch).isBefore(minsAgo)) {
+          const newestMatch = !!player.newestMatch ? moment.tz(player.newestMatch, timezone) : moment();
+          if (!!player && newestMatch && newestMatch.isBefore(minsAgo)) {
             context.params.fallbackFrom = player.newestMatch;
           } else {
             const weekAgo = moment().subtract(7, 'days')
