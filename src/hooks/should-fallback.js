@@ -8,8 +8,8 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
     if (!!context.params && !!!context.params.fallbackFrom && !!context.params.query.playerId) {
       const sequelizeClient = context.app.get('sequelizeClient');
       const { playerId } = context.params.query;
-      const minsAgo = moment().subtract(20, 'minutes');
       const timezone = moment.tz.guess();
+      const minsAgo = moment.tz(new Date(), timezone).subtract(20, 'minutes');
 
       return sequelizeClient.models.players
         .find({ where: { id: playerId } })
