@@ -2,7 +2,7 @@
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
 const _ = require('lodash');
-const moment = require('moment');
+const moment = require('moment-timezone');
 
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
@@ -11,7 +11,9 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       const playerId = context.params.query.playerId;
       const matches = context.result.data;
       const match = _.maxBy(matches, 'createdAt');
-      const endTime = moment(match.createdAt).add(match.duration, 'seconds');
+      const timezone = moment.tz.guess();
+
+      const endTime = moment.tz(match.createdAt, timezone).add(match.duration, 'seconds');
 
       return playersService.patch(playerId, { newestMatch: endTime.toDate() }).then(() => context);
     }
