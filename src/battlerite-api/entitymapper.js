@@ -73,14 +73,10 @@ function _mapMatch({ data, included }) {
   let match = _flattenAttributes(data, 'match');
   if (data.relationships) {
     for (const [name, relData] of _.toPairs(data.relationships)) {
-      if (_.isArray(relData.data)) {
-        _.set(match, [`${name}`], _.map(relData.data, d => _mapIncluded(_included, d)))
-      } else {
-        _.set(match, [`${name}`], relData.data);
-      }
-      match = _.omit(match, 'relationships');
+      _.set(match, [`${name}`], _.map(relData.data, d => _mapIncluded(_included, d)))
     }
     _.set(match, ['telemetry'], _.find(match.assets, { name: 'telemetry' }).URL);
+    match = _.omit(match, 'relationships');
   }
   return JSON.parse(JSON.stringify(match));
 }
