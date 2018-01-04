@@ -22,9 +22,11 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false,
       }
-    }).then(() => queryInterface.addIndex(tableName, indexParams));
+    })
+    //.then(() => queryInterface.addIndex(tableName, indexParams));
   },
 
   down: (queryInterface, Sequelize) => {
+    return queryInterface.dropTable('teams')
   }
 };

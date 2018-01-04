@@ -5,14 +5,11 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function (app) {
   const sequelizeClient = app.get('sequelizeClient');
-  const teams = sequelizeClient.define('teams', {
+  const teamMember = sequelizeClient.define('team-members', {
     id: {
       type: DataTypes.STRING,
       allowNull: false,
       primaryKey: true
-    },
-    name: {
-      type: DataTypes.STRING
     },
     createdAt: {
       type: DataTypes.DATE,
@@ -21,9 +18,6 @@ module.exports = function (app) {
     updatedAt: {
       type: DataTypes.DATE,
       allowNull: false,
-    },
-    stats: {
-      type: DataTypes.JSON,
     }
   }, {
       hooks: {
@@ -33,8 +27,9 @@ module.exports = function (app) {
       }
     });
 
-  teams.associate = function (models) { // eslint-disable-line no-unused-vars
-    teams.belongsToMany(models.players, { through: models.teamMembers, foreignKey: 'teamId' });
+    teamMember.associate = function (models) { // eslint-disable-line no-unused-vars
+      teamMember.belongsTo(models.team);
+      teamMember.belongsTo(models.player);
   };
 
   return teams;
