@@ -4,8 +4,8 @@ const Sequelize = require('sequelize');
 const DataTypes = Sequelize.DataTypes;
 
 module.exports = function (app) {
-  const sequelizeClient = app.get('sequelizeClient');
-  const teamMember = sequelizeClient.define('team-members', {
+    const sequelizeClient = app.get('sequelizeClient');
+    const teamMembers = sequelizeClient.define('team_members', {
     id: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -27,10 +27,10 @@ module.exports = function (app) {
       }
     });
 
-    teamMember.associate = function (models) { // eslint-disable-line no-unused-vars
-      teamMember.belongsTo(models.team);
-      teamMember.belongsTo(models.player);
+    teamMembers.associate = function (models) { // eslint-disable-line no-unused-vars
+      teamMembers.belongsTo(models.teams);
+      teamMembers.belongsTo(models.players);
   };
 
-  return teams;
+  return teamMembers;
 };
