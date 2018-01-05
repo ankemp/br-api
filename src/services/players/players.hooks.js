@@ -9,17 +9,6 @@ const playersSchema = {
   ]}
 
 
-const playersSchema = {
-  include: [
-    {
-      service: 'team_members', parentField: 'playerId', childField: 'id',
-      include: {
-        service: 'teams', parentField: 'id', childField: 'teamId'
-      }
-    }
-  ]}
-
-
 module.exports = {
   before: {
     all: [],
