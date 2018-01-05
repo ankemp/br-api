@@ -5,7 +5,7 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function (app) {
     const sequelizeClient = app.get('sequelizeClient');
-    const teamMembers = sequelizeClient.define('team_members', {
+    const teamMembers = sequelizeClient.define('teamMembers', {
     id: {
       type: DataTypes.STRING,
       allowNull: false,

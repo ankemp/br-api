@@ -1,8 +1,15 @@
+const { populate } = require('feathers-hooks-common');
+const teamSchema = {
+  include: [
+    {
+        service: 'teams', parentField: 'teamId', childField: 'id'
+    }
+  ]}
 
 
 module.exports = {
   before: {
-    all: [console.log('test')],
+    all: [],
     find: [],
     get: [],
     create: [],
@@ -13,8 +20,8 @@ module.exports = {
 
   after: {
     all: [],
-    find: [],
-    get: [],
+    find: [ populate({ schema: teamSchema }),],
+    get: [ populate({ schema: teamSchema }),],
     create: [],
     update: [],
     patch: [],
