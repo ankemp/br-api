@@ -8,7 +8,7 @@ const map = require('../battlerite-api/entitymapper');
 
 function getTeamData({ playerIds, season }) {
   return brApi.getTeams({ playerIds, season })
-    .then(response => response.data);
+    .then(response => map.teams(response));
 }
 
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
@@ -22,6 +22,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       if (context.type === 'before') {
         return getTeamData({ playerIds, season })
           .then(teams => {
+
             context.result = {};
             context.result.data = teams;
             context.result.total = teams.length;

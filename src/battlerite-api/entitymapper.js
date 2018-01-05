@@ -42,6 +42,9 @@ function _flattenAttributes(data, type) {
           obj = _.merge(obj, _flattenAttributes(value, type));
         }
         break;
+      case 'tags':
+        console.log(value);
+        break;
 
       case 'createdAt':
         obj['createdAt'] = new Date(value);
@@ -131,9 +134,25 @@ function _mapPlayers({ data, included }) {
   return JSON.parse(JSON.stringify(players));
 }
 
+function _mapTeam({ data, included }) {
+  console.log(data, included);
+  let team = _flattenAttributes(data, 'team');
+  team = _.omit(team, 'relationships');
+  return JSON.parse(JSON.stringify(team));
+}
+
+function _mapTeams({ data, included }) {
+  const teams = _.map(data, team => {
+    return _mapTeam({ data: team, included });
+  });
+  return JSON.parse(JSON.stringify(teams));
+}
+
 module.exports = {
   match: _mapMatch,
   matches: _mapMatches,
   player: _mapPlayer,
-  players: _mapPlayers
+  players: _mapPlayers,
+  team: _mapTeam,
+  teams: _mapTeams,
 }
