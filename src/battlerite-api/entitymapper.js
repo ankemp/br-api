@@ -135,16 +135,34 @@ function _mapPlayers({ data, included }) {
 }
 
 function _mapTeam({ data, included }) {
-  console.log(data, included);
   let team = _flattenAttributes(data, 'team');
+  switch (team.members.length) {
+    case 1:
+      _.set(team, 'teamType', 'solo');
+      break;
+    case 2:
+      _.set(team, 'teamType', '2v2');
+      break;
+    case 3:
+      _.set(team, 'teamType', '3v3');
+      break;
+
+    default:
+      // wut
+      break;
+  }
   team = _.omit(team, 'relationships');
   return JSON.parse(JSON.stringify(team));
 }
 
 function _mapTeams({ data, included }) {
   const teams = _.map(data, team => {
-    return _mapTeam({ data: team, included });
-  });
+    team = _mapTeam({ data: team, included });
+    if (team.teamType !== 'solo' && (!team.wins && !team.losses)) {
+      team = undefined;
+    }
+    return team;
+  }).filter(Boolean);
   return JSON.parse(JSON.stringify(teams));
 }
 
