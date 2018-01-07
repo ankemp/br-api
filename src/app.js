@@ -25,7 +25,7 @@ app.configure(configuration());
 // CORS Config
 const corsOptions = {
   origin: function (origin, callback) {
-    const whitelist = ['https://battlelegend.com', 'localhost', 'dot-br-history-188417.appspot.com'];
+    const whitelist = ['https://battlelegend.com', 'https://www.battlelegend.com', 'localhost', 'dot-br-history-188417.appspot.com'];
     if (app.get('environment') !== 'production' || typeof origin === 'undefined' || whitelist.findIndex(w => origin.includes(w)) !== -1) {
       callback(null, true)
     } else {
