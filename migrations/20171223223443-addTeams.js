@@ -21,6 +21,42 @@ module.exports = {
       updatedAt: {
         type: Sequelize.DATE,
         allowNull: false,
+      },
+      avatar: {
+        type: Sequelize.INTEGER
+      },
+      division: {
+        type: Sequelize.INTEGER
+      },
+      divisionRating: {
+        type: Sequelize.INTEGER
+      },
+      league: {
+        type: Sequelize.INTEGER
+      },
+      losses: {
+        type: Sequelize.INTEGER
+      },
+      wins: {
+        type: Sequelize.INTEGER
+      },
+      teamType: {
+        type: Sequelize.STRING
+      },
+      placementGamesLeft: {
+        type: Sequelize.INTEGER
+      },
+      topDivision: {
+        type: Sequelize.INTEGER
+      },
+      topDivisionRating: {
+        type: Sequelize.INTEGER
+      },
+      topLeague: {
+        type: Sequelize.INTEGER
+      },
+      members:{
+        type:Sequelize.JSON
       }
     })
     //.then(() => queryInterface.addIndex(tableName, indexParams));

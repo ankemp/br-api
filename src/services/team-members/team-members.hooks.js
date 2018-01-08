@@ -1,4 +1,5 @@
-const { populate } = require('feathers-hooks-common');
+const { populate, paramsFromClient } = require('feathers-hooks-common');
+const teamsFallback = require('../../hooks/teams-fallback');
 const teamSchema = {
   include: [
     {
@@ -10,7 +11,7 @@ const teamSchema = {
 module.exports = {
   before: {
     all: [],
-    find: [],
+    find: [teamsFallback()],
     get: [],
     create: [],
     update: [],
@@ -20,8 +21,8 @@ module.exports = {
 
   after: {
     all: [],
-    find: [ populate({ schema: teamSchema }),],
-    get: [ populate({ schema: teamSchema }),],
+    find: [ populate({ schema: teamSchema }),teamsFallback()],
+    get: [ populate({ schema: teamSchema }),teamsFallback()],
     create: [],
     update: [],
     patch: [],

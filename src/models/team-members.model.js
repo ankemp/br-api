@@ -7,9 +7,10 @@ module.exports = function (app) {
     const sequelizeClient = app.get('sequelizeClient');
     const teamMembers = sequelizeClient.define('teamMembers', {
     id: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true
+      primaryKey: true,
+      autoIncrement: true
     },
     createdAt: {
       type: DataTypes.DATE,

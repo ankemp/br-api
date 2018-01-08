@@ -22,8 +22,41 @@ module.exports = function (app) {
       type: DataTypes.DATE,
       allowNull: false,
     },
-    stats: {
-      type: DataTypes.JSON,
+    avatar: {
+      type: DataTypes.INTEGER
+    },
+    division: {
+      type: DataTypes.INTEGER
+    },
+    divisionRating: {
+      type: DataTypes.INTEGER
+    },
+    league: {
+      type: DataTypes.INTEGER
+    },
+    losses: {
+      type: DataTypes.INTEGER
+    },
+    wins: {
+      type: DataTypes.INTEGER
+    },
+    teamType: {
+      type: DataTypes.STRING
+    },
+    placementGamesLeft: {
+      type: DataTypes.INTEGER
+    },
+    topDivision: {
+      type: DataTypes.INTEGER
+    },
+    topDivisionRating: {
+      type: DataTypes.INTEGER
+    },
+    topLeague: {
+      type: DataTypes.INTEGER
+    },
+    members: {
+      type: DataTypes.JSON
     }
   }, {
       hooks: {

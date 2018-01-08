@@ -24,6 +24,12 @@ function _mapIncluded(_included, { type, id }) {
   return include;
 }
 
+function flattenAarray(arr) {
+  return arr.reduce(function (flat, toFlatten) {
+    return flat.concat(Array.isArray(toFlatten) ? flattenAarray(toFlatten) : toFlatten);
+  }, []);
+}
+
 function _flattenAttributes(data, type) {
   return _.transform(data, (obj, value, key) => {
     switch (key) {
@@ -166,6 +172,17 @@ function _mapTeams({ data, included }) {
   return JSON.parse(JSON.stringify(teams));
 }
 
+function _mapTeamMembers({ data }) {
+  const teamMembers = _.map(data, team => {
+    team = _.map(team.members,member=>{
+      return {teamId:team.id, playerId:member};
+    });
+    return team;
+  }).filter(Boolean);
+  const mergedTeamMembers = flattenAarray(teamMembers);
+  return JSON.parse(JSON.stringify(mergedTeamMembers));
+}
+
 module.exports = {
   match: _mapMatch,
   matches: _mapMatches,
@@ -173,4 +190,5 @@ module.exports = {
   players: _mapPlayers,
   team: _mapTeam,
   teams: _mapTeams,
+  teamMembers: _mapTeamMembers,
 }
