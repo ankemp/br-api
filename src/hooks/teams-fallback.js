@@ -35,7 +35,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       }
 
       if (context.type === 'after') {
-        var exists = context.result.length > 0;
+        var exists = context.result.data.length > 0;
           if (exists) {
             const lastUpdate = context.result.data.reduce(function (a, b) { return a.updatedAt > b.updatedAt ? a.updatedAt : b.updatedAt; })
             const updatedAt = moment(lastUpdate);
