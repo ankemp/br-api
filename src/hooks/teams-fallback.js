@@ -35,19 +35,41 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       }
 
       if (context.type === 'after') {
-        console.log(context);
         var exists = context.result.length > 0;
-        if (exists) {
-          const lastUpdate = context.result.data.reduce(function (a, b) { return a.updatedAt > b.updatedAt ? a.updatedAt : b.updatedAt; })
-          const updatedAt = moment(lastUpdate);
-          const now = moment().subtract(1, 'hours');
-          if (updatedAt.isBefore(now)) {
-            //Patch teams and create everything else
-        }
-      }
-        else{
-          return getTeamData({ playerId, season: seasonNum })
-          .then(teams => teamsService.create(teams))
+          if (exists) {
+            const lastUpdate = context.result.data.reduce(function (a, b) { return a.updatedAt > b.updatedAt ? a.updatedAt : b.updatedAt; })
+            const updatedAt = moment(lastUpdate);
+            const now = moment().subtract(1, 'hours');
+            if (updatedAt.isBefore(now)) {
+              return getTeamData({ playerId, season: seasonNum })
+              .then(teams=> {
+                return Promise.map(teams, team => {
+                  return sequelizeClient.models.teams
+                  .findAndCount({ where: { id: team.id } })
+                  .then(({ count }) => count !== 0)
+                  .then(exists => {
+                    if (!exists) {
+                      return teamsService.create(team);
+                    }
+                    else{
+                      return teamsService.patch(team.id,team);
+                    }
+                  })
+                })
+                .then(teams=>{
+                  context.result = {};
+                  context.result.data = teams;
+                  context.result.total = teams.length;
+                  context.result.limit = teams.length;
+                  context.result.skip = 0;
+                  return context;
+                })
+              })
+            }
+          }
+          else{
+            return getTeamData({ playerId, season: seasonNum })
+            .then(teams => teamsService.create(teams))
               .then(teams => {
               context.result = {};
               context.result.data = teams;
@@ -58,7 +80,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
             });
         }
       }
-    return context;
-  };
-}
+      return context;
+    };
+  }
 }

@@ -14,7 +14,6 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       const playersService = context.app.service('players');
 
       var playerIds = _.uniqBy(teamMembers.map(teamMember => teamMember.playerId)); 
-      console.log(playerIds);
       
       return Promise.map(playerIds, id => {
         return sequelizeClient.models.players
