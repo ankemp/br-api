@@ -1,13 +1,6 @@
 const { setNow, populate } = require('feathers-hooks-common');
 const playersFallback = require('../../hooks/players-fallback');
 const playerSearchFallback = require('../../hooks/player-search-fallback');
-const logger = require('../../hooks/logger');
-
-const playersSchema = {
-  include: [
-      {service: 'teamMembers', parentField: 'id', childField: 'playerId', useInnerPopulate: true  }
-  ]}
-
 
 module.exports = {
   before: {
@@ -22,8 +15,8 @@ module.exports = {
 
   after: {
     all: [],
-    find: [populate({ schema: playersSchema }),playerSearchFallback()],
-    get: [populate({ schema: playersSchema }),playersFallback()],
+    find: [playerSearchFallback()],
+    get: [playersFallback()],
     create: [],
     update: [],
     patch: [],

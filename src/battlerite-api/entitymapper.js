@@ -24,12 +24,6 @@ function _mapIncluded(_included, { type, id }) {
   return include;
 }
 
-function flattenAarray(arr) {
-  return arr.reduce(function (flat, toFlatten) {
-    return flat.concat(Array.isArray(toFlatten) ? flattenAarray(toFlatten) : toFlatten);
-  }, []);
-}
-
 function _flattenAttributes(data, type) {
   return _.transform(data, (obj, value, key) => {
     switch (key) {
@@ -91,7 +85,7 @@ function _mapMatch({ data, included }) {
     }
     _.set(match, ['telemetry'], _.find(match.assets, { name: 'telemetry' }).URL);
   }
-  return JSON.parse(JSON.stringify(match));
+  return match;
 }
 
 function _mapMatches({ data, included }) {
@@ -130,14 +124,14 @@ function _mapPlayer({ data, included }) {
     return acc;
   }, {});
 
-  return JSON.parse(JSON.stringify(player));
+  return player;
 }
 
 function _mapPlayers({ data, included }) {
   const players = _.map(data, player => {
     return _mapPlayer({ data: player, included });
   });
-  return JSON.parse(JSON.stringify(players));
+  return players;
 }
 
 function _mapTeam({ data, included }) {
@@ -158,7 +152,7 @@ function _mapTeam({ data, included }) {
       break;
   }
   team = _.omit(team, 'relationships');
-  return JSON.parse(JSON.stringify(team));
+  return team;
 }
 
 function _mapTeams({ data, included }) {
@@ -169,18 +163,16 @@ function _mapTeams({ data, included }) {
     }
     return team;
   }).filter(Boolean);
-  return JSON.parse(JSON.stringify(teams));
+  return teams;
 }
 
-function _mapTeamMembers({ data }) {
+function _mapTeamsMembers({ data }) {
   const teamMembers = _.map(data, team => {
-    team = _.map(team.members,member=>{
-      return {teamId:team.id, playerId:member};
+    return _.map(team.members, playerId => {
+      return { teamId: team.id, playerId };
     });
-    return team;
   }).filter(Boolean);
-  const mergedTeamMembers = flattenAarray(teamMembers);
-  return JSON.parse(JSON.stringify(mergedTeamMembers));
+  return _.flattenDeep(teamMembers);
 }
 
 module.exports = {
@@ -190,5 +182,5 @@ module.exports = {
   players: _mapPlayers,
   team: _mapTeam,
   teams: _mapTeams,
-  teamMembers: _mapTeamMembers,
+  teamsMembers: _mapTeamsMembers,
 }

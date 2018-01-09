@@ -28,7 +28,7 @@ module.exports = {
     find: [
       populate({ schema: matchesSchema }),
       pluckMatches(),
-      shouldFallback(),
+      shouldFallback({ service: 'matches' }),
       matchesFallback(),
       setNewestMatch()
     ],

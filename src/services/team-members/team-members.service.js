@@ -5,12 +5,11 @@ const hooks = require('./team-members.hooks');
 
 module.exports = function (app) {
   const Model = createModel(app);
-  const paginate = app.get('paginate');
 
   const options = {
     name: 'teamMembers',
     Model,
-    paginate
+    paginate: false
   };
 
   // Initialize our service with any options it requires
