@@ -13,9 +13,10 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       const match = _.maxBy(matches, 'createdAt');
       const timezone = moment.tz.guess();
 
-      const endTime = moment.tz(match.createdAt, timezone).add(match.duration, 'seconds');
-
-      return playersService.patch(playerId, { newestMatch: endTime.toDate() }).then(() => context);
+      if (!_.isUndefined(match)) {
+        const endTime = moment.tz(match.createdAt, timezone).add(match.duration, 'seconds');
+        return playersService.patch(playerId, { newestMatch: endTime.toDate() }).then(() => context);
+      }
     }
     return context;
   };
