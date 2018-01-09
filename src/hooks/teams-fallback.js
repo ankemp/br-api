@@ -35,11 +35,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
               })
           })
             .then(teams => {
-              context.result = {};
-              context.result.data = teams;
-              context.result.total = teams.length;
-              context.result.limit = teams.length;
-              context.result.skip = 0;
+              context.result = teams;
               return context;
             })
         })

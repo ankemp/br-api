@@ -31,12 +31,11 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
 
       if (options.service === 'teams' && !!context.params.query.playerId) {
         const hourAgo = moment.tz(new Date(), timezone).subtract(1, 'hours');
-        const lastUpdate = moment.tz(_.minBy(context.result.data, 'updateAt'), timezone);
+        const oldestTeam = _.minBy(context.result.data, 'updateAt');
+        const lastUpdate = !!oldestTeam ? moment.tz(oldestTeam.updatedAt, timezone) : false;
 
         context.params.teamsShouldFallback = false;
-        if (lastUpdate.isBefore(hourAgo)) {
-          // should even think about falling back
-          console.log('should even think about falling back');
+        if ((!!!oldestTeam && !lastUpdate) || (moment.isMoment(lastUpdate) && lastUpdate.isBefore(hourAgo))) {
           context.params.teamsShouldFallback = true;
         }
 

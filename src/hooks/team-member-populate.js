@@ -26,8 +26,8 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
           })
       })
         .then(() => teamMembersService.create(teamsMembers))
+        .then(() => context);
 
-      return context;
     }
 
     return context

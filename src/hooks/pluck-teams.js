@@ -5,7 +5,12 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.app && !!context.result) {
       const sequelizeClient = context.app.get('sequelizeClient');
-      const teamIds = context.result.map(tm => tm.teamId);
+      let teamIds = [];
+      if (context.params.teamsShouldFallback) {
+        teamIds = context.result.map(tm => tm.id);
+      } else {
+        teamIds = context.result.map(tm => tm.teamId);
+      }
 
       return sequelizeClient.models.teams.findAll({
         include: [
