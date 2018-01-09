@@ -22,7 +22,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
 
       return getTeamData({ playerId, season: seasonNum })
         .then(teams => {
-          return Promise.map(teams, team => {
+          return Promise.mapSeries(teams, team => {
             return sequelizeClient.models.teams
               .findAndCount({ where: { id: team.id } })
               .then(({ count }) => count !== 0)
