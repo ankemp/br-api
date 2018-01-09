@@ -6,15 +6,18 @@ const Promise = require('bluebird');
 
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
+
     if (!!context.app && !!context.result) {
       const sequelizeClient = context.app.get('sequelizeClient');
       const teamMembersService = context.app.service('teamMembers');
       const playersService = context.app.service('players');
-      const teamsMembers = map.teamsMembers({ data: context.result });
 
-      const playerIds = _.uniqBy(teamsMembers.map(teamMember => teamMember.playerId));
+      const teamMembers = context.result.members.map(playerId => {
+        return { playerId, teamId: context.result.id };
+      });
+      const playerIds = context.result.members;
 
-      return Promise.map(playerIds, id => {
+      return Promise.mapSeries(playerIds, id => {
         return sequelizeClient.models.players
           .findAndCount({ where: { id } })
           .then(({ count }) => count !== 0)
@@ -25,7 +28,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
             return Promise.resolve();
           })
       })
-        .then(() => teamMembersService.create(teamsMembers))
+        .then(() => teamMembersService.create(teamMembers))
         .then(() => context);
 
     }

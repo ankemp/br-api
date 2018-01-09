@@ -171,7 +171,7 @@ function _mapTeamsMembers({ data }) {
     return _.map(team.members, playerId => {
       return { teamId: team.id, playerId };
     });
-  }).filter(Boolean);
+  });
   return _.flattenDeep(teamMembers);
 }
 
