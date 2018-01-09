@@ -42,6 +42,9 @@ function _flattenAttributes(data, type) {
           obj = _.merge(obj, _flattenAttributes(value, type));
         }
         break;
+      case 'tags':
+        console.log(value);
+        break;
 
       case 'createdAt':
         obj['createdAt'] = new Date(value);
@@ -82,7 +85,7 @@ function _mapMatch({ data, included }) {
     }
     _.set(match, ['telemetry'], _.find(match.assets, { name: 'telemetry' }).URL);
   }
-  return JSON.parse(JSON.stringify(match));
+  return match;
 }
 
 function _mapMatches({ data, included }) {
@@ -121,19 +124,63 @@ function _mapPlayer({ data, included }) {
     return acc;
   }, {});
 
-  return JSON.parse(JSON.stringify(player));
+  return player;
 }
 
 function _mapPlayers({ data, included }) {
   const players = _.map(data, player => {
     return _mapPlayer({ data: player, included });
   });
-  return JSON.parse(JSON.stringify(players));
+  return players;
+}
+
+function _mapTeam({ data, included }) {
+  let team = _flattenAttributes(data, 'team');
+  switch (team.members.length) {
+    case 1:
+      _.set(team, 'teamType', 'solo');
+      break;
+    case 2:
+      _.set(team, 'teamType', '2v2');
+      break;
+    case 3:
+      _.set(team, 'teamType', '3v3');
+      break;
+
+    default:
+      // wut
+      break;
+  }
+  team = _.omit(team, 'relationships');
+  return team;
+}
+
+function _mapTeams({ data, included }) {
+  const teams = _.map(data, team => {
+    team = _mapTeam({ data: team, included });
+    if (team.teamType !== 'solo' && (!team.wins && !team.losses)) {
+      team = undefined;
+    }
+    return team;
+  }).filter(Boolean);
+  return teams;
+}
+
+function _mapTeamsMembers({ data }) {
+  const teamMembers = _.map(data, team => {
+    return _.map(team.members, playerId => {
+      return { teamId: team.id, playerId };
+    });
+  });
+  return _.flattenDeep(teamMembers);
 }
 
 module.exports = {
   match: _mapMatch,
   matches: _mapMatches,
   player: _mapPlayer,
-  players: _mapPlayers
+  players: _mapPlayers,
+  team: _mapTeam,
+  teams: _mapTeams,
+  teamsMembers: _mapTeamsMembers,
 }

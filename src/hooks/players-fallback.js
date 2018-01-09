@@ -39,7 +39,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         const exists = !!context.result.id;
         if (exists) {
           const updatedAt = moment(context.result.updatedAt);
-          const now = moment().subtract(6, 'hours');
+          const now = moment().subtract(1, 'hours');
           if (!!!context.result.name || updatedAt.isBefore(now)) {
             return getPlayerData(context.id)
               .then(player => playersService.patch(context.id, player))

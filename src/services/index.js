@@ -5,6 +5,8 @@ const rosters = require('./rosters/rosters.service.js');
 const participants = require('./participants/participants.service.js');
 const champions = require('./champions/champions.service.js');
 const rounds = require('./rounds/rounds.service.js');
+const teams = require('./teams/teams.service.js');
+const teamMembers = require('./team-members/team-members.service.js');
 module.exports = function (app) {
   app.configure(matches);
   app.configure(maps);
@@ -13,4 +15,6 @@ module.exports = function (app) {
   app.configure(participants);
   app.configure(champions);
   app.configure(rounds);
+  app.configure(teams);
+  app.configure(teamMembers);
 };

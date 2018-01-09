@@ -1,12 +1,12 @@
 const assert = require('assert');
-const shouldFallback = require('../../src/hooks/should-fallback');
+const teamsFallback = require('../../src/hooks/teams-fallback');
 
-describe('\'shouldFallback\' hook', () => {
+describe('\'teamsFallback\' hook', () => {
   it('runs the hook', () => {
     // A mock hook object
     const mock = {};
     // Initialize our hook with no options
-    const hook = shouldFallback();
+    const hook = teamsFallback();
 
     // Run the hook function (which returns a promise)
     // and compare the resulting hook object
@@ -14,5 +14,4 @@ describe('\'shouldFallback\' hook', () => {
       assert.equal(result, mock, 'Returns the expected hook object');
     });
   });
-
 });
