@@ -6,9 +6,9 @@ const matchesSchema = {
     { service: 'maps', nameAs: 'map', parentField: 'mapId', childField: 'id' },
     { service: 'rounds', parentField: 'id', childField: 'matchId' },
     {
-      service: 'rosters', parentField: 'id', childField: 'matchId',
+      service: 'rosters', parentField: 'id', childField: 'matchId', asArray: true,
       include: {
-        service: 'participants', parentField: 'id', childField: 'rosterId',
+        service: 'participants', parentField: 'id', childField: 'rosterId', asArray: true,
         include: [
           { service: 'players', nameAs: 'player', parentField: 'playerId', childField: 'id' },
           { service: 'champions', nameAs: 'champion', parentField: 'championId', childField: 'id' }
