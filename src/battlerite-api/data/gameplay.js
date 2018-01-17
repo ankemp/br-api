@@ -49,7 +49,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "MultiplativeValue",
               "UnitType": "Standard",
-              "Value": "6",
+              "Value": "9",
               "MaxValue": "3"
             },
             {
@@ -130,7 +130,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "6",
+              "Value": "10",
               "MaxValue": "{None}"
             }
           ],
@@ -211,7 +211,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "8",
+              "Value": "10",
               "MaxValue": "{None}"
             },
             {
@@ -220,25 +220,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "8",
-              "MaxValue": "{None}"
-            }
-          ],
-          "icon": "d0c4449b33eef2e4ca2cfa8900910041",
-          "abilitySlot": "3"
-        },
-        {
-          "typeID": 287663924,
-          "name": "18b253abe8284109b53232cd2ca589e5",
-          "description": "9f10abb3652a450e9c5bf0f456e94d8a",
-          "tooltipData": [
-            {
-              "Name": "Damage",
-              "LocalizedName": "00000000000000000000000000000000",
-              "SortID": 0,
-              "ValueType": "ConstantValue",
-              "UnitType": "Standard",
-              "Value": "12",
+              "Value": "10",
               "MaxValue": "{None}"
             }
           ],
@@ -283,7 +265,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "6",
+              "Value": "8",
               "MaxValue": "{None}"
             },
             {
@@ -301,7 +283,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Second",
-              "Value": "1",
+              "Value": "1.5",
               "MaxValue": "{None}"
             },
             {
@@ -355,7 +337,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Second",
-              "Value": "2",
+              "Value": "2.5",
               "MaxValue": "{None}"
             },
             {
@@ -424,6 +406,24 @@ const _gameplay = _(
           ],
           "icon": "bbe2697d5982f654d8dab2223790bd77",
           "abilitySlot": "999"
+        },
+        {
+          "typeID": 1810635846,
+          "name": "566080934dd34bb49502a9f4952a8f3f",
+          "description": "78f0290b5eec44b380762af923d47488",
+          "tooltipData": [
+            {
+              "Name": "Factor",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "10",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "d0c4449b33eef2e4ca2cfa8900910041",
+          "abilitySlot": "3"
         }
       ],
       "ability1": {
@@ -559,8 +559,8 @@ const _gameplay = _(
         "tooltipData": [
           {
             "Name": "Duration",
-            "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
-            "SortID": 2,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "2.5",
@@ -664,7 +664,17 @@ const _gameplay = _(
         "typeID": 1272186046,
         "name": "5bd53b30be9b4fd5b307cea45f6039a1",
         "description": "e707ef6de22148d7aff6eae4ef542b32",
-        "tooltipData": [],
+        "tooltipData": [
+          {
+            "Name": "Duration",
+            "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
+            "SortID": 1,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "0.4",
+            "MaxValue": "{None}"
+          }
+        ],
         "icon": "fdbfef40265a775498db0443fa145fb6",
         "icon128": "470a917c1ac62c04ea45acc6a35c5f73"
       },
@@ -732,7 +742,7 @@ const _gameplay = _(
             "LocalizedName": "00000000000000000000000000000000",
             "SortID": 0,
             "ValueType": "ConstantValue",
-            "UnitType": "Standard",
+            "UnitType": "Second",
             "Value": "0.5",
             "MaxValue": "{None}"
           }
@@ -1031,7 +1041,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Second",
-              "Value": "{None}",
+              "Value": "1.8",
               "MaxValue": "{None}"
             },
             {
@@ -1051,7 +1061,17 @@ const _gameplay = _(
           "typeID": 527326071,
           "name": "fe63b2d1335a4439816cf0ac3bb2ed04",
           "description": "36b600bc932a49bdb3f6298e4e65fee2",
-          "tooltipData": [],
+          "tooltipData": [
+            {
+              "Name": "ChargeUp",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "MultiplativeValue",
+              "UnitType": "ModifierPercent",
+              "Value": "25",
+              "MaxValue": "{None}"
+            }
+          ],
           "icon": "f138c9c126ce8934bbe8d6ba98327181",
           "abilitySlot": "4"
         },
@@ -1103,6 +1123,15 @@ const _gameplay = _(
               "ValueType": "ConstantValue",
               "UnitType": "ModifierPercent",
               "Value": "35",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "Duration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "0.5",
               "MaxValue": "{None}"
             }
           ],
@@ -1271,7 +1300,7 @@ const _gameplay = _(
           {
             "Name": "EnergyGain",
             "LocalizedName": "d1483421b93940a38871e8c48f0f7ea3",
-            "SortID": 1,
+            "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Percent",
             "Value": "5",
@@ -1987,6 +2016,15 @@ const _gameplay = _(
             "UnitType": "Standard",
             "Value": "8",
             "MaxValue": "{None}"
+          },
+          {
+            "Name": "Infest",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ReferenceValue",
+            "UnitType": "Standard",
+            "Value": "5bd90913c2754f0f9975a64443e3a3be",
+            "MaxValue": "{None}"
           }
         ],
         "icon": "615f1dbb9129ebf4da2033d37b16309e",
@@ -2009,7 +2047,7 @@ const _gameplay = _(
           {
             "Name": "Health",
             "LocalizedName": "dcedc6e37a214ef68d7d67a9a2810fe8",
-            "SortID": 2,
+            "SortID": 1,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
             "Value": "30",
@@ -2080,8 +2118,8 @@ const _gameplay = _(
           },
           {
             "Name": "DamageBreak",
-            "LocalizedName": "02a8d486d0b74c0fb8e71858de252bf4",
-            "SortID": 1,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
             "Value": "20",
@@ -2161,8 +2199,8 @@ const _gameplay = _(
         "tooltipData": [
           {
             "Name": "Duration",
-            "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
-            "SortID": 1,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "2.5",
@@ -2812,7 +2850,7 @@ const _gameplay = _(
           {
             "Name": "Duration",
             "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
-            "SortID": 1,
+            "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "1.5",
@@ -2825,6 +2863,15 @@ const _gameplay = _(
             "ValueType": "ConstantValue",
             "UnitType": "ModifierPercent",
             "Value": "20",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "AirTime",
+            "LocalizedName": "56ffe227681a4a149b5c946aa00d3d30",
+            "SortID": 1,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "0.4",
             "MaxValue": "{None}"
           }
         ],
@@ -3063,15 +3110,6 @@ const _gameplay = _(
           "description": "dbd917e8eae041b28e076022135b1b55",
           "tooltipData": [
             {
-              "Name": "Duration",
-              "LocalizedName": "00000000000000000000000000000000",
-              "SortID": 0,
-              "ValueType": "ConstantValue",
-              "UnitType": "Second",
-              "Value": "1.5",
-              "MaxValue": "{None}"
-            },
-            {
               "Name": "GradualSlow",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
@@ -3090,12 +3128,12 @@ const _gameplay = _(
               "MaxValue": "{None}"
             },
             {
-              "Name": "BonusDamage",
+              "Name": "GradualSlowDuration2",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
-              "UnitType": "Standard",
-              "Value": "0",
+              "UnitType": "Second",
+              "Value": "0.7",
               "MaxValue": "{None}"
             }
           ],
@@ -3220,6 +3258,15 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Percent",
+              "Value": "120",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "ReloadSpeedBonus",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Percent",
               "Value": "50",
               "MaxValue": "{None}"
             }
@@ -3238,7 +3285,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "8",
+              "Value": "12",
               "MaxValue": "{None}"
             },
             {
@@ -3273,7 +3320,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "8",
+              "Value": "{None}",
               "MaxValue": "{None}"
             }
           ],
@@ -3426,7 +3473,7 @@ const _gameplay = _(
             "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
-            "Value": "1.1",
+            "Value": "1",
             "MaxValue": "{None}"
           }
         ],
@@ -3480,7 +3527,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "MultiplativeValue",
             "UnitType": "Standard",
-            "Value": "21",
+            "Value": "24",
             "MaxValue": "3"
           },
           {
@@ -3693,7 +3740,7 @@ const _gameplay = _(
           {
             "Name": "ChannelDuration",
             "LocalizedName": "171abb321fe24867a96d497e7771f113",
-            "SortID": 2,
+            "SortID": 1,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "2.7",
@@ -3705,7 +3752,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "MultiplativeValue",
             "UnitType": "Standard",
-            "Value": "140",
+            "Value": "160",
             "MaxValue": "20"
           },
           {
@@ -3728,8 +3775,8 @@ const _gameplay = _(
           },
           {
             "Name": "Bullets",
-            "LocalizedName": "00910caca36b4a13bc07fa1efb95279d",
-            "SortID": 1,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
             "Value": "20",
@@ -3845,12 +3892,12 @@ const _gameplay = _(
           "description": "37d0a480749d46a98fb37d8373999ced",
           "tooltipData": [
             {
-              "Name": "BonusDuration",
+              "Name": "ImmobilizeDuration",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
-              "ValueType": "MultiplativeValue",
+              "ValueType": "ConstantValue",
               "UnitType": "Second",
-              "Value": "{None}",
+              "Value": "1",
               "MaxValue": "4"
             },
             {
@@ -3863,12 +3910,12 @@ const _gameplay = _(
               "MaxValue": "{None}"
             },
             {
-              "Name": "Duration",
+              "Name": "ChillDuration",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "MultiplativeValue",
               "UnitType": "Second",
-              "Value": "1.6",
+              "Value": "2",
               "MaxValue": "4"
             },
             {
@@ -3878,6 +3925,15 @@ const _gameplay = _(
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
               "Value": "40",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "Immobilize",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ReferenceValue",
+              "UnitType": "Standard",
+              "Value": "0393817baad8475c802924bce807e412",
               "MaxValue": "{None}"
             }
           ],
@@ -3895,7 +3951,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "ModifierPercent",
-              "Value": "20",
+              "Value": "10",
               "MaxValue": "{None}"
             },
             {
@@ -4158,6 +4214,15 @@ const _gameplay = _(
               "UnitType": "Standard",
               "Value": "10",
               "MaxValue": "{None}"
+            },
+            {
+              "Name": "ChillDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "MultiplativeValue",
+              "UnitType": "Second",
+              "Value": "1",
+              "MaxValue": "4"
             }
           ],
           "icon": "257737da8189b1242be43990b8caf5a6",
@@ -4175,6 +4240,15 @@ const _gameplay = _(
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
               "Value": "12",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "ShieldDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "1.4",
               "MaxValue": "{None}"
             }
           ],
@@ -4373,7 +4447,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
-            "Value": "{ Id: 183 Gen: 1}",
+            "Value": "{ Id: 177 Gen: 1}",
             "MaxValue": "{None}"
           },
           {
@@ -4396,8 +4470,8 @@ const _gameplay = _(
         "tooltipData": [
           {
             "Name": "Duration",
-            "LocalizedName": "a1875cef6de04fb391bf2228dfe0e71b",
-            "SortID": 1,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "1.4",
@@ -4451,7 +4525,7 @@ const _gameplay = _(
           {
             "Name": "FrostFactor",
             "LocalizedName": "4c4c7e12f1d740bf9198b2426cbbf364",
-            "SortID": 2,
+            "SortID": 1,
             "ValueType": "MultiplativeValue",
             "UnitType": "Second",
             "Value": "2",
@@ -4818,12 +4892,39 @@ const _gameplay = _(
           "description": "3c58220db5cc41a786031689b2763be5",
           "tooltipData": [
             {
-              "Name": "Duration",
+              "Name": "BerserkDuration",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Second",
               "Value": "1.5",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "Berserk",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ReferenceValue",
+              "UnitType": "Standard",
+              "Value": "5ba9908aca97424f91ae8a789ebbca22",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "AttackSpeed",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "33",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "Haste",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "50",
               "MaxValue": "{None}"
             }
           ],
@@ -4890,7 +4991,7 @@ const _gameplay = _(
           "description": "ff9dbe38946a455d9b3182a8bd691f54",
           "tooltipData": [
             {
-              "Name": "Duration",
+              "Name": "SlowDuration",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
@@ -4899,7 +5000,7 @@ const _gameplay = _(
               "MaxValue": "{None}"
             },
             {
-              "Name": "Factor",
+              "Name": "SlowPercent",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
@@ -4914,6 +5015,15 @@ const _gameplay = _(
               "ValueType": "ConstantValue",
               "UnitType": "Second",
               "Value": "0",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "Slow",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ReferenceValue",
+              "UnitType": "Standard",
+              "Value": "b5b19aeaa91c4354a330bd761a1f0d86",
               "MaxValue": "{None}"
             }
           ],
@@ -5207,7 +5317,7 @@ const _gameplay = _(
           {
             "Name": "BerserkDuration",
             "LocalizedName": "db9c15c0c2924539babe9cb4e5894129",
-            "SortID": 2,
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "3",
@@ -5216,7 +5326,7 @@ const _gameplay = _(
           {
             "Name": "Haste",
             "LocalizedName": "2d69eb51423e4f0d8410e80c274a747f",
-            "SortID": 2,
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "ModifierPercent",
             "Value": "50",
@@ -5225,10 +5335,28 @@ const _gameplay = _(
           {
             "Name": "InvulnerableDuration",
             "LocalizedName": "9edc22588ea2448aa0fcffd95c740643",
-            "SortID": 1,
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "1",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "Berserk",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ReferenceValue",
+            "UnitType": "Standard",
+            "Value": "5ba9908aca97424f91ae8a789ebbca22",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "AttackSpeed",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "ModifierPercent",
+            "Value": "33",
             "MaxValue": "{None}"
           }
         ],
@@ -6143,8 +6271,8 @@ const _gameplay = _(
           },
           {
             "Name": "Shells",
-            "LocalizedName": "1f95bca3934d4cdba6033094fa078d1d",
-            "SortID": 1,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
             "Value": "4",
@@ -6203,6 +6331,15 @@ const _gameplay = _(
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
               "Value": "6",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "BonusHealingPerHit",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Standard",
+              "Value": "2",
               "MaxValue": "{None}"
             }
           ],
@@ -6265,7 +6402,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Second",
-              "Value": "3",
+              "Value": "4",
               "MaxValue": "{None}"
             }
           ],
@@ -6373,7 +6510,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "{ Id: 214 Gen: 1}",
+              "Value": "{ Id: 203 Gen: 1}",
               "MaxValue": "{None}"
             },
             {
@@ -6401,33 +6538,6 @@ const _gameplay = _(
               "ValueType": "ConstantValue",
               "UnitType": "Second",
               "Value": "2",
-              "MaxValue": "{None}"
-            }
-          ],
-          "icon": "13fbbdb9e7cbde8429053e33e1022fa8",
-          "abilitySlot": "4"
-        },
-        {
-          "typeID": 1976499716,
-          "name": "09e534150c944139965c564e14052877",
-          "description": "ba23dbfc940a48ff9c714bd7ed07e4a1",
-          "tooltipData": [
-            {
-              "Name": "Immobilize",
-              "LocalizedName": "00000000000000000000000000000000",
-              "SortID": 0,
-              "ValueType": "ReferenceValue",
-              "UnitType": "Standard",
-              "Value": "0393817baad8475c802924bce807e412",
-              "MaxValue": "{None}"
-            },
-            {
-              "Name": "ImmobilizeDuration",
-              "LocalizedName": "00000000000000000000000000000000",
-              "SortID": 0,
-              "ValueType": "ConstantValue",
-              "UnitType": "Second",
-              "Value": "1.2",
               "MaxValue": "{None}"
             }
           ],
@@ -6473,6 +6583,15 @@ const _gameplay = _(
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
               "Value": "6",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "ImmobilizeDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "1.2",
               "MaxValue": "{None}"
             }
           ],
@@ -6533,24 +6652,6 @@ const _gameplay = _(
           "abilitySlot": "6"
         },
         {
-          "typeID": 737287363,
-          "name": "cb867c8bd66c4c59abb121656a0dde7f",
-          "description": "f0289151caa94ef99a1ff05a0fdce874",
-          "tooltipData": [
-            {
-              "Name": "BonusHealing",
-              "LocalizedName": "00000000000000000000000000000000",
-              "SortID": 0,
-              "ValueType": "ConstantValue",
-              "UnitType": "Standard",
-              "Value": "3",
-              "MaxValue": "{None}"
-            }
-          ],
-          "icon": "76c658cdb74fac345b0629a77fd6fc91",
-          "abilitySlot": "0"
-        },
-        {
           "typeID": 1948858917,
           "name": "a36f1367049e41d690140c585f37e205",
           "description": "164a3277a05e4243a60e49ac701d9bfa",
@@ -6566,7 +6667,7 @@ const _gameplay = _(
             }
           ],
           "icon": "76c658cdb74fac345b0629a77fd6fc91",
-          "abilitySlot": "999"
+          "abilitySlot": "0"
         },
         {
           "typeID": 339423991,
@@ -6748,7 +6849,7 @@ const _gameplay = _(
           {
             "Name": "EnergyGain",
             "LocalizedName": "d1483421b93940a38871e8c48f0f7ea3",
-            "SortID": 1,
+            "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Percent",
             "Value": "6",
@@ -6762,6 +6863,15 @@ const _gameplay = _(
             "UnitType": "Standard",
             "Value": "16",
             "MaxValue": "{None}"
+          },
+          {
+            "Name": "AirTime",
+            "LocalizedName": "56ffe227681a4a149b5c946aa00d3d30",
+            "SortID": 1,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "0.3",
+            "MaxValue": "0.2"
           }
         ],
         "icon": "20a56e00c06f90748afa2bd1f763ebf2",
@@ -6782,12 +6892,12 @@ const _gameplay = _(
             "MaxValue": "{None}"
           },
           {
-            "Name": "SnareDuration",
-            "LocalizedName": "4ebf1051cd744b88a70ce7ff53ffcfa8",
-            "SortID": 1,
-            "ValueType": "ConstantValue",
-            "UnitType": "Second",
-            "Value": "1.5",
+            "Name": "GradualSlow",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ReferenceValue",
+            "UnitType": "Standard",
+            "Value": "e6ee239b70b64b0cbdd9525e06acda60",
             "MaxValue": "{None}"
           },
           {
@@ -6832,7 +6942,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
-            "Value": "2",
+            "Value": "1.5",
             "MaxValue": "{None}"
           },
           {
@@ -6918,7 +7028,7 @@ const _gameplay = _(
         "tooltipData": [
           {
             "Name": "Delay",
-            "LocalizedName": "c2f75a279186454aa0ad062ef601c9bf",
+            "LocalizedName": "56ffe227681a4a149b5c946aa00d3d30",
             "SortID": 1,
             "ValueType": "AdditiveValue",
             "UnitType": "Second",
@@ -7237,7 +7347,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "{ Id: 218 Gen: 1}",
+              "Value": "{ Id: 207 Gen: 1}",
               "MaxValue": "{None}"
             },
             {
@@ -8720,8 +8830,8 @@ const _gameplay = _(
           },
           {
             "Name": "AreaDuration",
-            "LocalizedName": "aa7baa3208074a46b9be729e471f840e",
-            "SortID": 1,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "4",
@@ -8734,6 +8844,24 @@ const _gameplay = _(
             "ValueType": "ReferenceValue",
             "UnitType": "Standard",
             "Value": "4c898668b22b487786e7382d634603e7",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "TotalDamage",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "MultiplativeValue",
+            "UnitType": "Standard",
+            "Value": "24",
+            "MaxValue": "8"
+          },
+          {
+            "Name": "TotalDuration",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "4",
             "MaxValue": "{None}"
           }
         ],
@@ -8851,7 +8979,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "3",
+              "Value": "4",
               "MaxValue": "{None}"
             }
           ],
@@ -9071,21 +9199,21 @@ const _gameplay = _(
           "description": "a3380d639b1444eda8ee35761112c3f4",
           "tooltipData": [
             {
-              "Name": "Judgement",
+              "Name": "CooldownReduction",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "3",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "Corruption",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ReferenceValue",
               "UnitType": "Standard",
-              "Value": "4adfb0c9a309466ab562f42159503c3b",
-              "MaxValue": "{None}"
-            },
-            {
-              "Name": "AmplifyFactor",
-              "LocalizedName": "00000000000000000000000000000000",
-              "SortID": 0,
-              "ValueType": "ConstantValue",
-              "UnitType": "ModifierPercent",
-              "Value": "15",
+              "Value": "58f6ad5625304397af45d34aa0fb2552",
               "MaxValue": "{None}"
             },
             {
@@ -9095,6 +9223,15 @@ const _gameplay = _(
               "ValueType": "ConstantValue",
               "UnitType": "Second",
               "Value": "5",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "WeakenFactor",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "15",
               "MaxValue": "{None}"
             }
           ],
@@ -9134,21 +9271,12 @@ const _gameplay = _(
           "description": "7a5e37c17d9c45beabe9d5f287c1b23c",
           "tooltipData": [
             {
-              "Name": "DebuffFactor1",
+              "Name": "FactorBonus",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "ModifierPercent",
-              "Value": "15",
-              "MaxValue": "{None}"
-            },
-            {
-              "Name": "DebuffFactor2",
-              "LocalizedName": "00000000000000000000000000000000",
-              "SortID": 0,
-              "ValueType": "ConstantValue",
-              "UnitType": "ModifierPercent",
-              "Value": "{None}",
+              "Value": "5",
               "MaxValue": "{None}"
             }
           ],
@@ -9370,8 +9498,8 @@ const _gameplay = _(
         "tooltipData": [
           {
             "Name": "Duration",
-            "LocalizedName": "a1875cef6de04fb391bf2228dfe0e71b",
-            "SortID": 1,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "2.5",
@@ -9416,7 +9544,7 @@ const _gameplay = _(
           {
             "Name": "CounterDuration",
             "LocalizedName": "a307304ca3ed4c0db9d232cf2580f450",
-            "SortID": 2,
+            "SortID": 1,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "1.2",
@@ -9425,7 +9553,7 @@ const _gameplay = _(
           {
             "Name": "AirDuration",
             "LocalizedName": "56ffe227681a4a149b5c946aa00d3d30",
-            "SortID": 1,
+            "SortID": 2,
             "ValueType": "AdditiveValue",
             "UnitType": "Second",
             "Value": "0.8",
@@ -9437,7 +9565,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
-            "Value": "8",
+            "Value": "6",
             "MaxValue": "{None}"
           },
           {
@@ -9446,7 +9574,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
-            "Value": "8",
+            "Value": "6",
             "MaxValue": "{None}"
           },
           {
@@ -9518,7 +9646,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
-            "Value": "8",
+            "Value": "6",
             "MaxValue": "{None}"
           },
           {
@@ -9527,7 +9655,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
-            "Value": "8",
+            "Value": "6",
             "MaxValue": "{None}"
           },
           {
@@ -9581,7 +9709,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
-            "Value": "8",
+            "Value": "6",
             "MaxValue": "{None}"
           },
           {
@@ -9590,7 +9718,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
-            "Value": "8",
+            "Value": "6",
             "MaxValue": "{None}"
           }
         ],
@@ -10179,8 +10307,8 @@ const _gameplay = _(
         "tooltipData": [
           {
             "Name": "Duration",
-            "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
-            "SortID": 1,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "2.5",
@@ -10279,7 +10407,7 @@ const _gameplay = _(
           {
             "Name": "RecastDuration",
             "LocalizedName": "dd7bc1a2cae2405a9d5038f95fe638d8",
-            "SortID": 1,
+            "SortID": 3,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "3",
@@ -10288,7 +10416,7 @@ const _gameplay = _(
           {
             "Name": "Delay",
             "LocalizedName": "c2f75a279186454aa0ad062ef601c9bf",
-            "SortID": 2,
+            "SortID": 1,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "1",
@@ -10413,12 +10541,39 @@ const _gameplay = _(
               "MaxValue": "{None}"
             },
             {
-              "Name": "Duration",
+              "Name": "Duration2",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Second",
-              "Value": "1.2",
+              "Value": "2",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "Duration1",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "1.5",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "SlowFactor1",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "25",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "SlowFactor2",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "40",
               "MaxValue": "{None}"
             }
           ],
@@ -10582,6 +10737,15 @@ const _gameplay = _(
               "UnitType": "Standard",
               "Value": "12",
               "MaxValue": "{None}"
+            },
+            {
+              "Name": "ShieldDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "4",
+              "MaxValue": "{None}"
             }
           ],
           "icon": "1d95f324f635c9447a68299999e8597e",
@@ -10726,7 +10890,7 @@ const _gameplay = _(
             "ValueType": "RangeValue",
             "UnitType": "Standard",
             "Value": "8",
-            "MaxValue": "32"
+            "MaxValue": "30"
           },
           {
             "Name": "MaxChargeDuration",
@@ -10950,7 +11114,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
-            "Value": "1.2",
+            "Value": "1.5",
             "MaxValue": "{None}"
           },
           {
@@ -10959,7 +11123,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "ModifierPercent",
-            "Value": "50",
+            "Value": "25",
             "MaxValue": "{None}"
           },
           {
@@ -10968,7 +11132,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
-            "Value": "1.2",
+            "Value": "1.5",
             "MaxValue": "{None}"
           }
         ],
@@ -11082,6 +11246,717 @@ const _gameplay = _(
         ],
         "icon": "42cc3b8250720424a9eca9dd5976bcf5",
         "icon128": "00f3209be1d16c7408fddb035ff74d17"
+      }
+    },
+    {
+      "typeID": 1496688063,
+      "name": "f18695e2f3b64d37a8a0e085db007eac",
+      "devName": "MirrorMage",
+      "title": "3933e8fc48804c61974177dd84207e6c",
+      "description": "2f5e23c7838d4f2a9ed80673d1a8ea27",
+      "icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "wideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "battlerites": [
+        {
+          "typeID": 87341220,
+          "name": "9a219758e56046a5bf6b6fc7f40d347e",
+          "description": "3639be266891433f941e60d1c2ce9940",
+          "tooltipData": [
+            {
+              "Name": "Health",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Standard",
+              "Value": "10",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "Duration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "1",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "2632a24f2167af14f9869abb401dd67f",
+          "abilitySlot": "2"
+        },
+        {
+          "typeID": 1506154007,
+          "name": "057a72186f144469865f2291ee4ffd5b",
+          "description": "a62360cc36af425e90e89831ed8838c7",
+          "tooltipData": [
+            {
+              "Name": "ShieldValue",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Standard",
+              "Value": "12",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "Duration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "3",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "af5ff3eb2bad4b04a9c6dd30739068e6",
+          "abilitySlot": "3"
+        },
+        {
+          "typeID": 595343721,
+          "name": "3622635508304cb98a8d5cb2dd283ee6",
+          "description": "2e0a01f1e0c2415398a39ab9f88f000e",
+          "tooltipData": [
+            {
+              "Name": "BonusDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "1.2",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "1180e87d69492d442afaa79cbba36746",
+          "abilitySlot": "4"
+        },
+        {
+          "typeID": 811462613,
+          "name": "321c0753d4964bb99c92574f515456a0",
+          "description": "dfdf7a953ea14d97b5dbe80fc4a503c0",
+          "tooltipData": [
+            {
+              "Name": "StunDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "1.2",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "f1c30ae8ed08c2847bf669726f9f478f",
+          "abilitySlot": "5"
+        },
+        {
+          "typeID": 872856903,
+          "name": "f41575377de54da4ba5cf5b8f748a725",
+          "description": "03c50c02a9f647e9bf6e659089f0a04c",
+          "tooltipData": [],
+          "icon": "a970261549d4e2b4c923db1944ac2e4b",
+          "abilitySlot": "1"
+        },
+        {
+          "typeID": 772055103,
+          "name": "2c8f7f775cac4c68a415f029c3690b67",
+          "description": "8b7e7171fbfe4de8b8d3476e8683e850",
+          "tooltipData": [
+            {
+              "Name": "BonusFactor",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "7",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "BonusDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "1",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "a970261549d4e2b4c923db1944ac2e4b",
+          "abilitySlot": "1"
+        },
+        {
+          "typeID": 1693818272,
+          "name": "1e9b955e6ea14741a24c4b29665e1e24",
+          "description": "f21965ceb71443549d7023011d1c2cd3",
+          "tooltipData": [
+            {
+              "Name": "Damage",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Standard",
+              "Value": "12",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "StunDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "0.5",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "BigDamage",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Standard",
+              "Value": "20",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "BigStunDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "1",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "2632a24f2167af14f9869abb401dd67f",
+          "abilitySlot": "2"
+        },
+        {
+          "typeID": 88894505,
+          "name": "0a538a32aaf54247ba2171203292eaa9",
+          "description": "17a4e984bc0c4481babd65908cc49b26",
+          "tooltipData": [
+            {
+              "Name": "BonusFactor",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "{None}",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "BonusDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "{None}",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "1180e87d69492d442afaa79cbba36746",
+          "abilitySlot": "4"
+        },
+        {
+          "typeID": 1154610081,
+          "name": "09f87aa327694040af9c77875e2777db",
+          "description": "31257de0240c40acaeadb26ab55041c0",
+          "tooltipData": [
+            {
+              "Name": "Duration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "2",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "HasteFactor",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "50",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "af5ff3eb2bad4b04a9c6dd30739068e6",
+          "abilitySlot": "3"
+        },
+        {
+          "typeID": 1448312839,
+          "name": "d1d41c74eadc4df2949175e37523e164",
+          "description": "9a48238ead8349db83a6655bda9275ac",
+          "tooltipData": [
+            {
+              "Name": "SlowFactor",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "15",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "1180e87d69492d442afaa79cbba36746",
+          "abilitySlot": "4"
+        },
+        {
+          "typeID": 1024961155,
+          "name": "3ca35a1e70b64c3d97e028766f9ca6af",
+          "description": "6095df2550c04fd1b74422679c293eef",
+          "tooltipData": [
+            {
+              "Name": "HotHealing",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Standard",
+              "Value": "6",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "144efc709ac628542aee319b14932b2c",
+          "abilitySlot": "0"
+        },
+        {
+          "typeID": 1892915222,
+          "name": "d7132d4175b841e0ba01b3670fe9ea29",
+          "description": "d240ad0361d44662a5bb54a9f061f4db",
+          "tooltipData": [
+            {
+              "Name": "DamageFactor",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "{None}",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "2632a24f2167af14f9869abb401dd67f",
+          "abilitySlot": "2"
+        },
+        {
+          "typeID": 1120520824,
+          "name": "7bf11eccfdcb46a69d014a144de1e187",
+          "description": "22d944a7f8f148f49f905d9126122d39",
+          "tooltipData": [
+            {
+              "Name": "ShieldValue",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Standard",
+              "Value": "20",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "Duration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "3",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "4ac237c3c5acfcc4abca26dcc26854ec",
+          "abilitySlot": "6"
+        },
+        {
+          "typeID": 120265487,
+          "name": "dab08cc139954c908792ea1506e2f10f",
+          "description": "2d5f0266049e4d48ac467af6f870c956",
+          "tooltipData": [],
+          "icon": "af5ff3eb2bad4b04a9c6dd30739068e6",
+          "abilitySlot": "3"
+        },
+        {
+          "typeID": 982286593,
+          "name": "fb77b6ff2fce497295304cb8eff66d1e",
+          "description": "af3dac898afe436782fb5a9325984fc8",
+          "tooltipData": [
+            {
+              "Name": "RangeFactor",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "10",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "BounceAmount",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Standard",
+              "Value": "1",
+              "MaxValue": "{None}"
+            }
+          ],
+          "icon": "a970261549d4e2b4c923db1944ac2e4b",
+          "abilitySlot": "1"
+        }
+      ],
+      "ability1": {
+        "typeID": 1987108759,
+        "name": "d329dc38ca134675a7ac2fbc3bae73e2",
+        "description": "bf9d9305b094451f8e176541487341d5",
+        "tooltipData": [
+          {
+            "Name": "Damage",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Standard",
+            "Value": "6",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "EnergyGain",
+            "LocalizedName": "d1483421b93940a38871e8c48f0f7ea3",
+            "SortID": 1,
+            "ValueType": "AdditiveValue",
+            "UnitType": "Percent",
+            "Value": "6",
+            "MaxValue": "3"
+          },
+          {
+            "Name": "Healing",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Standard",
+            "Value": "5",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "SelfHealing",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Standard",
+            "Value": "2",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "HeartBuff",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ReferenceValue",
+            "UnitType": "Standard",
+            "Value": "50345501d792477881f9e33e12789074",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "FortifyFactor",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "ModifierPercent",
+            "Value": "15",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "FortifyDuration",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "4",
+            "MaxValue": "{None}"
+          }
+        ],
+        "icon": "ded797cc5282a984e82c16751ac20093",
+        "icon128": "144efc709ac628542aee319b14932b2c"
+      },
+      "ability2": {
+        "typeID": 1501923214,
+        "name": "09aee4cd6ac0488895081d2310c62ae8",
+        "description": "43d3606dd4b948b3819a68b050018fea",
+        "tooltipData": [
+          {
+            "Name": "Damage",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Standard",
+            "Value": "28",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "EnergyGain",
+            "LocalizedName": "d1483421b93940a38871e8c48f0f7ea3",
+            "SortID": 2,
+            "ValueType": "ConstantValue",
+            "UnitType": "Percent",
+            "Value": "10",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "CooldownReduction",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "{None}",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "ReducePercent",
+            "LocalizedName": "d2a07fd6b5284efc9dc826e763f3c006",
+            "SortID": 1,
+            "ValueType": "ConstantValue",
+            "UnitType": "ModifierPercent",
+            "Value": "40",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "ArcaneCatalyst",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ReferenceValue",
+            "UnitType": "Standard",
+            "Value": "6fa84d23668c41eca3e64c5711ed48db",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "AmplifyFactor",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "ModifierPercent",
+            "Value": "13",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "AmplifyDuration",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "3",
+            "MaxValue": "{None}"
+          }
+        ],
+        "icon": "b5dc44da8d9717f438e4839b6580da91",
+        "icon128": "a970261549d4e2b4c923db1944ac2e4b"
+      },
+      "ability3": {
+        "typeID": 646180756,
+        "name": "ff3cf1863cfe42d5b238fe692e85b6f7",
+        "description": "2b8b42b7abf444168d03c19386cb598d",
+        "tooltipData": [
+          {
+            "Name": "Duration",
+            "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
+            "SortID": 3,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "4",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "Health",
+            "LocalizedName": "76a7e8fb73c546098f3c1fcf47f1bceb",
+            "SortID": 2,
+            "ValueType": "ConstantValue",
+            "UnitType": "Standard",
+            "Value": "30",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "AirTime",
+            "LocalizedName": "56ffe227681a4a149b5c946aa00d3d30",
+            "SortID": 1,
+            "ValueType": "AdditiveValue",
+            "UnitType": "Second",
+            "Value": "0.7",
+            "MaxValue": "0.3"
+          },
+          {
+            "Name": "Illusion",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ReferenceValue",
+            "UnitType": "Standard",
+            "Value": "89d5b66cd00b4145be86cb02c59f8f77",
+            "MaxValue": "{None}"
+          }
+        ],
+        "icon": "b86f24f8669de7f4fab2c8e4aef57fd1",
+        "icon128": "2632a24f2167af14f9869abb401dd67f"
+      },
+      "ability4": {
+        "typeID": 450000284,
+        "name": "a7986957715f4a22bccc785bd7010f60",
+        "description": "8f140c2d79504e93bb829e7028c95312",
+        "tooltipData": [
+          {
+            "Name": "RecastDuration",
+            "LocalizedName": "dd7bc1a2cae2405a9d5038f95fe638d8",
+            "SortID": 3,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "4",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "Duration",
+            "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
+            "SortID": 1,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "4",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "DurationIncrease",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "1",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "Healing",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Standard",
+            "Value": "{None}",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "PortalDelay",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "AdditiveValue",
+            "UnitType": "Second",
+            "Value": "1.5",
+            "MaxValue": "0.5"
+          }
+        ],
+        "icon": "74279d22d6068ad4f8302c1409244179",
+        "icon128": "af5ff3eb2bad4b04a9c6dd30739068e6"
+      },
+      "ability5": {
+        "typeID": 1554784212,
+        "name": "8ecd584bc81c455ab15673dc86203233",
+        "description": "f441f1f3bf8240d7ad12ff3cecd125f2",
+        "tooltipData": [
+          {
+            "Name": "Duration",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "2.5",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "EnergyGain",
+            "LocalizedName": "d1483421b93940a38871e8c48f0f7ea3",
+            "SortID": 2,
+            "ValueType": "ConstantValue",
+            "UnitType": "Percent",
+            "Value": "6",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "ImpactDelay",
+            "LocalizedName": "c2f75a279186454aa0ad062ef601c9bf",
+            "SortID": 1,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "0.8",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "DamageLimit",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Standard",
+            "Value": "20",
+            "MaxValue": "{None}"
+          }
+        ],
+        "icon": "bf4c37c6dda0f9d4881c3b2e736482cc",
+        "icon128": "1180e87d69492d442afaa79cbba36746"
+      },
+      "ability6": {
+        "typeID": 1669070614,
+        "name": "4a5e7a5be5944dd9b02533fc5a991d8a",
+        "description": "da614f9ea7314058b5fd72411ba1b6d3",
+        "tooltipData": [
+          {
+            "Name": "Duration",
+            "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
+            "SortID": 1,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "2",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "HasteFactor",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "ModifierPercent",
+            "Value": "80",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "DamageLimit",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Standard",
+            "Value": "0",
+            "MaxValue": "{None}"
+          }
+        ],
+        "icon": "e8fb5cd11266dee42820bc431e15424b",
+        "icon128": "f1c30ae8ed08c2847bf669726f9f478f"
+      },
+      "ability7": {
+        "typeID": 1749310323,
+        "name": "fdfa3ccd1f0049c4acc3a8c8967eceb6",
+        "description": "4d55fb3a8faa468086837aa5931a5d0f",
+        "tooltipData": [
+          {
+            "Name": "Duration",
+            "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
+            "SortID": 2,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "6",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "Health",
+            "LocalizedName": "76a7e8fb73c546098f3c1fcf47f1bceb",
+            "SortID": 1,
+            "ValueType": "ConstantValue",
+            "UnitType": "Standard",
+            "Value": "50",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "GranderIllusion",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ReferenceValue",
+            "UnitType": "Standard",
+            "Value": "aad94a46969649b2a1bdbf2e9d133af6",
+            "MaxValue": "{None}"
+          }
+        ],
+        "icon": "2664ec61a1dd3b44dafd91a7f2fd37bd",
+        "icon128": "4ac237c3c5acfcc4abca26dcc26854ec"
       }
     },
     {
@@ -11678,10 +12553,10 @@ const _gameplay = _(
             "Name": "Duration",
             "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
             "SortID": 1,
-            "ValueType": "ConstantValue",
+            "ValueType": "AdditiveValue",
             "UnitType": "Second",
-            "Value": "0.35",
-            "MaxValue": "{None}"
+            "Value": "1.35",
+            "MaxValue": "1"
           }
         ],
         "icon": "12b067be20cefc649bc50e3a1af0ac06",
@@ -11905,7 +12780,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "ModifierPercent",
-              "Value": "40",
+              "Value": "33",
               "MaxValue": "{None}"
             },
             {
@@ -11914,7 +12789,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "ModifierPercent",
-              "Value": "25",
+              "Value": "20",
               "MaxValue": "{None}"
             }
           ],
@@ -12022,7 +12897,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "ModifierPercent",
-              "Value": "20",
+              "Value": "10",
               "MaxValue": "{None}"
             }
           ],
@@ -12234,8 +13109,8 @@ const _gameplay = _(
           },
           {
             "Name": "SoulBindDuration",
-            "LocalizedName": "79d0fde943014ed3b5530ae64a6db049",
-            "SortID": 2,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "6",
@@ -12244,7 +13119,7 @@ const _gameplay = _(
           {
             "Name": "Energy Gain",
             "LocalizedName": "d1483421b93940a38871e8c48f0f7ea3",
-            "SortID": 4,
+            "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Percent",
             "Value": "6",
@@ -12306,8 +13181,8 @@ const _gameplay = _(
           },
           {
             "Name": "Spiritlinkduration",
-            "LocalizedName": "e7ac1cd88cc44e45af9c120f6a8a7f4e",
-            "SortID": 3,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "6",
@@ -12490,7 +13365,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
-            "Value": "{ Id: 270 Gen: 1}",
+            "Value": "{ Id: 259 Gen: 1}",
             "MaxValue": "{None}"
           },
           {
@@ -12531,8 +13406,8 @@ const _gameplay = _(
           },
           {
             "Name": "SoulBindDuration",
-            "LocalizedName": "79d0fde943014ed3b5530ae64a6db049",
-            "SortID": 2,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "6",
@@ -12541,7 +13416,7 @@ const _gameplay = _(
           {
             "Name": "EnergyGain",
             "LocalizedName": "d1483421b93940a38871e8c48f0f7ea3",
-            "SortID": 3,
+            "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Percent",
             "Value": "5",
@@ -13131,6 +14006,15 @@ const _gameplay = _(
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "3",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "MaxCharges",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Standard",
+            "Value": "4",
             "MaxValue": "{None}"
           }
         ],
@@ -13727,6 +14611,15 @@ const _gameplay = _(
               "UnitType": "Standard",
               "Value": "16",
               "MaxValue": "{None}"
+            },
+            {
+              "Name": "ShieldDuration",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Second",
+              "Value": "3",
+              "MaxValue": "{None}"
             }
           ],
           "icon": "11106dc7b3c44144c94a5cfa08bbb84f",
@@ -14271,7 +15164,7 @@ const _gameplay = _(
           {
             "Name": "ShieldAmountStatic",
             "LocalizedName": "77c366ff2d87487088d10616141a5f21",
-            "SortID": 1,
+            "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
             "Value": "14",
@@ -14280,7 +15173,7 @@ const _gameplay = _(
           {
             "Name": "ShieldDuration",
             "LocalizedName": "a1875cef6de04fb391bf2228dfe0e71b",
-            "SortID": 1,
+            "SortID": 3,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "3",
@@ -14337,8 +15230,8 @@ const _gameplay = _(
             "SortID": 1,
             "ValueType": "AdditiveValue",
             "UnitType": "Second",
-            "Value": "0.4",
-            "MaxValue": "0.1"
+            "Value": "0.9",
+            "MaxValue": "0.6"
           }
         ],
         "icon": "5aca1d169f1f9854ab094752d5d17eeb",
@@ -14984,11 +15877,20 @@ const _gameplay = _(
           {
             "Name": "EnergyGain",
             "LocalizedName": "d1483421b93940a38871e8c48f0f7ea3",
-            "SortID": 1,
+            "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Percent",
             "Value": "10",
             "MaxValue": "2"
+          },
+          {
+            "Name": "ImpactDelay",
+            "LocalizedName": "c2f75a279186454aa0ad062ef601c9bf",
+            "SortID": 1,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "0.6",
+            "MaxValue": "{None}"
           }
         ],
         "icon": "646de184359cbd448b756591198112f6",
@@ -15712,9 +16614,9 @@ const _gameplay = _(
             "MaxValue": "{None}"
           },
           {
-            "Name": "Duration",
+            "Name": "ImmaterialDuration",
             "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
-            "SortID": 1,
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "1.3",
@@ -15722,11 +16624,20 @@ const _gameplay = _(
           },
           {
             "Name": "DamageReduction",
-            "LocalizedName": "d9e2621aa45a4ef5b15ef6acc45f2201",
-            "SortID": 1,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "ModifierPercent",
             "Value": "50",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "Immaterial",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ReferenceValue",
+            "UnitType": "Standard",
+            "Value": "5c1d72c2891b43008334207eb7f9f12c",
             "MaxValue": "{None}"
           }
         ],
@@ -15787,7 +16698,7 @@ const _gameplay = _(
             "Name": "Immaterial",
             "LocalizedName": "00000000000000000000000000000000",
             "SortID": 0,
-            "ValueType": "ReferenceValue",
+            "ValueType": "ConstantValue",
             "UnitType": "Standard",
             "Value": "5c1d72c2891b43008334207eb7f9f12c",
             "MaxValue": "{None}"
@@ -15816,7 +16727,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ReferenceValue",
             "UnitType": "Standard",
-            "Value": "c9dc7588a36540389a45a4282bd3ef8b",
+            "Value": "43549f3caadf47389a7eec8e3a3ab2d8",
             "MaxValue": "{None}"
           }
         ],
@@ -15903,7 +16814,7 @@ const _gameplay = _(
           {
             "Name": "SpeedPercent",
             "LocalizedName": "2d69eb51423e4f0d8410e80c274a747f",
-            "SortID": 1,
+            "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "ModifierPercent",
             "Value": "20",
@@ -16292,10 +17203,10 @@ const _gameplay = _(
               "Name": "Healing",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
-              "ValueType": "ConstantValue",
+              "ValueType": "MultiplativeValue",
               "UnitType": "Standard",
-              "Value": "4",
-              "MaxValue": "{None}"
+              "Value": "32",
+              "MaxValue": "8"
             }
           ],
           "icon": "09c45aed2b0414a42a18c1b81c9e589a",
@@ -16454,7 +17365,7 @@ const _gameplay = _(
           {
             "Name": "RecastDuration",
             "LocalizedName": "dd7bc1a2cae2405a9d5038f95fe638d8",
-            "SortID": 1,
+            "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "1.8",
@@ -16481,7 +17392,7 @@ const _gameplay = _(
           {
             "Name": "Duration",
             "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
-            "SortID": 2,
+            "SortID": 1,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "1.5",
@@ -16499,7 +17410,7 @@ const _gameplay = _(
           {
             "Name": "Charges",
             "LocalizedName": "24d5ab8752df490684916d178557755b",
-            "SortID": 1,
+            "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
             "Value": "6",
@@ -16648,6 +17559,15 @@ const _gameplay = _(
             "UnitType": "Second",
             "Value": "2",
             "MaxValue": "{None}"
+          },
+          {
+            "Name": "ImpactDelay",
+            "LocalizedName": "c2f75a279186454aa0ad062ef601c9bf",
+            "SortID": 1,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "0.2",
+            "MaxValue": "{None}"
           }
         ],
         "icon": "edc47529509153e4d8555ffd4ba44347",
@@ -16684,6 +17604,15 @@ const _gameplay = _(
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
               "Value": "10",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "SlicingWind",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ReferenceValue",
+              "UnitType": "Standard",
+              "Value": "c3852ddc5b6b444caf1a2e21695f0944",
               "MaxValue": "{None}"
             }
           ],
@@ -16857,7 +17786,7 @@ const _gameplay = _(
               "MaxValue": "{None}"
             },
             {
-              "Name": "Health",
+              "Name": "Healing",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
@@ -16875,12 +17804,21 @@ const _gameplay = _(
               "MaxValue": "{None}"
             },
             {
-              "Name": "Healing",
+              "Name": "Health",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
               "Value": "4",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "SlicingWind",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ReferenceValue",
+              "UnitType": "Standard",
+              "Value": "c3852ddc5b6b444caf1a2e21695f0944",
               "MaxValue": "{None}"
             }
           ],
@@ -17599,10 +18537,10 @@ const _gameplay = _(
               "Name": "Duration",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
-              "ValueType": "ConstantValue",
+              "ValueType": "AdditiveValue",
               "UnitType": "Second",
               "Value": "1.25",
-              "MaxValue": "{None}"
+              "MaxValue": "-0.5"
             }
           ],
           "icon": "1ab62461fd3d7784f99630bc3350498c",
@@ -17614,7 +18552,7 @@ const _gameplay = _(
           "description": "d4896106bc7f420c99cae377db25b18e",
           "tooltipData": [
             {
-              "Name": "HotHealing",
+              "Name": "Healing",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
@@ -17641,12 +18579,21 @@ const _gameplay = _(
               "MaxValue": "{None}"
             },
             {
-              "Name": "Duration",
+              "Name": "EntangleDuration",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Second",
               "Value": "1.25",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "ShieldAmount",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "Standard",
+              "Value": "20",
               "MaxValue": "{None}"
             }
           ],
@@ -17737,7 +18684,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "RangeValue",
             "UnitType": "Standard",
-            "Value": "{ Id: 322 Gen: 1}",
+            "Value": "{ Id: 313 Gen: 1}",
             "MaxValue": "{None}"
           },
           {
@@ -17746,7 +18693,7 @@ const _gameplay = _(
             "SortID": 1,
             "ValueType": "ConstantValue",
             "UnitType": "Percent",
-            "Value": "7",
+            "Value": "6",
             "MaxValue": "{None}"
           },
           {
@@ -18066,7 +19013,7 @@ const _gameplay = _(
         "tooltipData": [
           {
             "Name": "Duration",
-            "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
+            "LocalizedName": "a1875cef6de04fb391bf2228dfe0e71b",
             "SortID": 2,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
@@ -18156,8 +19103,8 @@ const _gameplay = _(
           },
           {
             "Name": "AreaDuration",
-            "LocalizedName": "8b0e039898a94e3f83c4e38ce0162bfe",
-            "SortID": 1,
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "3.5",
@@ -18255,12 +19202,21 @@ const _gameplay = _(
           "description": "9e9447ba7ea54b6aa3c53aca0fba20e6",
           "tooltipData": [
             {
-              "Name": "Duration",
+              "Name": "GradualSlowDuration",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Second",
               "Value": "1.2",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "GradualSlow",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ReferenceValue",
+              "UnitType": "Standard",
+              "Value": "e6ee239b70b64b0cbdd9525e06acda60",
               "MaxValue": "{None}"
             }
           ],
@@ -18348,7 +19304,7 @@ const _gameplay = _(
               "Name": "BonusDamage",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
-              "ValueType": "SubtractiveValue",
+              "ValueType": "ConstantValue",
               "UnitType": "Standard",
               "Value": "3",
               "MaxValue": "22"
@@ -18444,21 +19400,21 @@ const _gameplay = _(
           "description": "e0f1220ce1a245ea97a7dddb75c4cc07",
           "tooltipData": [
             {
-              "Name": "StunDuration",
+              "Name": "SlowDuration",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Second",
-              "Value": "0.6",
+              "Value": "2.5",
               "MaxValue": "{None}"
             },
             {
-              "Name": "Stun",
+              "Name": "Slow",
               "LocalizedName": "00000000000000000000000000000000",
               "SortID": 0,
               "ValueType": "ReferenceValue",
               "UnitType": "Standard",
-              "Value": "4c898668b22b487786e7382d634603e7",
+              "Value": "b5b19aeaa91c4354a330bd761a1f0d86",
               "MaxValue": "{None}"
             },
             {
@@ -18467,7 +19423,16 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "2",
+              "Value": "6",
+              "MaxValue": "{None}"
+            },
+            {
+              "Name": "SlowPercent",
+              "LocalizedName": "00000000000000000000000000000000",
+              "SortID": 0,
+              "ValueType": "ConstantValue",
+              "UnitType": "ModifierPercent",
+              "Value": "15",
               "MaxValue": "{None}"
             }
           ],
@@ -18530,7 +19495,7 @@ const _gameplay = _(
               "SortID": 0,
               "ValueType": "ConstantValue",
               "UnitType": "Standard",
-              "Value": "16",
+              "Value": "12",
               "MaxValue": "{None}"
             }
           ],
@@ -18864,7 +19829,7 @@ const _gameplay = _(
             "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Standard",
-            "Value": "16",
+            "Value": "12",
             "MaxValue": "{None}"
           },
           {
@@ -18874,6 +19839,24 @@ const _gameplay = _(
             "ValueType": "ConstantValue",
             "UnitType": "Percent",
             "Value": "6",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "Stun",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ReferenceValue",
+            "UnitType": "Standard",
+            "Value": "4c898668b22b487786e7382d634603e7",
+            "MaxValue": "{None}"
+          },
+          {
+            "Name": "StunDuration",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
+            "ValueType": "ConstantValue",
+            "UnitType": "Second",
+            "Value": "0.45",
             "MaxValue": "{None}"
           }
         ],
@@ -18913,9 +19896,9 @@ const _gameplay = _(
             "MaxValue": "{None}"
           },
           {
-            "Name": "AegisDuration",
-            "LocalizedName": "08ba106f0989406899d27e6e919e70bf",
-            "SortID": 1,
+            "Name": "Duration",
+            "LocalizedName": "00000000000000000000000000000000",
+            "SortID": 0,
             "ValueType": "ConstantValue",
             "UnitType": "Second",
             "Value": "2.5",

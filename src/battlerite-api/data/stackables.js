@@ -1,7 +1,7 @@
 const _ = require('lodash');
 
 const _stackable = _(
-[
+  [
     {
       "LocalizedName": "7e960b795d3a4917829e590246cfec6f",
       "DevName": "Alchemist_Set01_Weapon01",
@@ -2509,6 +2509,13 @@ const _stackable = _(
       "StackableId": 150365
     },
     {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "MirrorMage_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150366
+    },
+    {
       "LocalizedName": "562561b10ee44bf9b34b8eedb678d123",
       "DevName": "Druid_Winter_Weapon01",
       "IdRangeName": "AttachmentEnum",
@@ -3074,6 +3081,104 @@ const _stackable = _(
       "IdRangeName": "AttachmentEnum",
       "StackableRangeName": "Attachments",
       "StackableId": 150449
+    },
+    {
+      "LocalizedName": "98a1987772a54ef4b2f14a3e8d319bf4",
+      "DevName": "MirrorMage_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150450
+    },
+    {
+      "LocalizedName": "99c6ecfbfec540118636aa1b16a16f27",
+      "DevName": "MirrorMage_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150451
+    },
+    {
+      "LocalizedName": "d84518d358ad4be59fd7f9068a74c8a0",
+      "DevName": "MirrorMage_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150452
+    },
+    {
+      "LocalizedName": "3a6a32c8548d4ecc98dd551b840d3732",
+      "DevName": "MirrorMage_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150453
+    },
+    {
+      "LocalizedName": "a997adb4291d4d38bdf25c8e60a39d0f",
+      "DevName": "MirrorMage_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150454
+    },
+    {
+      "LocalizedName": "5b602de256724f9e9b290198cb78419b",
+      "DevName": "MirrorMage_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150456
+    },
+    {
+      "LocalizedName": "b091b21382dd4448a7b3fbfff7fb7650",
+      "DevName": "MirrorMage_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150457
+    },
+    {
+      "LocalizedName": "87abdbf355004acd879998861dd43aac",
+      "DevName": "MirrorMage_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150459
+    },
+    {
+      "LocalizedName": "16751ca4f74c40fab69377df4de2fa3e",
+      "DevName": "MirrorMage_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150460
+    },
+    {
+      "LocalizedName": "40eb0b44d75842a896239db3f1f29ff8",
+      "DevName": "MirrorMage_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150462
+    },
+    {
+      "LocalizedName": "4bdfb483f097443797ca3301cc82dd32",
+      "DevName": "MirrorMage_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150463
+    },
+    {
+      "LocalizedName": "2af5203c99e2411db68f891df37c7ef0",
+      "DevName": "MirrorMage_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150464
+    },
+    {
+      "LocalizedName": "ccecb0e2933945c69588a8092c8a6a67",
+      "DevName": "MirrorMage_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150465
+    },
+    {
+      "LocalizedName": "584b39a6ca004ac1a3f4a5456f778862",
+      "DevName": "MirrorMage_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150466
     },
     {
       "LocalizedName": "2aea55249f7f4aceae189f4f3e8c0328",
@@ -3710,6 +3815,15 @@ const _stackable = _(
       "StackableId": 10031
     },
     {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 10035
+    },
+    {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
       "DevName": "JadeCampaign",
       "IdRangeName": "CharacterEnum",
@@ -3735,6 +3849,1133 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 10041
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Alchemist_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200003
+    },
+    {
+      "LocalizedName": "dad9c93f7d1a4b57848677e19bfc1d1d",
+      "DevName": "VictoryPose_Alchemist_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200004
+    },
+    {
+      "LocalizedName": "7a9381ab35a04bb5a7d9a06211f4d610",
+      "DevName": "VictoryPose_Alchemist_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200005
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Astronomer_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200006
+    },
+    {
+      "LocalizedName": "5d163243fed24c1b9c0a8e9570d4a396",
+      "DevName": "VictoryPose_Astronomer_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200007
+    },
+    {
+      "LocalizedName": "29707f15f6ac4377a631fac362645b10",
+      "DevName": "VictoryPose_Astronomer_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200008
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Engineer_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200009
+    },
+    {
+      "LocalizedName": "9b5e1008e8974595b2b8825f2cb0ead0",
+      "DevName": "VictoryPose_Engineer_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200010
+    },
+    {
+      "LocalizedName": "a7ae322c182345b383579a5951284ebd",
+      "DevName": "VictoryPose_Engineer_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200011
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Glutton_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200012
+    },
+    {
+      "LocalizedName": "3b26472a629f415eb63a234255c39b52",
+      "DevName": "VictoryPose_Glutton_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200013
+    },
+    {
+      "LocalizedName": "b7774161177845cbaf64c566cd2e7eb5",
+      "DevName": "VictoryPose_Glutton_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200014
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Gunner_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200015
+    },
+    {
+      "LocalizedName": "5857b498165c419ea42d8c25579808ee",
+      "DevName": "VictoryPose_Gunner_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200016
+    },
+    {
+      "LocalizedName": "5556c4eca57d4ee4a17d191c43d9f8d9",
+      "DevName": "VictoryPose_Gunner_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200017
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Herald_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200018
+    },
+    {
+      "LocalizedName": "b9da7da1fb434722a0f6d578300e2c20",
+      "DevName": "VictoryPose_Herald_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200019
+    },
+    {
+      "LocalizedName": "07cfbc8336444e8690bb5701ad3654bd",
+      "DevName": "VictoryPose_Herald_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200020
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Igniter_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200021
+    },
+    {
+      "LocalizedName": "380a055b635a41dab09e3aad7abfb5eb",
+      "DevName": "VictoryPose_Igniter_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200022
+    },
+    {
+      "LocalizedName": "3cdb3d763c0e4124be01e6a83d6fcbd0",
+      "DevName": "VictoryPose_Igniter_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200023
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Inhibitor_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200024
+    },
+    {
+      "LocalizedName": "286bf38339f146c199a97f26717811d1",
+      "DevName": "VictoryPose_Inhibitor_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200025
+    },
+    {
+      "LocalizedName": "0b64ced2cbdc4d01bee6d4860e3dbc74",
+      "DevName": "VictoryPose_Inhibitor_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200026
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Inquisitor_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200027
+    },
+    {
+      "LocalizedName": "17e2768a9e5340eead58b950e2bfcae2",
+      "DevName": "VictoryPose_Inquisitor_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200028
+    },
+    {
+      "LocalizedName": "24d80bf4b1194aa7af86385aeb83a8ad",
+      "DevName": "VictoryPose_Inquisitor_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200029
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Nomad_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200030
+    },
+    {
+      "LocalizedName": "8cb2234a62d34eb299f11f6cace64b07",
+      "DevName": "VictoryPose_Nomad_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200031
+    },
+    {
+      "LocalizedName": "12a99654ca78466fba7c73c72eb4fa35",
+      "DevName": "VictoryPose_Nomad_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200032
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Psychopomp_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200033
+    },
+    {
+      "LocalizedName": "e9513b7e5be64a7e95e604a9e7838caf",
+      "DevName": "VictoryPose_Psychopomp_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200034
+    },
+    {
+      "LocalizedName": "a9a866c0adad41d681650962d2b21eea",
+      "DevName": "VictoryPose_Psychopomp_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200035
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Ranid_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200036
+    },
+    {
+      "LocalizedName": "918f19ee124c4b309ee272bf19d26b4c",
+      "DevName": "VictoryPose_Ranid_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200037
+    },
+    {
+      "LocalizedName": "5177b26a752a42169fef9b1333364f14",
+      "DevName": "VictoryPose_Ranid_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200038
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Ravener_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200039
+    },
+    {
+      "LocalizedName": "e5d5796803714e1495c42ce00b5f18db",
+      "DevName": "VictoryPose_Ravener_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200040
+    },
+    {
+      "LocalizedName": "9809f32d59464bf293de22c64fafae6b",
+      "DevName": "VictoryPose_Ravener_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200041
+    },
+    {
+      "LocalizedName": "ff38842bf0464bd2b71164b8e733beab",
+      "DevName": "VictoryPose_Seeker_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200042
+    },
+    {
+      "LocalizedName": "c1151b17a3954f4084cbea15b7fc6f7f",
+      "DevName": "VictoryPose_Seeker_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200043
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Spearmaster_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200044
+    },
+    {
+      "LocalizedName": "6b87a2af8a1d49d19e5e8121b4052298",
+      "DevName": "VictoryPose_Spearmaster_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200045
+    },
+    {
+      "LocalizedName": "8daacd1e6c3646088c2fb9d3c2c92ee3",
+      "DevName": "VictoryPose_Spearmaster_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200048
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Vanguard_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200049
+    },
+    {
+      "LocalizedName": "39ec355b37d44a098016007671871212",
+      "DevName": "VictoryPose_Vanguard_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200050
+    },
+    {
+      "LocalizedName": "878791f62b0a4df5bac8bf0d246eddcf",
+      "DevName": "VictoryPose_Vanguard_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200051
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Seeker_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200056
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Harbinger_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200057
+    },
+    {
+      "LocalizedName": "5b52e7978413421e94aa2b17da4efff5",
+      "DevName": "VictoryPose_Harbinger_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200058
+    },
+    {
+      "LocalizedName": "e34befca1e10419e9fc7b0642c32de68",
+      "DevName": "VictoryPose_Harbinger_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200059
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Stormcaller_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200062
+    },
+    {
+      "LocalizedName": "e53e77085327416a9ac5d819c1423db9",
+      "DevName": "VictoryPose_Stormcaller_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200063
+    },
+    {
+      "LocalizedName": "fbdddaa638f7407a9f820a636a5a581b",
+      "DevName": "VictoryPose_Stormcaller_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200064
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Bloodpriest_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200065
+    },
+    {
+      "LocalizedName": "61d2f8c6bac348c591c608765507dade",
+      "DevName": "VictoryPose_BloodPriest_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200066
+    },
+    {
+      "LocalizedName": "339dfad54cb74acdb4624b6bd2c338b3",
+      "DevName": "VictoryPose_BloodPriest_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200067
+    },
+    {
+      "LocalizedName": "e4c7ebda69044645be94e041a08e6a8c",
+      "DevName": "VictoryPose_Swordmaster_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200069
+    },
+    {
+      "LocalizedName": "2969bb604eb645aa8a9f14f69b2706e4",
+      "DevName": "VictoryPose_Swordmaster_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200070
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Swordmaster_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200071
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Druid_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200072
+    },
+    {
+      "LocalizedName": "951ef2826b5d4d86a7944e4f1234e97f",
+      "DevName": "VictoryPose_Druid_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200073
+    },
+    {
+      "LocalizedName": "a2b4c0a51da541199789a7e34b5a5f05",
+      "DevName": "VictoryPose_Druid_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200074
+    },
+    {
+      "LocalizedName": "9516cce9bb7a495e9ff54a865ebb24b0",
+      "DevName": "VictoryPose_Vanguard_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200076
+    },
+    {
+      "LocalizedName": "583a54ad08db4d83b2987a6cba1e61f8",
+      "DevName": "VictoryPose_Vanguard_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200077
+    },
+    {
+      "LocalizedName": "fb274f681887491082c14223231dcde4",
+      "DevName": "VictoryPose_Swordmaster_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200078
+    },
+    {
+      "LocalizedName": "341ae27954e94d75a91759b953efb2b2",
+      "DevName": "VictoryPose_Swordmaster_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200079
+    },
+    {
+      "LocalizedName": "ab3580421b5f42fa9546fa5d9b49c429",
+      "DevName": "VictoryPose_Ranid_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200080
+    },
+    {
+      "LocalizedName": "f5d8e5e283a840feac69233293a398bc",
+      "DevName": "VictoryPose_Engineer_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200081
+    },
+    {
+      "LocalizedName": "ac1b0d648a874d8a967df3355e66b4ed",
+      "DevName": "VictoryPose_Engineer_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200082
+    },
+    {
+      "LocalizedName": "ec632f6b89d24e399f143b00cd38ab35",
+      "DevName": "VictoryPose_Igniter_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200083
+    },
+    {
+      "LocalizedName": "3e4f8dbf826b4be982b66f53344a338d",
+      "DevName": "VictoryPose_Igniter_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200084
+    },
+    {
+      "LocalizedName": "54b818f1245e42eca842ac6b86b42d16",
+      "DevName": "VictoryPose_Alchemist_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200085
+    },
+    {
+      "LocalizedName": "a2aaaf3bef4343529fea84fa1675afe9",
+      "DevName": "VictoryPose_Alchemist_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200086
+    },
+    {
+      "LocalizedName": "d22cd0a4764241519e39a7e126cd94ac",
+      "DevName": "VictoryPose_Gunner_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200087
+    },
+    {
+      "LocalizedName": "090bf958e0204c42b23cf38f44af0e30",
+      "DevName": "VictoryPose_Gunner_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200088
+    },
+    {
+      "LocalizedName": "97162c3283be4c698412c4ee4843b1e1",
+      "DevName": "VictoryPose_Inhibitor_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200089
+    },
+    {
+      "LocalizedName": "685e13d246b644c3bb5fd6671da201dd",
+      "DevName": "VictoryPose_Inquisitor_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200090
+    },
+    {
+      "LocalizedName": "2dccb3e8186c4a99ada48bd6e01f7ba5",
+      "DevName": "VictoryPose_Inquisitor_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200091
+    },
+    {
+      "LocalizedName": "5fa13134182f42269ab74fcfbbfe5fd8",
+      "DevName": "VictoryPose_Glutton_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200092
+    },
+    {
+      "LocalizedName": "ecdd9c1e41b94c2596349c18832383d8",
+      "DevName": "VictoryPose_Glutton_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200093
+    },
+    {
+      "LocalizedName": "8a6bf47677844014b43b3963f4a870ce",
+      "DevName": "VictoryPose_Druid_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200094
+    },
+    {
+      "LocalizedName": "5bbd25bd1a644f0a84cada53c233a89c",
+      "DevName": "VictoryPose_Druid_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200095
+    },
+    {
+      "LocalizedName": "cc8902a3f68842ec8dc3cbaaafdd4175",
+      "DevName": "VictoryPose_Ranid_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200096
+    },
+    {
+      "LocalizedName": "6d70d40e1fa14db1b7d59f6107b49b2f",
+      "DevName": "VictoryPose_Ravener_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200097
+    },
+    {
+      "LocalizedName": "929a53a0eb8944e1a7c7d117ab0e98c4",
+      "DevName": "VictoryPose_Ravener_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200098
+    },
+    {
+      "LocalizedName": "c9e95d2f6099429882102617aee4fa01",
+      "DevName": "VictoryPose_Seeker_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200099
+    },
+    {
+      "LocalizedName": "03bc5b2ac1804f2ca529e9007a0b1f8e",
+      "DevName": "VictoryPose_Seeker_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200100
+    },
+    {
+      "LocalizedName": "c0d38bf186694354a05630992f097c7d",
+      "DevName": "VictoryPose_Herald_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200101
+    },
+    {
+      "LocalizedName": "75356f28f6b64b7e989314a9996041fa",
+      "DevName": "VictoryPose_Herald_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200102
+    },
+    {
+      "LocalizedName": "8f104a83f10c4e3696744f54dd05a9ea",
+      "DevName": "VictoryPose_BloodPriest_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200103
+    },
+    {
+      "LocalizedName": "50e207e1173e4987a314272673672386",
+      "DevName": "VictoryPose_BloodPriest_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200104
+    },
+    {
+      "LocalizedName": "507c020eade042e0a24d3f0bcafff35c",
+      "DevName": "VictoryPose_Psychopomp_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200105
+    },
+    {
+      "LocalizedName": "2f8ca90848074907b67d40e8ae0b7f16",
+      "DevName": "VictoryPose_Psychopomp_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200106
+    },
+    {
+      "LocalizedName": "b1cd024a01514543b9798f71784d1f42",
+      "DevName": "VictoryPose_Harbinger_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200107
+    },
+    {
+      "LocalizedName": "945e62d93cf547358406ec58433dfe3a",
+      "DevName": "VictoryPose_Harbinger_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200108
+    },
+    {
+      "LocalizedName": "8cd966314f3d4b0b8786ad51754153e2",
+      "DevName": "VictoryPose_Spearmaster_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200109
+    },
+    {
+      "LocalizedName": "0877fc1a989b44309c38b4566be4fda6",
+      "DevName": "VictoryPose_Spearmaster_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200110
+    },
+    {
+      "LocalizedName": "352d700f981241deb74fb99f4ca4e8ab",
+      "DevName": "VictoryPose_Astronomer_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200111
+    },
+    {
+      "LocalizedName": "7fc88dcbd7f3483789a5e1c84eb67be2",
+      "DevName": "VictoryPose_Astronomer_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200112
+    },
+    {
+      "LocalizedName": "c91e24bad802456a9ad3b073386ce983",
+      "DevName": "VictoryPose_Nomad_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200113
+    },
+    {
+      "LocalizedName": "3873f9043ff448c4a4eb4b30dcdd025d",
+      "DevName": "VictoryPose_Nomad_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200114
+    },
+    {
+      "LocalizedName": "916e0206da48432b9821b097a58f7ed9",
+      "DevName": "VictoryPose_Inhibitor_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200115
+    },
+    {
+      "LocalizedName": "22b50cd9150c4780b54d20f43f5c4e37",
+      "DevName": "VictoryPose_Stormcaller_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200116
+    },
+    {
+      "LocalizedName": "357d32a34e804b408b81706ada0537f3",
+      "DevName": "VictoryPose_Stormcaller_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200117
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_MetalWarden_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200118
+    },
+    {
+      "LocalizedName": "fe8f948a745d45adb5cffd09ce1574c5",
+      "DevName": "VictoryPose_MetalWarden_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200119
+    },
+    {
+      "LocalizedName": "d912daab673d4507a0b6909c160923c4",
+      "DevName": "VictoryPose_MetalWarden_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200120
+    },
+    {
+      "LocalizedName": "51173b7597544cd38d3c63e9eff0a435",
+      "DevName": "VictoryPose_MetalWarden_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200121
+    },
+    {
+      "LocalizedName": "1117d8d9d5d04d868fc190ec37582c73",
+      "DevName": "VictoryPose_MetalWarden_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200122
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Thorn_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200124
+    },
+    {
+      "LocalizedName": "de506608c82e4530b1de75b6ab9377a9",
+      "DevName": "VictoryPose_Thorn_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200125
+    },
+    {
+      "LocalizedName": "d0cb38ef3ba646b3aa4aea51ebb32c35",
+      "DevName": "VictoryPose_Thorn_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200126
+    },
+    {
+      "LocalizedName": "80a88b7d9bf048bd88e9ad5208e2eb22",
+      "DevName": "VictoryPose_Thorn_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200128
+    },
+    {
+      "LocalizedName": "62704d63a9524f72a03f46bee73e338e",
+      "DevName": "VictoryPose_Thorn_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200129
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_MirrorMage_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200130
+    },
+    {
+      "LocalizedName": "5caf1056bc4e4c15b3332b9c1059541d",
+      "DevName": "VictoryPose_MirrorMage_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200131
+    },
+    {
+      "LocalizedName": "cf1027936559410a8a61d0b7db483c22",
+      "DevName": "VictoryPose_MirrorMage_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200132
+    },
+    {
+      "LocalizedName": "4f0382fc90a147a880ccdbac11d71576",
+      "DevName": "VictoryPose_MirrorMage_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200133
+    },
+    {
+      "LocalizedName": "f25939eb5d314a1b8dabb39d31c1baef",
+      "DevName": "VictoryPose_MirrorMage_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200134
+    },
+    {
+      "LocalizedName": "bff4b582b04f413787df40484c32d335",
+      "DevName": "VictoryPose_Igniter_Twitch01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200135
+    },
+    {
+      "LocalizedName": "95e9f0bc31a848669a823618cf109c11",
+      "DevName": "VictoryPose_Spearmaster_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200136
+    },
+    {
+      "LocalizedName": "f7699aec8cfc4fee9652e2bc23ba8848",
+      "DevName": "VictoryPose_Vanguard_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200137
+    },
+    {
+      "LocalizedName": "0e1e7754100f4b5b89053ae4004f4aa5",
+      "DevName": "VictoryPose_Stormcaller_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200138
+    },
+    {
+      "LocalizedName": "6d91132a6c0748638759f4d73bf6d869",
+      "DevName": "VictoryPose_Seeker_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200139
+    },
+    {
+      "LocalizedName": "e9a0ab38502f4db094a1fb1cabe14f35",
+      "DevName": "VictoryPose_Ranid_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200140
+    },
+    {
+      "LocalizedName": "414227e7104f417a8fc5ce9f464cd9ea",
+      "DevName": "VictoryPose_Inquisitor_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200141
+    },
+    {
+      "LocalizedName": "42e831162569421db7b1fc0ea20f293e",
+      "DevName": "VictoryPose_Herald_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200142
+    },
+    {
+      "LocalizedName": "a371c9802dab44b7bc232de12affed77",
+      "DevName": "VictoryPose_Nomad_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200143
+    },
+    {
+      "LocalizedName": "df59225d131f41a9967d54baf694f7af",
+      "DevName": "VictoryPose_Swordmaster_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200144
+    },
+    {
+      "LocalizedName": "ef7643ffb3704849afedda9ee4502ebc",
+      "DevName": "VictoryPose_BloodPriest_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200145
+    },
+    {
+      "LocalizedName": "195e1b24a6e44afa9982e605bbd93797",
+      "DevName": "VictoryPose_FrostMage_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200146
+    },
+    {
+      "LocalizedName": "778d3cb4a72a4e2e8de0492f4176db4a",
+      "DevName": "VictoryPose_FrostMage_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200147
+    },
+    {
+      "LocalizedName": "949ea1c010df407b8a55ee72f62a2666",
+      "DevName": "VictoryPose_FrostMage_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200148
+    },
+    {
+      "LocalizedName": "c08fdf8f4c10424ca3ee6dd91e367d83",
+      "DevName": "VictoryPose_FrostMage_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200149
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_FrostMage_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200150
+    },
+    {
+      "LocalizedName": "561343b301f549619b23208ffb4eb1ce",
+      "DevName": "VictoryPose_Igniter_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200151
+    },
+    {
+      "LocalizedName": "0e9907d4d8e0417d9632e77882c1c2b8",
+      "DevName": "VictoryPose_Alchemist_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200152
+    },
+    {
+      "LocalizedName": "13b802aca61145f198e43b5cf0d6ad35",
+      "DevName": "VictoryPose_Vanguard_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200153
+    },
+    {
+      "LocalizedName": "c6d1449985044504863a7914f206baad",
+      "DevName": "VictoryPose_Druid_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200154
+    },
+    {
+      "LocalizedName": "b22982e5a9684f85ab389d19cd5002ba",
+      "DevName": "VictoryPose_Engineer_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200155
+    },
+    {
+      "LocalizedName": "c821e19902704e1daea6ed5c2698cf5e",
+      "DevName": "VictoryPose_Thorn_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200156
+    },
+    {
+      "LocalizedName": "88e451aacfb64506a52d8c336959b784",
+      "DevName": "VictoryPose_Harbinger_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200157
+    },
+    {
+      "LocalizedName": "d885471898ef47e9becc6322f1abe0b3",
+      "DevName": "VictoryPose_Stormcaller_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200158
+    },
+    {
+      "LocalizedName": "20b9605e1b364fe28a4765af1af88485",
+      "DevName": "VictoryPose_Ravener_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200159
+    },
+    {
+      "LocalizedName": "d3cd92386f44402fb4014b1074e58680",
+      "DevName": "VictoryPose_Inquisitor_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200160
+    },
+    {
+      "LocalizedName": "a0ddb890449f47fb98b643f36c0014f2",
+      "DevName": "VictoryPose_Ranid_05",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200161
+    },
+    {
+      "LocalizedName": "45764bef78e54b8aa0bb938b85aa64d4",
+      "DevName": "VictoryPose_Astronomer_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200163
+    },
+    {
+      "LocalizedName": "82b72bdf35984e1d8cd8213caec2f9af",
+      "DevName": "VictoryPose_Bloodpriest_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200164
+    },
+    {
+      "LocalizedName": "5fd875ab38ec4ae49536d48e7456e136",
+      "DevName": "VictoryPose_FrostMage_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200165
+    },
+    {
+      "LocalizedName": "6b18e9643e5d4101b7f77c35b29e854b",
+      "DevName": "VictoryPose_Glutton_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200166
+    },
+    {
+      "LocalizedName": "f41f4565d60d46bba9b6adc45ef92213",
+      "DevName": "VictoryPose_Gunner_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200167
+    },
+    {
+      "LocalizedName": "98903e9e7bd447cd9a48bef050052c69",
+      "DevName": "VictoryPose_MetalWarden_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200168
+    },
+    {
+      "LocalizedName": "a9ac4c78a83a4fd281807494b6fce1f4",
+      "DevName": "VictoryPose_Nomad_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200169
+    },
+    {
+      "LocalizedName": "deaa969c03134ecea63e902e165e957c",
+      "DevName": "VictoryPose_PsychoPomp_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200170
+    },
+    {
+      "LocalizedName": "7fa7d346a6184a21b4a0951bfdea7cc8",
+      "DevName": "VictoryPose_Ranid_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200171
+    },
+    {
+      "LocalizedName": "12d029d3293849ada0469f18410dfe0a",
+      "DevName": "VictoryPose_Seeker_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200172
+    },
+    {
+      "LocalizedName": "c096b28ad1ef47dfa329e1d6f0e79325",
+      "DevName": "VictoryPose_Spearmaster_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200173
+    },
+    {
+      "LocalizedName": "a5cdca7e62184b128e58d029ddbc78de",
+      "DevName": "VictoryPose_Swordmaster_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200174
+    },
+    {
+      "LocalizedName": "25f4e50e933e4e95863ee03c4780ed82",
+      "DevName": "VictoryPose_Herald_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200175
+    },
+    {
+      "LocalizedName": "89cf7f746e1341269c2dc1e972ea4f80",
+      "DevName": "VictoryPose_Inhibitor_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200176
     },
     {
       "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
@@ -5214,6 +6455,13 @@ const _stackable = _(
       "StackableId": 300223
     },
     {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_MirrorMage_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300224
+    },
+    {
       "LocalizedName": "9fd98d262fde496fbc1881aface4d99c",
       "DevName": "Outfit_BloodPriest_Legendary02",
       "IdRangeName": "OutfitEnum",
@@ -5480,6 +6728,69 @@ const _stackable = _(
       "StackableId": 300266
     },
     {
+      "LocalizedName": "11eb073e8701429d9137392864f31b58",
+      "DevName": "Outfit_MirrorMage_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300267
+    },
+    {
+      "LocalizedName": "f252ccb502bf40249e2970d2c34e03f1",
+      "DevName": "Outfit_MirrorMage_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300268
+    },
+    {
+      "LocalizedName": "6e050902cb8143799bfdaf50f1c49b40",
+      "DevName": "Outfit_MirrorMage_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300269
+    },
+    {
+      "LocalizedName": "f36ebfd28f5e44058c1ee5165a48a59c",
+      "DevName": "Outfit_MirrorMage_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300270
+    },
+    {
+      "LocalizedName": "9f07b2f9d423493ab6b3390c8a7642e5",
+      "DevName": "Outfit_MirrorMage_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300271
+    },
+    {
+      "LocalizedName": "fd6b226e587b4fb9937085c3b9aa96a3",
+      "DevName": "Outfit_MirrorMage_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300272
+    },
+    {
+      "LocalizedName": "be1754e023b348319a0060d091482212",
+      "DevName": "Outfit_MirrorMage_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300273
+    },
+    {
+      "LocalizedName": "7aa24a1c67c44d15a423275a4f694ee8",
+      "DevName": "Outfit_MirrorMage_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300274
+    },
+    {
+      "LocalizedName": "dcdde67c39bd427bafb127bc37995b00",
+      "DevName": "Outfit_MirrorMage_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300275
+    },
+    {
       "LocalizedName": "458da08ebebc419887c03bdd15a424dd",
       "DevName": "Outfit_FrostMage_02",
       "IdRangeName": "OutfitEnum",
@@ -5555,1098 +6866,6 @@ const _stackable = _(
       "IdRangeName": "OutfitEnum",
       "StackableRangeName": "Outfits",
       "StackableId": 300286
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Alchemist_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200003
-    },
-    {
-      "LocalizedName": "dad9c93f7d1a4b57848677e19bfc1d1d",
-      "DevName": "VictoryPose_Alchemist_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200004
-    },
-    {
-      "LocalizedName": "7a9381ab35a04bb5a7d9a06211f4d610",
-      "DevName": "VictoryPose_Alchemist_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200005
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Astronomer_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200006
-    },
-    {
-      "LocalizedName": "5d163243fed24c1b9c0a8e9570d4a396",
-      "DevName": "VictoryPose_Astronomer_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200007
-    },
-    {
-      "LocalizedName": "29707f15f6ac4377a631fac362645b10",
-      "DevName": "VictoryPose_Astronomer_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200008
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Engineer_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200009
-    },
-    {
-      "LocalizedName": "9b5e1008e8974595b2b8825f2cb0ead0",
-      "DevName": "VictoryPose_Engineer_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200010
-    },
-    {
-      "LocalizedName": "a7ae322c182345b383579a5951284ebd",
-      "DevName": "VictoryPose_Engineer_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200011
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Glutton_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200012
-    },
-    {
-      "LocalizedName": "3b26472a629f415eb63a234255c39b52",
-      "DevName": "VictoryPose_Glutton_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200013
-    },
-    {
-      "LocalizedName": "b7774161177845cbaf64c566cd2e7eb5",
-      "DevName": "VictoryPose_Glutton_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200014
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Gunner_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200015
-    },
-    {
-      "LocalizedName": "5857b498165c419ea42d8c25579808ee",
-      "DevName": "VictoryPose_Gunner_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200016
-    },
-    {
-      "LocalizedName": "5556c4eca57d4ee4a17d191c43d9f8d9",
-      "DevName": "VictoryPose_Gunner_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200017
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Herald_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200018
-    },
-    {
-      "LocalizedName": "b9da7da1fb434722a0f6d578300e2c20",
-      "DevName": "VictoryPose_Herald_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200019
-    },
-    {
-      "LocalizedName": "07cfbc8336444e8690bb5701ad3654bd",
-      "DevName": "VictoryPose_Herald_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200020
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Igniter_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200021
-    },
-    {
-      "LocalizedName": "380a055b635a41dab09e3aad7abfb5eb",
-      "DevName": "VictoryPose_Igniter_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200022
-    },
-    {
-      "LocalizedName": "3cdb3d763c0e4124be01e6a83d6fcbd0",
-      "DevName": "VictoryPose_Igniter_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200023
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Inhibitor_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200024
-    },
-    {
-      "LocalizedName": "286bf38339f146c199a97f26717811d1",
-      "DevName": "VictoryPose_Inhibitor_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200025
-    },
-    {
-      "LocalizedName": "0b64ced2cbdc4d01bee6d4860e3dbc74",
-      "DevName": "VictoryPose_Inhibitor_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200026
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Inquisitor_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200027
-    },
-    {
-      "LocalizedName": "17e2768a9e5340eead58b950e2bfcae2",
-      "DevName": "VictoryPose_Inquisitor_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200028
-    },
-    {
-      "LocalizedName": "24d80bf4b1194aa7af86385aeb83a8ad",
-      "DevName": "VictoryPose_Inquisitor_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200029
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Nomad_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200030
-    },
-    {
-      "LocalizedName": "8cb2234a62d34eb299f11f6cace64b07",
-      "DevName": "VictoryPose_Nomad_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200031
-    },
-    {
-      "LocalizedName": "12a99654ca78466fba7c73c72eb4fa35",
-      "DevName": "VictoryPose_Nomad_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200032
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Psychopomp_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200033
-    },
-    {
-      "LocalizedName": "e9513b7e5be64a7e95e604a9e7838caf",
-      "DevName": "VictoryPose_Psychopomp_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200034
-    },
-    {
-      "LocalizedName": "a9a866c0adad41d681650962d2b21eea",
-      "DevName": "VictoryPose_Psychopomp_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200035
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Ranid_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200036
-    },
-    {
-      "LocalizedName": "918f19ee124c4b309ee272bf19d26b4c",
-      "DevName": "VictoryPose_Ranid_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200037
-    },
-    {
-      "LocalizedName": "5177b26a752a42169fef9b1333364f14",
-      "DevName": "VictoryPose_Ranid_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200038
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Ravener_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200039
-    },
-    {
-      "LocalizedName": "e5d5796803714e1495c42ce00b5f18db",
-      "DevName": "VictoryPose_Ravener_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200040
-    },
-    {
-      "LocalizedName": "9809f32d59464bf293de22c64fafae6b",
-      "DevName": "VictoryPose_Ravener_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200041
-    },
-    {
-      "LocalizedName": "ff38842bf0464bd2b71164b8e733beab",
-      "DevName": "VictoryPose_Seeker_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200042
-    },
-    {
-      "LocalizedName": "c1151b17a3954f4084cbea15b7fc6f7f",
-      "DevName": "VictoryPose_Seeker_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200043
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Spearmaster_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200044
-    },
-    {
-      "LocalizedName": "6b87a2af8a1d49d19e5e8121b4052298",
-      "DevName": "VictoryPose_Spearmaster_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200045
-    },
-    {
-      "LocalizedName": "8daacd1e6c3646088c2fb9d3c2c92ee3",
-      "DevName": "VictoryPose_Spearmaster_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200048
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Vanguard_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200049
-    },
-    {
-      "LocalizedName": "39ec355b37d44a098016007671871212",
-      "DevName": "VictoryPose_Vanguard_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200050
-    },
-    {
-      "LocalizedName": "878791f62b0a4df5bac8bf0d246eddcf",
-      "DevName": "VictoryPose_Vanguard_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200051
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Seeker_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200056
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Harbinger_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200057
-    },
-    {
-      "LocalizedName": "5b52e7978413421e94aa2b17da4efff5",
-      "DevName": "VictoryPose_Harbinger_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200058
-    },
-    {
-      "LocalizedName": "e34befca1e10419e9fc7b0642c32de68",
-      "DevName": "VictoryPose_Harbinger_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200059
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Stormcaller_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200062
-    },
-    {
-      "LocalizedName": "e53e77085327416a9ac5d819c1423db9",
-      "DevName": "VictoryPose_Stormcaller_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200063
-    },
-    {
-      "LocalizedName": "fbdddaa638f7407a9f820a636a5a581b",
-      "DevName": "VictoryPose_Stormcaller_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200064
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Bloodpriest_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200065
-    },
-    {
-      "LocalizedName": "61d2f8c6bac348c591c608765507dade",
-      "DevName": "VictoryPose_BloodPriest_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200066
-    },
-    {
-      "LocalizedName": "339dfad54cb74acdb4624b6bd2c338b3",
-      "DevName": "VictoryPose_BloodPriest_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200067
-    },
-    {
-      "LocalizedName": "e4c7ebda69044645be94e041a08e6a8c",
-      "DevName": "VictoryPose_Swordmaster_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200069
-    },
-    {
-      "LocalizedName": "2969bb604eb645aa8a9f14f69b2706e4",
-      "DevName": "VictoryPose_Swordmaster_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200070
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Swordmaster_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200071
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Druid_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200072
-    },
-    {
-      "LocalizedName": "951ef2826b5d4d86a7944e4f1234e97f",
-      "DevName": "VictoryPose_Druid_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200073
-    },
-    {
-      "LocalizedName": "a2b4c0a51da541199789a7e34b5a5f05",
-      "DevName": "VictoryPose_Druid_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200074
-    },
-    {
-      "LocalizedName": "9516cce9bb7a495e9ff54a865ebb24b0",
-      "DevName": "VictoryPose_Vanguard_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200076
-    },
-    {
-      "LocalizedName": "583a54ad08db4d83b2987a6cba1e61f8",
-      "DevName": "VictoryPose_Vanguard_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200077
-    },
-    {
-      "LocalizedName": "fb274f681887491082c14223231dcde4",
-      "DevName": "VictoryPose_Swordmaster_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200078
-    },
-    {
-      "LocalizedName": "341ae27954e94d75a91759b953efb2b2",
-      "DevName": "VictoryPose_Swordmaster_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200079
-    },
-    {
-      "LocalizedName": "ab3580421b5f42fa9546fa5d9b49c429",
-      "DevName": "VictoryPose_Ranid_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200080
-    },
-    {
-      "LocalizedName": "f5d8e5e283a840feac69233293a398bc",
-      "DevName": "VictoryPose_Engineer_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200081
-    },
-    {
-      "LocalizedName": "ac1b0d648a874d8a967df3355e66b4ed",
-      "DevName": "VictoryPose_Engineer_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200082
-    },
-    {
-      "LocalizedName": "ec632f6b89d24e399f143b00cd38ab35",
-      "DevName": "VictoryPose_Igniter_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200083
-    },
-    {
-      "LocalizedName": "3e4f8dbf826b4be982b66f53344a338d",
-      "DevName": "VictoryPose_Igniter_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200084
-    },
-    {
-      "LocalizedName": "54b818f1245e42eca842ac6b86b42d16",
-      "DevName": "VictoryPose_Alchemist_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200085
-    },
-    {
-      "LocalizedName": "a2aaaf3bef4343529fea84fa1675afe9",
-      "DevName": "VictoryPose_Alchemist_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200086
-    },
-    {
-      "LocalizedName": "d22cd0a4764241519e39a7e126cd94ac",
-      "DevName": "VictoryPose_Gunner_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200087
-    },
-    {
-      "LocalizedName": "090bf958e0204c42b23cf38f44af0e30",
-      "DevName": "VictoryPose_Gunner_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200088
-    },
-    {
-      "LocalizedName": "97162c3283be4c698412c4ee4843b1e1",
-      "DevName": "VictoryPose_Inhibitor_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200089
-    },
-    {
-      "LocalizedName": "685e13d246b644c3bb5fd6671da201dd",
-      "DevName": "VictoryPose_Inquisitor_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200090
-    },
-    {
-      "LocalizedName": "2dccb3e8186c4a99ada48bd6e01f7ba5",
-      "DevName": "VictoryPose_Inquisitor_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200091
-    },
-    {
-      "LocalizedName": "5fa13134182f42269ab74fcfbbfe5fd8",
-      "DevName": "VictoryPose_Glutton_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200092
-    },
-    {
-      "LocalizedName": "ecdd9c1e41b94c2596349c18832383d8",
-      "DevName": "VictoryPose_Glutton_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200093
-    },
-    {
-      "LocalizedName": "8a6bf47677844014b43b3963f4a870ce",
-      "DevName": "VictoryPose_Druid_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200094
-    },
-    {
-      "LocalizedName": "5bbd25bd1a644f0a84cada53c233a89c",
-      "DevName": "VictoryPose_Druid_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200095
-    },
-    {
-      "LocalizedName": "cc8902a3f68842ec8dc3cbaaafdd4175",
-      "DevName": "VictoryPose_Ranid_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200096
-    },
-    {
-      "LocalizedName": "6d70d40e1fa14db1b7d59f6107b49b2f",
-      "DevName": "VictoryPose_Ravener_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200097
-    },
-    {
-      "LocalizedName": "929a53a0eb8944e1a7c7d117ab0e98c4",
-      "DevName": "VictoryPose_Ravener_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200098
-    },
-    {
-      "LocalizedName": "c9e95d2f6099429882102617aee4fa01",
-      "DevName": "VictoryPose_Seeker_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200099
-    },
-    {
-      "LocalizedName": "03bc5b2ac1804f2ca529e9007a0b1f8e",
-      "DevName": "VictoryPose_Seeker_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200100
-    },
-    {
-      "LocalizedName": "c0d38bf186694354a05630992f097c7d",
-      "DevName": "VictoryPose_Herald_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200101
-    },
-    {
-      "LocalizedName": "75356f28f6b64b7e989314a9996041fa",
-      "DevName": "VictoryPose_Herald_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200102
-    },
-    {
-      "LocalizedName": "8f104a83f10c4e3696744f54dd05a9ea",
-      "DevName": "VictoryPose_BloodPriest_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200103
-    },
-    {
-      "LocalizedName": "50e207e1173e4987a314272673672386",
-      "DevName": "VictoryPose_BloodPriest_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200104
-    },
-    {
-      "LocalizedName": "507c020eade042e0a24d3f0bcafff35c",
-      "DevName": "VictoryPose_Psychopomp_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200105
-    },
-    {
-      "LocalizedName": "2f8ca90848074907b67d40e8ae0b7f16",
-      "DevName": "VictoryPose_Psychopomp_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200106
-    },
-    {
-      "LocalizedName": "b1cd024a01514543b9798f71784d1f42",
-      "DevName": "VictoryPose_Harbinger_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200107
-    },
-    {
-      "LocalizedName": "945e62d93cf547358406ec58433dfe3a",
-      "DevName": "VictoryPose_Harbinger_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200108
-    },
-    {
-      "LocalizedName": "8cd966314f3d4b0b8786ad51754153e2",
-      "DevName": "VictoryPose_Spearmaster_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200109
-    },
-    {
-      "LocalizedName": "0877fc1a989b44309c38b4566be4fda6",
-      "DevName": "VictoryPose_Spearmaster_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200110
-    },
-    {
-      "LocalizedName": "352d700f981241deb74fb99f4ca4e8ab",
-      "DevName": "VictoryPose_Astronomer_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200111
-    },
-    {
-      "LocalizedName": "7fc88dcbd7f3483789a5e1c84eb67be2",
-      "DevName": "VictoryPose_Astronomer_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200112
-    },
-    {
-      "LocalizedName": "c91e24bad802456a9ad3b073386ce983",
-      "DevName": "VictoryPose_Nomad_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200113
-    },
-    {
-      "LocalizedName": "3873f9043ff448c4a4eb4b30dcdd025d",
-      "DevName": "VictoryPose_Nomad_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200114
-    },
-    {
-      "LocalizedName": "916e0206da48432b9821b097a58f7ed9",
-      "DevName": "VictoryPose_Inhibitor_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200115
-    },
-    {
-      "LocalizedName": "22b50cd9150c4780b54d20f43f5c4e37",
-      "DevName": "VictoryPose_Stormcaller_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200116
-    },
-    {
-      "LocalizedName": "357d32a34e804b408b81706ada0537f3",
-      "DevName": "VictoryPose_Stormcaller_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200117
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_MetalWarden_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200118
-    },
-    {
-      "LocalizedName": "fe8f948a745d45adb5cffd09ce1574c5",
-      "DevName": "VictoryPose_MetalWarden_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200119
-    },
-    {
-      "LocalizedName": "d912daab673d4507a0b6909c160923c4",
-      "DevName": "VictoryPose_MetalWarden_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200120
-    },
-    {
-      "LocalizedName": "51173b7597544cd38d3c63e9eff0a435",
-      "DevName": "VictoryPose_MetalWarden_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200121
-    },
-    {
-      "LocalizedName": "1117d8d9d5d04d868fc190ec37582c73",
-      "DevName": "VictoryPose_MetalWarden_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200122
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Thorn_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200124
-    },
-    {
-      "LocalizedName": "de506608c82e4530b1de75b6ab9377a9",
-      "DevName": "VictoryPose_Thorn_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200125
-    },
-    {
-      "LocalizedName": "d0cb38ef3ba646b3aa4aea51ebb32c35",
-      "DevName": "VictoryPose_Thorn_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200126
-    },
-    {
-      "LocalizedName": "80a88b7d9bf048bd88e9ad5208e2eb22",
-      "DevName": "VictoryPose_Thorn_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200128
-    },
-    {
-      "LocalizedName": "62704d63a9524f72a03f46bee73e338e",
-      "DevName": "VictoryPose_Thorn_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200129
-    },
-    {
-      "LocalizedName": "bff4b582b04f413787df40484c32d335",
-      "DevName": "VictoryPose_Igniter_Twitch01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200135
-    },
-    {
-      "LocalizedName": "95e9f0bc31a848669a823618cf109c11",
-      "DevName": "VictoryPose_Spearmaster_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200136
-    },
-    {
-      "LocalizedName": "f7699aec8cfc4fee9652e2bc23ba8848",
-      "DevName": "VictoryPose_Vanguard_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200137
-    },
-    {
-      "LocalizedName": "0e1e7754100f4b5b89053ae4004f4aa5",
-      "DevName": "VictoryPose_Stormcaller_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200138
-    },
-    {
-      "LocalizedName": "6d91132a6c0748638759f4d73bf6d869",
-      "DevName": "VictoryPose_Seeker_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200139
-    },
-    {
-      "LocalizedName": "e9a0ab38502f4db094a1fb1cabe14f35",
-      "DevName": "VictoryPose_Ranid_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200140
-    },
-    {
-      "LocalizedName": "414227e7104f417a8fc5ce9f464cd9ea",
-      "DevName": "VictoryPose_Inquisitor_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200141
-    },
-    {
-      "LocalizedName": "42e831162569421db7b1fc0ea20f293e",
-      "DevName": "VictoryPose_Herald_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200142
-    },
-    {
-      "LocalizedName": "a371c9802dab44b7bc232de12affed77",
-      "DevName": "VictoryPose_Nomad_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200143
-    },
-    {
-      "LocalizedName": "df59225d131f41a9967d54baf694f7af",
-      "DevName": "VictoryPose_Swordmaster_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200144
-    },
-    {
-      "LocalizedName": "ef7643ffb3704849afedda9ee4502ebc",
-      "DevName": "VictoryPose_BloodPriest_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200145
-    },
-    {
-      "LocalizedName": "195e1b24a6e44afa9982e605bbd93797",
-      "DevName": "VictoryPose_FrostMage_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200146
-    },
-    {
-      "LocalizedName": "778d3cb4a72a4e2e8de0492f4176db4a",
-      "DevName": "VictoryPose_FrostMage_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200147
-    },
-    {
-      "LocalizedName": "949ea1c010df407b8a55ee72f62a2666",
-      "DevName": "VictoryPose_FrostMage_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200148
-    },
-    {
-      "LocalizedName": "c08fdf8f4c10424ca3ee6dd91e367d83",
-      "DevName": "VictoryPose_FrostMage_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200149
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_FrostMage_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200150
-    },
-    {
-      "LocalizedName": "561343b301f549619b23208ffb4eb1ce",
-      "DevName": "VictoryPose_Igniter_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200151
-    },
-    {
-      "LocalizedName": "0e9907d4d8e0417d9632e77882c1c2b8",
-      "DevName": "VictoryPose_Alchemist_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200152
-    },
-    {
-      "LocalizedName": "13b802aca61145f198e43b5cf0d6ad35",
-      "DevName": "VictoryPose_Vanguard_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200153
-    },
-    {
-      "LocalizedName": "c6d1449985044504863a7914f206baad",
-      "DevName": "VictoryPose_Druid_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200154
-    },
-    {
-      "LocalizedName": "b22982e5a9684f85ab389d19cd5002ba",
-      "DevName": "VictoryPose_Engineer_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200155
-    },
-    {
-      "LocalizedName": "c821e19902704e1daea6ed5c2698cf5e",
-      "DevName": "VictoryPose_Thorn_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200156
-    },
-    {
-      "LocalizedName": "88e451aacfb64506a52d8c336959b784",
-      "DevName": "VictoryPose_Harbinger_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200157
-    },
-    {
-      "LocalizedName": "d885471898ef47e9becc6322f1abe0b3",
-      "DevName": "VictoryPose_Stormcaller_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200158
-    },
-    {
-      "LocalizedName": "20b9605e1b364fe28a4765af1af88485",
-      "DevName": "VictoryPose_Ravener_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200159
-    },
-    {
-      "LocalizedName": "d3cd92386f44402fb4014b1074e58680",
-      "DevName": "VictoryPose_Inquisitor_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200160
-    },
-    {
-      "LocalizedName": "a0ddb890449f47fb98b643f36c0014f2",
-      "DevName": "VictoryPose_Ranid_05",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200161
-    },
-    {
-      "LocalizedName": "45764bef78e54b8aa0bb938b85aa64d4",
-      "DevName": "VictoryPose_Astronomer_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200163
-    },
-    {
-      "LocalizedName": "82b72bdf35984e1d8cd8213caec2f9af",
-      "DevName": "VictoryPose_Bloodpriest_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200164
-    },
-    {
-      "LocalizedName": "5fd875ab38ec4ae49536d48e7456e136",
-      "DevName": "VictoryPose_FrostMage_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200165
-    },
-    {
-      "LocalizedName": "6b18e9643e5d4101b7f77c35b29e854b",
-      "DevName": "VictoryPose_Glutton_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200166
-    },
-    {
-      "LocalizedName": "f41f4565d60d46bba9b6adc45ef92213",
-      "DevName": "VictoryPose_Gunner_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200167
-    },
-    {
-      "LocalizedName": "98903e9e7bd447cd9a48bef050052c69",
-      "DevName": "VictoryPose_MetalWarden_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200168
-    },
-    {
-      "LocalizedName": "a9ac4c78a83a4fd281807494b6fce1f4",
-      "DevName": "VictoryPose_Nomad_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200169
-    },
-    {
-      "LocalizedName": "deaa969c03134ecea63e902e165e957c",
-      "DevName": "VictoryPose_PsychoPomp_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200170
-    },
-    {
-      "LocalizedName": "7fa7d346a6184a21b4a0951bfdea7cc8",
-      "DevName": "VictoryPose_Ranid_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200171
-    },
-    {
-      "LocalizedName": "12d029d3293849ada0469f18410dfe0a",
-      "DevName": "VictoryPose_Seeker_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200172
-    },
-    {
-      "LocalizedName": "c096b28ad1ef47dfa329e1d6f0e79325",
-      "DevName": "VictoryPose_Spearmaster_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200173
-    },
-    {
-      "LocalizedName": "a5cdca7e62184b128e58d029ddbc78de",
-      "DevName": "VictoryPose_Swordmaster_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200174
-    },
-    {
-      "LocalizedName": "25f4e50e933e4e95863ee03c4780ed82",
-      "DevName": "VictoryPose_Herald_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200175
-    },
-    {
-      "LocalizedName": "89cf7f746e1341269c2dc1e972ea4f80",
-      "DevName": "VictoryPose_Inhibitor_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200176
     },
     {
       "LocalizedName": "",
@@ -7155,6 +7374,15 @@ const _stackable = _(
       "StackableId": 11031
     },
     {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "XP",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 11035
+    },
+    {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
       "DevName": "JadeCampaign",
       "IdRangeName": "CharacterEnum",
@@ -7450,6 +7678,15 @@ const _stackable = _(
       "Icon": "f3af4ddea533f364e80c70c580ed933d",
       "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
       "StackableId": 12031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterWins",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 12035
     },
     {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
@@ -7749,6 +7986,15 @@ const _stackable = _(
       "StackableId": 13031
     },
     {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterLosses",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 13035
+    },
+    {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
       "DevName": "JadeCampaign",
       "IdRangeName": "CharacterEnum",
@@ -8044,6 +8290,15 @@ const _stackable = _(
       "Icon": "f3af4ddea533f364e80c70c580ed933d",
       "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
       "StackableId": 14031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterKills",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 14035
     },
     {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
@@ -8343,6 +8598,15 @@ const _stackable = _(
       "StackableId": 15031
     },
     {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterDeaths",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 15035
+    },
+    {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
       "DevName": "JadeCampaign",
       "IdRangeName": "CharacterEnum",
@@ -8638,6 +8902,15 @@ const _stackable = _(
       "Icon": "f3af4ddea533f364e80c70c580ed933d",
       "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
       "StackableId": 40031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Level",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 40035
     },
     {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
@@ -8942,6 +9215,15 @@ const _stackable = _(
       "Icon": "f3af4ddea533f364e80c70c580ed933d",
       "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
       "StackableId": 16031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterTimePlayed",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 16035
     },
     {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
@@ -9255,6 +9537,15 @@ const _stackable = _(
       "StackableId": 17031
     },
     {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked2v2Wins",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 17035
+    },
+    {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
       "DevName": "JadeCampaign",
       "IdRangeName": "CharacterEnum",
@@ -9550,6 +9841,15 @@ const _stackable = _(
       "Icon": "f3af4ddea533f364e80c70c580ed933d",
       "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
       "StackableId": 18031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked2v2Losses",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 18035
     },
     {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
@@ -9849,6 +10149,15 @@ const _stackable = _(
       "StackableId": 19031
     },
     {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked3v3Wins",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 19035
+    },
+    {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
       "DevName": "JadeCampaign",
       "IdRangeName": "CharacterEnum",
@@ -10144,6 +10453,15 @@ const _stackable = _(
       "Icon": "f3af4ddea533f364e80c70c580ed933d",
       "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
       "StackableId": 20031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked3v3Losses",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 20035
     },
     {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
@@ -10443,6 +10761,15 @@ const _stackable = _(
       "StackableId": 21031
     },
     {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked2v2Wins",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 21035
+    },
+    {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
       "DevName": "JadeCampaign",
       "IdRangeName": "CharacterEnum",
@@ -10738,6 +11065,15 @@ const _stackable = _(
       "Icon": "f3af4ddea533f364e80c70c580ed933d",
       "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
       "StackableId": 22031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked2v2Losses",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 22035
     },
     {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
@@ -11037,6 +11373,15 @@ const _stackable = _(
       "StackableId": 24031
     },
     {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked3v3Losses",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 24035
+    },
+    {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
       "DevName": "JadeCampaign",
       "IdRangeName": "CharacterEnum",
@@ -11334,6 +11679,15 @@ const _stackable = _(
       "StackableId": 23031
     },
     {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked3v3Wins",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 23035
+    },
+    {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
       "DevName": "JadeCampaign",
       "IdRangeName": "CharacterEnum",
@@ -11362,58 +11716,58 @@ const _stackable = _(
     },
     {
       "LocalizedName": "",
-      "DevName": "Ranked3v3Wins",
+      "DevName": "Unranked3v3Wins",
       "IdRangeName": "",
-      "StackableRangeName": "Ranked3v3Wins",
+      "StackableRangeName": "Unranked3v3Wins",
       "StackableId": 12
-    },
-    {
-      "LocalizedName": "",
-      "DevName": "Ranked3v3Losses",
-      "IdRangeName": "",
-      "StackableRangeName": "Ranked3v3Losses",
-      "StackableId": 13
     },
     {
       "LocalizedName": "",
       "DevName": "Unranked3v3Losses",
       "IdRangeName": "",
       "StackableRangeName": "Unranked3v3Losses",
+      "StackableId": 13
+    },
+    {
+      "LocalizedName": "",
+      "DevName": "Ranked3v3Losses",
+      "IdRangeName": "",
+      "StackableRangeName": "Ranked3v3Losses",
       "StackableId": 17
     },
     {
       "LocalizedName": "",
-      "DevName": "Unranked3v3Wins",
+      "DevName": "Ranked3v3Wins",
       "IdRangeName": "",
-      "StackableRangeName": "Unranked3v3Wins",
+      "StackableRangeName": "Ranked3v3Wins",
       "StackableId": 16
-    },
-    {
-      "LocalizedName": "",
-      "DevName": "Unranked2v2Losses",
-      "IdRangeName": "",
-      "StackableRangeName": "Unranked2v2Losses",
-      "StackableId": 15
     },
     {
       "LocalizedName": "",
       "DevName": "Ranked2v2Losses",
       "IdRangeName": "",
       "StackableRangeName": "Ranked2v2Losses",
-      "StackableId": 11
+      "StackableId": 15
     },
     {
       "LocalizedName": "",
-      "DevName": "Ranked2v2Wins",
+      "DevName": "Unranked2v2Losses",
       "IdRangeName": "",
-      "StackableRangeName": "Ranked2v2Wins",
-      "StackableId": 10
+      "StackableRangeName": "Unranked2v2Losses",
+      "StackableId": 11
     },
     {
       "LocalizedName": "",
       "DevName": "Unranked2v2Wins",
       "IdRangeName": "",
       "StackableRangeName": "Unranked2v2Wins",
+      "StackableId": 10
+    },
+    {
+      "LocalizedName": "",
+      "DevName": "Ranked2v2Wins",
+      "IdRangeName": "",
+      "StackableRangeName": "Ranked2v2Wins",
       "StackableId": 14
     },
     {
@@ -11685,6 +12039,15 @@ const _stackable = _(
       "Icon": "f3af4ddea533f364e80c70c580ed933d",
       "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
       "StackableId": 26031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBrawlLosses",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 26035
     },
     {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
@@ -11982,6 +12345,15 @@ const _stackable = _(
       "Icon": "f3af4ddea533f364e80c70c580ed933d",
       "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
       "StackableId": 25031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBrawlWins",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 25035
     },
     {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
@@ -12309,6 +12681,15 @@ const _stackable = _(
       "StackableId": 27031
     },
     {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBattlegroundsWins",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 27035
+    },
+    {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
       "DevName": "JadeCampaign",
       "IdRangeName": "CharacterEnum",
@@ -12604,6 +12985,15 @@ const _stackable = _(
       "Icon": "f3af4ddea533f364e80c70c580ed933d",
       "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
       "StackableId": 28031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBattlegroundsLosses",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 28035
     },
     {
       "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
