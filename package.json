@@ -38,7 +38,7 @@
     "bluebird": "^3.5.1",
     "compression": "^1.7.1",
     "cors": "^2.8.4",
-    "feathers-hooks-common": "^3.10.0",
+    "feathers-hooks-common": "git://github.com/feathers-plus/feathers-hooks-common.git#master",
     "feathers-sequelize": "^3.0.0",
     "helmet": "^3.9.0",
     "json-bigint-string": "^1.0.0",
