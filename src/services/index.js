@@ -7,6 +7,7 @@ const champions = require('./champions/champions.service.js');
 const rounds = require('./rounds/rounds.service.js');
 const teams = require('./teams/teams.service.js');
 const teamMembers = require('./team-members/team-members.service.js');
+const telemetry = require('./telemetry/telemetry.service.js');
 module.exports = function (app) {
   app.configure(matches);
   app.configure(maps);
@@ -17,4 +18,5 @@ module.exports = function (app) {
   app.configure(rounds);
   app.configure(teams);
   app.configure(teamMembers);
+  app.configure(telemetry);
 };
