@@ -1,5 +1,3 @@
-const
-
 /* eslint-disable no-unused-vars */
 class Service {
   constructor(app, options) {
