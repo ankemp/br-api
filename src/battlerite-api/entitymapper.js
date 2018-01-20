@@ -43,7 +43,7 @@ function _flattenAttributes(data, type) {
         }
         break;
       case 'tags':
-        console.log(value);
+        // Waiting for BR API to patch...
         break;
 
       case 'createdAt':

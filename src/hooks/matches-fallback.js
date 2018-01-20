@@ -44,24 +44,45 @@ function saveMatches(app, matches) {
   })
 }
 
+function getMatches(params, matches) {
+  return new Promise((resolve, reject) => {
+    brApi.searchMatches(params)
+      .then(response => {
+        if (!!response && response.data.length > 0) {
+          const { next } = response.links;
+          const newMatches = map.matches(response);
+          matches = _.concat(matches, newMatches);
+          if (!!next) {
+            resolve(getMatches(next, matches));
+          } else {
+            resolve(matches);
+          }
+        }
+      })
+      .catch(() => resolve(matches));
+  });
+}
+
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return async context => {
     if (!!context.app && context.method === 'find') {
       if (!_.isUndefined(context.params.fallbackFrom) && _.isUndefined(context.params.query.id)) {
-        let params = Object.assign({}, { fromDate: context.params.fallbackFrom, playerIds: context.params.query.playerId });
-        return brApi.searchMatches(params)
-          .then(response => {
-            if (!!response && response.data.length > 0) {
-              const fromAPI = map.matches(response);
-              const fromDB = context.result.data;
-              const difference = _.differenceBy(fromAPI, fromDB, 'id');
-              context.result.data = _.take(_.orderBy(_.concat(difference, fromDB), ['createdAt'], ['desc']), 10);
-              context.result.total = context.result.total + difference.length;
-              return saveMatches(context.app, difference).then(() => context);
-            }
-            return context;
+
+        const params = { fromDate: context.params.fallbackFrom, playerIds: context.params.query.playerId };
+        const matches = _.stubArray();
+
+        return getMatches(params, matches)
+          .then(fromAPI => {
+            const fromDB = context.result.data;
+            const difference = _.differenceBy(fromAPI, fromDB, 'id');
+            context.result.data = _.take(_.orderBy(_.concat(difference, fromDB), ['createdAt'], ['desc']), 10);
+            context.result.total = context.result.total + difference.length;
+            return saveMatches(context.app, difference).then(() => context);
           })
-          .catch(error => Promise.resolve(context))
+          .catch(error => {
+            console.error(error);
+            return Promise.resolve(context)
+          })
       }
     }
     return context;
