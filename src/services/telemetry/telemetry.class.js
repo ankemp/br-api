@@ -1,6 +1,11 @@
+const
+
 /* eslint-disable no-unused-vars */
 class Service {
-  constructor(options) {
+  constructor(app, options) {
+    this.app = app || {};
+    this.sequelizeClient = !!app.get ? app.get('sequelizeClient') : {};
+    this.matches = !!app.get ? this.sequelizeClient.models.matches : {};
     this.options = options || {};
   }
 
@@ -9,9 +14,11 @@ class Service {
   }
 
   async get(id, params) {
-    return {
-      id, text: `A new message with ID: ${id}!`
-    };
+    return this.matches.findById(id)
+      .then(match => {
+        console.log(match.telemetry);
+        return match;
+      });
   }
 }
 
