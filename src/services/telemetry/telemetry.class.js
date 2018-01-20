@@ -1,4 +1,5 @@
-/* eslint-disable no-unused-vars */
+const { getTelemetry } = require('../../battlerite-api')
+
 class Service {
   constructor(app, options) {
     this.app = app || {};
@@ -13,10 +14,7 @@ class Service {
 
   async get(id, params) {
     return this.matches.findById(id)
-      .then(match => {
-        console.log(match.telemetry);
-        return match;
-      });
+      .then(({ telemetry }) => getTelemetry(telemetry))
   }
 }
 
