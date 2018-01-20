@@ -19973,3 +19973,7 @@ exports.getByLocalizedName = function (localizedName) {
 exports.getByDevName = function (devName) {
   return _gameplay.find({ devName })
 }
+
+exports.getByTypeID = function (typeID) {
+  return _gameplay.find({ typeID });
+}

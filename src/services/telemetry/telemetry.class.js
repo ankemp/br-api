@@ -1,4 +1,5 @@
 const { getTelemetry } = require('../../battlerite-api')
+const mapTelemetry = require('../../battlerite-api/telemetrymapper')
 
 class Service {
   constructor(app, options) {
@@ -15,6 +16,7 @@ class Service {
   async get(id, params) {
     return this.matches.findById(id)
       .then(({ telemetry }) => getTelemetry(telemetry))
+      .then(telemetry => mapTelemetry(telemetry));
   }
 }
 
