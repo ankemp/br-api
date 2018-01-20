@@ -19966,14 +19966,19 @@ const _gameplay = _(
   ]
 );
 
+function _championMap(champion) {
+  _.set(champion, 'abilities', _.filter(champion, (item, key) => key.includes('ability')));
+  return _.pick(champion, ['typeID', 'name', 'devName', 'title', 'description', 'battlerites', 'abilities']);
+}
+
 exports.getByLocalizedName = function (localizedName) {
   return _gameplay.find({ name: localizedName });
 }
 
 exports.getByDevName = function (devName) {
-  return _gameplay.find({ devName })
+  return _gameplay.find({ devName });
 }
 
 exports.getByTypeID = function (typeID) {
-  return _gameplay.find({ typeID });
+  return _championMap(_gameplay.find({ typeID }));
 }

@@ -1,6 +1,5 @@
 const _ = require('lodash');
-const { getByStackableId } = require('./data/stackables');
-const { getByDevName, getByTypeID } = require('./data/gameplay');
+const { getByTypeID } = require('./data/gameplay');
 const { getChampionById } = require('./data/champions');
 
 module.exports = function (telemetry) {
@@ -14,14 +13,49 @@ module.exports = function (telemetry) {
     .groupBy('type')
     .reduce((obj, t, key) => {
       switch (key) {
+        case 'Structures.UserRoundSpell': {
+          _.set(obj, 'roundSpell', _mapRoundSpell(t));
+          break;
+        }
         case 'Structures.BattleritePickEvent': {
           _.set(obj, 'battlerites', _mapBattlerites(t));
+          break;
+        }
+        case 'Structures.RoundFinishedEvent': {
+          _.set(obj, 'roundStats', _mapRoundFinishedEvent(t));
+          break;
+        }
+        case 'com.stunlock.service.matchmaking.avro.QueueEvent':
+        case 'Structures.DeathEvent':
+        case 'Structures.MatchFinishedEvent':
+        case 'Structures.ServerShutdown':
+        case 'Structures.MatchStart':
+        case 'Structures.MatchReservedUser': {
+          // Landfill
+          break;
+        }
+        default: {
+          _.set(obj, key.replace(/\./g, ''), t);
+          break;
         }
       }
       return obj;
     }, {})
 }
 
+function _mapRoundSpell(roundSpells) {
+  const _roundSpells = _(roundSpells);
+  return _roundSpells
+    .map(t => {
+      const { character, typeId, sourceTypeId } = t.dataObject;
+      const champion = getByTypeID(+character.id);
+      _.set(t.dataObject, 'type', champion.abilities.find(a => a.typeID === typeId));
+      _.set(t.dataObject, 'source', champion.abilities.find(a => a.typeID === sourceTypeId));
+      return { cursor: t.cursor, ...t.dataObject };
+    })
+    .sortBy('cursor')
+    .groupBy('scoreType')
+}
 
 function _mapBattlerites(battlerites) {
   const _battlerites = _(battlerites);
@@ -30,8 +64,18 @@ function _mapBattlerites(battlerites) {
       const { character, battleriteType } = t.dataObject;
       const champion = getByTypeID(+character.id);
       t.dataObject.battlerite = champion.battlerites.find(({ typeID }) => typeID === battleriteType);
-      return t.dataObject;
+      return { cursor: t.cursor, ...t.dataObject };
     })
-    .map(t => _.pick(t, ['time', 'battlerite', 'loadoutType', 'userID', 'character']))
-    .groupBy('userID')
+    .map(t => _.pick(t, ['cursor', 'time', 'battlerite', 'loadoutType', 'userID', 'character']))
+    .groupBy('userID');
+}
+
+function _mapRoundFinishedEvent(rounds) {
+  const _rounds = _(rounds);
+  return _rounds
+    .map(r => {
+      return { cursor: r.cursor, ...r.dataObject };
+    })
+    .map(r => _.pick(r, ['cursor', 'time', 'round', 'roundLength', 'winningTeam', 'playerStats']))
+    .sortBy('round')
 }

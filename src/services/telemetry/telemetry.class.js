@@ -16,7 +16,8 @@ class Service {
   async get(id, params) {
     return this.matches.findById(id)
       .then(({ telemetry }) => getTelemetry(telemetry))
-      .then(telemetry => mapTelemetry(telemetry));
+      .then(telemetry => mapTelemetry(telemetry))
+      .catch(console.error);
   }
 }
 
