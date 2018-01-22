@@ -74,8 +74,11 @@ function _mapRoundFinishedEvent(rounds) {
   const _rounds = _(rounds);
   return _rounds
     .map(r => {
+      _.set(r.dataObject, 'stats', r.dataObject.playerStats)
+      _.set(r.dataObject, 'duration', r.dataObject.roundLength);
+      _.set(r.dataObject, 'ordinal', r.dataObject.round);
       return { cursor: r.cursor, ...r.dataObject };
     })
-    .map(r => _.pick(r, ['cursor', 'time', 'round', 'roundLength', 'winningTeam', 'playerStats']))
-    .sortBy('round')
+    .map(r => _.pick(r, ['cursor', 'time', 'ordinal', 'duration', 'winningTeam', 'stats']))
+    .sortBy('ordinal')
 }
