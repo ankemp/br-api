@@ -3,5 +3,6 @@ module.exports = {
   searchMatches: require('./methods/searchMatches'),
   getPlayer: require('./methods/getPlayer'),
   getPlayers: require('./methods/getPlayers'),
-  getTeams: require('./methods/getTeams')
+  getTeams: require('./methods/getTeams'),
+  getTelemetry: require('./methods/getTelemetry')
 };
