@@ -14,26 +14,41 @@ module.exports = function (telemetry) {
     .reduce((obj, t, key) => {
       switch (key) {
         case 'Structures.UserRoundSpell': {
-          _.set(obj, 'roundSpell', _mapRoundSpell(t));
+          // _.set(obj, 'roundSpell', _mapRoundSpell(t));
           break;
         }
+
+        case 'Structures.RoundEvent': {
+          // _.set(obj, 'roundEvent', _mapRoundEvent(t));
+        }
+
         case 'Structures.BattleritePickEvent': {
           _.set(obj, 'battlerites', _mapBattlerites(t));
           break;
         }
+
         case 'Structures.RoundFinishedEvent': {
           _.set(obj, 'roundStats', _mapRoundFinishedEvent(t));
           break;
         }
+
+        case 'com.stunlock.battlerite.team.TeamUpdateEvent': {
+          _.set(obj, 'teamUpdate', _mapTeamUpdate(t));
+        }
+
+        case 'Structures.MatchFinishedEvent': {
+          _.set(obj, 'matchFinishedEvent', t);
+        }
+
         case 'com.stunlock.service.matchmaking.avro.QueueEvent':
         case 'Structures.DeathEvent':
-        case 'Structures.MatchFinishedEvent':
         case 'Structures.ServerShutdown':
         case 'Structures.MatchStart':
         case 'Structures.MatchReservedUser': {
           // Landfill
           break;
         }
+
         default: {
           _.set(obj, key.replace(/\./g, ''), t);
           break;
@@ -46,15 +61,23 @@ module.exports = function (telemetry) {
 function _mapRoundSpell(roundSpells) {
   const _roundSpells = _(roundSpells);
   return _roundSpells
-    .map(t => {
-      const { character, typeId, sourceTypeId } = t.dataObject;
+    .map(s => {
+      const { character, typeId, sourceTypeId } = s.dataObject;
       const champion = getByTypeID(+character.id);
-      _.set(t.dataObject, 'type', champion.abilities.find(a => a.typeID === typeId));
-      _.set(t.dataObject, 'source', champion.abilities.find(a => a.typeID === sourceTypeId));
-      return { cursor: t.cursor, ...t.dataObject };
+      _.set(s.dataObject, 'type', champion.abilities.find(a => a.typeID === typeId));
+      _.set(s.dataObject, 'source', champion.abilities.find(a => a.typeID === sourceTypeId));
+      return { cursor: s.cursor, ...s.dataObject };
     })
     .sortBy('cursor')
     .groupBy('scoreType')
+}
+
+function _mapRoundEvent(roundEvents) {
+  const _roundEvents = _(roundEvents);
+  return _roundEvents
+    .map(e => {
+      return { cursor: e.cursor, ...e.dataObject };
+    })
 }
 
 function _mapBattlerites(battlerites) {
@@ -81,4 +104,13 @@ function _mapRoundFinishedEvent(rounds) {
     })
     .map(r => _.pick(r, ['cursor', 'time', 'ordinal', 'duration', 'winningTeam', 'stats']))
     .sortBy('ordinal')
+}
+
+function _mapTeamUpdate(teams) {
+  const _teams = _(teams);
+  return _teams
+    .map(t => {
+
+      return { cursor: t.cursor, ...t.dataObject };
+    });
 }
