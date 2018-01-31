@@ -17,9 +17,9 @@ module.exports = {
   after: {
     all: [],
     find: [
+      pluckTeams(),
       shouldFallback({ service: 'teams' }),
       teamsFallback(),
-      pluckTeams()
     ],
     get: [],
     create: [],

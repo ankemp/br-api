@@ -24,22 +24,22 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       const playerIds = context.result.members;
 
       return getPlayersData(playerIds)
-        .then(players => {
-          return Promise.map(players, player => {
-            return sequelizeClient.models.players
-              .findAndCount({ where: { id: player.id } })
-              .then(({ count }) => count !== 0)
-              .then(exists => {
-                if (!exists) {
-                  return playersService.create(player);
-                }
-                return Promise.resolve();
-              })
+        .then(async players => {
+          await Promise.map(players, player => {
+            return sequelizeClient.models.players.findOrCreate({ where: { id: player.id }, defaults: player })
           })
+          return players;
         })
-        .then(() => teamMembersService.create(teamMembers))
-        .then(() => context);
-
+        .then(async players => {
+          await Promise.map(teamMembers, tm => {
+            return sequelizeClient.models.teamMembers.findOrCreate({ where: { ...tm } });
+          });
+          return players;
+        })
+        .then(players => {
+          context.result.players = _.map(players, p => _.pick(p, ['id', 'name']));
+          return context;
+        });
     }
 
     return context

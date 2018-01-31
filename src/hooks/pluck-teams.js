@@ -19,7 +19,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         where: { id: teamIds }
       })
         .then(data => {
-          context.result = data;
+          context.result = data.map(d => d.toJSON());
           return context;
         });
 
