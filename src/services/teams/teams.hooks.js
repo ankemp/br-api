@@ -19,7 +19,7 @@ module.exports = {
     get: [],
     create: [teamMemberPopulate()],
     update: [],
-    patch: [],
+    patch: [teamMemberPopulate()],
     remove: []
   },
 
