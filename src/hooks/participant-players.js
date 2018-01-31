@@ -17,8 +17,8 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
 
       return Promise.map(playerIds, id => {
         return sequelizeClient.models.players
-          .findAndCount({ where: { id: id } })
-          .then(({ count }) => count !== 0)
+          .count({ where: { id: id } })
+          .then(count => count !== 0)
           .then(exists => {
             if (!exists) {
               return playersService.create({ id });
