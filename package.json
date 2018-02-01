@@ -28,7 +28,9 @@
     "start:dev": "nodemon --inspect=9229 --watch src",
     "mocha": "mocha test/ --recursive --exit",
     "migration:create": "sequelize migration:create",
-    "migration:run": "sequelize db:migrate"
+    "seed:run": "sequelize db:seed:all",
+    "migration:run": "sequelize db:migrate",
+    "migrateandseed": "yarn migration:run && yarn seed:run"
   },
   "dependencies": {
     "@feathersjs/configuration": "^1.0.1",
