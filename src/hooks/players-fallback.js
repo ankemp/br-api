@@ -19,8 +19,8 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
 
       if (context.type === 'before') {
         return sequelizeClient.models.players
-          .findAndCount({ where: { id: context.id } })
-          .then(({ count }) => count !== 0)
+          .count({ where: { id: context.id } })
+          .then(count => count !== 0)
           .then(exists => {
             if (!exists) {
               return getPlayerData(context.id)

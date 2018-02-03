@@ -28,17 +28,19 @@
     "start:dev": "nodemon --inspect=9229 --watch src",
     "mocha": "mocha test/ --recursive --exit",
     "migration:create": "sequelize migration:create",
-    "migration:run": "sequelize db:migrate"
+    "seed:run": "sequelize db:seed:all",
+    "migration:run": "sequelize db:migrate",
+    "migrateandseed": "yarn migration:run && yarn seed:run"
   },
   "dependencies": {
     "@feathersjs/configuration": "^1.0.1",
-    "@feathersjs/errors": "^3.2.0",
+    "@feathersjs/errors": "^3.2.2",
     "@feathersjs/express": "^1.1.2",
-    "@feathersjs/feathers": "^3.0.2",
+    "@feathersjs/feathers": "^3.1.0",
     "bluebird": "^3.5.1",
     "compression": "^1.7.1",
     "cors": "^2.8.4",
-    "feathers-hooks-common": "git://github.com/feathers-plus/feathers-hooks-common.git#master",
+    "feathers-hooks-common": "^4.3.0",
     "feathers-sequelize": "^3.0.0",
     "helmet": "^3.9.0",
     "json-bigint-string": "^1.0.0",
@@ -56,7 +58,7 @@
   "devDependencies": {
     "eslint": "^4.12.1",
     "mocha": "^4.0.1",
-    "nodemon": "^1.12.5",
+    "nodemon": "^1.14.11",
     "request-promise": "^4.2.2",
     "sequelize-cli": "^3.2.0"
   }

@@ -14,8 +14,8 @@ function saveMatches(app, matches) {
     const { rounds, rosters } = match;
 
     return sequelizeClient.models.matches
-      .findAndCount({ where: { id: match.id } })
-      .then(({ count }) => count !== 0)
+      .count({ where: { id: match.id } })
+      .then(count => count !== 0)
       .then(exists => !exists ? matchesService.create(match) : false)
       .then(cont => {
         if (cont) {

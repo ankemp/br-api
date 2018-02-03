@@ -12,12 +12,12 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
         teamIds = context.result.map(tm => tm.teamId);
       }
 
-      return sequelizeClient.models.teams.findAll({
-        include: [
-          { model: sequelizeClient.models.players, attributes: ['id', 'name'] }
-        ],
-        where: { id: teamIds }
-      })
+      return sequelizeClient.models.teams.findAll(
+        {
+          include: [{ model: sequelizeClient.models.players, attributes: ['id', 'name'] }],
+          where: { id: teamIds }
+        }
+      )
         .then(data => {
           context.result = data.map(d => d.toJSON());
           return context;
