@@ -97,7 +97,16 @@ function _mapRoundFinishedEvent(rounds) {
   const _rounds = _(rounds);
   return _rounds
     .map(r => {
-      _.set(r.dataObject, 'stats', r.dataObject.playerStats)
+      const mvp = _.maxBy(r.dataObject.playerStats, 'score');
+      r.dataObject.playerStats = _.map(r.dataObject.playerStats, player => {
+        if (player.userID === mvp.userID) {
+          _.set(player, 'mvp', true);
+        } else {
+          _.set(player, 'mvp', false);
+        }
+        return player;
+      });
+      _.set(r.dataObject, 'stats', r.dataObject.playerStats);
       _.set(r.dataObject, 'duration', r.dataObject.roundLength);
       _.set(r.dataObject, 'ordinal', r.dataObject.round);
       return { cursor: r.cursor, ...r.dataObject };
