@@ -5,6 +5,12 @@ env: flex
 beta_settings:
   cloud_sql_instances: br-history-188417:us-central1:br-db
 
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 2
+  cpu_utilization:
+    target_utilization: 0.8
+
 skip_files:
   - ^(.*/)?app\.yaml
   - ^(.*/)?app\.yml
