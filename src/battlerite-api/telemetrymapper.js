@@ -10,7 +10,7 @@ module.exports = function (telemetry) {
     .map(t => {
       const { character } = t.dataObject;
       if (!!character) {
-      _.set(t.dataObject, 'character', getChampionById(character));
+        _.set(t.dataObject, 'character', getChampionById(character));
       }
       return t;
     })
@@ -109,7 +109,7 @@ function _mapRoundFinishedEvent(rounds) {
   return _rounds
     .chain()
     .map(r => {
-      const mvp = _.maxBy(r.dataObject.playerStats, 'score');
+      const mvp = _.maxBy(_.filter(r.dataObject.playerStats, { deaths: 0 }), 'score');
       r.dataObject.playerStats = _.map(r.dataObject.playerStats, player => {
         if (player.userID === mvp.userID) {
           _.set(player, 'mvp', true);
