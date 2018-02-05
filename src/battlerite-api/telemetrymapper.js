@@ -9,7 +9,9 @@ module.exports = function (telemetry) {
     .chain()
     .map(t => {
       const { character } = t.dataObject;
+      if (!!character) {
       _.set(t.dataObject, 'character', getChampionById(character));
+      }
       return t;
     })
     .groupBy('type')
