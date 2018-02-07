@@ -83,8 +83,8 @@ function _mapRoundEvent(roundEvents) {
   const _roundEvents = _(roundEvents);
   return _roundEvents
     .chain()
-    .map(e => {
-      return { cursor: e.cursor, ...e.dataObject };
+    .map(re => {
+      return { cursor: re.cursor, ...re.dataObject };
     })
     .value();
 }
@@ -109,8 +109,11 @@ function _mapRoundFinishedEvent(rounds) {
   return _rounds
     .chain()
     .map(r => {
-      const mvp = _.maxBy(_.filter(r.dataObject.playerStats, { deaths: 0 }), 'score');
-      r.dataObject.playerStats = _.map(r.dataObject.playerStats, player => {
+      return { cursor: r.cursor, ...r.dataObject };
+    })
+    .map(r => {
+      const mvp = _.maxBy(_.filter(r.playerStats, { deaths: 0 }), 'score');
+      r.playerStats = _.map(r.playerStats, player => {
         if (player.userID === mvp.userID) {
           _.set(player, 'mvp', true);
         } else {
@@ -118,12 +121,19 @@ function _mapRoundFinishedEvent(rounds) {
         }
         return player;
       });
-      _.set(r.dataObject, 'stats', r.dataObject.playerStats);
-      _.set(r.dataObject, 'duration', r.dataObject.roundLength);
-      _.set(r.dataObject, 'ordinal', r.dataObject.round);
-      return { cursor: r.cursor, ...r.dataObject };
+      return r;
     })
-    .map(r => _.pick(r, ['cursor', 'time', 'ordinal', 'duration', 'winningTeam', 'stats']))
+    .map(r => {
+      const endTime = moment(r.time);
+      const startTime = endTime.subtract('seconds', r.duration);
+      _.set(r, 'stats', r.playerStats);
+      _.set(r, 'duration', r.roundLength);
+      _.set(r, 'ordinal', r.round);
+      _.set(r, 'startTime', startTime.toISOString());
+      _.set(r, 'endTime', endTime.toISOString());
+      return r;
+    })
+    .map(r => _.pick(r, ['cursor', 'startTime', 'endTime', 'ordinal', 'duration', 'winningTeam', 'stats']))
     .sortBy('ordinal')
     .value();
 }
@@ -133,8 +143,16 @@ function _mapTeamUpdate(teams) {
   return _teams
     .chain()
     .map(t => {
-
       return { cursor: t.cursor, ...t.dataObject };
     })
+    .map(t => {
+      const updateData = _.omit(t, ['userIDs']);
+      return t.userIDs
+        .filter(userID => userID !== 0)
+        .map(userID => {
+          return _.assign(updateData, { userID });
+        })
+    })
+    .flatten()
     .value();
 }
