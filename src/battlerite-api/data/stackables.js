@@ -3,3191 +3,6 @@ const _ = require('lodash');
 const _stackable = _(
   [
     {
-      "LocalizedName": "7e960b795d3a4917829e590246cfec6f",
-      "DevName": "Alchemist_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150001
-    },
-    {
-      "LocalizedName": "45cf3a34b514456b9f2ebf27800a9f1f",
-      "DevName": "Alchemist_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150002
-    },
-    {
-      "LocalizedName": "5160c9a0c8b1436385e21741a3f9451f",
-      "DevName": "Alchemist_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150003
-    },
-    {
-      "LocalizedName": "3b8904afd5c0461d81f8ee14741e8fcd",
-      "DevName": "Alchemist_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150004
-    },
-    {
-      "LocalizedName": "4f22ac6bdb1346b6ba57af3b5b9497ed",
-      "DevName": "Alchemist_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150005
-    },
-    {
-      "LocalizedName": "d5eb77d48040484ea32396ca13a69c37",
-      "DevName": "Alchemist_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150006
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Alchemist_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150007
-    },
-    {
-      "LocalizedName": "83a5b580c9334d34b8d5f9f24548f6e7",
-      "DevName": "Alchemist_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150008
-    },
-    {
-      "LocalizedName": "9de07da58d6249c19dbb2da206cf4da7",
-      "DevName": "Alchemist_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150009
-    },
-    {
-      "LocalizedName": "b744876c9bfc4189ba3ed7cf383860a7",
-      "DevName": "Astronomer_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150010
-    },
-    {
-      "LocalizedName": "41f972d3c1c94990a46c8e41a711edd9",
-      "DevName": "Astronomer_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150011
-    },
-    {
-      "LocalizedName": "de3100cbf8504f8cb2edb62971958f69",
-      "DevName": "Astronomer_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150012
-    },
-    {
-      "LocalizedName": "ebaab7dce45b4efaaea830779b25cabc",
-      "DevName": "Astronomer_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150013
-    },
-    {
-      "LocalizedName": "6b0bf1ed6d9845688868e27de96a38f0",
-      "DevName": "Astronomer_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150014
-    },
-    {
-      "LocalizedName": "3bb1a00e155f497594ed323d05b9f614",
-      "DevName": "Astronomer_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150015
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Astronomer_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150016
-    },
-    {
-      "LocalizedName": "487c1732b38548439d79ad9de9061319",
-      "DevName": "Astronomer_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150017
-    },
-    {
-      "LocalizedName": "8564ca70f6fe4530bc4d4d5b430c6e0f",
-      "DevName": "Astronomer_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150018
-    },
-    {
-      "LocalizedName": "690495f751e44baebae14db30b674233",
-      "DevName": "Engineer_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150019
-    },
-    {
-      "LocalizedName": "8869ad85554643b5b9a7b55ca08ee69c",
-      "DevName": "Engineer_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150020
-    },
-    {
-      "LocalizedName": "8ff80513309d4a29886d5c7ec96fe5a6",
-      "DevName": "Engineer_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150021
-    },
-    {
-      "LocalizedName": "b49a3ecad6774f7f9dabf590d71dcdad",
-      "DevName": "Engineer_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150022
-    },
-    {
-      "LocalizedName": "621ce2cf07a74b8d9cc20d78ba955c21",
-      "DevName": "Engineer_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150023
-    },
-    {
-      "LocalizedName": "c1d185cad5bb40ada3f71306537941f0",
-      "DevName": "Engineer_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150024
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Engineer_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150025
-    },
-    {
-      "LocalizedName": "5ab6714427a247fd94da2c5d2cf35e88",
-      "DevName": "Engineer_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150026
-    },
-    {
-      "LocalizedName": "8e8bf076f3634f98ac914e89196bf73c",
-      "DevName": "Engineer_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150027
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Glutton_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150028
-    },
-    {
-      "LocalizedName": "acfd2bdb9a304ba89073e2046ff41121",
-      "DevName": "Glutton_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150029
-    },
-    {
-      "LocalizedName": "48dbc90ed2e645c9ae67707999f1c329",
-      "DevName": "Glutton_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150030
-    },
-    {
-      "LocalizedName": "5f2bfa27a8924eb3a8a6cad89f3a553c",
-      "DevName": "Gunner_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150031
-    },
-    {
-      "LocalizedName": "c988e254a1284ee2a4d1fe88d198936c",
-      "DevName": "Gunner_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150032
-    },
-    {
-      "LocalizedName": "aefc4c90279743039c2257efa5a841aa",
-      "DevName": "Gunner_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150033
-    },
-    {
-      "LocalizedName": "f7e58c2b022348aa8bbb20eebe45fdd6",
-      "DevName": "Gunner_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150034
-    },
-    {
-      "LocalizedName": "aa82a0c2c1e142c2a506c34cce33301c",
-      "DevName": "Gunner_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150035
-    },
-    {
-      "LocalizedName": "32e2726e7d1645c691b2ee3832954e60",
-      "DevName": "Gunner_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150036
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Gunner_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150037
-    },
-    {
-      "LocalizedName": "e1214eb22f6f4447be9935a8fa98fdc0",
-      "DevName": "Gunner_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150038
-    },
-    {
-      "LocalizedName": "98e64c4b3e594cbcb265abfff7c5e40e",
-      "DevName": "Gunner_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150039
-    },
-    {
-      "LocalizedName": "c6f929c95c21405f9d09494425b8a355",
-      "DevName": "Harbinger_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150040
-    },
-    {
-      "LocalizedName": "335e8bfd2f13415d846d7da5ddd68186",
-      "DevName": "Harbinger_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150041
-    },
-    {
-      "LocalizedName": "9742cb5cbb7541f1a6404e8836746e1c",
-      "DevName": "Harbinger_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150042
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Harbinger_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150043
-    },
-    {
-      "LocalizedName": "a6d619037f0c4363bd8f0f2b187aefec",
-      "DevName": "Harbinger_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150044
-    },
-    {
-      "LocalizedName": "270296b3652e4a1eb9b7233a76cef383",
-      "DevName": "Harbinger_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150045
-    },
-    {
-      "LocalizedName": "c9859ef346df475cb921cd75c516562e",
-      "DevName": "Herald_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150046
-    },
-    {
-      "LocalizedName": "fa0192e71fc6485b8ac34d05f36832f2",
-      "DevName": "Herald_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150047
-    },
-    {
-      "LocalizedName": "21ce898f9d3f4a1cb3687ad39ceef396",
-      "DevName": "Herald_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150048
-    },
-    {
-      "LocalizedName": "66952b189a3548da866d1db94ed1814a",
-      "DevName": "Herald_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150049
-    },
-    {
-      "LocalizedName": "50543a07b7fe4b1bbae94cce65cd8299",
-      "DevName": "Herald_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150050
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Herald_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150051
-    },
-    {
-      "LocalizedName": "e0a12f99cf4e4e20b84c0c42bd7795ad",
-      "DevName": "Herald_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150052
-    },
-    {
-      "LocalizedName": "2c9e8f40a80d493e843d95cc21464ed8",
-      "DevName": "Herald_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150053
-    },
-    {
-      "LocalizedName": "6008c7ff46b94718a193d57043151c49",
-      "DevName": "Igniter_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150054
-    },
-    {
-      "LocalizedName": "f68c2d9d568d42eda0e67d49eb5a49b6",
-      "DevName": "Igniter_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150055
-    },
-    {
-      "LocalizedName": "9f80ba5bf41649188a3ade5b97d3f8b2",
-      "DevName": "Igniter_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150056
-    },
-    {
-      "LocalizedName": "4f3a446bf15e417bb85be2060ff22939",
-      "DevName": "Igniter_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150057
-    },
-    {
-      "LocalizedName": "54f5e2e5e52d4cfbbddea56dafd52810",
-      "DevName": "Igniter_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150058
-    },
-    {
-      "LocalizedName": "4de5261f69c941f5a7091114b808571e",
-      "DevName": "Igniter_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150059
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Igniter_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150060
-    },
-    {
-      "LocalizedName": "80d06288c9f14cfe9652f24d1ddf4332",
-      "DevName": "Igniter_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150061
-    },
-    {
-      "LocalizedName": "e5d0f1fd9d524d0c870768f3731a829c",
-      "DevName": "Igniter_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150062
-    },
-    {
-      "LocalizedName": "1b169516001140a7bb0e13139f847893",
-      "DevName": "Inhibitor_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150063
-    },
-    {
-      "LocalizedName": "06aaeb7017794598a1d2af98c09067f5",
-      "DevName": "Inhibitor_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150064
-    },
-    {
-      "LocalizedName": "80a8b5832bd349b493ac840a388a7149",
-      "DevName": "Inhibitor_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150065
-    },
-    {
-      "LocalizedName": "320e8777b35d4ce682dba8debf06426f",
-      "DevName": "Inhibitor_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150066
-    },
-    {
-      "LocalizedName": "8d93a3de19854ac880568fb0a4e46f4a",
-      "DevName": "Inhibitor_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150067
-    },
-    {
-      "LocalizedName": "715732139b614cb9a377330200fb4af4",
-      "DevName": "Inhibitor_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150068
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Inhibitor_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150069
-    },
-    {
-      "LocalizedName": "437b11967b844089bb206cb65860c65f",
-      "DevName": "Inhibitor_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150070
-    },
-    {
-      "LocalizedName": "2c687e5b34d64217b3266ded9bee52a5",
-      "DevName": "Inhibitor_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150071
-    },
-    {
-      "LocalizedName": "fe7bf8f59af64c8d901e08665df0c412",
-      "DevName": "Inquisitor_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150072
-    },
-    {
-      "LocalizedName": "f9f9a98d09e54c2e8028c40aeb08d6ea",
-      "DevName": "Inquisitor_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150073
-    },
-    {
-      "LocalizedName": "3d39d98593b74526b9e852ef10cf25ee",
-      "DevName": "Inquisitor_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150074
-    },
-    {
-      "LocalizedName": "f99de7d545714a979630b50a5fc967a9",
-      "DevName": "Inquisitor_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150075
-    },
-    {
-      "LocalizedName": "45ec0632e6324272acebf62201433727",
-      "DevName": "Inquisitor_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150076
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Inquisitor_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150078
-    },
-    {
-      "LocalizedName": "e4c7224d27a2478aaebe5d439def27bf",
-      "DevName": "Inquisitor_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150079
-    },
-    {
-      "LocalizedName": "ef6b42655a3f4e5da4110d08a1cd8228",
-      "DevName": "Inquisitor_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150080
-    },
-    {
-      "LocalizedName": "08ffd3f0218247dfb0c61ba4971b9d43",
-      "DevName": "Nomad_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150081
-    },
-    {
-      "LocalizedName": "ac4b84d481ec4c1298dd374454180e28",
-      "DevName": "Nomad_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150082
-    },
-    {
-      "LocalizedName": "26b038603eb443258d4077c223f5fc0b",
-      "DevName": "Nomad_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150083
-    },
-    {
-      "LocalizedName": "11b4c2749ca845e2bc15646cf4d44c90",
-      "DevName": "Nomad_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150084
-    },
-    {
-      "LocalizedName": "de4f2c1fec22453db1d081bb65694b8d",
-      "DevName": "Nomad_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150085
-    },
-    {
-      "LocalizedName": "7f5e8de5b5654ae38ad5b2648c914719",
-      "DevName": "Nomad_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150086
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Nomad_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150087
-    },
-    {
-      "LocalizedName": "b996412b14134915b34d51423bd8b88e",
-      "DevName": "Nomad_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150088
-    },
-    {
-      "LocalizedName": "a8ec64debbc94350a86e79ffd7f54456",
-      "DevName": "Nomad_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150089
-    },
-    {
-      "LocalizedName": "626569a72bb7439587a8e0f41105c8c8",
-      "DevName": "Psychopomp_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150090
-    },
-    {
-      "LocalizedName": "ce54f86c40194d97b5255a7c466cb64b",
-      "DevName": "Psychopomp_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150091
-    },
-    {
-      "LocalizedName": "3ae3e4f233494553971cb6595e074d10",
-      "DevName": "Psychopomp_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150092
-    },
-    {
-      "LocalizedName": "dc8ae50bb3214f74aa41dd6f8d0a2907",
-      "DevName": "Psychopomp_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150093
-    },
-    {
-      "LocalizedName": "ab956f625f304665a4a43746bf975c55",
-      "DevName": "Psychopomp_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150094
-    },
-    {
-      "LocalizedName": "95f8d49065c3497d805f962760384aed",
-      "DevName": "Psychopomp_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150095
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Psychopomp_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150096
-    },
-    {
-      "LocalizedName": "599cb666be934cfa8b0f6e2958f7649e",
-      "DevName": "Psychopomp_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150097
-    },
-    {
-      "LocalizedName": "f721e8b3f0ea456da9fec660f1be7aca",
-      "DevName": "Psychopomp_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150098
-    },
-    {
-      "LocalizedName": "856226ec382d40f6899fc74b4d77f611",
-      "DevName": "Ranid_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150099
-    },
-    {
-      "LocalizedName": "abd954ec219a4720beb3762837de1f57",
-      "DevName": "Ranid_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150100
-    },
-    {
-      "LocalizedName": "c34c8e4905ca42c19b0733fd332c011d",
-      "DevName": "Ranid_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150101
-    },
-    {
-      "LocalizedName": "50e22c8765d44eac9d4822cd1ac0822f",
-      "DevName": "Ranid_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150102
-    },
-    {
-      "LocalizedName": "92d28973cef14d988055f58cabc7f395",
-      "DevName": "Ranid_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150103
-    },
-    {
-      "LocalizedName": "69904d53a242401da2ff156cdb962139",
-      "DevName": "Ranid_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150104
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Ranid_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150105
-    },
-    {
-      "LocalizedName": "57b582cad5f74f028bee5af4e3760581",
-      "DevName": "Ranid_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150106
-    },
-    {
-      "LocalizedName": "3f12838836554446a7fb92bbcbadd163",
-      "DevName": "Ranid_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150107
-    },
-    {
-      "LocalizedName": "a8c4271b2a754ba88192ace9069e150a",
-      "DevName": "Ravener_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150108
-    },
-    {
-      "LocalizedName": "f356a4e7a57a4265b1c7f10cfedba308",
-      "DevName": "Ravener_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150109
-    },
-    {
-      "LocalizedName": "a7e2a073a8b04563873cfe69c551f46a",
-      "DevName": "Ravener_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150110
-    },
-    {
-      "LocalizedName": "b52d47f43fed4982b067e8a5eefe6d55",
-      "DevName": "Ravener_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150111
-    },
-    {
-      "LocalizedName": "35cc56609c014f419a8a8cb5ddff3209",
-      "DevName": "Ravener_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150112
-    },
-    {
-      "LocalizedName": "e60a8616784e429180f20937e8feb50d",
-      "DevName": "Ravener_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150113
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Ravener_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150114
-    },
-    {
-      "LocalizedName": "5e862dea0a7040a3a4bb0a878cce22ee",
-      "DevName": "Ravener_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150115
-    },
-    {
-      "LocalizedName": "fffee9eadf56404b9ac4a4721c96f83b",
-      "DevName": "Ravener_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150116
-    },
-    {
-      "LocalizedName": "d49e0fdbc2b64575bee17686f6b16d3d",
-      "DevName": "Seeker_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150117
-    },
-    {
-      "LocalizedName": "9780524b564c42408227dc5543470dc9",
-      "DevName": "Seeker_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150118
-    },
-    {
-      "LocalizedName": "d9732cd676a84aa391853a725c07441c",
-      "DevName": "Seeker_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150119
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Seeker_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150120
-    },
-    {
-      "LocalizedName": "5dc356e8135d4ac19b3fa799f2f8ba5a",
-      "DevName": "Seeker_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150121
-    },
-    {
-      "LocalizedName": "8d77940e674e4cac87a286974e233c80",
-      "DevName": "Seeker_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150122
-    },
-    {
-      "LocalizedName": "d9eaa98b8fbe49cc9aeb87505343e472",
-      "DevName": "Spearmaster_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150123
-    },
-    {
-      "LocalizedName": "b2d94e137c2e4070a3f0be3bd8805c24",
-      "DevName": "Spearmaster_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150124
-    },
-    {
-      "LocalizedName": "83ed475735854a4a8e68dd35413f6725",
-      "DevName": "Spearmaster_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150125
-    },
-    {
-      "LocalizedName": "de5036a5aef1432eba2ccb0272e13aa2",
-      "DevName": "Spearmaster_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150126
-    },
-    {
-      "LocalizedName": "5c37a1c788b44aa5b474444a3a17c208",
-      "DevName": "Spearmaster_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150127
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Spearmaster_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150128
-    },
-    {
-      "LocalizedName": "fdf2664349a34fa5a991c65221574b59",
-      "DevName": "Spearmaster_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150129
-    },
-    {
-      "LocalizedName": "3662c55477fa49628ebd1a53f6ceb2e8",
-      "DevName": "Spearmaster_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150130
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Stormcaller_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150131
-    },
-    {
-      "LocalizedName": "6958aa8b905c4deda0561264af71819f",
-      "DevName": "Stormcaller_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150132
-    },
-    {
-      "LocalizedName": "125e365008be4604a4abb39c930db367",
-      "DevName": "Stormcaller_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150133
-    },
-    {
-      "LocalizedName": "0e1f18f288224e919b803d7289a00057",
-      "DevName": "Vanguard_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150134
-    },
-    {
-      "LocalizedName": "61c2114cdd4a4eecb85eca3144010043",
-      "DevName": "Vanguard_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150135
-    },
-    {
-      "LocalizedName": "3dd141195d404229a27a7f60a07c838c",
-      "DevName": "Vanguard_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150136
-    },
-    {
-      "LocalizedName": "69bed74ea9874717a08ead5095036559",
-      "DevName": "Vanguard_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150137
-    },
-    {
-      "LocalizedName": "4e2f9198162f46d7bf7aba76cf618abc",
-      "DevName": "Vanguard_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150138
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Vanguard_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150140
-    },
-    {
-      "LocalizedName": "1938ebf6073e49e881057f7704af27fb",
-      "DevName": "Vanguard_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150141
-    },
-    {
-      "LocalizedName": "fb21caeff4f24b03bcb9a5f6915cb2e4",
-      "DevName": "Vanguard_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150142
-    },
-    {
-      "LocalizedName": "06b3f83f6e1040fcb25b1640120b1537",
-      "DevName": "Vanguard_Standard_Weapon04",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150143
-    },
-    {
-      "LocalizedName": "6634925eba79428da962b5bb857ba10e",
-      "DevName": "Vanguard_Standard_Weapon05",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150144
-    },
-    {
-      "LocalizedName": "bdc10fde0f0243f19f02e69bfd4ac22d",
-      "DevName": "Spearmaster_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150149
-    },
-    {
-      "LocalizedName": "02a16023ad2547bdb8a25266a44e7ceb",
-      "DevName": "Spearmaster_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150150
-    },
-    {
-      "LocalizedName": "cf7204a72d5a49c6b017c93eb9894b99",
-      "DevName": "Spearmaster_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150151
-    },
-    {
-      "LocalizedName": "f277d4a0ee2c489380bb90aa27933b8c",
-      "DevName": "Glutton_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150152
-    },
-    {
-      "LocalizedName": "24a1b7cfc7994ff39494821f09446d0b",
-      "DevName": "Glutton_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150153
-    },
-    {
-      "LocalizedName": "7af99a26e27540d996a91f9e4c6eac63",
-      "DevName": "Glutton_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150154
-    },
-    {
-      "LocalizedName": "63a6305019404402bb85ef88ec332f3d",
-      "DevName": "Glutton_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150155
-    },
-    {
-      "LocalizedName": "191948f90ec54e6bb1b26d6e556ca99d",
-      "DevName": "Glutton_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150156
-    },
-    {
-      "LocalizedName": "683123e3e6ab4371a3511198170061fd",
-      "DevName": "Glutton_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150157
-    },
-    {
-      "LocalizedName": "3e8ec3f766a347f398fa906ee61c266d",
-      "DevName": "Glutton_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150158
-    },
-    {
-      "LocalizedName": "5688fef02a76410eb211937f582be5bb",
-      "DevName": "Glutton_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150159
-    },
-    {
-      "LocalizedName": "168235992f11490f8d112745770fea93",
-      "DevName": "Herald_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150160
-    },
-    {
-      "LocalizedName": "064727d6e3aa41b8b0db435b9972f2f5",
-      "DevName": "Herald_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150161
-    },
-    {
-      "LocalizedName": "af3474d0ba0b4748b6a1cbebe88b4554",
-      "DevName": "Herald_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150162
-    },
-    {
-      "LocalizedName": "9b5912dc34b6414ab165a51996ce0450",
-      "DevName": "Inquisitor_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150163
-    },
-    {
-      "LocalizedName": "d0e07b3b08774daa88051252797b13f1",
-      "DevName": "Inquisitor_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150164
-    },
-    {
-      "LocalizedName": "2b036e6eff90434296c820809c345977",
-      "DevName": "Inquisitor_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150165
-    },
-    {
-      "LocalizedName": "83bc3c4b4bd840a2b5d70ac4f37055a1",
-      "DevName": "Vanguard_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150166
-    },
-    {
-      "LocalizedName": "cb3eedd2fbe544b6b8cd85903cb05163",
-      "DevName": "Vanguard_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150167
-    },
-    {
-      "LocalizedName": "c49fb9d633ca457b8a9bb84864f45914",
-      "DevName": "Vanguard_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150168
-    },
-    {
-      "LocalizedName": "ce3936df007045f3a9d8b12d24ba5e5a",
-      "DevName": "Seeker_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150169
-    },
-    {
-      "LocalizedName": "75f13dbab58e4cef93f22aa599516a8f",
-      "DevName": "Seeker_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150170
-    },
-    {
-      "LocalizedName": "78f11ed6a98c4c6f8c274d5a196dffd1",
-      "DevName": "Seeker_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150171
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "BloodPriest_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150172
-    },
-    {
-      "LocalizedName": "f809cce7403d44c8a380a38606271e64",
-      "DevName": "Harbinger_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150173
-    },
-    {
-      "LocalizedName": "a58a3bc882874da7a91ac7bffc384e93",
-      "DevName": "Harbinger_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150174
-    },
-    {
-      "LocalizedName": "f2ecdc793d79491db136ce2ea81f2927",
-      "DevName": "Harbinger_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150175
-    },
-    {
-      "LocalizedName": "721355f1890c4b339f1ed47855941ff5",
-      "DevName": "Seeker_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150176
-    },
-    {
-      "LocalizedName": "3a05b9c70157477c936effcc6e9630fa",
-      "DevName": "Seeker_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150177
-    },
-    {
-      "LocalizedName": "8f376b0cc9f9485b8ea521b5fbe534b3",
-      "DevName": "Ranid_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150178
-    },
-    {
-      "LocalizedName": "8db7e0cd84fc4002a830b967f8d726ec",
-      "DevName": "Ranid_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150179
-    },
-    {
-      "LocalizedName": "6e517664f43a49b1849cab0264fee345",
-      "DevName": "Igniter_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150180
-    },
-    {
-      "LocalizedName": "fab26f208fd64d41a1ce22fa9880c544",
-      "DevName": "Igniter_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150181
-    },
-    {
-      "LocalizedName": "ba73eb68512346b5813f34f52a8a08c8",
-      "DevName": "Gunner_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150182
-    },
-    {
-      "LocalizedName": "b6752392fa38420381033bb374c12440",
-      "DevName": "Gunner_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150183
-    },
-    {
-      "LocalizedName": "e6698fa98b8040faa13d46b461c81ba1",
-      "DevName": "Harbinger_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150184
-    },
-    {
-      "LocalizedName": "384e432d82f947c09f2e10f7fa7ddae4",
-      "DevName": "Harbinger_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150185
-    },
-    {
-      "LocalizedName": "7f2b9086bf9b47239aa819da742d6e65",
-      "DevName": "Engineer_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150186
-    },
-    {
-      "LocalizedName": "4355a9fc2d3a420d877dd3883919dd7e",
-      "DevName": "Engineer_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150187
-    },
-    {
-      "LocalizedName": "6dd5ac7d23094c1b9c4e66238b0b2ee9",
-      "DevName": "Alchemist_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150188
-    },
-    {
-      "LocalizedName": "5ee3a60540614aa7b01a59e065a9196e",
-      "DevName": "Astronomer_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150189
-    },
-    {
-      "LocalizedName": "3f406018eccc4141a7fdbd06bfb5ac36",
-      "DevName": "Engineer_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150190
-    },
-    {
-      "LocalizedName": "f5db979553084f7692816b18443915e7",
-      "DevName": "Glutton_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150191
-    },
-    {
-      "LocalizedName": "621f88bd7c364ea88fa70b89bd13a64a",
-      "DevName": "Gunner_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150192
-    },
-    {
-      "LocalizedName": "10ab5750da2b40f6b1466feaa2921bb0",
-      "DevName": "Harbinger_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150193
-    },
-    {
-      "LocalizedName": "e890e8094ebc4d7789fb5203840d9fd3",
-      "DevName": "Herald_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150194
-    },
-    {
-      "LocalizedName": "60583753b8d4456082585a8d77aac04a",
-      "DevName": "Igniter_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150195
-    },
-    {
-      "LocalizedName": "acfa2e8f3c0e406096d898c2a851b8eb",
-      "DevName": "Inhibitor_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150196
-    },
-    {
-      "LocalizedName": "0a6f8eb8e78d4574ae0d69374db8f725",
-      "DevName": "Inquisitor_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150197
-    },
-    {
-      "LocalizedName": "b2edd02fac464ca6b8bceeb1915ae36f",
-      "DevName": "Nomad_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150198
-    },
-    {
-      "LocalizedName": "9a74fe3640ac4facafaecdd793802dc2",
-      "DevName": "Psychopomp_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150199
-    },
-    {
-      "LocalizedName": "618fbcd6f0b74e0ea5358d3060a0fcb2",
-      "DevName": "Ranid_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150200
-    },
-    {
-      "LocalizedName": "4c7687a3893142efa915f4c7d7741c0b",
-      "DevName": "Ravener_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150201
-    },
-    {
-      "LocalizedName": "b08e38eee50541279dbb5e4a2769b0a8",
-      "DevName": "Seeker_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150202
-    },
-    {
-      "LocalizedName": "16e24b270664423c88b293615243e269",
-      "DevName": "Spearmaster_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150203
-    },
-    {
-      "LocalizedName": "5c40d8f20fa74aaa890932d47b50554c",
-      "DevName": "Vanguard_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150204
-    },
-    {
-      "LocalizedName": "a230d7ff5a2840228cdc5087a1dbf4ca",
-      "DevName": "Psychopomp_Set03_Toki01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150205
-    },
-    {
-      "LocalizedName": "3566767a913344a28fedf696a6b73ab7",
-      "DevName": "Psychopomp_Set03_Toki02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150206
-    },
-    {
-      "LocalizedName": "e905df779a6f4026b65c052ae43b9ff2",
-      "DevName": "Ravener_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150207
-    },
-    {
-      "LocalizedName": "319b709a0076451a89112c8a25679f91",
-      "DevName": "Ravener_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150208
-    },
-    {
-      "LocalizedName": "b7ee222899914926a184d86956a362d5",
-      "DevName": "Alchemist_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150209
-    },
-    {
-      "LocalizedName": "362015f7b3a84dccbde71da4d09cd878",
-      "DevName": "Alchemist_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150210
-    },
-    {
-      "LocalizedName": "2b7946f905f6471494783c8b1a13e938",
-      "DevName": "Nomad_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150211
-    },
-    {
-      "LocalizedName": "06b0116b8f924b6da0449eaa22188e1f",
-      "DevName": "Nomad_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150212
-    },
-    {
-      "LocalizedName": "8789d87ebb294ee3814b0ef4660da304",
-      "DevName": "Inhibitor_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150213
-    },
-    {
-      "LocalizedName": "9a32b294f964473d8b783f943fc47bfd",
-      "DevName": "Astronomer_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150214
-    },
-    {
-      "LocalizedName": "e98e575235c24972928ac50724583264",
-      "DevName": "Astronomer_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150215
-    },
-    {
-      "LocalizedName": "478ffb4583114c928df4147d4d361cec",
-      "DevName": "Inhibitor_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150216
-    },
-    {
-      "LocalizedName": "9ff955d607ad469b8c4872d6fe52f591",
-      "DevName": "Harbinger_Weapon_SpecialReward",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150217
-    },
-    {
-      "LocalizedName": "6b3cd2eeb4684d029d67234bfa141e75",
-      "DevName": "Stormcaller_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150218
-    },
-    {
-      "LocalizedName": "0e3ae577a5a441cba28241f79a0638a2",
-      "DevName": "Stormcaller_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150219
-    },
-    {
-      "LocalizedName": "4e0c949d88c74b2187c747e4a4477298",
-      "DevName": "Stormcaller_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150220
-    },
-    {
-      "LocalizedName": "716c4577b2064ec69027bce211241e3e",
-      "DevName": "Stormcaller_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150221
-    },
-    {
-      "LocalizedName": "7405f26b394e4c89a70c528eb489c126",
-      "DevName": "Stormcaller_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150222
-    },
-    {
-      "LocalizedName": "070aa39040004608b5def2706d44db8d",
-      "DevName": "Stormcaller_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150223
-    },
-    {
-      "LocalizedName": "81d1e61495244cb2984a85e9e799b7bc",
-      "DevName": "Stormcaller_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150224
-    },
-    {
-      "LocalizedName": "f747375c0c8348eea719b4bda42832b1",
-      "DevName": "Stormcaller_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150225
-    },
-    {
-      "LocalizedName": "88f7c08fd4e74ee0948d8b2b644e22e4",
-      "DevName": "Bloodpriest_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150226
-    },
-    {
-      "LocalizedName": "76b86b9ece864a70a4103c6bc0e9cbd2",
-      "DevName": "Bloodpriest_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150227
-    },
-    {
-      "LocalizedName": "e952b03d7e1d4650aa1ed76dbb556471",
-      "DevName": "Bloodpriest_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150228
-    },
-    {
-      "LocalizedName": "ab6ee5feeab94141b33970c608f9ee6b",
-      "DevName": "Bloodpriest_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150229
-    },
-    {
-      "LocalizedName": "418fd538b1714c039a89e23f13f2615d",
-      "DevName": "Bloodpriest_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150230
-    },
-    {
-      "LocalizedName": "710cfb2c6c3e4e629a6d5ee65055ac85",
-      "DevName": "Bloodpriest_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150231
-    },
-    {
-      "LocalizedName": "d270f7b83ec04621a9c9948f858b02b1",
-      "DevName": "Bloodpriest_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150232
-    },
-    {
-      "LocalizedName": "03a59a03fa50475f8ecd4b1c276ba620",
-      "DevName": "Bloodpriest_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150233
-    },
-    {
-      "LocalizedName": "fc6aacadff37452695465a75e2cc108a",
-      "DevName": "Bloodpriest_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150234
-    },
-    {
-      "LocalizedName": "2bfc9933791a4853b380a6fbc1f30af7",
-      "DevName": "Bloodpriest_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150235
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Swordmaster_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150236
-    },
-    {
-      "LocalizedName": "c608fbeef33a47a78f4db6338aa0da42",
-      "DevName": "Alchemist_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150237
-    },
-    {
-      "LocalizedName": "ad0eed9d405f467f90eeb35c89f15f5b",
-      "DevName": "Astronomert_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150238
-    },
-    {
-      "LocalizedName": "1a9b6e7c14b64464bc73e5d94ceb924f",
-      "DevName": "Bloodpriest_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150239
-    },
-    {
-      "LocalizedName": "0127bc92669249fabb502b946f7297e6",
-      "DevName": "Engineer_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150240
-    },
-    {
-      "LocalizedName": "ba6569cba1644c01953b1b0c1407f748",
-      "DevName": "Glutton_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150241
-    },
-    {
-      "LocalizedName": "6fe7b78a9d2c4c5bbbb510fda7d7d485",
-      "DevName": "Gunner_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150242
-    },
-    {
-      "LocalizedName": "d03efb9e21bb482f8337e60320d6948c",
-      "DevName": "Harbinger_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150243
-    },
-    {
-      "LocalizedName": "0e7c3e9c30864d36832e7d35aeba2119",
-      "DevName": "Herald_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150244
-    },
-    {
-      "LocalizedName": "905a27886879496b92efdd07520163c3",
-      "DevName": "Igniter_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150245
-    },
-    {
-      "LocalizedName": "12f2aa0752bd4579a6e3196aa2dccd1f",
-      "DevName": "Inhibitor_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150246
-    },
-    {
-      "LocalizedName": "496b6996d47f4747b3d94bdc857aa828",
-      "DevName": "Inquisitor_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150247
-    },
-    {
-      "LocalizedName": "9d82a1819ba1430dadf6f1dde6924aa3",
-      "DevName": "Nomad_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150248
-    },
-    {
-      "LocalizedName": "66b56f72ead341718b9868c22158e33c",
-      "DevName": "Psychopomp_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150249
-    },
-    {
-      "LocalizedName": "ee7fcff40c9a4e79a39a34224e31979a",
-      "DevName": "Ranid_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150250
-    },
-    {
-      "LocalizedName": "84be490312b047ee871e3709234ee73b",
-      "DevName": "Ravener_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150251
-    },
-    {
-      "LocalizedName": "d0a3821f31c747e8b7cdae01ea91d038",
-      "DevName": "Seeker_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150252
-    },
-    {
-      "LocalizedName": "409483bc1c5c4151bb1e55e3e9ba9d28",
-      "DevName": "Spearmaster_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150253
-    },
-    {
-      "LocalizedName": "2d902e7fe08245a6bceabd8593670538",
-      "DevName": "Vanguard_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150254
-    },
-    {
-      "LocalizedName": "ef81b6d4c26e4a93a949bb04e75ff78f",
-      "DevName": "Stormcaller_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150255
-    },
-    {
-      "LocalizedName": "a5e0b59c7ba744d4a20b5b8f033b3a9b",
-      "DevName": "Swordmaster_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150256
-    },
-    {
-      "LocalizedName": "bd997f76bd1f4883b3e210832c91227d",
-      "DevName": "Swordmaster_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150257
-    },
-    {
-      "LocalizedName": "a582ac1e1b53457ab08d46e7750f1829",
-      "DevName": "Swordmaster_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150258
-    },
-    {
-      "LocalizedName": "abffbf604d6541b5a8d1d60181781bce",
-      "DevName": "Swordmaster_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150259
-    },
-    {
-      "LocalizedName": "85f06e5ca74d4e93a70122b03fd86c46",
-      "DevName": "Swordmaster_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150260
-    },
-    {
-      "LocalizedName": "7a8eee450f2b4134a8e1f7c92864329a",
-      "DevName": "Swordmaster_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150261
-    },
-    {
-      "LocalizedName": "202b64969f5b4963855e61ec2b292da9",
-      "DevName": "Swordmaster_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150262
-    },
-    {
-      "LocalizedName": "29b95ba5dba940f3ba780053a4f94441",
-      "DevName": "Swordmaster_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150263
-    },
-    {
-      "LocalizedName": "293da65d0146418888e95ff72c0b685d",
-      "DevName": "Swordmaster_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150264
-    },
-    {
-      "LocalizedName": "2901608e8c974e76a340f1da43baf9dc",
-      "DevName": "Swordmaster_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150265
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Druid_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150266
-    },
-    {
-      "LocalizedName": "89e3e4cb71a74162882641cbf05104dc",
-      "DevName": "Druid_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150267
-    },
-    {
-      "LocalizedName": "bc91a3da3f844f8096abfeeec3618cc2",
-      "DevName": "Druid_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150268
-    },
-    {
-      "LocalizedName": "5cc5d304278040bd8fb82941595b7eb6",
-      "DevName": "Druid_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150269
-    },
-    {
-      "LocalizedName": "7095195180664fba8f1eafc137e8c37d",
-      "DevName": "Druid_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150270
-    },
-    {
-      "LocalizedName": "e25d2365b4e6458f8c64fd98093f0c64",
-      "DevName": "Druid_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150271
-    },
-    {
-      "LocalizedName": "e1d1cc734b7b44a18159026d450c4f89",
-      "DevName": "Druid_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150272
-    },
-    {
-      "LocalizedName": "4683c7d381cd4885ba2dd90805195bda",
-      "DevName": "Druid_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150273
-    },
-    {
-      "LocalizedName": "c64ef7cc1cc24c0ca85c7c53bd97fafd",
-      "DevName": "Druid_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150274
-    },
-    {
-      "LocalizedName": "51a3bb11463b4dc3b997e991655c7da8",
-      "DevName": "Druid_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150275
-    },
-    {
-      "LocalizedName": "4e6769c7943a4e42a05d5a777cacb97d",
-      "DevName": "Druid_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150276
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Axe_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150277
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Cannon_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150278
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Dynamite_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150279
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Glave_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150280
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Hammer_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150281
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Minigun_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150282
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Pistol_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150283
-    },
-    {
-      "LocalizedName": "6942398686ca4ed5aab9a53006604ebe",
-      "DevName": "Vanguard_Prehistoric01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150285
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Cannon_Gold_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150286
-    },
-    {
-      "LocalizedName": "8e74bde3046a480a8b21ecc5499610f7",
-      "DevName": "Herald_Prehistoric01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150287
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "MetalWarden_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150288
-    },
-    {
-      "LocalizedName": "8cf304b3664a4d3482df0426c13f32b2",
-      "DevName": "Inquisitor_Prehistoric01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150289
-    },
-    {
-      "LocalizedName": "545dd34cb6384dc791215741a499a62e",
-      "DevName": "Ranid_Prehistoric01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150290
-    },
-    {
-      "LocalizedName": "45b5752f96df493094ec129e256f3d36",
-      "DevName": "Nomad_Prehistoric01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150291
-    },
-    {
-      "LocalizedName": "2062635904ee4f1087ef20a5df62adf5",
-      "DevName": "Stormcaller_Prehistoric01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150292
-    },
-    {
-      "LocalizedName": "cc77d61818534318b6d69422441af4e7",
-      "DevName": "BloodPriest_Prehistoric01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150293
-    },
-    {
-      "LocalizedName": "0d2122c8069d4e73834a70a39387c3bb",
-      "DevName": "Seeker_Prehistoric01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150294
-    },
-    {
-      "LocalizedName": "a91bb925491d4ffc86d8905ce3731897",
-      "DevName": "Spearmaster_Prehistoric01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150295
-    },
-    {
-      "LocalizedName": "5321c15572f14426a921c13a77e0cfbc",
-      "DevName": "Swordmaster_Prehistoric01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150296
-    },
-    {
-      "LocalizedName": "4964772dcbe345d2aadc705cd52b8b66",
-      "DevName": "Inquisitor_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150297
-    },
-    {
-      "LocalizedName": "941f07d78a7843e29dc695cf24b36602",
-      "DevName": "Astronomer_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150298
-    },
-    {
-      "LocalizedName": "269ea95dff58410492a4a1ef02d0e443",
-      "DevName": "Inquisitor_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150299
-    },
-    {
-      "LocalizedName": "7a12f0a7b0cb4b36ad291d9cb887bd70",
-      "DevName": "Inquisitor_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150300
-    },
-    {
-      "LocalizedName": "c92d78ba87db4d10a4c2832aef9394c8",
-      "DevName": "Astronomer_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150301
-    },
-    {
-      "LocalizedName": "fab7c0974ca544dd959658facfdf07d1",
-      "DevName": "Astronomer_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150302
-    },
-    {
-      "LocalizedName": "f8f16006f3ec42689406c993bc777073",
-      "DevName": "Swordmaster_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150303
-    },
-    {
-      "LocalizedName": "f3c62c37590e4d5caa53d311603a39a0",
-      "DevName": "Swordmaster_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150304
-    },
-    {
-      "LocalizedName": "bac1b1405286485fac19e7802147ef2d",
-      "DevName": "Swordmaster_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150305
-    },
-    {
-      "LocalizedName": "88c89e7a84544a7c94bab8732ab3fc6d",
-      "DevName": "Herald_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150306
-    },
-    {
-      "LocalizedName": "1de21b877cb4439caf2fd84409824450",
-      "DevName": "Herald_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150307
-    },
-    {
-      "LocalizedName": "8c87cae8b2ae4985bb8965f475c2ccef",
-      "DevName": "Herald_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150308
-    },
-    {
-      "LocalizedName": "a94f5d8c07a84911b33fba2bf8616357",
-      "DevName": "Ravener_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150309
-    },
-    {
-      "LocalizedName": "fc25d630c0464897b8a7713aa80b3dbc",
-      "DevName": "Ravener_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150310
-    },
-    {
-      "LocalizedName": "6aa2f618fa674746862c83825ef1c28d",
-      "DevName": "Ravener_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150311
-    },
-    {
-      "LocalizedName": "af9f899e2f754659af893f8f9c5fc9d2",
-      "DevName": "Ranid_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150312
-    },
-    {
-      "LocalizedName": "97603d44bd6c4344aa546a8bb66a8f4e",
-      "DevName": "Ranid_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150313
-    },
-    {
-      "LocalizedName": "fe79df8ab0a2448bb351417abdabfd47",
-      "DevName": "Ranid_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150314
-    },
-    {
-      "LocalizedName": "0690c54267bd4d3b8a68e78920e5e5b7",
-      "DevName": "Nomad_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150315
-    },
-    {
-      "LocalizedName": "2c9ab4b643a547aebd69bce9a77c9705",
-      "DevName": "Nomad_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150316
-    },
-    {
-      "LocalizedName": "247cc32685de477ba6ea72db0dc814a5",
-      "DevName": "Nomad_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150317
-    },
-    {
-      "LocalizedName": "1c6150e1303d48c58d38a8f0db623f8c",
-      "DevName": "Harbinger_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150318
-    },
-    {
-      "LocalizedName": "233465f4661c410191e5ffe01cba6c4c",
-      "DevName": "Harbinger_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150319
-    },
-    {
-      "LocalizedName": "79ed4520e3a5453d8547cd48b3c3c0d1",
-      "DevName": "Harbinger_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150320
-    },
-    {
-      "LocalizedName": "0bfb1f28ccbc47d587ebd6b726fcb9ed",
-      "DevName": "Seeker_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150321
-    },
-    {
-      "LocalizedName": "605c3129f8e2434d96c5a3e4f6bad25f",
-      "DevName": "Seeker_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150322
-    },
-    {
-      "LocalizedName": "bdf12be73f314e86ad3765ad91bdb03a",
-      "DevName": "Seeker_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150323
-    },
-    {
-      "LocalizedName": "3d04a7dc5cd54c7998ed64d6ebf1f014",
-      "DevName": "Stormcaller_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150324
-    },
-    {
-      "LocalizedName": "ab5583aa435c4aedb9228c2638de5b40",
-      "DevName": "Stormcaller_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150325
-    },
-    {
-      "LocalizedName": "24471e1360da4ae29f577f181b0d04f2",
-      "DevName": "Stormcaller_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150326
-    },
-    {
-      "LocalizedName": "1548b2908b424c8ba1f81bcca13d6acf",
-      "DevName": "Psychopomp_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150327
-    },
-    {
-      "LocalizedName": "9d7b236fa826406795a05b7e15ec6aae",
-      "DevName": "Psychopomp_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150328
-    },
-    {
-      "LocalizedName": "e24c44dbefb54bbdbbd3a4a8c664403b",
-      "DevName": "Psychopomp_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150329
-    },
-    {
-      "LocalizedName": "7f01a872ab3a47fdaf5ca3a55be1f078",
-      "DevName": "Spearmaster_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150330
-    },
-    {
-      "LocalizedName": "76d6f71332404d2c83270fcb2236fd96",
-      "DevName": "Spearmaster_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150331
-    },
-    {
-      "LocalizedName": "97a77d756bc94ab188dacbe24f56961c",
-      "DevName": "Spearmaster_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150332
-    },
-    {
-      "LocalizedName": "789544f9fb434f27aaf70fc8dcb30c31",
-      "DevName": "Glutton_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150333
-    },
-    {
-      "LocalizedName": "8365f21cf1754c9ea5b13d9d90c20eb1",
-      "DevName": "Glutton_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150334
-    },
-    {
-      "LocalizedName": "85ec8e64ca5143f381e7c770396bc4b9",
-      "DevName": "Glutton_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150335
-    },
-    {
-      "LocalizedName": "c3751db9327e469ca4384334e626f127",
-      "DevName": "Igniter_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150336
-    },
-    {
-      "LocalizedName": "c8e532754e27453b952dcd87dbf623e7",
-      "DevName": "Igniter_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150337
-    },
-    {
-      "LocalizedName": "fdcfa05716aa4f69859eafa5b81ae348",
-      "DevName": "Igniter_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150338
-    },
-    {
-      "LocalizedName": "f95265c806f14796944d508505cf3b35",
-      "DevName": "Bloodpriest_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150339
-    },
-    {
-      "LocalizedName": "8b4cfe179e2b439aaaa35e2c396ed2dc",
-      "DevName": "BloodPriest_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150340
-    },
-    {
-      "LocalizedName": "76493a0bf36c44a4951a00ed73695f76",
-      "DevName": "BloodPriest_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150341
-    },
-    {
-      "LocalizedName": "34a99515f1144564a8263394d4db1f9a",
-      "DevName": "Vanguard_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150342
-    },
-    {
-      "LocalizedName": "7677eef274b34d2b8d7a0ad5d5733fa6",
-      "DevName": "Vanguard_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150343
-    },
-    {
-      "LocalizedName": "165a4d0b8c0b44b2ac5421f8a6261ece",
-      "DevName": "Vanguard_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150344
-    },
-    {
-      "LocalizedName": "28b89a4132894cd2931e53937ff7ce43",
-      "DevName": "Gunner_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150345
-    },
-    {
-      "LocalizedName": "ea426e126b89498d9a880654c6f6fbd5",
-      "DevName": "Gunner_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150346
-    },
-    {
-      "LocalizedName": "cc73892218c342d890452ecdab58f95d",
-      "DevName": "Gunner_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150347
-    },
-    {
-      "LocalizedName": "2f7db540bcf14488b355f0b600d4666a",
-      "DevName": "Engineer_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150348
-    },
-    {
-      "LocalizedName": "6dc7567b0b294e3690c6d5c52571e66a",
-      "DevName": "Engineer_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150349
-    },
-    {
-      "LocalizedName": "bbf90da5d33246a7a751ceba5ea9136e",
-      "DevName": "Engineer_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150350
-    },
-    {
-      "LocalizedName": "ece600875d5d4d95894984fb1ea97e97",
-      "DevName": "Alchemist_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150351
-    },
-    {
-      "LocalizedName": "83b3527c4f244b678dd74bba577e0805",
-      "DevName": "Alchemist_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150352
-    },
-    {
-      "LocalizedName": "dfb8a0d91dae4aac8e262a8fb192d250",
-      "DevName": "Alchemist_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150353
-    },
-    {
-      "LocalizedName": "1e844b9a11174d89b8317a1310b12a16",
-      "DevName": "Inhibitor_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150354
-    },
-    {
-      "LocalizedName": "3b692b39a9d8405d94297b110b0d1238",
-      "DevName": "Inhibitor_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150355
-    },
-    {
-      "LocalizedName": "7a3e06405e614737a60822abe78adab6",
-      "DevName": "Inhibitor_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150356
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Thorn_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150357
-    },
-    {
-      "LocalizedName": "f29bc87c6a0f4a8e8ef2ff172aa7e8d3",
-      "DevName": "Druid_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150358
-    },
-    {
-      "LocalizedName": "bef2b066657b4c02b3f662023069413e",
-      "DevName": "Druid_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150359
-    },
-    {
-      "LocalizedName": "dfcf5023268d464ea5953d616e255b01",
-      "DevName": "Druid_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150360
-    },
-    {
-      "LocalizedName": "dc8d9cbaa0bf4eb3a9bf0efa92d59f6c",
-      "DevName": "Swordrmaster_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150361
-    },
-    {
-      "LocalizedName": "80c7a28a5a1744349521e28f00341e61",
-      "DevName": "Druid_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150362
-    },
-    {
-      "LocalizedName": "f4a0eef345254670aa42c97f4eafb22b",
-      "DevName": "Stormcaller_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150363
-    },
-    {
-      "LocalizedName": "5aa2c6f168834b9591b92da2bf2f8ef0",
-      "DevName": "BloodPriest_Halloween_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150364
-    },
-    {
-      "LocalizedName": "a81187fb5828436c8ed4c2fd26ed1b40",
-      "DevName": "MetalWarden_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150365
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "MirrorMage_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150366
-    },
-    {
-      "LocalizedName": "562561b10ee44bf9b34b8eedb678d123",
-      "DevName": "Druid_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150367
-    },
-    {
-      "LocalizedName": "76162c75d5234f5292cb582953e10acd",
-      "DevName": "Thorn_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150369
-    },
-    {
-      "LocalizedName": "e8b8569934604f03a8a5678163c11a9a",
-      "DevName": "Thorn_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150370
-    },
-    {
-      "LocalizedName": "7c2188977ce44325b8afedf3c39caaa9",
-      "DevName": "Thorn_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150371
-    },
-    {
-      "LocalizedName": "dedf2077a34542cf8ae6ab0cbdf96ce6",
-      "DevName": "Thorn_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150372
-    },
-    {
-      "LocalizedName": "5cf14d9322324f15a0350df44de00354",
-      "DevName": "Thorn_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150373
-    },
-    {
-      "LocalizedName": "ef484286fd0e46b192c0c7335657f577",
-      "DevName": "Thorn_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150374
-    },
-    {
-      "LocalizedName": "453121b98ba74e45b94d9d7dc8ec7845",
-      "DevName": "Thorn_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150375
-    },
-    {
-      "LocalizedName": "be224e0763604190a59331d6e0dd7f3a",
-      "DevName": "Thorn_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150376
-    },
-    {
-      "LocalizedName": "b801f0fa4cce4cedb42b390fbd585402",
-      "DevName": "Thorn_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150377
-    },
-    {
-      "LocalizedName": "00a7005533f0476b9be7acc28bd86a6d",
-      "DevName": "MetalWarden_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150378
-    },
-    {
-      "LocalizedName": "35dfcb6fb20749278f18af9cf39bc6fb",
-      "DevName": "MetalWarden_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150379
-    },
-    {
-      "LocalizedName": "cb8496062d28457e86a00f4d0265e928",
-      "DevName": "MetalWarden_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150380
-    },
-    {
-      "LocalizedName": "57aded37f7674fbda480e10aaa923724",
-      "DevName": "MetalWarden_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150381
-    },
-    {
-      "LocalizedName": "269edf5db6f945d8b711784b9254d481",
-      "DevName": "MetalWarden_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150382
-    },
-    {
-      "LocalizedName": "c957d213b0c848e9b7918a41bb0260a9",
-      "DevName": "MetalWarden_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150383
-    },
-    {
-      "LocalizedName": "9b98e308504c4f498e7cd0ae7fa3f50b",
-      "DevName": "MetalWarden_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150384
-    },
-    {
-      "LocalizedName": "c6b19424ddd044a388ea1239f19accd7",
-      "DevName": "MetalWarden_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150385
-    },
-    {
-      "LocalizedName": "6d66f2818a32456e914e8c209d24a860",
-      "DevName": "MetalWarden_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150386
-    },
-    {
-      "LocalizedName": "0f506a8bc9104dd595800cb78b25748d",
-      "DevName": "MetalWarden_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150387
-    },
-    {
-      "LocalizedName": "11e00e787df54810abf9094a7c157310",
-      "DevName": "MetalWarden_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150388
-    },
-    {
-      "LocalizedName": "9a1e834ce6ff4d93ba82a9b93d6d5ba1",
-      "DevName": "MetalWarden_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150389
-    },
-    {
-      "LocalizedName": "43b1bc134b2947ac8b15f9c30aab1218",
-      "DevName": "MetalWarden_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150390
-    },
-    {
-      "LocalizedName": "492af5a1c9d6438a98dc1c478eea571b",
-      "DevName": "Spearmaster_Weapon_GuardianSpear01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150391
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Axe_WTC_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150392
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Cannon_WTC_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150393
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Minion_Glave_WTC_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150394
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Seeker_WTC_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150395
-    },
-    {
-      "LocalizedName": "0d97b180c56b420ca8cc9c5d2bf85459",
-      "DevName": "Alchemist_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150396
-    },
-    {
-      "LocalizedName": "d8345dc1a6f74113832e3e1e4259392f",
-      "DevName": "Astronomer_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150397
-    },
-    {
-      "LocalizedName": "cada4502c50e460d8d9819f8c43431a6",
-      "DevName": "Bloodpriest_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150398
-    },
-    {
-      "LocalizedName": "6f76ce27b3704b098a9aea9abce6269b",
-      "DevName": "Druid_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150399
-    },
-    {
-      "LocalizedName": "cd1dadeb8d1645efa1ea2bf84ab46236",
-      "DevName": "Engineer_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150400
-    },
-    {
-      "LocalizedName": "b71ec71880794a0d9cb340613ad6ff8d",
-      "DevName": "Glutton_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150401
-    },
-    {
-      "LocalizedName": "e73b32d20d6b400ba4923c9df944050c",
-      "DevName": "Gunner_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150402
-    },
-    {
-      "LocalizedName": "7cb5f3f419f449efb0d0801665613584",
-      "DevName": "Harbinger_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150403
-    },
-    {
-      "LocalizedName": "3352e62e2dbb4fcb8200074863570ab5",
-      "DevName": "Herald_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150404
-    },
-    {
-      "LocalizedName": "b17d7559660a4584bf375785c4520160",
-      "DevName": "Igniter_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150405
-    },
-    {
-      "LocalizedName": "5d042d66252d42b4a7dc7624001b8d0a",
-      "DevName": "Igniter_Set03_Weapon04",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150406
-    },
-    {
-      "LocalizedName": "95e0a6c6f1a84d3093bef2523c16e292",
-      "DevName": "Inhibitor_Set05_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150407
-    },
-    {
-      "LocalizedName": "f4624125b0d04a5d9ddd832425bb9dee",
-      "DevName": "Vanguard_Set05_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150408
-    },
-    {
-      "LocalizedName": "9ae48e6d203949c3ad5ab670deb39c97",
-      "DevName": "Thorn_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150409
-    },
-    {
-      "LocalizedName": "a7195031d2174e5282d3fd25ef892c22",
-      "DevName": "Thorn_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150410
-    },
-    {
-      "LocalizedName": "e77c10321dd74e2c874f497176f1beda",
-      "DevName": "Inhibitor_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150411
-    },
-    {
-      "LocalizedName": "2bbfbe0453394214865140db033f2a06",
-      "DevName": "Inhibitor_Set05_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150412
-    },
-    {
-      "LocalizedName": "55c34958d2ed48ae8642a74414dffac4",
-      "DevName": "Inhibitor_Set05_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150413
-    },
-    {
-      "LocalizedName": "ca467fd3f240423e9f7dc17642664998",
-      "DevName": "Thorn_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150414
-    },
-    {
-      "LocalizedName": "1972f6cd88be4a118e59c30b50095627",
-      "DevName": "Thorn_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150415
-    },
-    {
-      "LocalizedName": "6099301e62ee4a9f96276fb6d0d9a304",
-      "DevName": "Thorn_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150416
-    },
-    {
-      "LocalizedName": "7a1b379488d04bdc99e81a87146b2e03",
-      "DevName": "Thorn_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150417
-    },
-    {
-      "LocalizedName": "46124f206b78499e8a73ae49ba014aba",
-      "DevName": "Inquisitor_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150418
-    },
-    {
-      "LocalizedName": "94bd901fc6014122937d2cf048868374",
-      "DevName": "Nomad_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150420
-    },
-    {
-      "LocalizedName": "f681f741de4b49c3a229ae62918e191d",
-      "DevName": "Psychopomp_Set03_Toki03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150421
-    },
-    {
-      "LocalizedName": "b0935126187f4c22bbca104bbdccc306",
-      "DevName": "Ranid_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150422
-    },
-    {
-      "LocalizedName": "b054569690c84eb0a68dd4c4bacd6376",
-      "DevName": "Ravener_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150423
-    },
-    {
-      "LocalizedName": "6cdbbf56ecc0482c8e55596725b4abb3",
-      "DevName": "Seeker_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150424
-    },
-    {
-      "LocalizedName": "79f0f232256d490b96beb13660dc30cb",
-      "DevName": "Spearmaster_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150425
-    },
-    {
-      "LocalizedName": "4932b871f62b42aa86f41a0c2b7f3b49",
-      "DevName": "Stormcaller_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150426
-    },
-    {
-      "LocalizedName": "d494df8190b3493fb87d24da1603a34c",
-      "DevName": "Swordmaster_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150427
-    },
-    {
-      "LocalizedName": "67b1d53644df4e9aa01688a6828d8dee",
-      "DevName": "Vanguard_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150428
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "FrostMage_Standard_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150429
-    },
-    {
-      "LocalizedName": "cad3b6936c8e443490a79bce73ff23fa",
-      "DevName": "Igniter_Weapon_Twitch01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150430
-    },
-    {
-      "LocalizedName": "c15c23e71fd845ccb8c50b5ea177fac6",
-      "DevName": "Vanguard_Set05_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150431
-    },
-    {
-      "LocalizedName": "7047358611684d9ea984e8d904784b8b",
-      "DevName": "Vanguard_Set05_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150432
-    },
-    {
-      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
-      "DevName": "Bossilus_WTC_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150433
-    },
-    {
-      "LocalizedName": "fce2666df04f4c0ca427c29b2050947a",
-      "DevName": "MetalWarden_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150434
-    },
-    {
-      "LocalizedName": "0c692fecdb6b409eb8400686a58fc8c3",
-      "DevName": "FrostMage_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150435
-    },
-    {
-      "LocalizedName": "0a5631c72ea546288a6cf00cd58acb3a",
-      "DevName": "FrostMage_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150436
-    },
-    {
-      "LocalizedName": "5ec1d84113724171a5615cf73f110d83",
-      "DevName": "FrostMage_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150437
-    },
-    {
-      "LocalizedName": "bd7c6627f37643149e8ca58f3f8ce3f0",
-      "DevName": "FrostMage_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150438
-    },
-    {
-      "LocalizedName": "65a31a9c95bc457e88d3a387839c2316",
-      "DevName": "FrostMage_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150439
-    },
-    {
-      "LocalizedName": "89dd8735f061497ba6fabe7260aef79a",
-      "DevName": "FrostMage_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150440
-    },
-    {
-      "LocalizedName": "28b1259c911f48668d30d4d7714d49f1",
-      "DevName": "FrostMage_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150441
-    },
-    {
-      "LocalizedName": "0388d5266895486da88ef16007f1f0a1",
-      "DevName": "FrostMage_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150442
-    },
-    {
-      "LocalizedName": "dff462b67e3a40a98cdceed345e58207",
-      "DevName": "FrostMage_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150443
-    },
-    {
-      "LocalizedName": "cbaa3e4f954146d0a63ee5c1506a2cba",
-      "DevName": "FrostMage_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150444
-    },
-    {
-      "LocalizedName": "806189c82ab642b1b64c8ebfb9e34509",
-      "DevName": "FrostMage_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150445
-    },
-    {
-      "LocalizedName": "9a590ce91fea42b79c27a8b86728cafd",
-      "DevName": "FrostMage_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150446
-    },
-    {
-      "LocalizedName": "89418bc68cc043d2acf3e60fd1161d43",
-      "DevName": "FrostMage_Winter01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150447
-    },
-    {
-      "LocalizedName": "efaa4c60fb5c4258a28bec2a0580ca83",
-      "DevName": "FrostMage_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150448
-    },
-    {
-      "LocalizedName": "3587133f845440d7a098cd537f24a283",
-      "DevName": "FrostMage_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150449
-    },
-    {
-      "LocalizedName": "98a1987772a54ef4b2f14a3e8d319bf4",
-      "DevName": "MirrorMage_Standard_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150450
-    },
-    {
-      "LocalizedName": "99c6ecfbfec540118636aa1b16a16f27",
-      "DevName": "MirrorMage_Standard_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150451
-    },
-    {
-      "LocalizedName": "d84518d358ad4be59fd7f9068a74c8a0",
-      "DevName": "MirrorMage_Set01_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150452
-    },
-    {
-      "LocalizedName": "3a6a32c8548d4ecc98dd551b840d3732",
-      "DevName": "MirrorMage_Set01_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150453
-    },
-    {
-      "LocalizedName": "a997adb4291d4d38bdf25c8e60a39d0f",
-      "DevName": "MirrorMage_Set01_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150454
-    },
-    {
-      "LocalizedName": "5b602de256724f9e9b290198cb78419b",
-      "DevName": "MirrorMage_Set02_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150456
-    },
-    {
-      "LocalizedName": "b091b21382dd4448a7b3fbfff7fb7650",
-      "DevName": "MirrorMage_Set02_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150457
-    },
-    {
-      "LocalizedName": "87abdbf355004acd879998861dd43aac",
-      "DevName": "MirrorMage_Set04_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150459
-    },
-    {
-      "LocalizedName": "16751ca4f74c40fab69377df4de2fa3e",
-      "DevName": "MirrorMage_Set04_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150460
-    },
-    {
-      "LocalizedName": "40eb0b44d75842a896239db3f1f29ff8",
-      "DevName": "MirrorMage_Set03_Weapon02",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150462
-    },
-    {
-      "LocalizedName": "4bdfb483f097443797ca3301cc82dd32",
-      "DevName": "MirrorMage_Set03_Weapon03",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150463
-    },
-    {
-      "LocalizedName": "2af5203c99e2411db68f891df37c7ef0",
-      "DevName": "MirrorMage_Set02_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150464
-    },
-    {
-      "LocalizedName": "ccecb0e2933945c69588a8092c8a6a67",
-      "DevName": "MirrorMage_Set03_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150465
-    },
-    {
-      "LocalizedName": "584b39a6ca004ac1a3f4a5456f778862",
-      "DevName": "MirrorMage_Set04_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150466
-    },
-    {
-      "LocalizedName": "2aea55249f7f4aceae189f4f3e8c0328",
-      "DevName": "Swordmaster_Winter_Weapon01",
-      "IdRangeName": "AttachmentEnum",
-      "StackableRangeName": "Attachments",
-      "StackableId": 150469
-    },
-    {
       "LocalizedName": "3caf9b8307a345a0bf183ab4af7c0ac7",
       "DevName": "Mount_Ram_Standard",
       "IdRangeName": "MountEnum",
@@ -3545,1437 +360,32 @@ const _stackable = _(
       "StackableId": 100056
     },
     {
-      "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
-      "DevName": "Alchemist",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "83cd4bf3be6455f4cbbf803035b6d0fe",
-      "WideIcon": "e5554b8a15ffc1a499a3807bb3a37b56",
-      "StackableId": 10001
-    },
-    {
-      "LocalizedName": "8335978482a94de1a929184211a928df",
-      "DevName": "Astronomer",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "f3af4ddea533f364e80c70c580ed933d",
-      "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
-      "StackableId": 10002
-    },
-    {
-      "LocalizedName": "cb26b90df02745c8b035f856a7bba58d",
-      "DevName": "Engineer",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "423d20132a1e9224d92e489664702e03",
-      "WideIcon": "decba44679fbdae4bb7d0d1cb6a97682",
-      "StackableId": 10003
-    },
-    {
-      "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
-      "DevName": "Gunner",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "1cd8f3b8b7da1904c821011f50dbe616",
-      "WideIcon": "38b75268719e2b640a6d62250e102ffa",
-      "StackableId": 10004
-    },
-    {
-      "LocalizedName": "75edf47280604ea4a632ae97664d3c23",
-      "DevName": "Harbinger",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "b6baa190db3bf814cae790b79f622ea0",
-      "WideIcon": "bb37e5d448c511e47b808987d0d4f9e8",
-      "StackableId": 10005
-    },
-    {
-      "LocalizedName": "185585849e33412ab192917339444df1",
-      "DevName": "Herald",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "9de8223b455d0474a9bbf2f32f9c7102",
-      "WideIcon": "b0d66b8b9f228724093b8a3e66c3fef6",
-      "StackableId": 10006
-    },
-    {
-      "LocalizedName": "06b590e739cd4c27abebc6f98d15cdd3",
-      "DevName": "Igniter",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "08d5adc2bbf509744a62b894ef6279c7",
-      "WideIcon": "02fbe1fea9e22054a9ab1b0c5007dbae",
-      "StackableId": 10007
-    },
-    {
-      "LocalizedName": "943be726de724906be18c214511a3f7b",
-      "DevName": "Inhibitor",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "6477c7810f95a394e936caacf42d0b4e",
-      "WideIcon": "f1cc53a29c58089478f6438589d9b32d",
-      "StackableId": 10008
-    },
-    {
-      "LocalizedName": "6868ad46fc604034a78f3c57300c3257",
-      "DevName": "Inquisitor",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "b9f935b04557efa4e95d6cec4d151985",
-      "WideIcon": "427116cdee46bad4cbaa99d7063e0832",
-      "StackableId": 10009
-    },
-    {
-      "LocalizedName": "8b8ca9a3af044131a61889b28bbcb00f",
-      "DevName": "Nomad",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "246d3bbb94b9f0d42932cbb2a1e43dd5",
-      "WideIcon": "2905515bc00a1d64e83466ec8e50f8b6",
-      "StackableId": 10010
-    },
-    {
-      "LocalizedName": "85e0b02e16c64eb1a5bcafb8cd769c25",
-      "DevName": "Psychopomp",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "edd99cc32ca6f2842b2cb83249945c2a",
-      "WideIcon": "9872f8cd16d7327418b09294cfa319e6",
-      "StackableId": 10011
-    },
-    {
-      "LocalizedName": "75e925f886164954b000e65caf1d35ee",
-      "DevName": "Ranid",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "0380b89b0ba8de847843f22c25b41a56",
-      "WideIcon": "d3038956f9767d74bbbce0659b07474d",
-      "StackableId": 10012
-    },
-    {
-      "LocalizedName": "ebc196a9d95b4adbab1277e00712a32e",
-      "DevName": "Ravener",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "66b9694ba8595124badb339297eae3b7",
-      "WideIcon": "be081702a8e70fe44ac0a4e3a9c46368",
-      "StackableId": 10013
-    },
-    {
-      "LocalizedName": "96665f8e798b4b50ba7834bddfdd937f",
-      "DevName": "Seeker",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "a7576e30c80eb9f48ba9ce303e4c3582",
-      "WideIcon": "42a665b9c285a1243a201c8d533980e5",
-      "StackableId": 10014
-    },
-    {
-      "LocalizedName": "ed420e0ca45a4eaeb1010151e236f334",
-      "DevName": "Spearmaster",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "7853a4b1214bef74a8bbdf17f0a45bb8",
-      "WideIcon": "6f69edc7410650c43bee267eef585b06",
-      "StackableId": 10015
-    },
-    {
-      "LocalizedName": "051b83cf1878426a9bc0a329babbea8f",
-      "DevName": "Stormcaller",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "6e29d30d928547b4e941ce3e6e4e83b3",
-      "WideIcon": "3af1fdc53169d044b939cce7ffb561a1",
-      "StackableId": 10016
-    },
-    {
-      "LocalizedName": "f05ef57b8e994e5e9d43bbfcae9a09a6",
-      "DevName": "Vanguard",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "0a89df4b6bcde3d469185186eab7138b",
-      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
-      "StackableId": 10017
-    },
-    {
-      "LocalizedName": "7351e41203ce487488813815bb872f0c",
-      "DevName": "Glutton",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "fff8232d0fb921447b388c4ca5993c46",
-      "WideIcon": "e5d5913527b842b41aed666d27d14231",
-      "StackableId": 10018
-    },
-    {
-      "LocalizedName": "0fa51e1bd7c84e4da4ceee830532e406",
-      "DevName": "BloodPriest",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "d9cffa65b2aa1414e9371fc9b2f4c561",
-      "WideIcon": "a7e0c7a6f0fa2ef49bf684950de34567",
-      "StackableId": 10019
-    },
-    {
-      "LocalizedName": "3c09a1c88b5b44608679b7a34350ca52",
-      "DevName": "MetalWarden",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "8f50318bf676ca047b3e36d5b6de7815",
-      "WideIcon": "65e28ab3b75c7cb478a1b24b46fca7d2",
-      "StackableId": 10020
-    },
-    {
-      "LocalizedName": "6b3efda7c227421b9736be7006f7035e",
-      "DevName": "Swordmaster",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "e0b418f839ba5ff4baa728af4f454d89",
-      "WideIcon": "6c2252900d15cb344a5240f30d3ba705",
-      "StackableId": 10021
-    },
-    {
-      "LocalizedName": "da0272c6ff4b48bf809f130d8e2dba02",
-      "DevName": "Druid",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "907a9b3d24a8c9f459e02c87d86fa9da",
-      "WideIcon": "6f50396e26efe6c4bbad274e2c90b8a4",
-      "StackableId": 10022
-    },
-    {
-      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
-      "DevName": "Bakko_EasterEvent",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "0a89df4b6bcde3d469185186eab7138b",
-      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
-      "StackableId": 10023
-    },
-    {
-      "LocalizedName": "d25b42991ba94cbeb7234aad3e176351",
-      "DevName": "Thorn",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "57f133d34e231d04d922dd5e5d234a71",
-      "WideIcon": "aab126231d9ff344f9f88ab230a5e66f",
-      "StackableId": 10025
-    },
-    {
-      "LocalizedName": "06b590e739cd4c27abebc6f98d15cdd3",
-      "DevName": "AshkaCampaign",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "08d5adc2bbf509744a62b894ef6279c7",
-      "WideIcon": "02fbe1fea9e22054a9ab1b0c5007dbae",
-      "StackableId": 10026
-    },
-    {
-      "LocalizedName": "ebc196a9d95b4adbab1277e00712a32e",
-      "DevName": "FreyaCampaign",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "66b9694ba8595124badb339297eae3b7",
-      "WideIcon": "be081702a8e70fe44ac0a4e3a9c46368",
-      "StackableId": 10027
-    },
-    {
-      "LocalizedName": "96665f8e798b4b50ba7834bddfdd937f",
-      "DevName": "JumongCampaign",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "a7576e30c80eb9f48ba9ce303e4c3582",
-      "WideIcon": "42a665b9c285a1243a201c8d533980e5",
-      "StackableId": 10028
-    },
-    {
-      "LocalizedName": "6b3efda7c227421b9736be7006f7035e",
-      "DevName": "RaigonCampaign",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "e0b418f839ba5ff4baa728af4f454d89",
-      "WideIcon": "6c2252900d15cb344a5240f30d3ba705",
-      "StackableId": 10029
-    },
-    {
-      "LocalizedName": "7351e41203ce487488813815bb872f0c",
-      "DevName": "RookCampaign",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "fff8232d0fb921447b388c4ca5993c46",
-      "WideIcon": "e5d5913527b842b41aed666d27d14231",
-      "StackableId": 10030
-    },
-    {
-      "LocalizedName": "8335978482a94de1a929184211a928df",
-      "DevName": "SiriusCampaign",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "f3af4ddea533f364e80c70c580ed933d",
-      "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
-      "StackableId": 10031
-    },
-    {
-      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
-      "DevName": "MirrorMage",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
-      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
-      "StackableId": 10035
-    },
-    {
-      "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
-      "DevName": "JadeCampaign",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "1cd8f3b8b7da1904c821011f50dbe616",
-      "WideIcon": "38b75268719e2b640a6d62250e102ffa",
-      "StackableId": 10038
-    },
-    {
-      "LocalizedName": "448d6f054228474eb92862767d3e21a8",
-      "DevName": "RandomChampion",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "c175e343deeceff48a7fc58412aabe4e",
-      "WideIcon": "7823c6971f6585846a1252e279fd02da",
-      "StackableId": 10040
-    },
-    {
-      "LocalizedName": "b2c969dbc2834e9296155eb97e2db638",
-      "DevName": "FrostMage",
-      "IdRangeName": "CharacterEnum",
-      "StackableRangeName": "Characters",
-      "Icon": "f3e8949aa208a3346a497c336a7002cd",
-      "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
-      "StackableId": 10041
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Alchemist_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200003
-    },
-    {
-      "LocalizedName": "dad9c93f7d1a4b57848677e19bfc1d1d",
-      "DevName": "VictoryPose_Alchemist_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200004
-    },
-    {
-      "LocalizedName": "7a9381ab35a04bb5a7d9a06211f4d610",
-      "DevName": "VictoryPose_Alchemist_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200005
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Astronomer_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200006
-    },
-    {
-      "LocalizedName": "5d163243fed24c1b9c0a8e9570d4a396",
-      "DevName": "VictoryPose_Astronomer_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200007
-    },
-    {
-      "LocalizedName": "29707f15f6ac4377a631fac362645b10",
-      "DevName": "VictoryPose_Astronomer_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200008
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Engineer_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200009
-    },
-    {
-      "LocalizedName": "9b5e1008e8974595b2b8825f2cb0ead0",
-      "DevName": "VictoryPose_Engineer_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200010
-    },
-    {
-      "LocalizedName": "a7ae322c182345b383579a5951284ebd",
-      "DevName": "VictoryPose_Engineer_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200011
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Glutton_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200012
-    },
-    {
-      "LocalizedName": "3b26472a629f415eb63a234255c39b52",
-      "DevName": "VictoryPose_Glutton_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200013
-    },
-    {
-      "LocalizedName": "b7774161177845cbaf64c566cd2e7eb5",
-      "DevName": "VictoryPose_Glutton_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200014
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Gunner_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200015
-    },
-    {
-      "LocalizedName": "5857b498165c419ea42d8c25579808ee",
-      "DevName": "VictoryPose_Gunner_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200016
-    },
-    {
-      "LocalizedName": "5556c4eca57d4ee4a17d191c43d9f8d9",
-      "DevName": "VictoryPose_Gunner_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200017
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Herald_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200018
-    },
-    {
-      "LocalizedName": "b9da7da1fb434722a0f6d578300e2c20",
-      "DevName": "VictoryPose_Herald_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200019
-    },
-    {
-      "LocalizedName": "07cfbc8336444e8690bb5701ad3654bd",
-      "DevName": "VictoryPose_Herald_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200020
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Igniter_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200021
-    },
-    {
-      "LocalizedName": "380a055b635a41dab09e3aad7abfb5eb",
-      "DevName": "VictoryPose_Igniter_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200022
-    },
-    {
-      "LocalizedName": "3cdb3d763c0e4124be01e6a83d6fcbd0",
-      "DevName": "VictoryPose_Igniter_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200023
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Inhibitor_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200024
-    },
-    {
-      "LocalizedName": "286bf38339f146c199a97f26717811d1",
-      "DevName": "VictoryPose_Inhibitor_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200025
-    },
-    {
-      "LocalizedName": "0b64ced2cbdc4d01bee6d4860e3dbc74",
-      "DevName": "VictoryPose_Inhibitor_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200026
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Inquisitor_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200027
-    },
-    {
-      "LocalizedName": "17e2768a9e5340eead58b950e2bfcae2",
-      "DevName": "VictoryPose_Inquisitor_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200028
-    },
-    {
-      "LocalizedName": "24d80bf4b1194aa7af86385aeb83a8ad",
-      "DevName": "VictoryPose_Inquisitor_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200029
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Nomad_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200030
-    },
-    {
-      "LocalizedName": "8cb2234a62d34eb299f11f6cace64b07",
-      "DevName": "VictoryPose_Nomad_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200031
-    },
-    {
-      "LocalizedName": "12a99654ca78466fba7c73c72eb4fa35",
-      "DevName": "VictoryPose_Nomad_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200032
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Psychopomp_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200033
-    },
-    {
-      "LocalizedName": "e9513b7e5be64a7e95e604a9e7838caf",
-      "DevName": "VictoryPose_Psychopomp_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200034
-    },
-    {
-      "LocalizedName": "a9a866c0adad41d681650962d2b21eea",
-      "DevName": "VictoryPose_Psychopomp_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200035
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Ranid_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200036
-    },
-    {
-      "LocalizedName": "918f19ee124c4b309ee272bf19d26b4c",
-      "DevName": "VictoryPose_Ranid_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200037
-    },
-    {
-      "LocalizedName": "5177b26a752a42169fef9b1333364f14",
-      "DevName": "VictoryPose_Ranid_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200038
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Ravener_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200039
-    },
-    {
-      "LocalizedName": "e5d5796803714e1495c42ce00b5f18db",
-      "DevName": "VictoryPose_Ravener_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200040
-    },
-    {
-      "LocalizedName": "9809f32d59464bf293de22c64fafae6b",
-      "DevName": "VictoryPose_Ravener_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200041
-    },
-    {
-      "LocalizedName": "ff38842bf0464bd2b71164b8e733beab",
-      "DevName": "VictoryPose_Seeker_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200042
-    },
-    {
-      "LocalizedName": "c1151b17a3954f4084cbea15b7fc6f7f",
-      "DevName": "VictoryPose_Seeker_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200043
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Spearmaster_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200044
-    },
-    {
-      "LocalizedName": "6b87a2af8a1d49d19e5e8121b4052298",
-      "DevName": "VictoryPose_Spearmaster_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200045
-    },
-    {
-      "LocalizedName": "8daacd1e6c3646088c2fb9d3c2c92ee3",
-      "DevName": "VictoryPose_Spearmaster_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200048
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Vanguard_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200049
-    },
-    {
-      "LocalizedName": "39ec355b37d44a098016007671871212",
-      "DevName": "VictoryPose_Vanguard_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200050
-    },
-    {
-      "LocalizedName": "878791f62b0a4df5bac8bf0d246eddcf",
-      "DevName": "VictoryPose_Vanguard_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200051
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Seeker_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200056
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Harbinger_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200057
-    },
-    {
-      "LocalizedName": "5b52e7978413421e94aa2b17da4efff5",
-      "DevName": "VictoryPose_Harbinger_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200058
-    },
-    {
-      "LocalizedName": "e34befca1e10419e9fc7b0642c32de68",
-      "DevName": "VictoryPose_Harbinger_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200059
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Stormcaller_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200062
-    },
-    {
-      "LocalizedName": "e53e77085327416a9ac5d819c1423db9",
-      "DevName": "VictoryPose_Stormcaller_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200063
-    },
-    {
-      "LocalizedName": "fbdddaa638f7407a9f820a636a5a581b",
-      "DevName": "VictoryPose_Stormcaller_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200064
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Bloodpriest_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200065
-    },
-    {
-      "LocalizedName": "61d2f8c6bac348c591c608765507dade",
-      "DevName": "VictoryPose_BloodPriest_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200066
-    },
-    {
-      "LocalizedName": "339dfad54cb74acdb4624b6bd2c338b3",
-      "DevName": "VictoryPose_BloodPriest_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200067
-    },
-    {
-      "LocalizedName": "e4c7ebda69044645be94e041a08e6a8c",
-      "DevName": "VictoryPose_Swordmaster_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200069
-    },
-    {
-      "LocalizedName": "2969bb604eb645aa8a9f14f69b2706e4",
-      "DevName": "VictoryPose_Swordmaster_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200070
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Swordmaster_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200071
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Druid_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200072
-    },
-    {
-      "LocalizedName": "951ef2826b5d4d86a7944e4f1234e97f",
-      "DevName": "VictoryPose_Druid_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200073
-    },
-    {
-      "LocalizedName": "a2b4c0a51da541199789a7e34b5a5f05",
-      "DevName": "VictoryPose_Druid_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200074
-    },
-    {
-      "LocalizedName": "9516cce9bb7a495e9ff54a865ebb24b0",
-      "DevName": "VictoryPose_Vanguard_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200076
-    },
-    {
-      "LocalizedName": "583a54ad08db4d83b2987a6cba1e61f8",
-      "DevName": "VictoryPose_Vanguard_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200077
-    },
-    {
-      "LocalizedName": "fb274f681887491082c14223231dcde4",
-      "DevName": "VictoryPose_Swordmaster_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200078
-    },
-    {
-      "LocalizedName": "341ae27954e94d75a91759b953efb2b2",
-      "DevName": "VictoryPose_Swordmaster_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200079
-    },
-    {
-      "LocalizedName": "ab3580421b5f42fa9546fa5d9b49c429",
-      "DevName": "VictoryPose_Ranid_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200080
-    },
-    {
-      "LocalizedName": "f5d8e5e283a840feac69233293a398bc",
-      "DevName": "VictoryPose_Engineer_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200081
-    },
-    {
-      "LocalizedName": "ac1b0d648a874d8a967df3355e66b4ed",
-      "DevName": "VictoryPose_Engineer_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200082
-    },
-    {
-      "LocalizedName": "ec632f6b89d24e399f143b00cd38ab35",
-      "DevName": "VictoryPose_Igniter_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200083
-    },
-    {
-      "LocalizedName": "3e4f8dbf826b4be982b66f53344a338d",
-      "DevName": "VictoryPose_Igniter_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200084
-    },
-    {
-      "LocalizedName": "54b818f1245e42eca842ac6b86b42d16",
-      "DevName": "VictoryPose_Alchemist_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200085
-    },
-    {
-      "LocalizedName": "a2aaaf3bef4343529fea84fa1675afe9",
-      "DevName": "VictoryPose_Alchemist_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200086
-    },
-    {
-      "LocalizedName": "d22cd0a4764241519e39a7e126cd94ac",
-      "DevName": "VictoryPose_Gunner_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200087
-    },
-    {
-      "LocalizedName": "090bf958e0204c42b23cf38f44af0e30",
-      "DevName": "VictoryPose_Gunner_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200088
-    },
-    {
-      "LocalizedName": "97162c3283be4c698412c4ee4843b1e1",
-      "DevName": "VictoryPose_Inhibitor_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200089
-    },
-    {
-      "LocalizedName": "685e13d246b644c3bb5fd6671da201dd",
-      "DevName": "VictoryPose_Inquisitor_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200090
-    },
-    {
-      "LocalizedName": "2dccb3e8186c4a99ada48bd6e01f7ba5",
-      "DevName": "VictoryPose_Inquisitor_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200091
-    },
-    {
-      "LocalizedName": "5fa13134182f42269ab74fcfbbfe5fd8",
-      "DevName": "VictoryPose_Glutton_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200092
-    },
-    {
-      "LocalizedName": "ecdd9c1e41b94c2596349c18832383d8",
-      "DevName": "VictoryPose_Glutton_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200093
-    },
-    {
-      "LocalizedName": "8a6bf47677844014b43b3963f4a870ce",
-      "DevName": "VictoryPose_Druid_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200094
-    },
-    {
-      "LocalizedName": "5bbd25bd1a644f0a84cada53c233a89c",
-      "DevName": "VictoryPose_Druid_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200095
-    },
-    {
-      "LocalizedName": "cc8902a3f68842ec8dc3cbaaafdd4175",
-      "DevName": "VictoryPose_Ranid_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200096
-    },
-    {
-      "LocalizedName": "6d70d40e1fa14db1b7d59f6107b49b2f",
-      "DevName": "VictoryPose_Ravener_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200097
-    },
-    {
-      "LocalizedName": "929a53a0eb8944e1a7c7d117ab0e98c4",
-      "DevName": "VictoryPose_Ravener_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200098
-    },
-    {
-      "LocalizedName": "c9e95d2f6099429882102617aee4fa01",
-      "DevName": "VictoryPose_Seeker_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200099
-    },
-    {
-      "LocalizedName": "03bc5b2ac1804f2ca529e9007a0b1f8e",
-      "DevName": "VictoryPose_Seeker_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200100
-    },
-    {
-      "LocalizedName": "c0d38bf186694354a05630992f097c7d",
-      "DevName": "VictoryPose_Herald_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200101
-    },
-    {
-      "LocalizedName": "75356f28f6b64b7e989314a9996041fa",
-      "DevName": "VictoryPose_Herald_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200102
-    },
-    {
-      "LocalizedName": "8f104a83f10c4e3696744f54dd05a9ea",
-      "DevName": "VictoryPose_BloodPriest_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200103
-    },
-    {
-      "LocalizedName": "50e207e1173e4987a314272673672386",
-      "DevName": "VictoryPose_BloodPriest_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200104
-    },
-    {
-      "LocalizedName": "507c020eade042e0a24d3f0bcafff35c",
-      "DevName": "VictoryPose_Psychopomp_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200105
-    },
-    {
-      "LocalizedName": "2f8ca90848074907b67d40e8ae0b7f16",
-      "DevName": "VictoryPose_Psychopomp_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200106
-    },
-    {
-      "LocalizedName": "b1cd024a01514543b9798f71784d1f42",
-      "DevName": "VictoryPose_Harbinger_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200107
-    },
-    {
-      "LocalizedName": "945e62d93cf547358406ec58433dfe3a",
-      "DevName": "VictoryPose_Harbinger_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200108
-    },
-    {
-      "LocalizedName": "8cd966314f3d4b0b8786ad51754153e2",
-      "DevName": "VictoryPose_Spearmaster_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200109
-    },
-    {
-      "LocalizedName": "0877fc1a989b44309c38b4566be4fda6",
-      "DevName": "VictoryPose_Spearmaster_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200110
-    },
-    {
-      "LocalizedName": "352d700f981241deb74fb99f4ca4e8ab",
-      "DevName": "VictoryPose_Astronomer_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200111
-    },
-    {
-      "LocalizedName": "7fc88dcbd7f3483789a5e1c84eb67be2",
-      "DevName": "VictoryPose_Astronomer_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200112
-    },
-    {
-      "LocalizedName": "c91e24bad802456a9ad3b073386ce983",
-      "DevName": "VictoryPose_Nomad_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200113
-    },
-    {
-      "LocalizedName": "3873f9043ff448c4a4eb4b30dcdd025d",
-      "DevName": "VictoryPose_Nomad_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200114
-    },
-    {
-      "LocalizedName": "916e0206da48432b9821b097a58f7ed9",
-      "DevName": "VictoryPose_Inhibitor_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200115
-    },
-    {
-      "LocalizedName": "22b50cd9150c4780b54d20f43f5c4e37",
-      "DevName": "VictoryPose_Stormcaller_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200116
-    },
-    {
-      "LocalizedName": "357d32a34e804b408b81706ada0537f3",
-      "DevName": "VictoryPose_Stormcaller_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200117
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_MetalWarden_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200118
-    },
-    {
-      "LocalizedName": "fe8f948a745d45adb5cffd09ce1574c5",
-      "DevName": "VictoryPose_MetalWarden_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200119
-    },
-    {
-      "LocalizedName": "d912daab673d4507a0b6909c160923c4",
-      "DevName": "VictoryPose_MetalWarden_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200120
-    },
-    {
-      "LocalizedName": "51173b7597544cd38d3c63e9eff0a435",
-      "DevName": "VictoryPose_MetalWarden_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200121
-    },
-    {
-      "LocalizedName": "1117d8d9d5d04d868fc190ec37582c73",
-      "DevName": "VictoryPose_MetalWarden_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200122
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_Thorn_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200124
-    },
-    {
-      "LocalizedName": "de506608c82e4530b1de75b6ab9377a9",
-      "DevName": "VictoryPose_Thorn_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200125
-    },
-    {
-      "LocalizedName": "d0cb38ef3ba646b3aa4aea51ebb32c35",
-      "DevName": "VictoryPose_Thorn_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200126
-    },
-    {
-      "LocalizedName": "80a88b7d9bf048bd88e9ad5208e2eb22",
-      "DevName": "VictoryPose_Thorn_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200128
-    },
-    {
-      "LocalizedName": "62704d63a9524f72a03f46bee73e338e",
-      "DevName": "VictoryPose_Thorn_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200129
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_MirrorMage_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200130
-    },
-    {
-      "LocalizedName": "5caf1056bc4e4c15b3332b9c1059541d",
-      "DevName": "VictoryPose_MirrorMage_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200131
-    },
-    {
-      "LocalizedName": "cf1027936559410a8a61d0b7db483c22",
-      "DevName": "VictoryPose_MirrorMage_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200132
-    },
-    {
-      "LocalizedName": "4f0382fc90a147a880ccdbac11d71576",
-      "DevName": "VictoryPose_MirrorMage_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200133
-    },
-    {
-      "LocalizedName": "f25939eb5d314a1b8dabb39d31c1baef",
-      "DevName": "VictoryPose_MirrorMage_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200134
-    },
-    {
-      "LocalizedName": "bff4b582b04f413787df40484c32d335",
-      "DevName": "VictoryPose_Igniter_Twitch01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200135
-    },
-    {
-      "LocalizedName": "95e9f0bc31a848669a823618cf109c11",
-      "DevName": "VictoryPose_Spearmaster_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200136
-    },
-    {
-      "LocalizedName": "f7699aec8cfc4fee9652e2bc23ba8848",
-      "DevName": "VictoryPose_Vanguard_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200137
-    },
-    {
-      "LocalizedName": "0e1e7754100f4b5b89053ae4004f4aa5",
-      "DevName": "VictoryPose_Stormcaller_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200138
-    },
-    {
-      "LocalizedName": "6d91132a6c0748638759f4d73bf6d869",
-      "DevName": "VictoryPose_Seeker_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200139
-    },
-    {
-      "LocalizedName": "e9a0ab38502f4db094a1fb1cabe14f35",
-      "DevName": "VictoryPose_Ranid_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200140
-    },
-    {
-      "LocalizedName": "414227e7104f417a8fc5ce9f464cd9ea",
-      "DevName": "VictoryPose_Inquisitor_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200141
-    },
-    {
-      "LocalizedName": "42e831162569421db7b1fc0ea20f293e",
-      "DevName": "VictoryPose_Herald_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200142
-    },
-    {
-      "LocalizedName": "a371c9802dab44b7bc232de12affed77",
-      "DevName": "VictoryPose_Nomad_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200143
-    },
-    {
-      "LocalizedName": "df59225d131f41a9967d54baf694f7af",
-      "DevName": "VictoryPose_Swordmaster_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200144
-    },
-    {
-      "LocalizedName": "ef7643ffb3704849afedda9ee4502ebc",
-      "DevName": "VictoryPose_BloodPriest_Prehistoric01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200145
-    },
-    {
-      "LocalizedName": "195e1b24a6e44afa9982e605bbd93797",
-      "DevName": "VictoryPose_FrostMage_01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200146
-    },
-    {
-      "LocalizedName": "778d3cb4a72a4e2e8de0492f4176db4a",
-      "DevName": "VictoryPose_FrostMage_02",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200147
-    },
-    {
-      "LocalizedName": "949ea1c010df407b8a55ee72f62a2666",
-      "DevName": "VictoryPose_FrostMage_03",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200148
-    },
-    {
-      "LocalizedName": "c08fdf8f4c10424ca3ee6dd91e367d83",
-      "DevName": "VictoryPose_FrostMage_04",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200149
-    },
-    {
-      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
-      "DevName": "VictoryPose_FrostMage_00",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200150
-    },
-    {
-      "LocalizedName": "561343b301f549619b23208ffb4eb1ce",
-      "DevName": "VictoryPose_Igniter_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200151
-    },
-    {
-      "LocalizedName": "0e9907d4d8e0417d9632e77882c1c2b8",
-      "DevName": "VictoryPose_Alchemist_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200152
-    },
-    {
-      "LocalizedName": "13b802aca61145f198e43b5cf0d6ad35",
-      "DevName": "VictoryPose_Vanguard_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200153
-    },
-    {
-      "LocalizedName": "c6d1449985044504863a7914f206baad",
-      "DevName": "VictoryPose_Druid_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200154
-    },
-    {
-      "LocalizedName": "b22982e5a9684f85ab389d19cd5002ba",
-      "DevName": "VictoryPose_Engineer_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200155
-    },
-    {
-      "LocalizedName": "c821e19902704e1daea6ed5c2698cf5e",
-      "DevName": "VictoryPose_Thorn_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200156
-    },
-    {
-      "LocalizedName": "88e451aacfb64506a52d8c336959b784",
-      "DevName": "VictoryPose_Harbinger_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200157
-    },
-    {
-      "LocalizedName": "d885471898ef47e9becc6322f1abe0b3",
-      "DevName": "VictoryPose_Stormcaller_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200158
-    },
-    {
-      "LocalizedName": "20b9605e1b364fe28a4765af1af88485",
-      "DevName": "VictoryPose_Ravener_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200159
-    },
-    {
-      "LocalizedName": "d3cd92386f44402fb4014b1074e58680",
-      "DevName": "VictoryPose_Inquisitor_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200160
-    },
-    {
-      "LocalizedName": "a0ddb890449f47fb98b643f36c0014f2",
-      "DevName": "VictoryPose_Ranid_05",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200161
-    },
-    {
-      "LocalizedName": "45764bef78e54b8aa0bb938b85aa64d4",
-      "DevName": "VictoryPose_Astronomer_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200163
-    },
-    {
-      "LocalizedName": "82b72bdf35984e1d8cd8213caec2f9af",
-      "DevName": "VictoryPose_Bloodpriest_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200164
-    },
-    {
-      "LocalizedName": "5fd875ab38ec4ae49536d48e7456e136",
-      "DevName": "VictoryPose_FrostMage_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200165
-    },
-    {
-      "LocalizedName": "6b18e9643e5d4101b7f77c35b29e854b",
-      "DevName": "VictoryPose_Glutton_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200166
-    },
-    {
-      "LocalizedName": "f41f4565d60d46bba9b6adc45ef92213",
-      "DevName": "VictoryPose_Gunner_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200167
-    },
-    {
-      "LocalizedName": "98903e9e7bd447cd9a48bef050052c69",
-      "DevName": "VictoryPose_MetalWarden_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200168
-    },
-    {
-      "LocalizedName": "a9ac4c78a83a4fd281807494b6fce1f4",
-      "DevName": "VictoryPose_Nomad_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200169
-    },
-    {
-      "LocalizedName": "deaa969c03134ecea63e902e165e957c",
-      "DevName": "VictoryPose_PsychoPomp_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200170
-    },
-    {
-      "LocalizedName": "7fa7d346a6184a21b4a0951bfdea7cc8",
-      "DevName": "VictoryPose_Ranid_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200171
-    },
-    {
-      "LocalizedName": "12d029d3293849ada0469f18410dfe0a",
-      "DevName": "VictoryPose_Seeker_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200172
-    },
-    {
-      "LocalizedName": "c096b28ad1ef47dfa329e1d6f0e79325",
-      "DevName": "VictoryPose_Spearmaster_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200173
-    },
-    {
-      "LocalizedName": "a5cdca7e62184b128e58d029ddbc78de",
-      "DevName": "VictoryPose_Swordmaster_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200174
-    },
-    {
-      "LocalizedName": "25f4e50e933e4e95863ee03c4780ed82",
-      "DevName": "VictoryPose_Herald_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200175
-    },
-    {
-      "LocalizedName": "89cf7f746e1341269c2dc1e972ea4f80",
-      "DevName": "VictoryPose_Inhibitor_Winter01",
-      "IdRangeName": "VictoryPoseEnum",
-      "StackableRangeName": "VictoryPoses",
-      "StackableId": 200176
+      "LocalizedName": "3141aa569c744e4bbc49377f1e43b2ba",
+      "DevName": "Mount_Chowchow_Lunar01",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100058
+    },
+    {
+      "LocalizedName": "e45b95ce835c46cd972cc7f3a4a6a865",
+      "DevName": "Mount_Horse_Lunar02",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100060
+    },
+    {
+      "LocalizedName": "4fcf8e7247f64a5ebade9663d771b3a2",
+      "DevName": "Mount_Horse_Lunar03",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100061
+    },
+    {
+      "LocalizedName": "e98a782c70564ef2a9960f34ac437ba9",
+      "DevName": "Mount_Horse_Lunar01",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100062
     },
     {
       "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
@@ -6866,6 +2276,55 @@ const _stackable = _(
       "IdRangeName": "OutfitEnum",
       "StackableRangeName": "Outfits",
       "StackableId": 300286
+    },
+    {
+      "LocalizedName": "d160459944654b078ee4ef9f3bcd1a65",
+      "DevName": "Outfit_Alchemist_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300288
+    },
+    {
+      "LocalizedName": "c36eaa5f47ef4e12a0a712f798148234",
+      "DevName": "Outfit_Gunner_Contest01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300289
+    },
+    {
+      "LocalizedName": "06e6b78ba1cf4491bd568a43e596d0f0",
+      "DevName": "Outfit_Swordmaster_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300291
+    },
+    {
+      "LocalizedName": "8c614d5521cb4798a935bdf0d15931d0",
+      "DevName": "Outfit_Astronomer_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300292
+    },
+    {
+      "LocalizedName": "ca188d01c76c4544a51a6031f28315e9",
+      "DevName": "Outfit_Harbinger_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300293
+    },
+    {
+      "LocalizedName": "ec206cc516734fba9f641479917f71a9",
+      "DevName": "Outfit_FrostMage_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300300
+    },
+    {
+      "LocalizedName": "73feac01e38b40168435fa80fd76b939",
+      "DevName": "Outfit_MetalWarden_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300301
     },
     {
       "LocalizedName": "",
@@ -13042,6 +8501,4974 @@ const _stackable = _(
       "IdRangeName": "",
       "StackableRangeName": "TwitchAccountLinked",
       "StackableId": 27
+    },
+    {
+      "LocalizedName": "7e960b795d3a4917829e590246cfec6f",
+      "DevName": "Alchemist_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150001
+    },
+    {
+      "LocalizedName": "45cf3a34b514456b9f2ebf27800a9f1f",
+      "DevName": "Alchemist_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150002
+    },
+    {
+      "LocalizedName": "5160c9a0c8b1436385e21741a3f9451f",
+      "DevName": "Alchemist_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150003
+    },
+    {
+      "LocalizedName": "3b8904afd5c0461d81f8ee14741e8fcd",
+      "DevName": "Alchemist_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150004
+    },
+    {
+      "LocalizedName": "4f22ac6bdb1346b6ba57af3b5b9497ed",
+      "DevName": "Alchemist_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150005
+    },
+    {
+      "LocalizedName": "d5eb77d48040484ea32396ca13a69c37",
+      "DevName": "Alchemist_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150006
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Alchemist_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150007
+    },
+    {
+      "LocalizedName": "83a5b580c9334d34b8d5f9f24548f6e7",
+      "DevName": "Alchemist_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150008
+    },
+    {
+      "LocalizedName": "9de07da58d6249c19dbb2da206cf4da7",
+      "DevName": "Alchemist_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150009
+    },
+    {
+      "LocalizedName": "b744876c9bfc4189ba3ed7cf383860a7",
+      "DevName": "Astronomer_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150010
+    },
+    {
+      "LocalizedName": "41f972d3c1c94990a46c8e41a711edd9",
+      "DevName": "Astronomer_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150011
+    },
+    {
+      "LocalizedName": "de3100cbf8504f8cb2edb62971958f69",
+      "DevName": "Astronomer_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150012
+    },
+    {
+      "LocalizedName": "ebaab7dce45b4efaaea830779b25cabc",
+      "DevName": "Astronomer_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150013
+    },
+    {
+      "LocalizedName": "6b0bf1ed6d9845688868e27de96a38f0",
+      "DevName": "Astronomer_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150014
+    },
+    {
+      "LocalizedName": "3bb1a00e155f497594ed323d05b9f614",
+      "DevName": "Astronomer_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150015
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Astronomer_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150016
+    },
+    {
+      "LocalizedName": "487c1732b38548439d79ad9de9061319",
+      "DevName": "Astronomer_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150017
+    },
+    {
+      "LocalizedName": "8564ca70f6fe4530bc4d4d5b430c6e0f",
+      "DevName": "Astronomer_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150018
+    },
+    {
+      "LocalizedName": "690495f751e44baebae14db30b674233",
+      "DevName": "Engineer_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150019
+    },
+    {
+      "LocalizedName": "8869ad85554643b5b9a7b55ca08ee69c",
+      "DevName": "Engineer_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150020
+    },
+    {
+      "LocalizedName": "8ff80513309d4a29886d5c7ec96fe5a6",
+      "DevName": "Engineer_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150021
+    },
+    {
+      "LocalizedName": "b49a3ecad6774f7f9dabf590d71dcdad",
+      "DevName": "Engineer_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150022
+    },
+    {
+      "LocalizedName": "621ce2cf07a74b8d9cc20d78ba955c21",
+      "DevName": "Engineer_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150023
+    },
+    {
+      "LocalizedName": "c1d185cad5bb40ada3f71306537941f0",
+      "DevName": "Engineer_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150024
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Engineer_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150025
+    },
+    {
+      "LocalizedName": "5ab6714427a247fd94da2c5d2cf35e88",
+      "DevName": "Engineer_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150026
+    },
+    {
+      "LocalizedName": "8e8bf076f3634f98ac914e89196bf73c",
+      "DevName": "Engineer_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150027
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Glutton_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150028
+    },
+    {
+      "LocalizedName": "acfd2bdb9a304ba89073e2046ff41121",
+      "DevName": "Glutton_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150029
+    },
+    {
+      "LocalizedName": "48dbc90ed2e645c9ae67707999f1c329",
+      "DevName": "Glutton_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150030
+    },
+    {
+      "LocalizedName": "5f2bfa27a8924eb3a8a6cad89f3a553c",
+      "DevName": "Gunner_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150031
+    },
+    {
+      "LocalizedName": "c988e254a1284ee2a4d1fe88d198936c",
+      "DevName": "Gunner_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150032
+    },
+    {
+      "LocalizedName": "aefc4c90279743039c2257efa5a841aa",
+      "DevName": "Gunner_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150033
+    },
+    {
+      "LocalizedName": "f7e58c2b022348aa8bbb20eebe45fdd6",
+      "DevName": "Gunner_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150034
+    },
+    {
+      "LocalizedName": "aa82a0c2c1e142c2a506c34cce33301c",
+      "DevName": "Gunner_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150035
+    },
+    {
+      "LocalizedName": "32e2726e7d1645c691b2ee3832954e60",
+      "DevName": "Gunner_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150036
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Gunner_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150037
+    },
+    {
+      "LocalizedName": "e1214eb22f6f4447be9935a8fa98fdc0",
+      "DevName": "Gunner_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150038
+    },
+    {
+      "LocalizedName": "98e64c4b3e594cbcb265abfff7c5e40e",
+      "DevName": "Gunner_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150039
+    },
+    {
+      "LocalizedName": "c6f929c95c21405f9d09494425b8a355",
+      "DevName": "Harbinger_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150040
+    },
+    {
+      "LocalizedName": "335e8bfd2f13415d846d7da5ddd68186",
+      "DevName": "Harbinger_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150041
+    },
+    {
+      "LocalizedName": "9742cb5cbb7541f1a6404e8836746e1c",
+      "DevName": "Harbinger_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150042
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Harbinger_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150043
+    },
+    {
+      "LocalizedName": "a6d619037f0c4363bd8f0f2b187aefec",
+      "DevName": "Harbinger_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150044
+    },
+    {
+      "LocalizedName": "270296b3652e4a1eb9b7233a76cef383",
+      "DevName": "Harbinger_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150045
+    },
+    {
+      "LocalizedName": "c9859ef346df475cb921cd75c516562e",
+      "DevName": "Herald_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150046
+    },
+    {
+      "LocalizedName": "fa0192e71fc6485b8ac34d05f36832f2",
+      "DevName": "Herald_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150047
+    },
+    {
+      "LocalizedName": "21ce898f9d3f4a1cb3687ad39ceef396",
+      "DevName": "Herald_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150048
+    },
+    {
+      "LocalizedName": "66952b189a3548da866d1db94ed1814a",
+      "DevName": "Herald_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150049
+    },
+    {
+      "LocalizedName": "50543a07b7fe4b1bbae94cce65cd8299",
+      "DevName": "Herald_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150050
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Herald_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150051
+    },
+    {
+      "LocalizedName": "e0a12f99cf4e4e20b84c0c42bd7795ad",
+      "DevName": "Herald_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150052
+    },
+    {
+      "LocalizedName": "2c9e8f40a80d493e843d95cc21464ed8",
+      "DevName": "Herald_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150053
+    },
+    {
+      "LocalizedName": "6008c7ff46b94718a193d57043151c49",
+      "DevName": "Igniter_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150054
+    },
+    {
+      "LocalizedName": "f68c2d9d568d42eda0e67d49eb5a49b6",
+      "DevName": "Igniter_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150055
+    },
+    {
+      "LocalizedName": "9f80ba5bf41649188a3ade5b97d3f8b2",
+      "DevName": "Igniter_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150056
+    },
+    {
+      "LocalizedName": "4f3a446bf15e417bb85be2060ff22939",
+      "DevName": "Igniter_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150057
+    },
+    {
+      "LocalizedName": "54f5e2e5e52d4cfbbddea56dafd52810",
+      "DevName": "Igniter_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150058
+    },
+    {
+      "LocalizedName": "4de5261f69c941f5a7091114b808571e",
+      "DevName": "Igniter_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150059
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Igniter_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150060
+    },
+    {
+      "LocalizedName": "80d06288c9f14cfe9652f24d1ddf4332",
+      "DevName": "Igniter_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150061
+    },
+    {
+      "LocalizedName": "e5d0f1fd9d524d0c870768f3731a829c",
+      "DevName": "Igniter_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150062
+    },
+    {
+      "LocalizedName": "1b169516001140a7bb0e13139f847893",
+      "DevName": "Inhibitor_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150063
+    },
+    {
+      "LocalizedName": "06aaeb7017794598a1d2af98c09067f5",
+      "DevName": "Inhibitor_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150064
+    },
+    {
+      "LocalizedName": "80a8b5832bd349b493ac840a388a7149",
+      "DevName": "Inhibitor_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150065
+    },
+    {
+      "LocalizedName": "320e8777b35d4ce682dba8debf06426f",
+      "DevName": "Inhibitor_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150066
+    },
+    {
+      "LocalizedName": "8d93a3de19854ac880568fb0a4e46f4a",
+      "DevName": "Inhibitor_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150067
+    },
+    {
+      "LocalizedName": "715732139b614cb9a377330200fb4af4",
+      "DevName": "Inhibitor_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150068
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Inhibitor_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150069
+    },
+    {
+      "LocalizedName": "437b11967b844089bb206cb65860c65f",
+      "DevName": "Inhibitor_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150070
+    },
+    {
+      "LocalizedName": "2c687e5b34d64217b3266ded9bee52a5",
+      "DevName": "Inhibitor_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150071
+    },
+    {
+      "LocalizedName": "fe7bf8f59af64c8d901e08665df0c412",
+      "DevName": "Inquisitor_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150072
+    },
+    {
+      "LocalizedName": "f9f9a98d09e54c2e8028c40aeb08d6ea",
+      "DevName": "Inquisitor_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150073
+    },
+    {
+      "LocalizedName": "3d39d98593b74526b9e852ef10cf25ee",
+      "DevName": "Inquisitor_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150074
+    },
+    {
+      "LocalizedName": "f99de7d545714a979630b50a5fc967a9",
+      "DevName": "Inquisitor_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150075
+    },
+    {
+      "LocalizedName": "45ec0632e6324272acebf62201433727",
+      "DevName": "Inquisitor_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150076
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Inquisitor_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150078
+    },
+    {
+      "LocalizedName": "e4c7224d27a2478aaebe5d439def27bf",
+      "DevName": "Inquisitor_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150079
+    },
+    {
+      "LocalizedName": "ef6b42655a3f4e5da4110d08a1cd8228",
+      "DevName": "Inquisitor_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150080
+    },
+    {
+      "LocalizedName": "08ffd3f0218247dfb0c61ba4971b9d43",
+      "DevName": "Nomad_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150081
+    },
+    {
+      "LocalizedName": "ac4b84d481ec4c1298dd374454180e28",
+      "DevName": "Nomad_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150082
+    },
+    {
+      "LocalizedName": "26b038603eb443258d4077c223f5fc0b",
+      "DevName": "Nomad_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150083
+    },
+    {
+      "LocalizedName": "11b4c2749ca845e2bc15646cf4d44c90",
+      "DevName": "Nomad_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150084
+    },
+    {
+      "LocalizedName": "de4f2c1fec22453db1d081bb65694b8d",
+      "DevName": "Nomad_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150085
+    },
+    {
+      "LocalizedName": "7f5e8de5b5654ae38ad5b2648c914719",
+      "DevName": "Nomad_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150086
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Nomad_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150087
+    },
+    {
+      "LocalizedName": "b996412b14134915b34d51423bd8b88e",
+      "DevName": "Nomad_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150088
+    },
+    {
+      "LocalizedName": "a8ec64debbc94350a86e79ffd7f54456",
+      "DevName": "Nomad_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150089
+    },
+    {
+      "LocalizedName": "626569a72bb7439587a8e0f41105c8c8",
+      "DevName": "Psychopomp_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150090
+    },
+    {
+      "LocalizedName": "ce54f86c40194d97b5255a7c466cb64b",
+      "DevName": "Psychopomp_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150091
+    },
+    {
+      "LocalizedName": "3ae3e4f233494553971cb6595e074d10",
+      "DevName": "Psychopomp_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150092
+    },
+    {
+      "LocalizedName": "dc8ae50bb3214f74aa41dd6f8d0a2907",
+      "DevName": "Psychopomp_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150093
+    },
+    {
+      "LocalizedName": "ab956f625f304665a4a43746bf975c55",
+      "DevName": "Psychopomp_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150094
+    },
+    {
+      "LocalizedName": "95f8d49065c3497d805f962760384aed",
+      "DevName": "Psychopomp_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150095
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Psychopomp_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150096
+    },
+    {
+      "LocalizedName": "599cb666be934cfa8b0f6e2958f7649e",
+      "DevName": "Psychopomp_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150097
+    },
+    {
+      "LocalizedName": "f721e8b3f0ea456da9fec660f1be7aca",
+      "DevName": "Psychopomp_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150098
+    },
+    {
+      "LocalizedName": "856226ec382d40f6899fc74b4d77f611",
+      "DevName": "Ranid_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150099
+    },
+    {
+      "LocalizedName": "abd954ec219a4720beb3762837de1f57",
+      "DevName": "Ranid_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150100
+    },
+    {
+      "LocalizedName": "c34c8e4905ca42c19b0733fd332c011d",
+      "DevName": "Ranid_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150101
+    },
+    {
+      "LocalizedName": "50e22c8765d44eac9d4822cd1ac0822f",
+      "DevName": "Ranid_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150102
+    },
+    {
+      "LocalizedName": "92d28973cef14d988055f58cabc7f395",
+      "DevName": "Ranid_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150103
+    },
+    {
+      "LocalizedName": "69904d53a242401da2ff156cdb962139",
+      "DevName": "Ranid_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150104
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Ranid_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150105
+    },
+    {
+      "LocalizedName": "57b582cad5f74f028bee5af4e3760581",
+      "DevName": "Ranid_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150106
+    },
+    {
+      "LocalizedName": "3f12838836554446a7fb92bbcbadd163",
+      "DevName": "Ranid_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150107
+    },
+    {
+      "LocalizedName": "a8c4271b2a754ba88192ace9069e150a",
+      "DevName": "Ravener_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150108
+    },
+    {
+      "LocalizedName": "f356a4e7a57a4265b1c7f10cfedba308",
+      "DevName": "Ravener_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150109
+    },
+    {
+      "LocalizedName": "a7e2a073a8b04563873cfe69c551f46a",
+      "DevName": "Ravener_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150110
+    },
+    {
+      "LocalizedName": "b52d47f43fed4982b067e8a5eefe6d55",
+      "DevName": "Ravener_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150111
+    },
+    {
+      "LocalizedName": "35cc56609c014f419a8a8cb5ddff3209",
+      "DevName": "Ravener_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150112
+    },
+    {
+      "LocalizedName": "e60a8616784e429180f20937e8feb50d",
+      "DevName": "Ravener_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150113
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Ravener_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150114
+    },
+    {
+      "LocalizedName": "5e862dea0a7040a3a4bb0a878cce22ee",
+      "DevName": "Ravener_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150115
+    },
+    {
+      "LocalizedName": "fffee9eadf56404b9ac4a4721c96f83b",
+      "DevName": "Ravener_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150116
+    },
+    {
+      "LocalizedName": "d49e0fdbc2b64575bee17686f6b16d3d",
+      "DevName": "Seeker_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150117
+    },
+    {
+      "LocalizedName": "9780524b564c42408227dc5543470dc9",
+      "DevName": "Seeker_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150118
+    },
+    {
+      "LocalizedName": "d9732cd676a84aa391853a725c07441c",
+      "DevName": "Seeker_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150119
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Seeker_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150120
+    },
+    {
+      "LocalizedName": "5dc356e8135d4ac19b3fa799f2f8ba5a",
+      "DevName": "Seeker_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150121
+    },
+    {
+      "LocalizedName": "8d77940e674e4cac87a286974e233c80",
+      "DevName": "Seeker_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150122
+    },
+    {
+      "LocalizedName": "d9eaa98b8fbe49cc9aeb87505343e472",
+      "DevName": "Spearmaster_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150123
+    },
+    {
+      "LocalizedName": "b2d94e137c2e4070a3f0be3bd8805c24",
+      "DevName": "Spearmaster_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150124
+    },
+    {
+      "LocalizedName": "83ed475735854a4a8e68dd35413f6725",
+      "DevName": "Spearmaster_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150125
+    },
+    {
+      "LocalizedName": "de5036a5aef1432eba2ccb0272e13aa2",
+      "DevName": "Spearmaster_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150126
+    },
+    {
+      "LocalizedName": "5c37a1c788b44aa5b474444a3a17c208",
+      "DevName": "Spearmaster_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150127
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Spearmaster_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150128
+    },
+    {
+      "LocalizedName": "fdf2664349a34fa5a991c65221574b59",
+      "DevName": "Spearmaster_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150129
+    },
+    {
+      "LocalizedName": "3662c55477fa49628ebd1a53f6ceb2e8",
+      "DevName": "Spearmaster_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150130
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Stormcaller_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150131
+    },
+    {
+      "LocalizedName": "6958aa8b905c4deda0561264af71819f",
+      "DevName": "Stormcaller_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150132
+    },
+    {
+      "LocalizedName": "125e365008be4604a4abb39c930db367",
+      "DevName": "Stormcaller_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150133
+    },
+    {
+      "LocalizedName": "0e1f18f288224e919b803d7289a00057",
+      "DevName": "Vanguard_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150134
+    },
+    {
+      "LocalizedName": "61c2114cdd4a4eecb85eca3144010043",
+      "DevName": "Vanguard_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150135
+    },
+    {
+      "LocalizedName": "3dd141195d404229a27a7f60a07c838c",
+      "DevName": "Vanguard_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150136
+    },
+    {
+      "LocalizedName": "69bed74ea9874717a08ead5095036559",
+      "DevName": "Vanguard_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150137
+    },
+    {
+      "LocalizedName": "4e2f9198162f46d7bf7aba76cf618abc",
+      "DevName": "Vanguard_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150138
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Vanguard_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150140
+    },
+    {
+      "LocalizedName": "1938ebf6073e49e881057f7704af27fb",
+      "DevName": "Vanguard_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150141
+    },
+    {
+      "LocalizedName": "fb21caeff4f24b03bcb9a5f6915cb2e4",
+      "DevName": "Vanguard_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150142
+    },
+    {
+      "LocalizedName": "06b3f83f6e1040fcb25b1640120b1537",
+      "DevName": "Vanguard_Standard_Weapon04",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150143
+    },
+    {
+      "LocalizedName": "6634925eba79428da962b5bb857ba10e",
+      "DevName": "Vanguard_Standard_Weapon05",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150144
+    },
+    {
+      "LocalizedName": "bdc10fde0f0243f19f02e69bfd4ac22d",
+      "DevName": "Spearmaster_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150149
+    },
+    {
+      "LocalizedName": "02a16023ad2547bdb8a25266a44e7ceb",
+      "DevName": "Spearmaster_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150150
+    },
+    {
+      "LocalizedName": "cf7204a72d5a49c6b017c93eb9894b99",
+      "DevName": "Spearmaster_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150151
+    },
+    {
+      "LocalizedName": "f277d4a0ee2c489380bb90aa27933b8c",
+      "DevName": "Glutton_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150152
+    },
+    {
+      "LocalizedName": "24a1b7cfc7994ff39494821f09446d0b",
+      "DevName": "Glutton_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150153
+    },
+    {
+      "LocalizedName": "7af99a26e27540d996a91f9e4c6eac63",
+      "DevName": "Glutton_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150154
+    },
+    {
+      "LocalizedName": "63a6305019404402bb85ef88ec332f3d",
+      "DevName": "Glutton_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150155
+    },
+    {
+      "LocalizedName": "191948f90ec54e6bb1b26d6e556ca99d",
+      "DevName": "Glutton_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150156
+    },
+    {
+      "LocalizedName": "683123e3e6ab4371a3511198170061fd",
+      "DevName": "Glutton_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150157
+    },
+    {
+      "LocalizedName": "3e8ec3f766a347f398fa906ee61c266d",
+      "DevName": "Glutton_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150158
+    },
+    {
+      "LocalizedName": "5688fef02a76410eb211937f582be5bb",
+      "DevName": "Glutton_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150159
+    },
+    {
+      "LocalizedName": "168235992f11490f8d112745770fea93",
+      "DevName": "Herald_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150160
+    },
+    {
+      "LocalizedName": "064727d6e3aa41b8b0db435b9972f2f5",
+      "DevName": "Herald_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150161
+    },
+    {
+      "LocalizedName": "af3474d0ba0b4748b6a1cbebe88b4554",
+      "DevName": "Herald_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150162
+    },
+    {
+      "LocalizedName": "9b5912dc34b6414ab165a51996ce0450",
+      "DevName": "Inquisitor_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150163
+    },
+    {
+      "LocalizedName": "d0e07b3b08774daa88051252797b13f1",
+      "DevName": "Inquisitor_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150164
+    },
+    {
+      "LocalizedName": "2b036e6eff90434296c820809c345977",
+      "DevName": "Inquisitor_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150165
+    },
+    {
+      "LocalizedName": "83bc3c4b4bd840a2b5d70ac4f37055a1",
+      "DevName": "Vanguard_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150166
+    },
+    {
+      "LocalizedName": "cb3eedd2fbe544b6b8cd85903cb05163",
+      "DevName": "Vanguard_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150167
+    },
+    {
+      "LocalizedName": "c49fb9d633ca457b8a9bb84864f45914",
+      "DevName": "Vanguard_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150168
+    },
+    {
+      "LocalizedName": "ce3936df007045f3a9d8b12d24ba5e5a",
+      "DevName": "Seeker_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150169
+    },
+    {
+      "LocalizedName": "75f13dbab58e4cef93f22aa599516a8f",
+      "DevName": "Seeker_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150170
+    },
+    {
+      "LocalizedName": "78f11ed6a98c4c6f8c274d5a196dffd1",
+      "DevName": "Seeker_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150171
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "BloodPriest_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150172
+    },
+    {
+      "LocalizedName": "f809cce7403d44c8a380a38606271e64",
+      "DevName": "Harbinger_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150173
+    },
+    {
+      "LocalizedName": "a58a3bc882874da7a91ac7bffc384e93",
+      "DevName": "Harbinger_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150174
+    },
+    {
+      "LocalizedName": "f2ecdc793d79491db136ce2ea81f2927",
+      "DevName": "Harbinger_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150175
+    },
+    {
+      "LocalizedName": "721355f1890c4b339f1ed47855941ff5",
+      "DevName": "Seeker_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150176
+    },
+    {
+      "LocalizedName": "3a05b9c70157477c936effcc6e9630fa",
+      "DevName": "Seeker_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150177
+    },
+    {
+      "LocalizedName": "8f376b0cc9f9485b8ea521b5fbe534b3",
+      "DevName": "Ranid_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150178
+    },
+    {
+      "LocalizedName": "8db7e0cd84fc4002a830b967f8d726ec",
+      "DevName": "Ranid_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150179
+    },
+    {
+      "LocalizedName": "6e517664f43a49b1849cab0264fee345",
+      "DevName": "Igniter_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150180
+    },
+    {
+      "LocalizedName": "fab26f208fd64d41a1ce22fa9880c544",
+      "DevName": "Igniter_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150181
+    },
+    {
+      "LocalizedName": "ba73eb68512346b5813f34f52a8a08c8",
+      "DevName": "Gunner_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150182
+    },
+    {
+      "LocalizedName": "b6752392fa38420381033bb374c12440",
+      "DevName": "Gunner_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150183
+    },
+    {
+      "LocalizedName": "e6698fa98b8040faa13d46b461c81ba1",
+      "DevName": "Harbinger_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150184
+    },
+    {
+      "LocalizedName": "384e432d82f947c09f2e10f7fa7ddae4",
+      "DevName": "Harbinger_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150185
+    },
+    {
+      "LocalizedName": "7f2b9086bf9b47239aa819da742d6e65",
+      "DevName": "Engineer_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150186
+    },
+    {
+      "LocalizedName": "4355a9fc2d3a420d877dd3883919dd7e",
+      "DevName": "Engineer_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150187
+    },
+    {
+      "LocalizedName": "6dd5ac7d23094c1b9c4e66238b0b2ee9",
+      "DevName": "Alchemist_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150188
+    },
+    {
+      "LocalizedName": "5ee3a60540614aa7b01a59e065a9196e",
+      "DevName": "Astronomer_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150189
+    },
+    {
+      "LocalizedName": "3f406018eccc4141a7fdbd06bfb5ac36",
+      "DevName": "Engineer_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150190
+    },
+    {
+      "LocalizedName": "f5db979553084f7692816b18443915e7",
+      "DevName": "Glutton_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150191
+    },
+    {
+      "LocalizedName": "621f88bd7c364ea88fa70b89bd13a64a",
+      "DevName": "Gunner_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150192
+    },
+    {
+      "LocalizedName": "10ab5750da2b40f6b1466feaa2921bb0",
+      "DevName": "Harbinger_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150193
+    },
+    {
+      "LocalizedName": "e890e8094ebc4d7789fb5203840d9fd3",
+      "DevName": "Herald_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150194
+    },
+    {
+      "LocalizedName": "60583753b8d4456082585a8d77aac04a",
+      "DevName": "Igniter_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150195
+    },
+    {
+      "LocalizedName": "acfa2e8f3c0e406096d898c2a851b8eb",
+      "DevName": "Inhibitor_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150196
+    },
+    {
+      "LocalizedName": "0a6f8eb8e78d4574ae0d69374db8f725",
+      "DevName": "Inquisitor_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150197
+    },
+    {
+      "LocalizedName": "b2edd02fac464ca6b8bceeb1915ae36f",
+      "DevName": "Nomad_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150198
+    },
+    {
+      "LocalizedName": "9a74fe3640ac4facafaecdd793802dc2",
+      "DevName": "Psychopomp_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150199
+    },
+    {
+      "LocalizedName": "618fbcd6f0b74e0ea5358d3060a0fcb2",
+      "DevName": "Ranid_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150200
+    },
+    {
+      "LocalizedName": "4c7687a3893142efa915f4c7d7741c0b",
+      "DevName": "Ravener_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150201
+    },
+    {
+      "LocalizedName": "b08e38eee50541279dbb5e4a2769b0a8",
+      "DevName": "Seeker_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150202
+    },
+    {
+      "LocalizedName": "16e24b270664423c88b293615243e269",
+      "DevName": "Spearmaster_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150203
+    },
+    {
+      "LocalizedName": "5c40d8f20fa74aaa890932d47b50554c",
+      "DevName": "Vanguard_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150204
+    },
+    {
+      "LocalizedName": "a230d7ff5a2840228cdc5087a1dbf4ca",
+      "DevName": "Psychopomp_Set03_Toki01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150205
+    },
+    {
+      "LocalizedName": "3566767a913344a28fedf696a6b73ab7",
+      "DevName": "Psychopomp_Set03_Toki02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150206
+    },
+    {
+      "LocalizedName": "e905df779a6f4026b65c052ae43b9ff2",
+      "DevName": "Ravener_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150207
+    },
+    {
+      "LocalizedName": "319b709a0076451a89112c8a25679f91",
+      "DevName": "Ravener_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150208
+    },
+    {
+      "LocalizedName": "b7ee222899914926a184d86956a362d5",
+      "DevName": "Alchemist_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150209
+    },
+    {
+      "LocalizedName": "362015f7b3a84dccbde71da4d09cd878",
+      "DevName": "Alchemist_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150210
+    },
+    {
+      "LocalizedName": "2b7946f905f6471494783c8b1a13e938",
+      "DevName": "Nomad_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150211
+    },
+    {
+      "LocalizedName": "06b0116b8f924b6da0449eaa22188e1f",
+      "DevName": "Nomad_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150212
+    },
+    {
+      "LocalizedName": "8789d87ebb294ee3814b0ef4660da304",
+      "DevName": "Inhibitor_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150213
+    },
+    {
+      "LocalizedName": "9a32b294f964473d8b783f943fc47bfd",
+      "DevName": "Astronomer_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150214
+    },
+    {
+      "LocalizedName": "e98e575235c24972928ac50724583264",
+      "DevName": "Astronomer_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150215
+    },
+    {
+      "LocalizedName": "478ffb4583114c928df4147d4d361cec",
+      "DevName": "Inhibitor_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150216
+    },
+    {
+      "LocalizedName": "9ff955d607ad469b8c4872d6fe52f591",
+      "DevName": "Harbinger_Weapon_SpecialReward",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150217
+    },
+    {
+      "LocalizedName": "6b3cd2eeb4684d029d67234bfa141e75",
+      "DevName": "Stormcaller_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150218
+    },
+    {
+      "LocalizedName": "0e3ae577a5a441cba28241f79a0638a2",
+      "DevName": "Stormcaller_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150219
+    },
+    {
+      "LocalizedName": "4e0c949d88c74b2187c747e4a4477298",
+      "DevName": "Stormcaller_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150220
+    },
+    {
+      "LocalizedName": "716c4577b2064ec69027bce211241e3e",
+      "DevName": "Stormcaller_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150221
+    },
+    {
+      "LocalizedName": "7405f26b394e4c89a70c528eb489c126",
+      "DevName": "Stormcaller_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150222
+    },
+    {
+      "LocalizedName": "070aa39040004608b5def2706d44db8d",
+      "DevName": "Stormcaller_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150223
+    },
+    {
+      "LocalizedName": "81d1e61495244cb2984a85e9e799b7bc",
+      "DevName": "Stormcaller_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150224
+    },
+    {
+      "LocalizedName": "f747375c0c8348eea719b4bda42832b1",
+      "DevName": "Stormcaller_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150225
+    },
+    {
+      "LocalizedName": "88f7c08fd4e74ee0948d8b2b644e22e4",
+      "DevName": "Bloodpriest_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150226
+    },
+    {
+      "LocalizedName": "76b86b9ece864a70a4103c6bc0e9cbd2",
+      "DevName": "Bloodpriest_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150227
+    },
+    {
+      "LocalizedName": "e952b03d7e1d4650aa1ed76dbb556471",
+      "DevName": "Bloodpriest_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150228
+    },
+    {
+      "LocalizedName": "ab6ee5feeab94141b33970c608f9ee6b",
+      "DevName": "Bloodpriest_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150229
+    },
+    {
+      "LocalizedName": "418fd538b1714c039a89e23f13f2615d",
+      "DevName": "Bloodpriest_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150230
+    },
+    {
+      "LocalizedName": "710cfb2c6c3e4e629a6d5ee65055ac85",
+      "DevName": "Bloodpriest_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150231
+    },
+    {
+      "LocalizedName": "d270f7b83ec04621a9c9948f858b02b1",
+      "DevName": "Bloodpriest_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150232
+    },
+    {
+      "LocalizedName": "03a59a03fa50475f8ecd4b1c276ba620",
+      "DevName": "Bloodpriest_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150233
+    },
+    {
+      "LocalizedName": "fc6aacadff37452695465a75e2cc108a",
+      "DevName": "Bloodpriest_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150234
+    },
+    {
+      "LocalizedName": "2bfc9933791a4853b380a6fbc1f30af7",
+      "DevName": "Bloodpriest_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150235
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Swordmaster_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150236
+    },
+    {
+      "LocalizedName": "c608fbeef33a47a78f4db6338aa0da42",
+      "DevName": "Alchemist_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150237
+    },
+    {
+      "LocalizedName": "ad0eed9d405f467f90eeb35c89f15f5b",
+      "DevName": "Astronomert_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150238
+    },
+    {
+      "LocalizedName": "1a9b6e7c14b64464bc73e5d94ceb924f",
+      "DevName": "Bloodpriest_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150239
+    },
+    {
+      "LocalizedName": "0127bc92669249fabb502b946f7297e6",
+      "DevName": "Engineer_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150240
+    },
+    {
+      "LocalizedName": "ba6569cba1644c01953b1b0c1407f748",
+      "DevName": "Glutton_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150241
+    },
+    {
+      "LocalizedName": "6fe7b78a9d2c4c5bbbb510fda7d7d485",
+      "DevName": "Gunner_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150242
+    },
+    {
+      "LocalizedName": "d03efb9e21bb482f8337e60320d6948c",
+      "DevName": "Harbinger_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150243
+    },
+    {
+      "LocalizedName": "0e7c3e9c30864d36832e7d35aeba2119",
+      "DevName": "Herald_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150244
+    },
+    {
+      "LocalizedName": "905a27886879496b92efdd07520163c3",
+      "DevName": "Igniter_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150245
+    },
+    {
+      "LocalizedName": "12f2aa0752bd4579a6e3196aa2dccd1f",
+      "DevName": "Inhibitor_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150246
+    },
+    {
+      "LocalizedName": "496b6996d47f4747b3d94bdc857aa828",
+      "DevName": "Inquisitor_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150247
+    },
+    {
+      "LocalizedName": "9d82a1819ba1430dadf6f1dde6924aa3",
+      "DevName": "Nomad_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150248
+    },
+    {
+      "LocalizedName": "66b56f72ead341718b9868c22158e33c",
+      "DevName": "Psychopomp_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150249
+    },
+    {
+      "LocalizedName": "ee7fcff40c9a4e79a39a34224e31979a",
+      "DevName": "Ranid_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150250
+    },
+    {
+      "LocalizedName": "84be490312b047ee871e3709234ee73b",
+      "DevName": "Ravener_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150251
+    },
+    {
+      "LocalizedName": "d0a3821f31c747e8b7cdae01ea91d038",
+      "DevName": "Seeker_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150252
+    },
+    {
+      "LocalizedName": "409483bc1c5c4151bb1e55e3e9ba9d28",
+      "DevName": "Spearmaster_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150253
+    },
+    {
+      "LocalizedName": "2d902e7fe08245a6bceabd8593670538",
+      "DevName": "Vanguard_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150254
+    },
+    {
+      "LocalizedName": "ef81b6d4c26e4a93a949bb04e75ff78f",
+      "DevName": "Stormcaller_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150255
+    },
+    {
+      "LocalizedName": "a5e0b59c7ba744d4a20b5b8f033b3a9b",
+      "DevName": "Swordmaster_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150256
+    },
+    {
+      "LocalizedName": "bd997f76bd1f4883b3e210832c91227d",
+      "DevName": "Swordmaster_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150257
+    },
+    {
+      "LocalizedName": "a582ac1e1b53457ab08d46e7750f1829",
+      "DevName": "Swordmaster_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150258
+    },
+    {
+      "LocalizedName": "abffbf604d6541b5a8d1d60181781bce",
+      "DevName": "Swordmaster_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150259
+    },
+    {
+      "LocalizedName": "85f06e5ca74d4e93a70122b03fd86c46",
+      "DevName": "Swordmaster_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150260
+    },
+    {
+      "LocalizedName": "7a8eee450f2b4134a8e1f7c92864329a",
+      "DevName": "Swordmaster_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150261
+    },
+    {
+      "LocalizedName": "202b64969f5b4963855e61ec2b292da9",
+      "DevName": "Swordmaster_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150262
+    },
+    {
+      "LocalizedName": "29b95ba5dba940f3ba780053a4f94441",
+      "DevName": "Swordmaster_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150263
+    },
+    {
+      "LocalizedName": "293da65d0146418888e95ff72c0b685d",
+      "DevName": "Swordmaster_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150264
+    },
+    {
+      "LocalizedName": "2901608e8c974e76a340f1da43baf9dc",
+      "DevName": "Swordmaster_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150265
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Druid_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150266
+    },
+    {
+      "LocalizedName": "89e3e4cb71a74162882641cbf05104dc",
+      "DevName": "Druid_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150267
+    },
+    {
+      "LocalizedName": "bc91a3da3f844f8096abfeeec3618cc2",
+      "DevName": "Druid_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150268
+    },
+    {
+      "LocalizedName": "5cc5d304278040bd8fb82941595b7eb6",
+      "DevName": "Druid_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150269
+    },
+    {
+      "LocalizedName": "7095195180664fba8f1eafc137e8c37d",
+      "DevName": "Druid_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150270
+    },
+    {
+      "LocalizedName": "e25d2365b4e6458f8c64fd98093f0c64",
+      "DevName": "Druid_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150271
+    },
+    {
+      "LocalizedName": "e1d1cc734b7b44a18159026d450c4f89",
+      "DevName": "Druid_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150272
+    },
+    {
+      "LocalizedName": "4683c7d381cd4885ba2dd90805195bda",
+      "DevName": "Druid_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150273
+    },
+    {
+      "LocalizedName": "c64ef7cc1cc24c0ca85c7c53bd97fafd",
+      "DevName": "Druid_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150274
+    },
+    {
+      "LocalizedName": "51a3bb11463b4dc3b997e991655c7da8",
+      "DevName": "Druid_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150275
+    },
+    {
+      "LocalizedName": "4e6769c7943a4e42a05d5a777cacb97d",
+      "DevName": "Druid_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150276
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Axe_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150277
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Cannon_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150278
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Dynamite_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150279
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Glave_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150280
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Hammer_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150281
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Minigun_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150282
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Pistol_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150283
+    },
+    {
+      "LocalizedName": "6942398686ca4ed5aab9a53006604ebe",
+      "DevName": "Vanguard_Prehistoric01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150285
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Cannon_Gold_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150286
+    },
+    {
+      "LocalizedName": "8e74bde3046a480a8b21ecc5499610f7",
+      "DevName": "Herald_Prehistoric01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150287
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "MetalWarden_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150288
+    },
+    {
+      "LocalizedName": "8cf304b3664a4d3482df0426c13f32b2",
+      "DevName": "Inquisitor_Prehistoric01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150289
+    },
+    {
+      "LocalizedName": "545dd34cb6384dc791215741a499a62e",
+      "DevName": "Ranid_Prehistoric01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150290
+    },
+    {
+      "LocalizedName": "45b5752f96df493094ec129e256f3d36",
+      "DevName": "Nomad_Prehistoric01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150291
+    },
+    {
+      "LocalizedName": "2062635904ee4f1087ef20a5df62adf5",
+      "DevName": "Stormcaller_Prehistoric01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150292
+    },
+    {
+      "LocalizedName": "cc77d61818534318b6d69422441af4e7",
+      "DevName": "BloodPriest_Prehistoric01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150293
+    },
+    {
+      "LocalizedName": "0d2122c8069d4e73834a70a39387c3bb",
+      "DevName": "Seeker_Prehistoric01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150294
+    },
+    {
+      "LocalizedName": "a91bb925491d4ffc86d8905ce3731897",
+      "DevName": "Spearmaster_Prehistoric01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150295
+    },
+    {
+      "LocalizedName": "5321c15572f14426a921c13a77e0cfbc",
+      "DevName": "Swordmaster_Prehistoric01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150296
+    },
+    {
+      "LocalizedName": "4964772dcbe345d2aadc705cd52b8b66",
+      "DevName": "Inquisitor_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150297
+    },
+    {
+      "LocalizedName": "941f07d78a7843e29dc695cf24b36602",
+      "DevName": "Astronomer_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150298
+    },
+    {
+      "LocalizedName": "269ea95dff58410492a4a1ef02d0e443",
+      "DevName": "Inquisitor_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150299
+    },
+    {
+      "LocalizedName": "7a12f0a7b0cb4b36ad291d9cb887bd70",
+      "DevName": "Inquisitor_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150300
+    },
+    {
+      "LocalizedName": "c92d78ba87db4d10a4c2832aef9394c8",
+      "DevName": "Astronomer_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150301
+    },
+    {
+      "LocalizedName": "fab7c0974ca544dd959658facfdf07d1",
+      "DevName": "Astronomer_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150302
+    },
+    {
+      "LocalizedName": "f8f16006f3ec42689406c993bc777073",
+      "DevName": "Swordmaster_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150303
+    },
+    {
+      "LocalizedName": "f3c62c37590e4d5caa53d311603a39a0",
+      "DevName": "Swordmaster_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150304
+    },
+    {
+      "LocalizedName": "bac1b1405286485fac19e7802147ef2d",
+      "DevName": "Swordmaster_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150305
+    },
+    {
+      "LocalizedName": "88c89e7a84544a7c94bab8732ab3fc6d",
+      "DevName": "Herald_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150306
+    },
+    {
+      "LocalizedName": "1de21b877cb4439caf2fd84409824450",
+      "DevName": "Herald_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150307
+    },
+    {
+      "LocalizedName": "8c87cae8b2ae4985bb8965f475c2ccef",
+      "DevName": "Herald_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150308
+    },
+    {
+      "LocalizedName": "a94f5d8c07a84911b33fba2bf8616357",
+      "DevName": "Ravener_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150309
+    },
+    {
+      "LocalizedName": "fc25d630c0464897b8a7713aa80b3dbc",
+      "DevName": "Ravener_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150310
+    },
+    {
+      "LocalizedName": "6aa2f618fa674746862c83825ef1c28d",
+      "DevName": "Ravener_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150311
+    },
+    {
+      "LocalizedName": "af9f899e2f754659af893f8f9c5fc9d2",
+      "DevName": "Ranid_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150312
+    },
+    {
+      "LocalizedName": "97603d44bd6c4344aa546a8bb66a8f4e",
+      "DevName": "Ranid_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150313
+    },
+    {
+      "LocalizedName": "fe79df8ab0a2448bb351417abdabfd47",
+      "DevName": "Ranid_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150314
+    },
+    {
+      "LocalizedName": "0690c54267bd4d3b8a68e78920e5e5b7",
+      "DevName": "Nomad_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150315
+    },
+    {
+      "LocalizedName": "2c9ab4b643a547aebd69bce9a77c9705",
+      "DevName": "Nomad_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150316
+    },
+    {
+      "LocalizedName": "247cc32685de477ba6ea72db0dc814a5",
+      "DevName": "Nomad_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150317
+    },
+    {
+      "LocalizedName": "1c6150e1303d48c58d38a8f0db623f8c",
+      "DevName": "Harbinger_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150318
+    },
+    {
+      "LocalizedName": "233465f4661c410191e5ffe01cba6c4c",
+      "DevName": "Harbinger_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150319
+    },
+    {
+      "LocalizedName": "79ed4520e3a5453d8547cd48b3c3c0d1",
+      "DevName": "Harbinger_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150320
+    },
+    {
+      "LocalizedName": "0bfb1f28ccbc47d587ebd6b726fcb9ed",
+      "DevName": "Seeker_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150321
+    },
+    {
+      "LocalizedName": "605c3129f8e2434d96c5a3e4f6bad25f",
+      "DevName": "Seeker_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150322
+    },
+    {
+      "LocalizedName": "bdf12be73f314e86ad3765ad91bdb03a",
+      "DevName": "Seeker_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150323
+    },
+    {
+      "LocalizedName": "3d04a7dc5cd54c7998ed64d6ebf1f014",
+      "DevName": "Stormcaller_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150324
+    },
+    {
+      "LocalizedName": "ab5583aa435c4aedb9228c2638de5b40",
+      "DevName": "Stormcaller_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150325
+    },
+    {
+      "LocalizedName": "24471e1360da4ae29f577f181b0d04f2",
+      "DevName": "Stormcaller_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150326
+    },
+    {
+      "LocalizedName": "1548b2908b424c8ba1f81bcca13d6acf",
+      "DevName": "Psychopomp_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150327
+    },
+    {
+      "LocalizedName": "9d7b236fa826406795a05b7e15ec6aae",
+      "DevName": "Psychopomp_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150328
+    },
+    {
+      "LocalizedName": "e24c44dbefb54bbdbbd3a4a8c664403b",
+      "DevName": "Psychopomp_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150329
+    },
+    {
+      "LocalizedName": "7f01a872ab3a47fdaf5ca3a55be1f078",
+      "DevName": "Spearmaster_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150330
+    },
+    {
+      "LocalizedName": "76d6f71332404d2c83270fcb2236fd96",
+      "DevName": "Spearmaster_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150331
+    },
+    {
+      "LocalizedName": "97a77d756bc94ab188dacbe24f56961c",
+      "DevName": "Spearmaster_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150332
+    },
+    {
+      "LocalizedName": "789544f9fb434f27aaf70fc8dcb30c31",
+      "DevName": "Glutton_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150333
+    },
+    {
+      "LocalizedName": "8365f21cf1754c9ea5b13d9d90c20eb1",
+      "DevName": "Glutton_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150334
+    },
+    {
+      "LocalizedName": "85ec8e64ca5143f381e7c770396bc4b9",
+      "DevName": "Glutton_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150335
+    },
+    {
+      "LocalizedName": "c3751db9327e469ca4384334e626f127",
+      "DevName": "Igniter_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150336
+    },
+    {
+      "LocalizedName": "c8e532754e27453b952dcd87dbf623e7",
+      "DevName": "Igniter_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150337
+    },
+    {
+      "LocalizedName": "fdcfa05716aa4f69859eafa5b81ae348",
+      "DevName": "Igniter_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150338
+    },
+    {
+      "LocalizedName": "f95265c806f14796944d508505cf3b35",
+      "DevName": "Bloodpriest_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150339
+    },
+    {
+      "LocalizedName": "8b4cfe179e2b439aaaa35e2c396ed2dc",
+      "DevName": "BloodPriest_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150340
+    },
+    {
+      "LocalizedName": "76493a0bf36c44a4951a00ed73695f76",
+      "DevName": "BloodPriest_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150341
+    },
+    {
+      "LocalizedName": "34a99515f1144564a8263394d4db1f9a",
+      "DevName": "Vanguard_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150342
+    },
+    {
+      "LocalizedName": "7677eef274b34d2b8d7a0ad5d5733fa6",
+      "DevName": "Vanguard_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150343
+    },
+    {
+      "LocalizedName": "165a4d0b8c0b44b2ac5421f8a6261ece",
+      "DevName": "Vanguard_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150344
+    },
+    {
+      "LocalizedName": "28b89a4132894cd2931e53937ff7ce43",
+      "DevName": "Gunner_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150345
+    },
+    {
+      "LocalizedName": "ea426e126b89498d9a880654c6f6fbd5",
+      "DevName": "Gunner_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150346
+    },
+    {
+      "LocalizedName": "cc73892218c342d890452ecdab58f95d",
+      "DevName": "Gunner_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150347
+    },
+    {
+      "LocalizedName": "2f7db540bcf14488b355f0b600d4666a",
+      "DevName": "Engineer_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150348
+    },
+    {
+      "LocalizedName": "6dc7567b0b294e3690c6d5c52571e66a",
+      "DevName": "Engineer_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150349
+    },
+    {
+      "LocalizedName": "bbf90da5d33246a7a751ceba5ea9136e",
+      "DevName": "Engineer_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150350
+    },
+    {
+      "LocalizedName": "ece600875d5d4d95894984fb1ea97e97",
+      "DevName": "Alchemist_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150351
+    },
+    {
+      "LocalizedName": "83b3527c4f244b678dd74bba577e0805",
+      "DevName": "Alchemist_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150352
+    },
+    {
+      "LocalizedName": "dfb8a0d91dae4aac8e262a8fb192d250",
+      "DevName": "Alchemist_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150353
+    },
+    {
+      "LocalizedName": "1e844b9a11174d89b8317a1310b12a16",
+      "DevName": "Inhibitor_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150354
+    },
+    {
+      "LocalizedName": "3b692b39a9d8405d94297b110b0d1238",
+      "DevName": "Inhibitor_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150355
+    },
+    {
+      "LocalizedName": "7a3e06405e614737a60822abe78adab6",
+      "DevName": "Inhibitor_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150356
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Thorn_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150357
+    },
+    {
+      "LocalizedName": "f29bc87c6a0f4a8e8ef2ff172aa7e8d3",
+      "DevName": "Druid_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150358
+    },
+    {
+      "LocalizedName": "bef2b066657b4c02b3f662023069413e",
+      "DevName": "Druid_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150359
+    },
+    {
+      "LocalizedName": "dfcf5023268d464ea5953d616e255b01",
+      "DevName": "Druid_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150360
+    },
+    {
+      "LocalizedName": "dc8d9cbaa0bf4eb3a9bf0efa92d59f6c",
+      "DevName": "Swordrmaster_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150361
+    },
+    {
+      "LocalizedName": "80c7a28a5a1744349521e28f00341e61",
+      "DevName": "Druid_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150362
+    },
+    {
+      "LocalizedName": "f4a0eef345254670aa42c97f4eafb22b",
+      "DevName": "Stormcaller_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150363
+    },
+    {
+      "LocalizedName": "5aa2c6f168834b9591b92da2bf2f8ef0",
+      "DevName": "BloodPriest_Halloween_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150364
+    },
+    {
+      "LocalizedName": "a81187fb5828436c8ed4c2fd26ed1b40",
+      "DevName": "MetalWarden_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150365
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "MirrorMage_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150366
+    },
+    {
+      "LocalizedName": "562561b10ee44bf9b34b8eedb678d123",
+      "DevName": "Druid_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150367
+    },
+    {
+      "LocalizedName": "76162c75d5234f5292cb582953e10acd",
+      "DevName": "Thorn_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150369
+    },
+    {
+      "LocalizedName": "e8b8569934604f03a8a5678163c11a9a",
+      "DevName": "Thorn_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150370
+    },
+    {
+      "LocalizedName": "7c2188977ce44325b8afedf3c39caaa9",
+      "DevName": "Thorn_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150371
+    },
+    {
+      "LocalizedName": "dedf2077a34542cf8ae6ab0cbdf96ce6",
+      "DevName": "Thorn_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150372
+    },
+    {
+      "LocalizedName": "5cf14d9322324f15a0350df44de00354",
+      "DevName": "Thorn_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150373
+    },
+    {
+      "LocalizedName": "ef484286fd0e46b192c0c7335657f577",
+      "DevName": "Thorn_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150374
+    },
+    {
+      "LocalizedName": "453121b98ba74e45b94d9d7dc8ec7845",
+      "DevName": "Thorn_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150375
+    },
+    {
+      "LocalizedName": "be224e0763604190a59331d6e0dd7f3a",
+      "DevName": "Thorn_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150376
+    },
+    {
+      "LocalizedName": "b801f0fa4cce4cedb42b390fbd585402",
+      "DevName": "Thorn_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150377
+    },
+    {
+      "LocalizedName": "00a7005533f0476b9be7acc28bd86a6d",
+      "DevName": "MetalWarden_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150378
+    },
+    {
+      "LocalizedName": "35dfcb6fb20749278f18af9cf39bc6fb",
+      "DevName": "MetalWarden_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150379
+    },
+    {
+      "LocalizedName": "cb8496062d28457e86a00f4d0265e928",
+      "DevName": "MetalWarden_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150380
+    },
+    {
+      "LocalizedName": "57aded37f7674fbda480e10aaa923724",
+      "DevName": "MetalWarden_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150381
+    },
+    {
+      "LocalizedName": "269edf5db6f945d8b711784b9254d481",
+      "DevName": "MetalWarden_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150382
+    },
+    {
+      "LocalizedName": "c957d213b0c848e9b7918a41bb0260a9",
+      "DevName": "MetalWarden_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150383
+    },
+    {
+      "LocalizedName": "9b98e308504c4f498e7cd0ae7fa3f50b",
+      "DevName": "MetalWarden_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150384
+    },
+    {
+      "LocalizedName": "c6b19424ddd044a388ea1239f19accd7",
+      "DevName": "MetalWarden_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150385
+    },
+    {
+      "LocalizedName": "6d66f2818a32456e914e8c209d24a860",
+      "DevName": "MetalWarden_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150386
+    },
+    {
+      "LocalizedName": "0f506a8bc9104dd595800cb78b25748d",
+      "DevName": "MetalWarden_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150387
+    },
+    {
+      "LocalizedName": "11e00e787df54810abf9094a7c157310",
+      "DevName": "MetalWarden_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150388
+    },
+    {
+      "LocalizedName": "9a1e834ce6ff4d93ba82a9b93d6d5ba1",
+      "DevName": "MetalWarden_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150389
+    },
+    {
+      "LocalizedName": "43b1bc134b2947ac8b15f9c30aab1218",
+      "DevName": "MetalWarden_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150390
+    },
+    {
+      "LocalizedName": "492af5a1c9d6438a98dc1c478eea571b",
+      "DevName": "Spearmaster_Weapon_GuardianSpear01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150391
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Axe_WTC_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150392
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Cannon_WTC_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150393
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Minion_Glave_WTC_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150394
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Seeker_WTC_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150395
+    },
+    {
+      "LocalizedName": "0d97b180c56b420ca8cc9c5d2bf85459",
+      "DevName": "Alchemist_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150396
+    },
+    {
+      "LocalizedName": "d8345dc1a6f74113832e3e1e4259392f",
+      "DevName": "Astronomer_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150397
+    },
+    {
+      "LocalizedName": "cada4502c50e460d8d9819f8c43431a6",
+      "DevName": "Bloodpriest_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150398
+    },
+    {
+      "LocalizedName": "6f76ce27b3704b098a9aea9abce6269b",
+      "DevName": "Druid_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150399
+    },
+    {
+      "LocalizedName": "cd1dadeb8d1645efa1ea2bf84ab46236",
+      "DevName": "Engineer_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150400
+    },
+    {
+      "LocalizedName": "b71ec71880794a0d9cb340613ad6ff8d",
+      "DevName": "Glutton_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150401
+    },
+    {
+      "LocalizedName": "e73b32d20d6b400ba4923c9df944050c",
+      "DevName": "Gunner_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150402
+    },
+    {
+      "LocalizedName": "7cb5f3f419f449efb0d0801665613584",
+      "DevName": "Harbinger_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150403
+    },
+    {
+      "LocalizedName": "3352e62e2dbb4fcb8200074863570ab5",
+      "DevName": "Herald_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150404
+    },
+    {
+      "LocalizedName": "b17d7559660a4584bf375785c4520160",
+      "DevName": "Igniter_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150405
+    },
+    {
+      "LocalizedName": "5d042d66252d42b4a7dc7624001b8d0a",
+      "DevName": "Igniter_Set03_Weapon04",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150406
+    },
+    {
+      "LocalizedName": "95e0a6c6f1a84d3093bef2523c16e292",
+      "DevName": "Inhibitor_Set05_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150407
+    },
+    {
+      "LocalizedName": "f4624125b0d04a5d9ddd832425bb9dee",
+      "DevName": "Vanguard_Set05_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150408
+    },
+    {
+      "LocalizedName": "9ae48e6d203949c3ad5ab670deb39c97",
+      "DevName": "Thorn_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150409
+    },
+    {
+      "LocalizedName": "a7195031d2174e5282d3fd25ef892c22",
+      "DevName": "Thorn_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150410
+    },
+    {
+      "LocalizedName": "e77c10321dd74e2c874f497176f1beda",
+      "DevName": "Inhibitor_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150411
+    },
+    {
+      "LocalizedName": "2bbfbe0453394214865140db033f2a06",
+      "DevName": "Inhibitor_Set05_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150412
+    },
+    {
+      "LocalizedName": "55c34958d2ed48ae8642a74414dffac4",
+      "DevName": "Inhibitor_Set05_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150413
+    },
+    {
+      "LocalizedName": "ca467fd3f240423e9f7dc17642664998",
+      "DevName": "Thorn_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150414
+    },
+    {
+      "LocalizedName": "1972f6cd88be4a118e59c30b50095627",
+      "DevName": "Thorn_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150415
+    },
+    {
+      "LocalizedName": "6099301e62ee4a9f96276fb6d0d9a304",
+      "DevName": "Thorn_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150416
+    },
+    {
+      "LocalizedName": "7a1b379488d04bdc99e81a87146b2e03",
+      "DevName": "Thorn_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150417
+    },
+    {
+      "LocalizedName": "46124f206b78499e8a73ae49ba014aba",
+      "DevName": "Inquisitor_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150418
+    },
+    {
+      "LocalizedName": "94bd901fc6014122937d2cf048868374",
+      "DevName": "Nomad_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150420
+    },
+    {
+      "LocalizedName": "f681f741de4b49c3a229ae62918e191d",
+      "DevName": "Psychopomp_Set03_Toki03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150421
+    },
+    {
+      "LocalizedName": "b0935126187f4c22bbca104bbdccc306",
+      "DevName": "Ranid_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150422
+    },
+    {
+      "LocalizedName": "b054569690c84eb0a68dd4c4bacd6376",
+      "DevName": "Ravener_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150423
+    },
+    {
+      "LocalizedName": "6cdbbf56ecc0482c8e55596725b4abb3",
+      "DevName": "Seeker_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150424
+    },
+    {
+      "LocalizedName": "79f0f232256d490b96beb13660dc30cb",
+      "DevName": "Spearmaster_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150425
+    },
+    {
+      "LocalizedName": "4932b871f62b42aa86f41a0c2b7f3b49",
+      "DevName": "Stormcaller_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150426
+    },
+    {
+      "LocalizedName": "d494df8190b3493fb87d24da1603a34c",
+      "DevName": "Swordmaster_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150427
+    },
+    {
+      "LocalizedName": "67b1d53644df4e9aa01688a6828d8dee",
+      "DevName": "Vanguard_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150428
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "FrostMage_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150429
+    },
+    {
+      "LocalizedName": "cad3b6936c8e443490a79bce73ff23fa",
+      "DevName": "Igniter_Weapon_Twitch01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150430
+    },
+    {
+      "LocalizedName": "c15c23e71fd845ccb8c50b5ea177fac6",
+      "DevName": "Vanguard_Set05_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150431
+    },
+    {
+      "LocalizedName": "7047358611684d9ea984e8d904784b8b",
+      "DevName": "Vanguard_Set05_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150432
+    },
+    {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Bossilus_WTC_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150433
+    },
+    {
+      "LocalizedName": "fce2666df04f4c0ca427c29b2050947a",
+      "DevName": "MetalWarden_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150434
+    },
+    {
+      "LocalizedName": "0c692fecdb6b409eb8400686a58fc8c3",
+      "DevName": "FrostMage_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150435
+    },
+    {
+      "LocalizedName": "0a5631c72ea546288a6cf00cd58acb3a",
+      "DevName": "FrostMage_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150436
+    },
+    {
+      "LocalizedName": "5ec1d84113724171a5615cf73f110d83",
+      "DevName": "FrostMage_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150437
+    },
+    {
+      "LocalizedName": "bd7c6627f37643149e8ca58f3f8ce3f0",
+      "DevName": "FrostMage_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150438
+    },
+    {
+      "LocalizedName": "65a31a9c95bc457e88d3a387839c2316",
+      "DevName": "FrostMage_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150439
+    },
+    {
+      "LocalizedName": "89dd8735f061497ba6fabe7260aef79a",
+      "DevName": "FrostMage_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150440
+    },
+    {
+      "LocalizedName": "28b1259c911f48668d30d4d7714d49f1",
+      "DevName": "FrostMage_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150441
+    },
+    {
+      "LocalizedName": "0388d5266895486da88ef16007f1f0a1",
+      "DevName": "FrostMage_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150442
+    },
+    {
+      "LocalizedName": "dff462b67e3a40a98cdceed345e58207",
+      "DevName": "FrostMage_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150443
+    },
+    {
+      "LocalizedName": "cbaa3e4f954146d0a63ee5c1506a2cba",
+      "DevName": "FrostMage_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150444
+    },
+    {
+      "LocalizedName": "806189c82ab642b1b64c8ebfb9e34509",
+      "DevName": "FrostMage_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150445
+    },
+    {
+      "LocalizedName": "9a590ce91fea42b79c27a8b86728cafd",
+      "DevName": "FrostMage_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150446
+    },
+    {
+      "LocalizedName": "89418bc68cc043d2acf3e60fd1161d43",
+      "DevName": "FrostMage_Winter01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150447
+    },
+    {
+      "LocalizedName": "efaa4c60fb5c4258a28bec2a0580ca83",
+      "DevName": "FrostMage_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150448
+    },
+    {
+      "LocalizedName": "3587133f845440d7a098cd537f24a283",
+      "DevName": "FrostMage_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150449
+    },
+    {
+      "LocalizedName": "98a1987772a54ef4b2f14a3e8d319bf4",
+      "DevName": "MirrorMage_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150450
+    },
+    {
+      "LocalizedName": "99c6ecfbfec540118636aa1b16a16f27",
+      "DevName": "MirrorMage_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150451
+    },
+    {
+      "LocalizedName": "d84518d358ad4be59fd7f9068a74c8a0",
+      "DevName": "MirrorMage_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150452
+    },
+    {
+      "LocalizedName": "3a6a32c8548d4ecc98dd551b840d3732",
+      "DevName": "MirrorMage_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150453
+    },
+    {
+      "LocalizedName": "a997adb4291d4d38bdf25c8e60a39d0f",
+      "DevName": "MirrorMage_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150454
+    },
+    {
+      "LocalizedName": "5b602de256724f9e9b290198cb78419b",
+      "DevName": "MirrorMage_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150456
+    },
+    {
+      "LocalizedName": "b091b21382dd4448a7b3fbfff7fb7650",
+      "DevName": "MirrorMage_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150457
+    },
+    {
+      "LocalizedName": "87abdbf355004acd879998861dd43aac",
+      "DevName": "MirrorMage_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150459
+    },
+    {
+      "LocalizedName": "16751ca4f74c40fab69377df4de2fa3e",
+      "DevName": "MirrorMage_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150460
+    },
+    {
+      "LocalizedName": "40eb0b44d75842a896239db3f1f29ff8",
+      "DevName": "MirrorMage_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150462
+    },
+    {
+      "LocalizedName": "4bdfb483f097443797ca3301cc82dd32",
+      "DevName": "MirrorMage_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150463
+    },
+    {
+      "LocalizedName": "2af5203c99e2411db68f891df37c7ef0",
+      "DevName": "MirrorMage_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150464
+    },
+    {
+      "LocalizedName": "ccecb0e2933945c69588a8092c8a6a67",
+      "DevName": "MirrorMage_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150465
+    },
+    {
+      "LocalizedName": "584b39a6ca004ac1a3f4a5456f778862",
+      "DevName": "MirrorMage_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150466
+    },
+    {
+      "LocalizedName": "287ecb59b94149d7b196ebd96d47d37b",
+      "DevName": "Ranid_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150467
+    },
+    {
+      "LocalizedName": "4b6a35774d074246a3f9bb64e258b9ad",
+      "DevName": "Swordmaster_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150468
+    },
+    {
+      "LocalizedName": "2aea55249f7f4aceae189f4f3e8c0328",
+      "DevName": "Swordmaster_Winter_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150469
+    },
+    {
+      "LocalizedName": "c018ec6ee0324b58948bb735323f0e7e",
+      "DevName": "Gunner_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150470
+    },
+    {
+      "LocalizedName": "a9b8c762964d47a5925ae13afc78d2ad",
+      "DevName": "Druid_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150472
+    },
+    {
+      "LocalizedName": "b18d40982ea541eab9f1d5a332796751",
+      "DevName": "Glutton_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150473
+    },
+    {
+      "LocalizedName": "e5aefcbc7e0f4d6cbef054f6780dbc0f",
+      "DevName": "Igniter_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150474
+    },
+    {
+      "LocalizedName": "46498ad0a5d445008e7dbb17a5c61d6e",
+      "DevName": "Alchemist_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150476
+    },
+    {
+      "LocalizedName": "a6bb03328acd46f1b168bc70f2c20dde",
+      "DevName": "Harbinger_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150477
+    },
+    {
+      "LocalizedName": "c7893755fb554a7a98547d1ea761071a",
+      "DevName": "Astronomer_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150478
+    },
+    {
+      "LocalizedName": "8cb8e4a5d2f84b0382e30d6aef461a88",
+      "DevName": "Nomad_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150479
+    },
+    {
+      "LocalizedName": "4c805db2303e46ca90832742de1a1366",
+      "DevName": "Thorn_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150480
+    },
+    {
+      "LocalizedName": "e45d8007b76f465baa4d8b4e83509f22",
+      "DevName": "Engineer_Lunar01_Weapon0",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150481
+    },
+    {
+      "LocalizedName": "ac37bcf042a24539a8058df644ad0975",
+      "DevName": "Ravener_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150482
+    },
+    {
+      "LocalizedName": "cd8cf554a290413d8cfa9e4ce6c2f1dc",
+      "DevName": "MetalWarden_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150483
+    },
+    {
+      "LocalizedName": "dcb97992285c41d4859e53670d18bbb2",
+      "DevName": "Psychopomp_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150484
+    },
+    {
+      "LocalizedName": "6683324eac0d4ebbb4e21739ec61009a",
+      "DevName": "Herald_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150485
+    },
+    {
+      "LocalizedName": "48f5f4a4bdc941e681d2cc85404783af",
+      "DevName": "Bloodpriest_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150486
+    },
+    {
+      "LocalizedName": "f6d13065a3c14aad98ecff0c5c040f83",
+      "DevName": "Inquisitor_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150487
+    },
+    {
+      "LocalizedName": "d7bdf2469bf64dfd8aae439c986d7567",
+      "DevName": "Seeker_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150488
+    },
+    {
+      "LocalizedName": "eee97c4b932b48f589ddf6c2172d4324",
+      "DevName": "Spearmaster_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150494
+    },
+    {
+      "LocalizedName": "3b5826f60b744c8a832d4564ee87aec6",
+      "DevName": "Stormcaller_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150495
+    },
+    {
+      "LocalizedName": "5c619ebb47fd49738e6879b2fa7f86cd",
+      "DevName": "FrostMage_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150496
+    },
+    {
+      "LocalizedName": "57c792cc9ced4ea19cfc7e2d7959db80",
+      "DevName": "Vanguard_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150497
+    },
+    {
+      "LocalizedName": "445e25e6649f4581b8ff722a34d86bda",
+      "DevName": "MirrorMage_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150498
+    },
+    {
+      "LocalizedName": "d17ee6c9c6eb409295d7d0bc815f0d24",
+      "DevName": "Inhibitor_Lunar01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150501
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Alchemist_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200003
+    },
+    {
+      "LocalizedName": "dad9c93f7d1a4b57848677e19bfc1d1d",
+      "DevName": "VictoryPose_Alchemist_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200004
+    },
+    {
+      "LocalizedName": "7a9381ab35a04bb5a7d9a06211f4d610",
+      "DevName": "VictoryPose_Alchemist_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200005
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Astronomer_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200006
+    },
+    {
+      "LocalizedName": "5d163243fed24c1b9c0a8e9570d4a396",
+      "DevName": "VictoryPose_Astronomer_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200007
+    },
+    {
+      "LocalizedName": "29707f15f6ac4377a631fac362645b10",
+      "DevName": "VictoryPose_Astronomer_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200008
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Engineer_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200009
+    },
+    {
+      "LocalizedName": "9b5e1008e8974595b2b8825f2cb0ead0",
+      "DevName": "VictoryPose_Engineer_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200010
+    },
+    {
+      "LocalizedName": "a7ae322c182345b383579a5951284ebd",
+      "DevName": "VictoryPose_Engineer_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200011
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Glutton_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200012
+    },
+    {
+      "LocalizedName": "3b26472a629f415eb63a234255c39b52",
+      "DevName": "VictoryPose_Glutton_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200013
+    },
+    {
+      "LocalizedName": "b7774161177845cbaf64c566cd2e7eb5",
+      "DevName": "VictoryPose_Glutton_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200014
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Gunner_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200015
+    },
+    {
+      "LocalizedName": "5857b498165c419ea42d8c25579808ee",
+      "DevName": "VictoryPose_Gunner_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200016
+    },
+    {
+      "LocalizedName": "5556c4eca57d4ee4a17d191c43d9f8d9",
+      "DevName": "VictoryPose_Gunner_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200017
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Herald_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200018
+    },
+    {
+      "LocalizedName": "b9da7da1fb434722a0f6d578300e2c20",
+      "DevName": "VictoryPose_Herald_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200019
+    },
+    {
+      "LocalizedName": "07cfbc8336444e8690bb5701ad3654bd",
+      "DevName": "VictoryPose_Herald_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200020
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Igniter_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200021
+    },
+    {
+      "LocalizedName": "380a055b635a41dab09e3aad7abfb5eb",
+      "DevName": "VictoryPose_Igniter_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200022
+    },
+    {
+      "LocalizedName": "3cdb3d763c0e4124be01e6a83d6fcbd0",
+      "DevName": "VictoryPose_Igniter_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200023
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Inhibitor_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200024
+    },
+    {
+      "LocalizedName": "286bf38339f146c199a97f26717811d1",
+      "DevName": "VictoryPose_Inhibitor_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200025
+    },
+    {
+      "LocalizedName": "0b64ced2cbdc4d01bee6d4860e3dbc74",
+      "DevName": "VictoryPose_Inhibitor_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200026
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Inquisitor_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200027
+    },
+    {
+      "LocalizedName": "17e2768a9e5340eead58b950e2bfcae2",
+      "DevName": "VictoryPose_Inquisitor_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200028
+    },
+    {
+      "LocalizedName": "24d80bf4b1194aa7af86385aeb83a8ad",
+      "DevName": "VictoryPose_Inquisitor_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200029
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Nomad_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200030
+    },
+    {
+      "LocalizedName": "8cb2234a62d34eb299f11f6cace64b07",
+      "DevName": "VictoryPose_Nomad_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200031
+    },
+    {
+      "LocalizedName": "12a99654ca78466fba7c73c72eb4fa35",
+      "DevName": "VictoryPose_Nomad_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200032
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Psychopomp_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200033
+    },
+    {
+      "LocalizedName": "e9513b7e5be64a7e95e604a9e7838caf",
+      "DevName": "VictoryPose_Psychopomp_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200034
+    },
+    {
+      "LocalizedName": "a9a866c0adad41d681650962d2b21eea",
+      "DevName": "VictoryPose_Psychopomp_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200035
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Ranid_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200036
+    },
+    {
+      "LocalizedName": "918f19ee124c4b309ee272bf19d26b4c",
+      "DevName": "VictoryPose_Ranid_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200037
+    },
+    {
+      "LocalizedName": "5177b26a752a42169fef9b1333364f14",
+      "DevName": "VictoryPose_Ranid_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200038
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Ravener_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200039
+    },
+    {
+      "LocalizedName": "e5d5796803714e1495c42ce00b5f18db",
+      "DevName": "VictoryPose_Ravener_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200040
+    },
+    {
+      "LocalizedName": "9809f32d59464bf293de22c64fafae6b",
+      "DevName": "VictoryPose_Ravener_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200041
+    },
+    {
+      "LocalizedName": "ff38842bf0464bd2b71164b8e733beab",
+      "DevName": "VictoryPose_Seeker_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200042
+    },
+    {
+      "LocalizedName": "c1151b17a3954f4084cbea15b7fc6f7f",
+      "DevName": "VictoryPose_Seeker_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200043
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Spearmaster_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200044
+    },
+    {
+      "LocalizedName": "6b87a2af8a1d49d19e5e8121b4052298",
+      "DevName": "VictoryPose_Spearmaster_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200045
+    },
+    {
+      "LocalizedName": "8daacd1e6c3646088c2fb9d3c2c92ee3",
+      "DevName": "VictoryPose_Spearmaster_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200048
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Vanguard_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200049
+    },
+    {
+      "LocalizedName": "39ec355b37d44a098016007671871212",
+      "DevName": "VictoryPose_Vanguard_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200050
+    },
+    {
+      "LocalizedName": "878791f62b0a4df5bac8bf0d246eddcf",
+      "DevName": "VictoryPose_Vanguard_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200051
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Seeker_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200056
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Harbinger_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200057
+    },
+    {
+      "LocalizedName": "5b52e7978413421e94aa2b17da4efff5",
+      "DevName": "VictoryPose_Harbinger_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200058
+    },
+    {
+      "LocalizedName": "e34befca1e10419e9fc7b0642c32de68",
+      "DevName": "VictoryPose_Harbinger_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200059
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Stormcaller_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200062
+    },
+    {
+      "LocalizedName": "e53e77085327416a9ac5d819c1423db9",
+      "DevName": "VictoryPose_Stormcaller_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200063
+    },
+    {
+      "LocalizedName": "fbdddaa638f7407a9f820a636a5a581b",
+      "DevName": "VictoryPose_Stormcaller_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200064
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Bloodpriest_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200065
+    },
+    {
+      "LocalizedName": "61d2f8c6bac348c591c608765507dade",
+      "DevName": "VictoryPose_BloodPriest_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200066
+    },
+    {
+      "LocalizedName": "339dfad54cb74acdb4624b6bd2c338b3",
+      "DevName": "VictoryPose_BloodPriest_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200067
+    },
+    {
+      "LocalizedName": "e4c7ebda69044645be94e041a08e6a8c",
+      "DevName": "VictoryPose_Swordmaster_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200069
+    },
+    {
+      "LocalizedName": "2969bb604eb645aa8a9f14f69b2706e4",
+      "DevName": "VictoryPose_Swordmaster_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200070
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Swordmaster_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200071
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Druid_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200072
+    },
+    {
+      "LocalizedName": "951ef2826b5d4d86a7944e4f1234e97f",
+      "DevName": "VictoryPose_Druid_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200073
+    },
+    {
+      "LocalizedName": "a2b4c0a51da541199789a7e34b5a5f05",
+      "DevName": "VictoryPose_Druid_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200074
+    },
+    {
+      "LocalizedName": "9516cce9bb7a495e9ff54a865ebb24b0",
+      "DevName": "VictoryPose_Vanguard_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200076
+    },
+    {
+      "LocalizedName": "583a54ad08db4d83b2987a6cba1e61f8",
+      "DevName": "VictoryPose_Vanguard_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200077
+    },
+    {
+      "LocalizedName": "fb274f681887491082c14223231dcde4",
+      "DevName": "VictoryPose_Swordmaster_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200078
+    },
+    {
+      "LocalizedName": "341ae27954e94d75a91759b953efb2b2",
+      "DevName": "VictoryPose_Swordmaster_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200079
+    },
+    {
+      "LocalizedName": "ab3580421b5f42fa9546fa5d9b49c429",
+      "DevName": "VictoryPose_Ranid_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200080
+    },
+    {
+      "LocalizedName": "f5d8e5e283a840feac69233293a398bc",
+      "DevName": "VictoryPose_Engineer_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200081
+    },
+    {
+      "LocalizedName": "ac1b0d648a874d8a967df3355e66b4ed",
+      "DevName": "VictoryPose_Engineer_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200082
+    },
+    {
+      "LocalizedName": "ec632f6b89d24e399f143b00cd38ab35",
+      "DevName": "VictoryPose_Igniter_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200083
+    },
+    {
+      "LocalizedName": "3e4f8dbf826b4be982b66f53344a338d",
+      "DevName": "VictoryPose_Igniter_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200084
+    },
+    {
+      "LocalizedName": "54b818f1245e42eca842ac6b86b42d16",
+      "DevName": "VictoryPose_Alchemist_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200085
+    },
+    {
+      "LocalizedName": "a2aaaf3bef4343529fea84fa1675afe9",
+      "DevName": "VictoryPose_Alchemist_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200086
+    },
+    {
+      "LocalizedName": "d22cd0a4764241519e39a7e126cd94ac",
+      "DevName": "VictoryPose_Gunner_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200087
+    },
+    {
+      "LocalizedName": "090bf958e0204c42b23cf38f44af0e30",
+      "DevName": "VictoryPose_Gunner_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200088
+    },
+    {
+      "LocalizedName": "97162c3283be4c698412c4ee4843b1e1",
+      "DevName": "VictoryPose_Inhibitor_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200089
+    },
+    {
+      "LocalizedName": "685e13d246b644c3bb5fd6671da201dd",
+      "DevName": "VictoryPose_Inquisitor_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200090
+    },
+    {
+      "LocalizedName": "2dccb3e8186c4a99ada48bd6e01f7ba5",
+      "DevName": "VictoryPose_Inquisitor_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200091
+    },
+    {
+      "LocalizedName": "5fa13134182f42269ab74fcfbbfe5fd8",
+      "DevName": "VictoryPose_Glutton_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200092
+    },
+    {
+      "LocalizedName": "ecdd9c1e41b94c2596349c18832383d8",
+      "DevName": "VictoryPose_Glutton_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200093
+    },
+    {
+      "LocalizedName": "8a6bf47677844014b43b3963f4a870ce",
+      "DevName": "VictoryPose_Druid_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200094
+    },
+    {
+      "LocalizedName": "5bbd25bd1a644f0a84cada53c233a89c",
+      "DevName": "VictoryPose_Druid_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200095
+    },
+    {
+      "LocalizedName": "cc8902a3f68842ec8dc3cbaaafdd4175",
+      "DevName": "VictoryPose_Ranid_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200096
+    },
+    {
+      "LocalizedName": "6d70d40e1fa14db1b7d59f6107b49b2f",
+      "DevName": "VictoryPose_Ravener_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200097
+    },
+    {
+      "LocalizedName": "929a53a0eb8944e1a7c7d117ab0e98c4",
+      "DevName": "VictoryPose_Ravener_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200098
+    },
+    {
+      "LocalizedName": "c9e95d2f6099429882102617aee4fa01",
+      "DevName": "VictoryPose_Seeker_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200099
+    },
+    {
+      "LocalizedName": "03bc5b2ac1804f2ca529e9007a0b1f8e",
+      "DevName": "VictoryPose_Seeker_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200100
+    },
+    {
+      "LocalizedName": "c0d38bf186694354a05630992f097c7d",
+      "DevName": "VictoryPose_Herald_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200101
+    },
+    {
+      "LocalizedName": "75356f28f6b64b7e989314a9996041fa",
+      "DevName": "VictoryPose_Herald_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200102
+    },
+    {
+      "LocalizedName": "8f104a83f10c4e3696744f54dd05a9ea",
+      "DevName": "VictoryPose_BloodPriest_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200103
+    },
+    {
+      "LocalizedName": "50e207e1173e4987a314272673672386",
+      "DevName": "VictoryPose_BloodPriest_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200104
+    },
+    {
+      "LocalizedName": "507c020eade042e0a24d3f0bcafff35c",
+      "DevName": "VictoryPose_Psychopomp_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200105
+    },
+    {
+      "LocalizedName": "2f8ca90848074907b67d40e8ae0b7f16",
+      "DevName": "VictoryPose_Psychopomp_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200106
+    },
+    {
+      "LocalizedName": "b1cd024a01514543b9798f71784d1f42",
+      "DevName": "VictoryPose_Harbinger_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200107
+    },
+    {
+      "LocalizedName": "945e62d93cf547358406ec58433dfe3a",
+      "DevName": "VictoryPose_Harbinger_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200108
+    },
+    {
+      "LocalizedName": "8cd966314f3d4b0b8786ad51754153e2",
+      "DevName": "VictoryPose_Spearmaster_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200109
+    },
+    {
+      "LocalizedName": "0877fc1a989b44309c38b4566be4fda6",
+      "DevName": "VictoryPose_Spearmaster_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200110
+    },
+    {
+      "LocalizedName": "352d700f981241deb74fb99f4ca4e8ab",
+      "DevName": "VictoryPose_Astronomer_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200111
+    },
+    {
+      "LocalizedName": "7fc88dcbd7f3483789a5e1c84eb67be2",
+      "DevName": "VictoryPose_Astronomer_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200112
+    },
+    {
+      "LocalizedName": "c91e24bad802456a9ad3b073386ce983",
+      "DevName": "VictoryPose_Nomad_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200113
+    },
+    {
+      "LocalizedName": "3873f9043ff448c4a4eb4b30dcdd025d",
+      "DevName": "VictoryPose_Nomad_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200114
+    },
+    {
+      "LocalizedName": "916e0206da48432b9821b097a58f7ed9",
+      "DevName": "VictoryPose_Inhibitor_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200115
+    },
+    {
+      "LocalizedName": "22b50cd9150c4780b54d20f43f5c4e37",
+      "DevName": "VictoryPose_Stormcaller_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200116
+    },
+    {
+      "LocalizedName": "357d32a34e804b408b81706ada0537f3",
+      "DevName": "VictoryPose_Stormcaller_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200117
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_MetalWarden_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200118
+    },
+    {
+      "LocalizedName": "fe8f948a745d45adb5cffd09ce1574c5",
+      "DevName": "VictoryPose_MetalWarden_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200119
+    },
+    {
+      "LocalizedName": "d912daab673d4507a0b6909c160923c4",
+      "DevName": "VictoryPose_MetalWarden_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200120
+    },
+    {
+      "LocalizedName": "51173b7597544cd38d3c63e9eff0a435",
+      "DevName": "VictoryPose_MetalWarden_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200121
+    },
+    {
+      "LocalizedName": "1117d8d9d5d04d868fc190ec37582c73",
+      "DevName": "VictoryPose_MetalWarden_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200122
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Thorn_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200124
+    },
+    {
+      "LocalizedName": "de506608c82e4530b1de75b6ab9377a9",
+      "DevName": "VictoryPose_Thorn_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200125
+    },
+    {
+      "LocalizedName": "d0cb38ef3ba646b3aa4aea51ebb32c35",
+      "DevName": "VictoryPose_Thorn_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200126
+    },
+    {
+      "LocalizedName": "80a88b7d9bf048bd88e9ad5208e2eb22",
+      "DevName": "VictoryPose_Thorn_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200128
+    },
+    {
+      "LocalizedName": "62704d63a9524f72a03f46bee73e338e",
+      "DevName": "VictoryPose_Thorn_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200129
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_MirrorMage_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200130
+    },
+    {
+      "LocalizedName": "5caf1056bc4e4c15b3332b9c1059541d",
+      "DevName": "VictoryPose_MirrorMage_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200131
+    },
+    {
+      "LocalizedName": "cf1027936559410a8a61d0b7db483c22",
+      "DevName": "VictoryPose_MirrorMage_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200132
+    },
+    {
+      "LocalizedName": "4f0382fc90a147a880ccdbac11d71576",
+      "DevName": "VictoryPose_MirrorMage_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200133
+    },
+    {
+      "LocalizedName": "f25939eb5d314a1b8dabb39d31c1baef",
+      "DevName": "VictoryPose_MirrorMage_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200134
+    },
+    {
+      "LocalizedName": "bff4b582b04f413787df40484c32d335",
+      "DevName": "VictoryPose_Igniter_Twitch01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200135
+    },
+    {
+      "LocalizedName": "95e9f0bc31a848669a823618cf109c11",
+      "DevName": "VictoryPose_Spearmaster_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200136
+    },
+    {
+      "LocalizedName": "f7699aec8cfc4fee9652e2bc23ba8848",
+      "DevName": "VictoryPose_Vanguard_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200137
+    },
+    {
+      "LocalizedName": "0e1e7754100f4b5b89053ae4004f4aa5",
+      "DevName": "VictoryPose_Stormcaller_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200138
+    },
+    {
+      "LocalizedName": "6d91132a6c0748638759f4d73bf6d869",
+      "DevName": "VictoryPose_Seeker_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200139
+    },
+    {
+      "LocalizedName": "e9a0ab38502f4db094a1fb1cabe14f35",
+      "DevName": "VictoryPose_Ranid_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200140
+    },
+    {
+      "LocalizedName": "414227e7104f417a8fc5ce9f464cd9ea",
+      "DevName": "VictoryPose_Inquisitor_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200141
+    },
+    {
+      "LocalizedName": "42e831162569421db7b1fc0ea20f293e",
+      "DevName": "VictoryPose_Herald_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200142
+    },
+    {
+      "LocalizedName": "a371c9802dab44b7bc232de12affed77",
+      "DevName": "VictoryPose_Nomad_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200143
+    },
+    {
+      "LocalizedName": "df59225d131f41a9967d54baf694f7af",
+      "DevName": "VictoryPose_Swordmaster_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200144
+    },
+    {
+      "LocalizedName": "ef7643ffb3704849afedda9ee4502ebc",
+      "DevName": "VictoryPose_BloodPriest_Prehistoric01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200145
+    },
+    {
+      "LocalizedName": "195e1b24a6e44afa9982e605bbd93797",
+      "DevName": "VictoryPose_FrostMage_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200146
+    },
+    {
+      "LocalizedName": "778d3cb4a72a4e2e8de0492f4176db4a",
+      "DevName": "VictoryPose_FrostMage_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200147
+    },
+    {
+      "LocalizedName": "949ea1c010df407b8a55ee72f62a2666",
+      "DevName": "VictoryPose_FrostMage_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200148
+    },
+    {
+      "LocalizedName": "c08fdf8f4c10424ca3ee6dd91e367d83",
+      "DevName": "VictoryPose_FrostMage_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200149
+    },
+    {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_FrostMage_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200150
+    },
+    {
+      "LocalizedName": "561343b301f549619b23208ffb4eb1ce",
+      "DevName": "VictoryPose_Igniter_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200151
+    },
+    {
+      "LocalizedName": "0e9907d4d8e0417d9632e77882c1c2b8",
+      "DevName": "VictoryPose_Alchemist_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200152
+    },
+    {
+      "LocalizedName": "13b802aca61145f198e43b5cf0d6ad35",
+      "DevName": "VictoryPose_Vanguard_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200153
+    },
+    {
+      "LocalizedName": "c6d1449985044504863a7914f206baad",
+      "DevName": "VictoryPose_Druid_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200154
+    },
+    {
+      "LocalizedName": "b22982e5a9684f85ab389d19cd5002ba",
+      "DevName": "VictoryPose_Engineer_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200155
+    },
+    {
+      "LocalizedName": "c821e19902704e1daea6ed5c2698cf5e",
+      "DevName": "VictoryPose_Thorn_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200156
+    },
+    {
+      "LocalizedName": "88e451aacfb64506a52d8c336959b784",
+      "DevName": "VictoryPose_Harbinger_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200157
+    },
+    {
+      "LocalizedName": "d885471898ef47e9becc6322f1abe0b3",
+      "DevName": "VictoryPose_Stormcaller_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200158
+    },
+    {
+      "LocalizedName": "20b9605e1b364fe28a4765af1af88485",
+      "DevName": "VictoryPose_Ravener_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200159
+    },
+    {
+      "LocalizedName": "d3cd92386f44402fb4014b1074e58680",
+      "DevName": "VictoryPose_Inquisitor_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200160
+    },
+    {
+      "LocalizedName": "a0ddb890449f47fb98b643f36c0014f2",
+      "DevName": "VictoryPose_Ranid_05",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200161
+    },
+    {
+      "LocalizedName": "45764bef78e54b8aa0bb938b85aa64d4",
+      "DevName": "VictoryPose_Astronomer_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200163
+    },
+    {
+      "LocalizedName": "82b72bdf35984e1d8cd8213caec2f9af",
+      "DevName": "VictoryPose_Bloodpriest_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200164
+    },
+    {
+      "LocalizedName": "5fd875ab38ec4ae49536d48e7456e136",
+      "DevName": "VictoryPose_FrostMage_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200165
+    },
+    {
+      "LocalizedName": "6b18e9643e5d4101b7f77c35b29e854b",
+      "DevName": "VictoryPose_Glutton_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200166
+    },
+    {
+      "LocalizedName": "f41f4565d60d46bba9b6adc45ef92213",
+      "DevName": "VictoryPose_Gunner_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200167
+    },
+    {
+      "LocalizedName": "98903e9e7bd447cd9a48bef050052c69",
+      "DevName": "VictoryPose_MetalWarden_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200168
+    },
+    {
+      "LocalizedName": "a9ac4c78a83a4fd281807494b6fce1f4",
+      "DevName": "VictoryPose_Nomad_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200169
+    },
+    {
+      "LocalizedName": "deaa969c03134ecea63e902e165e957c",
+      "DevName": "VictoryPose_PsychoPomp_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200170
+    },
+    {
+      "LocalizedName": "7fa7d346a6184a21b4a0951bfdea7cc8",
+      "DevName": "VictoryPose_Ranid_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200171
+    },
+    {
+      "LocalizedName": "12d029d3293849ada0469f18410dfe0a",
+      "DevName": "VictoryPose_Seeker_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200172
+    },
+    {
+      "LocalizedName": "c096b28ad1ef47dfa329e1d6f0e79325",
+      "DevName": "VictoryPose_Spearmaster_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200173
+    },
+    {
+      "LocalizedName": "a5cdca7e62184b128e58d029ddbc78de",
+      "DevName": "VictoryPose_Swordmaster_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200174
+    },
+    {
+      "LocalizedName": "25f4e50e933e4e95863ee03c4780ed82",
+      "DevName": "VictoryPose_Herald_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200175
+    },
+    {
+      "LocalizedName": "89cf7f746e1341269c2dc1e972ea4f80",
+      "DevName": "VictoryPose_Inhibitor_Winter01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200176
+    },
+    {
+      "LocalizedName": "ba298eeee1e2475fab3b64800b3a6e23",
+      "DevName": "VictoryPose_Alchemist_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200177
+    },
+    {
+      "LocalizedName": "0d27a722e1e5449e97428aa1ec3086ea",
+      "DevName": "VictoryPose_Swordmaster_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200178
+    },
+    {
+      "LocalizedName": "bd9359c5d6c94ee2b2029602ef377fd8",
+      "DevName": "VictoryPose_FrostMage_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200179
+    },
+    {
+      "LocalizedName": "533afd2b1f2e4c4e9b590b592842d718",
+      "DevName": "VictoryPose_Igniter_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200180
+    },
+    {
+      "LocalizedName": "91152864baf74a9caf788e8f6023070c",
+      "DevName": "VictoryPose_Vanguard_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200181
+    },
+    {
+      "LocalizedName": "b41705c5836140f388aa7ac018ef4e86",
+      "DevName": "VictoryPose_Druid_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200182
+    },
+    {
+      "LocalizedName": "f285f5a73e6c43eea0c3c205c64e61ed",
+      "DevName": "VictoryPose_Ranid_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200183
+    },
+    {
+      "LocalizedName": "e448c6cf4e9145c4a52057bc7ab0a830",
+      "DevName": "VictoryPose_MetalWarden_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200184
+    },
+    {
+      "LocalizedName": "d22c43e65c10471da516061dc569b578",
+      "DevName": "VictoryPose_Stormcaller_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200185
+    },
+    {
+      "LocalizedName": "26e47e11720b47a29887c244c2769270",
+      "DevName": "VictoryPose_Ravener_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200186
+    },
+    {
+      "LocalizedName": "8f2bfa70bd3a48da9c7a99ff1d97360b",
+      "DevName": "VictoryPose_Engineer_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200187
+    },
+    {
+      "LocalizedName": "8f06d54e089b47e096e464a3a32a5224",
+      "DevName": "VictoryPose_Gunner_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200188
+    },
+    {
+      "LocalizedName": "dc6af12bd7b14ffa91c34bdacd19a1fb",
+      "DevName": "VictoryPose_Seeker_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200189
+    },
+    {
+      "LocalizedName": "30b62e3335164e91a09ba888db95dcce",
+      "DevName": "VictoryPose_Herald_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200190
+    },
+    {
+      "LocalizedName": "8cfb52654f46435989d719c0a2752e89",
+      "DevName": "VictoryPose_Inquisitor_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200191
+    },
+    {
+      "LocalizedName": "679529b68cf34f9a8560b2f7f24e10a1",
+      "DevName": "VictoryPose_BloodPriest_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200192
+    },
+    {
+      "LocalizedName": "0d6625baac58422cab11738fd4768b69",
+      "DevName": "VictoryPose_PsychoPomp_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200193
+    },
+    {
+      "LocalizedName": "b6380f664c684871a6bddb76687c266d",
+      "DevName": "VictoryPose_Glutton_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200194
+    },
+    {
+      "LocalizedName": "7b1ae81852d94933a6e6c648ae8d38a7",
+      "DevName": "VictoryPose_Harbinger_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200195
+    },
+    {
+      "LocalizedName": "5a09484548dd4b498f4c037f48679bee",
+      "DevName": "VictoryPose_Spearmaster_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200196
+    },
+    {
+      "LocalizedName": "ca8ee0a58bfa445e9a079e372ca0cd1a",
+      "DevName": "VictoryPose_Astronomer_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200197
+    },
+    {
+      "LocalizedName": "fa14abab1d024598b4bd4cd10ce126fa",
+      "DevName": "VictoryPose_Nomad_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200198
+    },
+    {
+      "LocalizedName": "2a2c74dff3b54f8ab7054546e900508a",
+      "DevName": "VictoryPose_Thorn_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200199
+    },
+    {
+      "LocalizedName": "849c14053d76409db42ba7e7eaa9290b",
+      "DevName": "VictoryPose_Inhibitor_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200200
+    },
+    {
+      "LocalizedName": "57c601398e744ec5b5b95b34c97f6bb0",
+      "DevName": "VictoryPose_MirrorMage_Lunar01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200201
+    },
+    {
+      "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
+      "DevName": "Alchemist",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "83cd4bf3be6455f4cbbf803035b6d0fe",
+      "WideIcon": "e5554b8a15ffc1a499a3807bb3a37b56",
+      "StackableId": 10001
+    },
+    {
+      "LocalizedName": "8335978482a94de1a929184211a928df",
+      "DevName": "Astronomer",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "f3af4ddea533f364e80c70c580ed933d",
+      "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
+      "StackableId": 10002
+    },
+    {
+      "LocalizedName": "cb26b90df02745c8b035f856a7bba58d",
+      "DevName": "Engineer",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "423d20132a1e9224d92e489664702e03",
+      "WideIcon": "decba44679fbdae4bb7d0d1cb6a97682",
+      "StackableId": 10003
+    },
+    {
+      "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
+      "DevName": "Gunner",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "1cd8f3b8b7da1904c821011f50dbe616",
+      "WideIcon": "38b75268719e2b640a6d62250e102ffa",
+      "StackableId": 10004
+    },
+    {
+      "LocalizedName": "75edf47280604ea4a632ae97664d3c23",
+      "DevName": "Harbinger",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "b6baa190db3bf814cae790b79f622ea0",
+      "WideIcon": "bb37e5d448c511e47b808987d0d4f9e8",
+      "StackableId": 10005
+    },
+    {
+      "LocalizedName": "185585849e33412ab192917339444df1",
+      "DevName": "Herald",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "9de8223b455d0474a9bbf2f32f9c7102",
+      "WideIcon": "b0d66b8b9f228724093b8a3e66c3fef6",
+      "StackableId": 10006
+    },
+    {
+      "LocalizedName": "06b590e739cd4c27abebc6f98d15cdd3",
+      "DevName": "Igniter",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "08d5adc2bbf509744a62b894ef6279c7",
+      "WideIcon": "02fbe1fea9e22054a9ab1b0c5007dbae",
+      "StackableId": 10007
+    },
+    {
+      "LocalizedName": "943be726de724906be18c214511a3f7b",
+      "DevName": "Inhibitor",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "6477c7810f95a394e936caacf42d0b4e",
+      "WideIcon": "f1cc53a29c58089478f6438589d9b32d",
+      "StackableId": 10008
+    },
+    {
+      "LocalizedName": "6868ad46fc604034a78f3c57300c3257",
+      "DevName": "Inquisitor",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "b9f935b04557efa4e95d6cec4d151985",
+      "WideIcon": "427116cdee46bad4cbaa99d7063e0832",
+      "StackableId": 10009
+    },
+    {
+      "LocalizedName": "8b8ca9a3af044131a61889b28bbcb00f",
+      "DevName": "Nomad",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "246d3bbb94b9f0d42932cbb2a1e43dd5",
+      "WideIcon": "2905515bc00a1d64e83466ec8e50f8b6",
+      "StackableId": 10010
+    },
+    {
+      "LocalizedName": "85e0b02e16c64eb1a5bcafb8cd769c25",
+      "DevName": "Psychopomp",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "edd99cc32ca6f2842b2cb83249945c2a",
+      "WideIcon": "9872f8cd16d7327418b09294cfa319e6",
+      "StackableId": 10011
+    },
+    {
+      "LocalizedName": "75e925f886164954b000e65caf1d35ee",
+      "DevName": "Ranid",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "0380b89b0ba8de847843f22c25b41a56",
+      "WideIcon": "d3038956f9767d74bbbce0659b07474d",
+      "StackableId": 10012
+    },
+    {
+      "LocalizedName": "ebc196a9d95b4adbab1277e00712a32e",
+      "DevName": "Ravener",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "66b9694ba8595124badb339297eae3b7",
+      "WideIcon": "be081702a8e70fe44ac0a4e3a9c46368",
+      "StackableId": 10013
+    },
+    {
+      "LocalizedName": "96665f8e798b4b50ba7834bddfdd937f",
+      "DevName": "Seeker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "a7576e30c80eb9f48ba9ce303e4c3582",
+      "WideIcon": "42a665b9c285a1243a201c8d533980e5",
+      "StackableId": 10014
+    },
+    {
+      "LocalizedName": "ed420e0ca45a4eaeb1010151e236f334",
+      "DevName": "Spearmaster",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "7853a4b1214bef74a8bbdf17f0a45bb8",
+      "WideIcon": "6f69edc7410650c43bee267eef585b06",
+      "StackableId": 10015
+    },
+    {
+      "LocalizedName": "051b83cf1878426a9bc0a329babbea8f",
+      "DevName": "Stormcaller",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "6e29d30d928547b4e941ce3e6e4e83b3",
+      "WideIcon": "3af1fdc53169d044b939cce7ffb561a1",
+      "StackableId": 10016
+    },
+    {
+      "LocalizedName": "f05ef57b8e994e5e9d43bbfcae9a09a6",
+      "DevName": "Vanguard",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 10017
+    },
+    {
+      "LocalizedName": "7351e41203ce487488813815bb872f0c",
+      "DevName": "Glutton",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "fff8232d0fb921447b388c4ca5993c46",
+      "WideIcon": "e5d5913527b842b41aed666d27d14231",
+      "StackableId": 10018
+    },
+    {
+      "LocalizedName": "0fa51e1bd7c84e4da4ceee830532e406",
+      "DevName": "BloodPriest",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "d9cffa65b2aa1414e9371fc9b2f4c561",
+      "WideIcon": "a7e0c7a6f0fa2ef49bf684950de34567",
+      "StackableId": 10019
+    },
+    {
+      "LocalizedName": "3c09a1c88b5b44608679b7a34350ca52",
+      "DevName": "MetalWarden",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "8f50318bf676ca047b3e36d5b6de7815",
+      "WideIcon": "65e28ab3b75c7cb478a1b24b46fca7d2",
+      "StackableId": 10020
+    },
+    {
+      "LocalizedName": "6b3efda7c227421b9736be7006f7035e",
+      "DevName": "Swordmaster",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "e0b418f839ba5ff4baa728af4f454d89",
+      "WideIcon": "6c2252900d15cb344a5240f30d3ba705",
+      "StackableId": 10021
+    },
+    {
+      "LocalizedName": "da0272c6ff4b48bf809f130d8e2dba02",
+      "DevName": "Druid",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "907a9b3d24a8c9f459e02c87d86fa9da",
+      "WideIcon": "6f50396e26efe6c4bbad274e2c90b8a4",
+      "StackableId": 10022
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "Bakko_EasterEvent",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 10023
+    },
+    {
+      "LocalizedName": "d25b42991ba94cbeb7234aad3e176351",
+      "DevName": "Thorn",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "57f133d34e231d04d922dd5e5d234a71",
+      "WideIcon": "aab126231d9ff344f9f88ab230a5e66f",
+      "StackableId": 10025
+    },
+    {
+      "LocalizedName": "06b590e739cd4c27abebc6f98d15cdd3",
+      "DevName": "AshkaCampaign",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "08d5adc2bbf509744a62b894ef6279c7",
+      "WideIcon": "02fbe1fea9e22054a9ab1b0c5007dbae",
+      "StackableId": 10026
+    },
+    {
+      "LocalizedName": "ebc196a9d95b4adbab1277e00712a32e",
+      "DevName": "FreyaCampaign",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "66b9694ba8595124badb339297eae3b7",
+      "WideIcon": "be081702a8e70fe44ac0a4e3a9c46368",
+      "StackableId": 10027
+    },
+    {
+      "LocalizedName": "96665f8e798b4b50ba7834bddfdd937f",
+      "DevName": "JumongCampaign",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "a7576e30c80eb9f48ba9ce303e4c3582",
+      "WideIcon": "42a665b9c285a1243a201c8d533980e5",
+      "StackableId": 10028
+    },
+    {
+      "LocalizedName": "6b3efda7c227421b9736be7006f7035e",
+      "DevName": "RaigonCampaign",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "e0b418f839ba5ff4baa728af4f454d89",
+      "WideIcon": "6c2252900d15cb344a5240f30d3ba705",
+      "StackableId": 10029
+    },
+    {
+      "LocalizedName": "7351e41203ce487488813815bb872f0c",
+      "DevName": "RookCampaign",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "fff8232d0fb921447b388c4ca5993c46",
+      "WideIcon": "e5d5913527b842b41aed666d27d14231",
+      "StackableId": 10030
+    },
+    {
+      "LocalizedName": "8335978482a94de1a929184211a928df",
+      "DevName": "SiriusCampaign",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "f3af4ddea533f364e80c70c580ed933d",
+      "WideIcon": "aa93dc83288cb954aa3a97aabe8320dd",
+      "StackableId": 10031
+    },
+    {
+      "LocalizedName": "f18695e2f3b64d37a8a0e085db007eac",
+      "DevName": "MirrorMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "e10caaf367fdb6f459483a4c9be850a3",
+      "WideIcon": "9c4186a6214f12448a7091710b0cde6c",
+      "StackableId": 10035
+    },
+    {
+      "LocalizedName": "41031d2dae9f4fbcb942d17a30ab9fb8",
+      "DevName": "JadeCampaign",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "1cd8f3b8b7da1904c821011f50dbe616",
+      "WideIcon": "38b75268719e2b640a6d62250e102ffa",
+      "StackableId": 10038
+    },
+    {
+      "LocalizedName": "448d6f054228474eb92862767d3e21a8",
+      "DevName": "RandomChampion",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "c175e343deeceff48a7fc58412aabe4e",
+      "WideIcon": "7823c6971f6585846a1252e279fd02da",
+      "StackableId": 10040
+    },
+    {
+      "LocalizedName": "b2c969dbc2834e9296155eb97e2db638",
+      "DevName": "FrostMage",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "f3e8949aa208a3346a497c336a7002cd",
+      "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
+      "StackableId": 10041
     }
   ]
 );
