@@ -388,1943 +388,60 @@ const _stackable = _(
       "StackableId": 100062
     },
     {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Alchemist_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300001
+      "LocalizedName": "82cad55ff1b44cb9bb04f3b5f7e1f4ac",
+      "DevName": "Mount_Gryphon_Standard01",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100063
     },
     {
-      "LocalizedName": "c0acbba4df5a40638e2cf088a7daaad4",
-      "DevName": "Outfit_Alchemist_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300002
+      "LocalizedName": "a24bdfc5ab6b4394b256057aa712ad20",
+      "DevName": "Mount_Gryphon_Cute",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100064
     },
     {
-      "LocalizedName": "ee5a822fb79144a1a88e053e055c3900",
-      "DevName": "Outfit_Alchemist_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300003
+      "LocalizedName": "88234c019ade4569884976e7fe960b4c",
+      "DevName": "Mount_Gryphon_Evil",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100065
     },
     {
-      "LocalizedName": "320288dab51f4402885fa85fa68eb535",
-      "DevName": "Outfit_Alchemist_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300004
+      "LocalizedName": "d197dbf052224eaf9674fd06d6f28699",
+      "DevName": "Mount_Gryphon_Natural",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100066
     },
     {
-      "LocalizedName": "00caeeb0d42e4c77becd566a4779e6da",
-      "DevName": "Outfit_Alchemist_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300005
+      "LocalizedName": "abed2606a15d478db118852401aeec38",
+      "DevName": "Mount_Gryphon_Snowy",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100067
     },
     {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Astronomer_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300006
+      "LocalizedName": "72b61b447ed2456b85114259d32b9c4b",
+      "DevName": "Mount_Corgi_Standard02",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100068
     },
     {
-      "LocalizedName": "244cc76c333b4f8696a7b9aa66ad2507",
-      "DevName": "Outfit_Astronomer_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300007
+      "LocalizedName": "72b61b447ed2456b85114259d32b9c4b",
+      "DevName": "Mount_Corgi_Standard03",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100069
     },
     {
-      "LocalizedName": "8387301c6327479fa774c0ba3b534b32",
-      "DevName": "Outfit_Astronomer_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300008
-    },
-    {
-      "LocalizedName": "e6a4fe2eaedf430ab3f777a4d9975a72",
-      "DevName": "Outfit_Astronomer_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300009
-    },
-    {
-      "LocalizedName": "950a72755c1d44e387194394d146dc93",
-      "DevName": "Outfit_Astronomer_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300010
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_BloodPriest_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300011
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Engineer_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300012
-    },
-    {
-      "LocalizedName": "cc2e0630a92243e6979a4d40c31767eb",
-      "DevName": "Outfit_Engineer_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300013
-    },
-    {
-      "LocalizedName": "9f4f2d1314f749eca6e6cb0da51dbdd3",
-      "DevName": "Outfit_Engineer_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300014
-    },
-    {
-      "LocalizedName": "384a0f480e1e41509ebf8638d04b89e9",
-      "DevName": "Outfit_Engineer_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300015
-    },
-    {
-      "LocalizedName": "809df513f68b465c9192ea7366ca75d4",
-      "DevName": "Outfit_Engineer_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300016
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Glutton_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300017
-    },
-    {
-      "LocalizedName": "1e29ab4319654936ab4add77b3c61e41",
-      "DevName": "Outfit_Glutton_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300018
-    },
-    {
-      "LocalizedName": "c3732eac021c4be38ac5fb849472668a",
-      "DevName": "Outfit_Glutton_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300019
-    },
-    {
-      "LocalizedName": "511737d97c714e50b54c097ee3ffdf44",
-      "DevName": "Outfit_Glutton_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300020
-    },
-    {
-      "LocalizedName": "dbbda84aff09403e8f58737fafd57956",
-      "DevName": "Outfit_Glutton_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300021
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Gunner_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300022
-    },
-    {
-      "LocalizedName": "6e4afed2d28a460699b03e0320ff21f9",
-      "DevName": "Outfit_Gunner_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300023
-    },
-    {
-      "LocalizedName": "544a6f2fc3e542fc93f5baf19b86751b",
-      "DevName": "Outfit_Gunner_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300024
-    },
-    {
-      "LocalizedName": "7dbab3a33aa045a7a71a8f5ba1ff235d",
-      "DevName": "Outfit_Gunner_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300025
-    },
-    {
-      "LocalizedName": "357a8fe4fdad465bbecaa59a2aec1167",
-      "DevName": "Outfit_Gunner_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300026
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Harbinger_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300027
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Herald_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300028
-    },
-    {
-      "LocalizedName": "b3ff522c34df4b6596c84e312d2f9089",
-      "DevName": "Outfit_Herald_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300029
-    },
-    {
-      "LocalizedName": "6fd9f7df715c41f9b2f5c7268160d8bd",
-      "DevName": "Outfit_Herald_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300030
-    },
-    {
-      "LocalizedName": "f96cc91a0a674d608d0ebc0fde5dd2eb",
-      "DevName": "Outfit_Herald_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300031
-    },
-    {
-      "LocalizedName": "cd7e4ec0f2434a2083d750b36433e038",
-      "DevName": "Outfit_Herald_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300032
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Igniter_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300033
-    },
-    {
-      "LocalizedName": "5c5c750897df414d9ccbd93256e28b70",
-      "DevName": "Outfit_Igniter_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300034
-    },
-    {
-      "LocalizedName": "e0a11a23318746389303215249ec2294",
-      "DevName": "Outfit_Igniter_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300035
-    },
-    {
-      "LocalizedName": "777409f6b2c64f2ba378f0e24928a5ef",
-      "DevName": "Outfit_Igniter_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300036
-    },
-    {
-      "LocalizedName": "a2d7213ffbd448e8886a2495e2ac3ae7",
-      "DevName": "Outfit_Igniter_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300037
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Inhibitor_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300038
-    },
-    {
-      "LocalizedName": "e8944003b2c3431286fb444338456988",
-      "DevName": "Outfit_Inhibitor_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300039
-    },
-    {
-      "LocalizedName": "e4e03d42128042fc9bfe8570151071a6",
-      "DevName": "Outfit_Inhibitor_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300040
-    },
-    {
-      "LocalizedName": "bea9bf0f36ff4822a94baba6c0cfaf04",
-      "DevName": "Outfit_Inhibitor_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300041
-    },
-    {
-      "LocalizedName": "0aaccbaca0f048eab26109d81db5592e",
-      "DevName": "Outfit_Inhibitor_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300042
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Inquisitor_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300043
-    },
-    {
-      "LocalizedName": "a2274822b5a245e8a76938c5d23218cd",
-      "DevName": "Outfit_Inquisitor_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300044
-    },
-    {
-      "LocalizedName": "14c31557c9ba42fb943006dac3eb6f51",
-      "DevName": "Outfit_Inquisitor_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300045
-    },
-    {
-      "LocalizedName": "e66510bb0cb44b3bb3910b2a81821045",
-      "DevName": "Outfit_Inquisitor_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300046
-    },
-    {
-      "LocalizedName": "788f347cf6f24799a1e4111c1268dbd0",
-      "DevName": "Outfit_Inquisitor_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300047
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Nomad_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300048
-    },
-    {
-      "LocalizedName": "213cc845653246e2920d7dc15a209efc",
-      "DevName": "Outfit_Nomad_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300049
-    },
-    {
-      "LocalizedName": "105e3823129c4fe597779f761cc60181",
-      "DevName": "Outfit_Nomad_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300050
-    },
-    {
-      "LocalizedName": "85d068c9bf6a4a10b5ad72139b268fd6",
-      "DevName": "Outfit_Nomad_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300051
-    },
-    {
-      "LocalizedName": "427bfa918d35445a96792ca8fb8dd5ea",
-      "DevName": "Outfit_Nomad_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300052
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Psychopomp_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300053
-    },
-    {
-      "LocalizedName": "b0dcb6ed6ef244dfbb233b158ac9c930",
-      "DevName": "Outfit_Psychopomp_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300054
-    },
-    {
-      "LocalizedName": "ce16eb39067b4166b47a3203a94bdb28",
-      "DevName": "Outfit_Psychopomp_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300055
-    },
-    {
-      "LocalizedName": "646f28598acb4673837c93bac4f6961b",
-      "DevName": "Outfit_Psychopomp_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300056
-    },
-    {
-      "LocalizedName": "6ea2d05e61444471ad306271a58ea260",
-      "DevName": "Outfit_Psychopomp_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300057
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Ranid_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300058
-    },
-    {
-      "LocalizedName": "cd953f347c4e45fab8b8827cdd4993c1",
-      "DevName": "Outfit_Ranid_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300059
-    },
-    {
-      "LocalizedName": "05e60ef4388f48e480894288870c3f66",
-      "DevName": "Outfit_Ranid_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300060
-    },
-    {
-      "LocalizedName": "e763c9453d004546a134faf7f1a86447",
-      "DevName": "Outfit_Ranid_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300061
-    },
-    {
-      "LocalizedName": "6782e948b0804955b3820606841044d7",
-      "DevName": "Outfit_Ranid_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300062
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Ravener_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300063
-    },
-    {
-      "LocalizedName": "847ca5d96cdc4ccbb389311ccf95967f",
-      "DevName": "Outfit_Ravener_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300064
-    },
-    {
-      "LocalizedName": "d61019b5fb914fcf9d5800d5307a1b09",
-      "DevName": "Outfit_Ravener_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300065
-    },
-    {
-      "LocalizedName": "f11ee2571c8142899b7807579d6d76b1",
-      "DevName": "Outfit_Ravener_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300066
-    },
-    {
-      "LocalizedName": "626b7a92c8d7423dab067e1939703f52",
-      "DevName": "Outfit_Ravener_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300067
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Seeker_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300068
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Spearmaster_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300069
-    },
-    {
-      "LocalizedName": "f9aff0469f1b46aca95d9b62b3ecc60c",
-      "DevName": "Outfit_Spearmaster_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300070
-    },
-    {
-      "LocalizedName": "89ff051ba9ea4e7fbceeb47c276828a0",
-      "DevName": "Outfit_Spearmaster_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300071
-    },
-    {
-      "LocalizedName": "80d21670f34e4754b098e90e07be5d14",
-      "DevName": "Outfit_Spearmaster_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300072
-    },
-    {
-      "LocalizedName": "c57c327902bb45acbf38ddee036e1e27",
-      "DevName": "Outfit_Spearmaster_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300073
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Stormcaller_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300074
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Vanguard_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300075
-    },
-    {
-      "LocalizedName": "26a6e955704b4badb81086b094f1007a",
-      "DevName": "Outfit_Vanguard_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300076
-    },
-    {
-      "LocalizedName": "2e36e2d7d68841518118c7fdbb8186af",
-      "DevName": "Outfit_Vanguard_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300077
-    },
-    {
-      "LocalizedName": "f96e6713682f45acacc88f9353d6eec6",
-      "DevName": "Outfit_Vanguard_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300078
-    },
-    {
-      "LocalizedName": "49674a1ba5a64ccf8d03a230e11b78d6",
-      "DevName": "Outfit_Vanguard_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300079
-    },
-    {
-      "LocalizedName": "d8f7ebb4d9b846189156d2b82465b86e",
-      "DevName": "Outfit_Seeker_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300080
-    },
-    {
-      "LocalizedName": "2c731cce8a674be184a18906a2cb7fc2",
-      "DevName": "Outfit_Seeker_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300081
-    },
-    {
-      "LocalizedName": "d7fec287bda54276ad9e9b0c33e3d36b",
-      "DevName": "Outfit_Seeker_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300082
-    },
-    {
-      "LocalizedName": "c7c6ac7620a1463aa26691f99b9e4472",
-      "DevName": "Outfit_Seeker_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300083
-    },
-    {
-      "LocalizedName": "c7740de9e68e4a70a19f37473976271d",
-      "DevName": "Outfit_Harbinger_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300084
-    },
-    {
-      "LocalizedName": "defb0688ca6146308f3f17f612fe38e0",
-      "DevName": "Outfit_Harbinger_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300085
-    },
-    {
-      "LocalizedName": "3ad3edf6014f4ad38a924a8be4304e64",
-      "DevName": "Outfit_Harbinger_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300086
-    },
-    {
-      "LocalizedName": "2a0556e8a5d043b7af9d479a77559c8e",
-      "DevName": "Outfit_Harbinger_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300087
-    },
-    {
-      "LocalizedName": "cfa34387d0b2443fb555b4c0b2a829e1",
-      "DevName": "Outfit_Alchemist_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300089
-    },
-    {
-      "LocalizedName": "0f542eaf41594b8da7f2c3e28b8ed21a",
-      "DevName": "Outfit_Alchemist_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300090
-    },
-    {
-      "LocalizedName": "58e027b20f244099b53e1ba4c5725594",
-      "DevName": "Outfit_Astronomer_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300092
-    },
-    {
-      "LocalizedName": "145595326a2945e7a747280137807efe",
-      "DevName": "Outfit_Stormcaller_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300093
-    },
-    {
-      "LocalizedName": "e8d4138bb8564a93bbf3b0fc85955e50",
-      "DevName": "Outfit_Stormcaller_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300094
-    },
-    {
-      "LocalizedName": "7f779b26fee845da824e0fc624fc7981",
-      "DevName": "Outfit_Stormcaller_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300095
-    },
-    {
-      "LocalizedName": "497a6481558644818c95df7032360d96",
-      "DevName": "Outfit_Stormcaller_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300096
-    },
-    {
-      "LocalizedName": "1d2d50a1c68b457f9b0b0056ef07a3d5",
-      "DevName": "Outfit_Bloodpriest_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300097
-    },
-    {
-      "LocalizedName": "6580bf7253144934b883b7244c05e700",
-      "DevName": "Outfit_Bloodpriest_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300098
-    },
-    {
-      "LocalizedName": "dbcbb0ad41c641908f55bc4d0da30fc2",
-      "DevName": "Outfit_Bloodpriest_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300099
-    },
-    {
-      "LocalizedName": "6b4fd00c71514f139dff5c83d284a411",
-      "DevName": "Outfit_Bloodpriest_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300100
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Swordmaster_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300105
-    },
-    {
-      "LocalizedName": "fc81839b36cd4a8cb58a34f0ec9d210e",
-      "DevName": "Outfit_Astronomer_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300106
-    },
-    {
-      "LocalizedName": "03a07efc77644c9f9fd25b2696015fad",
-      "DevName": "Outfit_Psychopomp_Winter01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300107
-    },
-    {
-      "LocalizedName": "cb89822de64547f4be1b013c1d9f57eb",
-      "DevName": "Outfit_Stormcaller_Winter01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300108
-    },
-    {
-      "LocalizedName": "bb3b93e84e5a4115a4bce7ba3ef3d399",
-      "DevName": "Outfit_Inhibitor_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300109
-    },
-    {
-      "LocalizedName": "09a72d750cd74c308593ecc2ad296453",
-      "DevName": "Outfit_Swordmaster_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300110
-    },
-    {
-      "LocalizedName": "666ec789da214e46a349cbb8a84301cd",
-      "DevName": "Outfit_Swordmaster_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300111
-    },
-    {
-      "LocalizedName": "0d42b6d2e7aa44bfb2c049d3ee8d145f",
-      "DevName": "Outfit_Swordmaster_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300112
-    },
-    {
-      "LocalizedName": "c282bf9f3bb0446f86a28ebe7fa47275",
-      "DevName": "Outfit_Swordmaster_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300113
-    },
-    {
-      "LocalizedName": "c9ff051b9e0541db82f0abfdf8b7da39",
-      "DevName": "Outfit_Herald_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300114
-    },
-    {
-      "LocalizedName": "2919b437053248b5b554385537dff2a7",
-      "DevName": "Outfit_Engineer_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300115
-    },
-    {
-      "LocalizedName": "43ab5cd1a4434ccaa1c74bc2a6a766ab",
-      "DevName": "Outfit_Engineer_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300116
-    },
-    {
-      "LocalizedName": "ec95405555494d12961f884245411f09",
-      "DevName": "Outfit_Herald_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300117
-    },
-    {
-      "LocalizedName": "459d442556ed4a2a84694ea155cebe5e",
-      "DevName": "Outfit_Psychopomp_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300118
-    },
-    {
-      "LocalizedName": "3b412f1801834ba98d8d83b5c1a8b960",
-      "DevName": "Outfit_Psychopomp_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300119
-    },
-    {
-      "LocalizedName": "10664af61382402798fadd46adb27b64",
-      "DevName": "Outfit_Inhibitor_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300120
-    },
-    {
-      "LocalizedName": "8bc9034e54d34d34a0f96e3b58eee672",
-      "DevName": "Outfit_Inhibitor_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300121
-    },
-    {
-      "LocalizedName": "656d2964bcae46c98fd6b9bd70b903ca",
-      "DevName": "Outfit_Glutton_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300122
-    },
-    {
-      "LocalizedName": "b7d4f364e0e34b3c83ff20e415dffb64",
-      "DevName": "Outfit_Inquisitor_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300123
-    },
-    {
-      "LocalizedName": "911a679babda45329ab4bbee1ba925a5",
-      "DevName": "Outfit_Inquisitor_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300124
-    },
-    {
-      "LocalizedName": "e9abff5e8d7940229746ffa45d9140e6",
-      "DevName": "Outfit_Spearmaster_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300125
-    },
-    {
-      "LocalizedName": "305cda262fb94d21b66a8d992199466f",
-      "DevName": "Outfit_Vanguard_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300126
-    },
-    {
-      "LocalizedName": "e9f6e3ad46b645298289a0e64dbdd889",
-      "DevName": "Outfit_Spearmaster_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300128
-    },
-    {
-      "LocalizedName": "583883b86bd045eca1a1c45389f2942c",
-      "DevName": "Outfit_Gunner_Classic_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300129
-    },
-    {
-      "LocalizedName": "720c16c1436b4417854b18331ad6319f",
-      "DevName": "Outfit_Ranid_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300130
-    },
-    {
-      "LocalizedName": "3f43f054a6dd40218ea645ffcdae41cb",
-      "DevName": "Outfit_Gunner_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300131
-    },
-    {
-      "LocalizedName": "fec6e4e893004cff8331134f49a50daf",
-      "DevName": "Outfit_Harbinger_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300132
-    },
-    {
-      "LocalizedName": "76f2e7f98255441aab72e4de8eea74d4",
-      "DevName": "Outfit_Nomad_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300133
-    },
-    {
-      "LocalizedName": "17339a022ae44a818237ed3ca0ad210f",
-      "DevName": "Outfit_Ravener_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300134
-    },
-    {
-      "LocalizedName": "1226f2b53059430b913c30bc29d951b9",
-      "DevName": "Outfit_Igniter_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300135
-    },
-    {
-      "LocalizedName": "555170d4410a4786b99df61db27c9d56",
-      "DevName": "Outfit_Stormcaller_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300136
-    },
-    {
-      "LocalizedName": "7f0ae89a2cc44ff7a940b07ac6b662db",
-      "DevName": "Outfit_Swordmaster_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300137
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Druid_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300138
-    },
-    {
-      "LocalizedName": "2f6e2f65caaf4d1d98c415587982886b",
-      "DevName": "Outfit_Druid_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300139
-    },
-    {
-      "LocalizedName": "012ef37b2aa448faaf37ae3265459ce8",
-      "DevName": "Outfit_Druid_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300140
-    },
-    {
-      "LocalizedName": "e40d5bc13a9d4266a5729a177b7c1219",
-      "DevName": "Outfit_Druid_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300141
-    },
-    {
-      "LocalizedName": "5b15c6cbf0214f3eb69dc45858bacbbb",
-      "DevName": "Outfit_Druid_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300142
-    },
-    {
-      "LocalizedName": "e08a31ac1286436e9d4faec399e4c8e3",
-      "DevName": "Outfit_Druid_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300143
-    },
-    {
-      "LocalizedName": "42ed1e6343b04e1f926ade25e5cc2b89",
-      "DevName": "Outfit_Seeker_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300145
-    },
-    {
-      "LocalizedName": "f162515de27145f49cfbd17cb4d2620b",
-      "DevName": "Outfit_Vanguard_Prehistoric01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300146
-    },
-    {
-      "LocalizedName": "ccb4db0ece344601935da20b3be2477c",
-      "DevName": "Outfit_Alchemist_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300147
-    },
-    {
-      "LocalizedName": "61d81a19a18a458fb5816bce4483c955",
-      "DevName": "Outfit_Vanguard_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300148
-    },
-    {
-      "LocalizedName": "e4730ee136db46429274e666c4b36394",
-      "DevName": "Outfit_Vanguard_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300149
-    },
-    {
-      "LocalizedName": "70ccda8dd0b4499ca5f258c11a91f4ac",
-      "DevName": "Outfit_Ranid_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300150
-    },
-    {
-      "LocalizedName": "a8ca0c669ca3479dae282ad36b2d29d6",
-      "DevName": "Outfit_Ranid_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300151
-    },
-    {
-      "LocalizedName": "612d03092aa04802a5dfd9233f333259",
-      "DevName": "Outfit_Seeker_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300152
-    },
-    {
-      "LocalizedName": "1391fe05eb6b406f886dde19398741ff",
-      "DevName": "Outfit_Seeker_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300153
-    },
-    {
-      "LocalizedName": "4393b0eca9bc431484e7b9df0614c9de",
-      "DevName": "Outfit_Ravener_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300154
-    },
-    {
-      "LocalizedName": "cdbc6d43b40a4ee9bd6c59d2778c7827",
-      "DevName": "Outfit_Ravener_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300155
-    },
-    {
-      "LocalizedName": "0a9eeeacf5c74a3484905031666a0e35",
-      "DevName": "Outfit_Swordmaster_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300156
-    },
-    {
-      "LocalizedName": "882dc4904b4c4c83a5985d030db040a8",
-      "DevName": "Outfit_Swordmaster_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300157
-    },
-    {
-      "LocalizedName": "9a85bdd0ed174bc399555bf06fc30f53",
-      "DevName": "Outfit_MetalWarden_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300159
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_MetalWarden_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300160
-    },
-    {
-      "LocalizedName": "c65b06cfa76e4e2ca3cbfce71a00b3e2",
-      "DevName": "Outfit_BloodPriest_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300161
-    },
-    {
-      "LocalizedName": "fd11974a57da40a2b3886473592060b5",
-      "DevName": "Outfit_Psychopomp_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300162
-    },
-    {
-      "LocalizedName": "78bbed7935824a51bd013ec92861cf3e",
-      "DevName": "Outfit_Psychopomp_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300163
-    },
-    {
-      "LocalizedName": "e66f7721c38a4d5bbc2b30da4abeb5ff",
-      "DevName": "Outfit_Herald_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300164
-    },
-    {
-      "LocalizedName": "1f1da32ee9ea4ced8157b63b5d0c9930",
-      "DevName": "Outfit_Herald_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300165
-    },
-    {
-      "LocalizedName": "3e83b351e2c541a7a3873472b097dd7a",
-      "DevName": "Outfit_BloodPriest_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300166
-    },
-    {
-      "LocalizedName": "71a0f2cb9510422786adc9f75a2d5361",
-      "DevName": "Outfit_BloodPriest_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300167
-    },
-    {
-      "LocalizedName": "0bc9e52124c345cfa380d350ba4bc575",
-      "DevName": "Outfit_Harbinger_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300168
-    },
-    {
-      "LocalizedName": "877ef5eda6d54eb083b71702cd3de72e",
-      "DevName": "Outfit_Harbinger_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300169
-    },
-    {
-      "LocalizedName": "41fac0ce62574e2e85f56bb2cb98a152",
-      "DevName": "Outfit_Igniter_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300170
-    },
-    {
-      "LocalizedName": "38653fd2d2fb45f3bd783006e34256d6",
-      "DevName": "Outfit_Igniter_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300171
-    },
-    {
-      "LocalizedName": "37cdb17b2f534b2d866e7b1f49009e90",
-      "DevName": "Outfit_Stormcaller_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300172
-    },
-    {
-      "LocalizedName": "3963fd717d56429885384a9c69d2a608",
-      "DevName": "Outfit_Stormcaller_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300173
-    },
-    {
-      "LocalizedName": "6a6eb1440741498284f4c84556e9514e",
-      "DevName": "Outfit_Spearmaster_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300174
-    },
-    {
-      "LocalizedName": "ca9c18a60a5642a1834c3656324aa255",
-      "DevName": "Outfit_Spearmaster_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300175
-    },
-    {
-      "LocalizedName": "3e65b1b06694498b89f18603c71cccc9",
-      "DevName": "Outfit_Astronomer_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300176
-    },
-    {
-      "LocalizedName": "d33a194b8b4b483888f5bbfce615a2ab",
-      "DevName": "Outfit_Astronomer_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300177
-    },
-    {
-      "LocalizedName": "27f9d5c5cd3540d9be5ac1e1a4f19539",
-      "DevName": "Outfit_Inhibitor_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300178
-    },
-    {
-      "LocalizedName": "fbbb8851f78f4322b514c90b90bed0a5",
-      "DevName": "Outfit_Inhibitor_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300179
-    },
-    {
-      "LocalizedName": "63efd1812d5f46b48fb1baa956ee0606",
-      "DevName": "Outfit_Nomad_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300180
-    },
-    {
-      "LocalizedName": "aad973ac5dde4e87a4fcf7f58196c3e1",
-      "DevName": "Outfit_Nomad_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300181
-    },
-    {
-      "LocalizedName": "9b2b5c7109a14bdb811f5461c2149e55",
-      "DevName": "Outfit_Alchemist_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300182
-    },
-    {
-      "LocalizedName": "1119a313a7274ee591bc0771d5a3ba6e",
-      "DevName": "Outfit_Gunner_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300183
-    },
-    {
-      "LocalizedName": "8ee8e0baa9c94bbab976ad1ea59ef417",
-      "DevName": "Outfit_Gunner_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300184
-    },
-    {
-      "LocalizedName": "061fe9a71aff4467b4087a10190d172f",
-      "DevName": "Outfit_Engineer_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300185
-    },
-    {
-      "LocalizedName": "e0162050724b4d77ba14782784dba712",
-      "DevName": "Outfit_Engineer_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300186
-    },
-    {
-      "LocalizedName": "f8dfde8835e546b89e649fad98377645",
-      "DevName": "Outfit_Druid_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300187
-    },
-    {
-      "LocalizedName": "b1f270fc93ff4b8ca1a93ebf6a897d36",
-      "DevName": "Outfit_Druid_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300188
-    },
-    {
-      "LocalizedName": "c4f5b3e8459d430582437589bdce7dd4",
-      "DevName": "Outfit_Inquisitor_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300189
-    },
-    {
-      "LocalizedName": "8664465ee8a84398ad25213b0261cf01",
-      "DevName": "Outfit_Inquisitor_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300190
-    },
-    {
-      "LocalizedName": "713df783946d4c93a9ae07ae557ae874",
-      "DevName": "Outfit_Glutton_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300191
-    },
-    {
-      "LocalizedName": "35943f976bd4472c94670fd5770708b8",
-      "DevName": "Outfit_Glutton_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300192
-    },
-    {
-      "LocalizedName": "6014d93302cc470d813c96b053dfd20d",
-      "DevName": "Outfit_Vanguard_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300193
-    },
-    {
-      "LocalizedName": "2219e41806de4f729d24409505cf0d8c",
-      "DevName": "Outfit_Seeker_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300194
-    },
-    {
-      "LocalizedName": "c8dcd4e2a254448086dfcbc710c68b4c",
-      "DevName": "Outfit_Swordmaster_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300195
-    },
-    {
-      "LocalizedName": "5b0e27f90e84414a853c9d034cc2715e",
-      "DevName": "Outfit_Glutton_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300196
-    },
-    {
-      "LocalizedName": "e4687c349fb24125b5692a6f6e262e64",
-      "DevName": "Outfit_Gunner_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300197
-    },
-    {
-      "LocalizedName": "881c2179dc9e40b98e82e2e958b564e5",
-      "DevName": "Outfit_Spearmaster_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300199
-    },
-    {
-      "LocalizedName": "6902e8798cd94a4291efe32f7cdafbda",
-      "DevName": "Outfit_Druid_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300201
-    },
-    {
-      "LocalizedName": "084143f3baa24079a88ba4c904d8c458",
-      "DevName": "Outfit_Herald_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300202
-    },
-    {
-      "LocalizedName": "01248113ccf94ad584041f81c125048a",
-      "DevName": "Outfit_Igniter_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300203
-    },
-    {
-      "LocalizedName": "6b47d79d153848fca485bfaf49a7c293",
-      "DevName": "Outfit_Igniter_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300204
-    },
-    {
-      "LocalizedName": "99ce0dea373c4df6ab8ab5e344a5c466",
-      "DevName": "Outfit_Glutton_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300205
-    },
-    {
-      "LocalizedName": "d9c154c3f90941acbb688adf279fe37e",
-      "DevName": "Outfit_Seeker_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300207
-    },
-    {
-      "LocalizedName": "565cc26dc9db442f98a343402fb9a200",
-      "DevName": "Outfit_Druid_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300208
-    },
-    {
-      "LocalizedName": "0efd0d6260ad401e98ff98dd936777df",
-      "DevName": "Outfit_Ranid_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300209
-    },
-    {
-      "LocalizedName": "a417fb5036614ed18dca1eaed0145254",
-      "DevName": "Outfit_Ranid_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300210
-    },
-    {
-      "LocalizedName": "bba635550a4b4be5bab0fdc0e11e3a8b",
-      "DevName": "Outfit_Swordmaster_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300211
-    },
-    {
-      "LocalizedName": "f7020424752541698ae239b25253f8e2",
-      "DevName": "Outfit_Ravener_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300212
-    },
-    {
-      "LocalizedName": "d6a0e5b416f34b74a36fb131061ee8f8",
-      "DevName": "Outfit_Ravener_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300213
-    },
-    {
-      "LocalizedName": "44cac50edaf44d3c8626554c0d7e3bec",
-      "DevName": "Outfit_Gunner_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300214
-    },
-    {
-      "LocalizedName": "9e99f88febd7422d9d421859e9e381e8",
-      "DevName": "Outfit_Alchemist_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300215
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_Thorn_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300216
-    },
-    {
-      "LocalizedName": "c0a793e00a584290a32af845ddfc8ec0",
-      "DevName": "Outfit_Glutton_Halloween01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300217
-    },
-    {
-      "LocalizedName": "640aa4fea26e4570849478eb800297f5",
-      "DevName": "Outfit_Gunner_Halloween_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300218
-    },
-    {
-      "LocalizedName": "8778b3af21fb431195332036c347f9d6",
-      "DevName": "Outfit_Astronomer_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300219
-    },
-    {
-      "LocalizedName": "644137edd44a41509725c40e26792fee",
-      "DevName": "Outfit_Harbinger_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300220
-    },
-    {
-      "LocalizedName": "7a0b5b8f44dc4b31b0d7e33a59407efc",
-      "DevName": "Outfit_Harbinger_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300221
-    },
-    {
-      "LocalizedName": "d18935a3356d41a39eadf682660bf559",
-      "DevName": "Outfit_Swordmaster_Halloween01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300222
-    },
-    {
-      "LocalizedName": "3ae38f89712e4ae7aef913ef3f754e28",
-      "DevName": "Outfit_Inquisitor_Halloween01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300223
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_MirrorMage_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300224
-    },
-    {
-      "LocalizedName": "9fd98d262fde496fbc1881aface4d99c",
-      "DevName": "Outfit_BloodPriest_Legendary02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300225
-    },
-    {
-      "LocalizedName": "f358bcf82b514183b98b070583bec9a8",
-      "DevName": "Outfit_BloodPriest_Legendary03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300226
-    },
-    {
-      "LocalizedName": "ecd765e8e6f240d8b7952930f7b4b0f2",
-      "DevName": "Outfit_Vanguard_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300227
-    },
-    {
-      "LocalizedName": "aa94b39a846c4abfa4d7792bfb1243c2",
-      "DevName": "Outfit_Stormcaller_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300228
-    },
-    {
-      "LocalizedName": "bcb190a17ffc41f0a84c18ca14118f66",
-      "DevName": "Outfit_Stormcaller_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300229
-    },
-    {
-      "LocalizedName": "28956c76a5014897a4ccdda9b939f3e7",
-      "DevName": "Outfit_MetalWarden_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300230
-    },
-    {
-      "LocalizedName": "9d1345bddde34e75831c6cc97509b37f",
-      "DevName": "Outfit_MetalWarden_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300231
-    },
-    {
-      "LocalizedName": "0b8f430be6b94d55a13763eb3d8900e5",
-      "DevName": "Outfit_MetalWarden_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300232
-    },
-    {
-      "LocalizedName": "2aec2924c46b4e228a77824ac97147a5",
-      "DevName": "Outfit_MetalWarden_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300233
-    },
-    {
-      "LocalizedName": "eb0ac379af9441e9912bf31e2aae1c6b",
-      "DevName": "Outfit_MetalWarden_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300234
-    },
-    {
-      "LocalizedName": "79239b2969d54ad08e3afb62746d96cd",
-      "DevName": "Outfit_MetalWarden_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300235
-    },
-    {
-      "LocalizedName": "aa3f7e7a474d46888531298a9752f1da",
-      "DevName": "Outfit_MetalWarden_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300236
-    },
-    {
-      "LocalizedName": "1bd68ca030da4d5889b4ef9fcd04e997",
-      "DevName": "Outfit_MetalWarden_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300237
-    },
-    {
-      "LocalizedName": "c3c9f3092b03462eb9fb049815e85eb6",
-      "DevName": "Outfit_Nomad_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300238
-    },
-    {
-      "LocalizedName": "463e0e6618bb483091d7ad413ac0f609",
-      "DevName": "Outfit_Nomad_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300239
-    },
-    {
-      "LocalizedName": "006de779f02f4988bc7e7b1a8f22955c",
-      "DevName": "Outfit_Nomad_Prehistoric01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300240
-    },
-    {
-      "LocalizedName": "22aabd3c40d248bb903dacbb5e1a82d6",
-      "DevName": "Outfit_Thorn_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300241
-    },
-    {
-      "LocalizedName": "87fd2f21b3184f7380d44942195c4ba9",
-      "DevName": "Outfit_Thorn_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300242
-    },
-    {
-      "LocalizedName": "bafe7a7f8be24bda9c52871aef8cad5a",
-      "DevName": "Outfit_Thorn_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300243
-    },
-    {
-      "LocalizedName": "0ecc3c10dc364150a354231f5bf4032e",
-      "DevName": "Outfit_Thorn_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300244
-    },
-    {
-      "LocalizedName": "a248a20803274a02b45798954e7cc284",
-      "DevName": "Outfit_Thorn_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300245
-    },
-    {
-      "LocalizedName": "c1e16c9f75b04d77b611ab480a638ffd",
-      "DevName": "Outfit_Thorn_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300246
-    },
-    {
-      "LocalizedName": "1e695c8546504bdeb73bd2254e2b53b0",
-      "DevName": "Outfit_Thorn_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300247
-    },
-    {
-      "LocalizedName": "52eae07805dd4e4cb7dc7baa471f2157",
-      "DevName": "Outfit_Thorn_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300248
-    },
-    {
-      "LocalizedName": "5afb7bb7810a45df984c5e06eb433289",
-      "DevName": "Outfit_Thorn_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300249
-    },
-    {
-      "LocalizedName": "9e2e7600bc1a4b82bb6e95090528e5f8",
-      "DevName": "Outfit_Inquisitor_Prehistoric01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300251
-    },
-    {
-      "LocalizedName": "0af9f718b03743e2ac1d8150579705c3",
-      "DevName": "Outfit_Engineer_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300252
-    },
-    {
-      "LocalizedName": "118b3b9b77d946149abd09233a87b7d1",
-      "DevName": "Outfit_Gunner_Classic_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300253
-    },
-    {
-      "LocalizedName": "eb216e62a05f4052ab4cac7032683e20",
-      "DevName": "Outfit_Gunner_Classic_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300254
-    },
-    {
-      "LocalizedName": "ae19ec38932b46e591ae190cefd1ee58",
-      "DevName": "Outfit_Ranid_Winter01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300255
-    },
-    {
-      "LocalizedName": "262f69feefe447f7ab1ba8b1b68fd4fb",
-      "DevName": "Outfit_Inquisitor_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300256
-    },
-    {
-      "LocalizedName": "e2a422bda1a04efbb8604744396efa77",
-      "DevName": "Outfit_Psychopomp_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300260
-    },
-    {
-      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
-      "DevName": "Outfit_FrostMage_01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300261
-    },
-    {
-      "LocalizedName": "62153c3ca6df41c99a441d45dc6ab97a",
-      "DevName": "Outfit_Igniter_Twitch_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300262
-    },
-    {
-      "LocalizedName": "2a1fd797c7724166baa280f74d509e38",
-      "DevName": "Outfit_FrostMage_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300263
-    },
-    {
-      "LocalizedName": "d6ca8a8a8a36400fa7037ce7e0cf5bf9",
-      "DevName": "Outfit_Ravener_Winter01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300264
-    },
-    {
-      "LocalizedName": "5a600575a495419a8046968e328b7430",
-      "DevName": "Outfit_FrostMage_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300265
-    },
-    {
-      "LocalizedName": "ba572431085b43c3bd2995c39bd1e165",
-      "DevName": "Outfit_FrostMage_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300266
-    },
-    {
-      "LocalizedName": "11eb073e8701429d9137392864f31b58",
-      "DevName": "Outfit_MirrorMage_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300267
-    },
-    {
-      "LocalizedName": "f252ccb502bf40249e2970d2c34e03f1",
-      "DevName": "Outfit_MirrorMage_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300268
-    },
-    {
-      "LocalizedName": "6e050902cb8143799bfdaf50f1c49b40",
-      "DevName": "Outfit_MirrorMage_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300269
-    },
-    {
-      "LocalizedName": "f36ebfd28f5e44058c1ee5165a48a59c",
-      "DevName": "Outfit_MirrorMage_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300270
-    },
-    {
-      "LocalizedName": "9f07b2f9d423493ab6b3390c8a7642e5",
-      "DevName": "Outfit_MirrorMage_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300271
-    },
-    {
-      "LocalizedName": "fd6b226e587b4fb9937085c3b9aa96a3",
-      "DevName": "Outfit_MirrorMage_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300272
-    },
-    {
-      "LocalizedName": "be1754e023b348319a0060d091482212",
-      "DevName": "Outfit_MirrorMage_Legendary01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300273
-    },
-    {
-      "LocalizedName": "7aa24a1c67c44d15a423275a4f694ee8",
-      "DevName": "Outfit_MirrorMage_Legendary01_Tex02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300274
-    },
-    {
-      "LocalizedName": "dcdde67c39bd427bafb127bc37995b00",
-      "DevName": "Outfit_MirrorMage_Legendary01_Tex03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300275
-    },
-    {
-      "LocalizedName": "458da08ebebc419887c03bdd15a424dd",
-      "DevName": "Outfit_FrostMage_02",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300276
-    },
-    {
-      "LocalizedName": "66cfe42b612646bc9630bd9a07c2364d",
-      "DevName": "Outfit_FrostMage_03",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300277
-    },
-    {
-      "LocalizedName": "0afb2f17a7ac431082316a803d5cf5e4",
-      "DevName": "Outfit_FrostMage_04",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300278
-    },
-    {
-      "LocalizedName": "4c57fb6f3d8543bea115d6f15d80a066",
-      "DevName": "Outfit_FrostMage_05",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300279
-    },
-    {
-      "LocalizedName": "393a2ac47ef94a2d968c1a0ac2e1046b",
-      "DevName": "Outfit_FrostMage_06",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300280
-    },
-    {
-      "LocalizedName": "049cf980f8344098b42a3edf32ea598a",
-      "DevName": "Outfit_FrostMage_07",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300281
-    },
-    {
-      "LocalizedName": "4c96d92d60404e64b70f14ab760c1470",
-      "DevName": "Outfit_Herald_Prehistoric01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300282
-    },
-    {
-      "LocalizedName": "dff187e3510d489dbeb6b32805eee378",
-      "DevName": "Outfit_Spearmaster_Prehistoric01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300283
-    },
-    {
-      "LocalizedName": "c661e47a1873480e9e2e1e37c79553e7",
-      "DevName": "Outfit_Stormcaller_Prehistoric01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300284
-    },
-    {
-      "LocalizedName": "005b8b2ab13f4fec97638fdf73084f31",
-      "DevName": "Outfit_Druid_Winter01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300285
-    },
-    {
-      "LocalizedName": "ae47e7d372754a24b6582e295243eccd",
-      "DevName": "Outfit_Thorn_Winter01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300286
-    },
-    {
-      "LocalizedName": "d160459944654b078ee4ef9f3bcd1a65",
-      "DevName": "Outfit_Alchemist_Lunar01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300288
-    },
-    {
-      "LocalizedName": "c36eaa5f47ef4e12a0a712f798148234",
-      "DevName": "Outfit_Gunner_Contest01_Tex01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300289
-    },
-    {
-      "LocalizedName": "06e6b78ba1cf4491bd568a43e596d0f0",
-      "DevName": "Outfit_Swordmaster_Lunar01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300291
-    },
-    {
-      "LocalizedName": "8c614d5521cb4798a935bdf0d15931d0",
-      "DevName": "Outfit_Astronomer_Lunar01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300292
-    },
-    {
-      "LocalizedName": "ca188d01c76c4544a51a6031f28315e9",
-      "DevName": "Outfit_Harbinger_Lunar01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300293
-    },
-    {
-      "LocalizedName": "ec206cc516734fba9f641479917f71a9",
-      "DevName": "Outfit_FrostMage_Lunar01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300300
-    },
-    {
-      "LocalizedName": "73feac01e38b40168435fa80fd76b939",
-      "DevName": "Outfit_MetalWarden_Lunar01",
-      "IdRangeName": "OutfitEnum",
-      "StackableRangeName": "Outfits",
-      "StackableId": 300301
+      "LocalizedName": "50c67a8fa4f647abb9540da48cc0534e",
+      "DevName": "Mount_Bear_Community01",
+      "IdRangeName": "MountEnum",
+      "StackableRangeName": "Mount",
+      "StackableId": 100071
     },
     {
       "LocalizedName": "",
@@ -2459,6 +576,14 @@ const _stackable = _(
       "StackableId": 1016
     },
     {
+      "LocalizedName": "d2f590153f894337aeee23dd75d71953",
+      "DevName": "MapNewMode",
+      "IdRangeName": "MapEnum",
+      "StackableRangeName": "MapWins",
+      "Image": "ba15b0f8b065512469da43b09a5be052",
+      "StackableId": 1021
+    },
+    {
       "LocalizedName": "14d8c4f5f6be44c0ab67175147624731",
       "DevName": "Map1_Aras",
       "IdRangeName": "MapEnum",
@@ -2561,6 +686,14 @@ const _stackable = _(
       "StackableRangeName": "MapLosses",
       "Image": "ba15b0f8b065512469da43b09a5be052",
       "StackableId": 1116
+    },
+    {
+      "LocalizedName": "d2f590153f894337aeee23dd75d71953",
+      "DevName": "MapNewMode",
+      "IdRangeName": "MapEnum",
+      "StackableRangeName": "MapLosses",
+      "Image": "ba15b0f8b065512469da43b09a5be052",
+      "StackableId": 1121
     },
     {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
@@ -2869,6 +1002,24 @@ const _stackable = _(
       "StackableId": 11041
     },
     {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "XP",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 11043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "XP",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 11045
+    },
+    {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
       "DevName": "Alchemist",
       "IdRangeName": "CharacterEnum",
@@ -3173,6 +1324,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 12041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterWins",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 12043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterWins",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 12045
     },
     {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
@@ -3481,6 +1650,24 @@ const _stackable = _(
       "StackableId": 13041
     },
     {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterLosses",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 13043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterLosses",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 13045
+    },
+    {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
       "DevName": "Alchemist",
       "IdRangeName": "CharacterEnum",
@@ -3785,6 +1972,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 14041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterKills",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 14043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterKills",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 14045
     },
     {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
@@ -4093,6 +2298,24 @@ const _stackable = _(
       "StackableId": 15041
     },
     {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterDeaths",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 15043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterDeaths",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 15045
+    },
+    {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
       "DevName": "Alchemist",
       "IdRangeName": "CharacterEnum",
@@ -4397,6 +2620,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 40041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Level",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 40043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Level",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 40045
     },
     {
       "LocalizedName": "",
@@ -4710,6 +2951,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 16041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterTimePlayed",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 16043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterTimePlayed",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 16045
     },
     {
       "LocalizedName": "",
@@ -5032,6 +3291,24 @@ const _stackable = _(
       "StackableId": 17041
     },
     {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked2v2Wins",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 17043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked2v2Wins",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 17045
+    },
+    {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
       "DevName": "Alchemist",
       "IdRangeName": "CharacterEnum",
@@ -5336,6 +3613,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 18041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked2v2Losses",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 18043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked2v2Losses",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 18045
     },
     {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
@@ -5644,6 +3939,24 @@ const _stackable = _(
       "StackableId": 19041
     },
     {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked3v3Wins",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 19043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked3v3Wins",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 19045
+    },
+    {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
       "DevName": "Alchemist",
       "IdRangeName": "CharacterEnum",
@@ -5948,6 +4261,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 20041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked3v3Losses",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 20043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterRanked3v3Losses",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 20045
     },
     {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
@@ -6256,6 +4587,24 @@ const _stackable = _(
       "StackableId": 21041
     },
     {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked2v2Wins",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 21043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked2v2Wins",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 21045
+    },
+    {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
       "DevName": "Alchemist",
       "IdRangeName": "CharacterEnum",
@@ -6560,6 +4909,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 22041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked2v2Losses",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 22043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked2v2Losses",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 22045
     },
     {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
@@ -6868,6 +5235,24 @@ const _stackable = _(
       "StackableId": 24041
     },
     {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked3v3Losses",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 24043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked3v3Losses",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 24045
+    },
+    {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
       "DevName": "Alchemist",
       "IdRangeName": "CharacterEnum",
@@ -7172,6 +5557,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 23041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked3v3Wins",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 23043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterUnranked3v3Wins",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 23045
     },
     {
       "LocalizedName": "",
@@ -7536,6 +5939,24 @@ const _stackable = _(
       "StackableId": 26041
     },
     {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBrawlLosses",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 26043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBrawlLosses",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 26045
+    },
+    {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
       "DevName": "Alchemist",
       "IdRangeName": "CharacterEnum",
@@ -7840,6 +6261,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 25041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBrawlWins",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 25043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBrawlWins",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 25045
     },
     {
       "LocalizedName": "",
@@ -8176,6 +6615,24 @@ const _stackable = _(
       "StackableId": 27041
     },
     {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBattlegroundsWins",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 27043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBattlegroundsWins",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 27045
+    },
+    {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
       "DevName": "Alchemist",
       "IdRangeName": "CharacterEnum",
@@ -8480,6 +6937,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 28041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBattlegroundsLosses",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 28043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "CharacterBattlegroundsLosses",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 28045
     },
     {
       "LocalizedName": "",
@@ -11709,6 +10184,13 @@ const _stackable = _(
       "StackableId": 150470
     },
     {
+      "LocalizedName": "d7dada046bc74a1cbdedd884038052e3",
+      "DevName": "Stalker_Standard_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150471
+    },
+    {
       "LocalizedName": "a9b8c762964d47a5925ae13afc78d2ad",
       "DevName": "Druid_Lunar01_Weapon01",
       "IdRangeName": "AttachmentEnum",
@@ -11821,6 +10303,27 @@ const _stackable = _(
       "StackableId": 150488
     },
     {
+      "LocalizedName": "d85c94a183b94bfcb3d323fe0e79f4ae",
+      "DevName": "Stalker_Set02_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150489
+    },
+    {
+      "LocalizedName": "d66b55d1203049efb9c00fead7b23cca",
+      "DevName": "Stalker_Set02_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150491
+    },
+    {
+      "LocalizedName": "78d73bc1e2bd4bedaba06419428c77ac",
+      "DevName": "Stalker_Set02_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150492
+    },
+    {
       "LocalizedName": "eee97c4b932b48f589ddf6c2172d4324",
       "DevName": "Spearmaster_Lunar01_Weapon01",
       "IdRangeName": "AttachmentEnum",
@@ -11856,11 +10359,2111 @@ const _stackable = _(
       "StackableId": 150498
     },
     {
+      "LocalizedName": "efba06f7832540b69d58aaf213548002",
+      "DevName": "Stalker_Standard_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150499
+    },
+    {
+      "LocalizedName": "1a0549f122074f2f9b7df3830a627fb2",
+      "DevName": "Stalker_Standard_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150500
+    },
+    {
       "LocalizedName": "d17ee6c9c6eb409295d7d0bc815f0d24",
       "DevName": "Inhibitor_Lunar01_Weapon01",
       "IdRangeName": "AttachmentEnum",
       "StackableRangeName": "Attachments",
       "StackableId": 150501
+    },
+    {
+      "LocalizedName": "90d65578a3a942a28b3093ee5a8b4d2c",
+      "DevName": "Stalker_Set03_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150502
+    },
+    {
+      "LocalizedName": "badf908db7dc4f26ab4cc780d009edbc",
+      "DevName": "Stalker_Set01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150503
+    },
+    {
+      "LocalizedName": "4e592ad228c14c9d895a3c5ef547f471",
+      "DevName": "Stalker_Set01_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150504
+    },
+    {
+      "LocalizedName": "e791228c0d604bc8864961b8b25d5eb0",
+      "DevName": "Stalker_Set01_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150505
+    },
+    {
+      "LocalizedName": "a0adb3f612c34621b2906105ffe9fead",
+      "DevName": "Stalker_Set04_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150506
+    },
+    {
+      "LocalizedName": "bfd5313d8f1f48fe9de20988384adaed",
+      "DevName": "Stalker_Set04_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150507
+    },
+    {
+      "LocalizedName": "e151be7fbfdd41b3b244fe3be120ab65",
+      "DevName": "Stalker_Set04_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150508
+    },
+    {
+      "LocalizedName": "3fe03683ea4d45b5b72cdc9541b60275",
+      "DevName": "Vanguard_Crusader01_Weapon01",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150510
+    },
+    {
+      "LocalizedName": "afdca6f7a8714e0bae7479f250cddba3",
+      "DevName": "Stalker_Set03_Weapon02",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150511
+    },
+    {
+      "LocalizedName": "dad4e42177dd4b43a2efecad90b07986",
+      "DevName": "Stalker_Set03_Weapon03",
+      "IdRangeName": "AttachmentEnum",
+      "StackableRangeName": "Attachments",
+      "StackableId": 150512
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Alchemist_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300001
+    },
+    {
+      "LocalizedName": "c0acbba4df5a40638e2cf088a7daaad4",
+      "DevName": "Outfit_Alchemist_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300002
+    },
+    {
+      "LocalizedName": "ee5a822fb79144a1a88e053e055c3900",
+      "DevName": "Outfit_Alchemist_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300003
+    },
+    {
+      "LocalizedName": "320288dab51f4402885fa85fa68eb535",
+      "DevName": "Outfit_Alchemist_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300004
+    },
+    {
+      "LocalizedName": "00caeeb0d42e4c77becd566a4779e6da",
+      "DevName": "Outfit_Alchemist_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300005
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Astronomer_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300006
+    },
+    {
+      "LocalizedName": "244cc76c333b4f8696a7b9aa66ad2507",
+      "DevName": "Outfit_Astronomer_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300007
+    },
+    {
+      "LocalizedName": "8387301c6327479fa774c0ba3b534b32",
+      "DevName": "Outfit_Astronomer_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300008
+    },
+    {
+      "LocalizedName": "e6a4fe2eaedf430ab3f777a4d9975a72",
+      "DevName": "Outfit_Astronomer_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300009
+    },
+    {
+      "LocalizedName": "950a72755c1d44e387194394d146dc93",
+      "DevName": "Outfit_Astronomer_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300010
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_BloodPriest_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300011
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Engineer_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300012
+    },
+    {
+      "LocalizedName": "cc2e0630a92243e6979a4d40c31767eb",
+      "DevName": "Outfit_Engineer_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300013
+    },
+    {
+      "LocalizedName": "9f4f2d1314f749eca6e6cb0da51dbdd3",
+      "DevName": "Outfit_Engineer_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300014
+    },
+    {
+      "LocalizedName": "384a0f480e1e41509ebf8638d04b89e9",
+      "DevName": "Outfit_Engineer_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300015
+    },
+    {
+      "LocalizedName": "809df513f68b465c9192ea7366ca75d4",
+      "DevName": "Outfit_Engineer_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300016
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Glutton_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300017
+    },
+    {
+      "LocalizedName": "1e29ab4319654936ab4add77b3c61e41",
+      "DevName": "Outfit_Glutton_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300018
+    },
+    {
+      "LocalizedName": "c3732eac021c4be38ac5fb849472668a",
+      "DevName": "Outfit_Glutton_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300019
+    },
+    {
+      "LocalizedName": "511737d97c714e50b54c097ee3ffdf44",
+      "DevName": "Outfit_Glutton_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300020
+    },
+    {
+      "LocalizedName": "dbbda84aff09403e8f58737fafd57956",
+      "DevName": "Outfit_Glutton_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300021
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Gunner_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300022
+    },
+    {
+      "LocalizedName": "6e4afed2d28a460699b03e0320ff21f9",
+      "DevName": "Outfit_Gunner_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300023
+    },
+    {
+      "LocalizedName": "544a6f2fc3e542fc93f5baf19b86751b",
+      "DevName": "Outfit_Gunner_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300024
+    },
+    {
+      "LocalizedName": "7dbab3a33aa045a7a71a8f5ba1ff235d",
+      "DevName": "Outfit_Gunner_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300025
+    },
+    {
+      "LocalizedName": "357a8fe4fdad465bbecaa59a2aec1167",
+      "DevName": "Outfit_Gunner_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300026
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Harbinger_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300027
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Herald_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300028
+    },
+    {
+      "LocalizedName": "b3ff522c34df4b6596c84e312d2f9089",
+      "DevName": "Outfit_Herald_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300029
+    },
+    {
+      "LocalizedName": "6fd9f7df715c41f9b2f5c7268160d8bd",
+      "DevName": "Outfit_Herald_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300030
+    },
+    {
+      "LocalizedName": "f96cc91a0a674d608d0ebc0fde5dd2eb",
+      "DevName": "Outfit_Herald_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300031
+    },
+    {
+      "LocalizedName": "cd7e4ec0f2434a2083d750b36433e038",
+      "DevName": "Outfit_Herald_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300032
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Igniter_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300033
+    },
+    {
+      "LocalizedName": "5c5c750897df414d9ccbd93256e28b70",
+      "DevName": "Outfit_Igniter_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300034
+    },
+    {
+      "LocalizedName": "e0a11a23318746389303215249ec2294",
+      "DevName": "Outfit_Igniter_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300035
+    },
+    {
+      "LocalizedName": "777409f6b2c64f2ba378f0e24928a5ef",
+      "DevName": "Outfit_Igniter_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300036
+    },
+    {
+      "LocalizedName": "a2d7213ffbd448e8886a2495e2ac3ae7",
+      "DevName": "Outfit_Igniter_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300037
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Inhibitor_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300038
+    },
+    {
+      "LocalizedName": "e8944003b2c3431286fb444338456988",
+      "DevName": "Outfit_Inhibitor_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300039
+    },
+    {
+      "LocalizedName": "e4e03d42128042fc9bfe8570151071a6",
+      "DevName": "Outfit_Inhibitor_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300040
+    },
+    {
+      "LocalizedName": "bea9bf0f36ff4822a94baba6c0cfaf04",
+      "DevName": "Outfit_Inhibitor_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300041
+    },
+    {
+      "LocalizedName": "0aaccbaca0f048eab26109d81db5592e",
+      "DevName": "Outfit_Inhibitor_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300042
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Inquisitor_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300043
+    },
+    {
+      "LocalizedName": "a2274822b5a245e8a76938c5d23218cd",
+      "DevName": "Outfit_Inquisitor_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300044
+    },
+    {
+      "LocalizedName": "14c31557c9ba42fb943006dac3eb6f51",
+      "DevName": "Outfit_Inquisitor_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300045
+    },
+    {
+      "LocalizedName": "e66510bb0cb44b3bb3910b2a81821045",
+      "DevName": "Outfit_Inquisitor_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300046
+    },
+    {
+      "LocalizedName": "788f347cf6f24799a1e4111c1268dbd0",
+      "DevName": "Outfit_Inquisitor_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300047
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Nomad_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300048
+    },
+    {
+      "LocalizedName": "213cc845653246e2920d7dc15a209efc",
+      "DevName": "Outfit_Nomad_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300049
+    },
+    {
+      "LocalizedName": "105e3823129c4fe597779f761cc60181",
+      "DevName": "Outfit_Nomad_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300050
+    },
+    {
+      "LocalizedName": "85d068c9bf6a4a10b5ad72139b268fd6",
+      "DevName": "Outfit_Nomad_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300051
+    },
+    {
+      "LocalizedName": "427bfa918d35445a96792ca8fb8dd5ea",
+      "DevName": "Outfit_Nomad_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300052
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Psychopomp_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300053
+    },
+    {
+      "LocalizedName": "b0dcb6ed6ef244dfbb233b158ac9c930",
+      "DevName": "Outfit_Psychopomp_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300054
+    },
+    {
+      "LocalizedName": "ce16eb39067b4166b47a3203a94bdb28",
+      "DevName": "Outfit_Psychopomp_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300055
+    },
+    {
+      "LocalizedName": "646f28598acb4673837c93bac4f6961b",
+      "DevName": "Outfit_Psychopomp_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300056
+    },
+    {
+      "LocalizedName": "6ea2d05e61444471ad306271a58ea260",
+      "DevName": "Outfit_Psychopomp_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300057
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Ranid_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300058
+    },
+    {
+      "LocalizedName": "cd953f347c4e45fab8b8827cdd4993c1",
+      "DevName": "Outfit_Ranid_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300059
+    },
+    {
+      "LocalizedName": "05e60ef4388f48e480894288870c3f66",
+      "DevName": "Outfit_Ranid_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300060
+    },
+    {
+      "LocalizedName": "e763c9453d004546a134faf7f1a86447",
+      "DevName": "Outfit_Ranid_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300061
+    },
+    {
+      "LocalizedName": "6782e948b0804955b3820606841044d7",
+      "DevName": "Outfit_Ranid_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300062
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Ravener_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300063
+    },
+    {
+      "LocalizedName": "847ca5d96cdc4ccbb389311ccf95967f",
+      "DevName": "Outfit_Ravener_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300064
+    },
+    {
+      "LocalizedName": "d61019b5fb914fcf9d5800d5307a1b09",
+      "DevName": "Outfit_Ravener_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300065
+    },
+    {
+      "LocalizedName": "f11ee2571c8142899b7807579d6d76b1",
+      "DevName": "Outfit_Ravener_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300066
+    },
+    {
+      "LocalizedName": "626b7a92c8d7423dab067e1939703f52",
+      "DevName": "Outfit_Ravener_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300067
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Seeker_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300068
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Spearmaster_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300069
+    },
+    {
+      "LocalizedName": "f9aff0469f1b46aca95d9b62b3ecc60c",
+      "DevName": "Outfit_Spearmaster_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300070
+    },
+    {
+      "LocalizedName": "89ff051ba9ea4e7fbceeb47c276828a0",
+      "DevName": "Outfit_Spearmaster_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300071
+    },
+    {
+      "LocalizedName": "80d21670f34e4754b098e90e07be5d14",
+      "DevName": "Outfit_Spearmaster_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300072
+    },
+    {
+      "LocalizedName": "c57c327902bb45acbf38ddee036e1e27",
+      "DevName": "Outfit_Spearmaster_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300073
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Stormcaller_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300074
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Vanguard_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300075
+    },
+    {
+      "LocalizedName": "26a6e955704b4badb81086b094f1007a",
+      "DevName": "Outfit_Vanguard_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300076
+    },
+    {
+      "LocalizedName": "2e36e2d7d68841518118c7fdbb8186af",
+      "DevName": "Outfit_Vanguard_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300077
+    },
+    {
+      "LocalizedName": "f96e6713682f45acacc88f9353d6eec6",
+      "DevName": "Outfit_Vanguard_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300078
+    },
+    {
+      "LocalizedName": "49674a1ba5a64ccf8d03a230e11b78d6",
+      "DevName": "Outfit_Vanguard_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300079
+    },
+    {
+      "LocalizedName": "d8f7ebb4d9b846189156d2b82465b86e",
+      "DevName": "Outfit_Seeker_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300080
+    },
+    {
+      "LocalizedName": "2c731cce8a674be184a18906a2cb7fc2",
+      "DevName": "Outfit_Seeker_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300081
+    },
+    {
+      "LocalizedName": "d7fec287bda54276ad9e9b0c33e3d36b",
+      "DevName": "Outfit_Seeker_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300082
+    },
+    {
+      "LocalizedName": "c7c6ac7620a1463aa26691f99b9e4472",
+      "DevName": "Outfit_Seeker_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300083
+    },
+    {
+      "LocalizedName": "c7740de9e68e4a70a19f37473976271d",
+      "DevName": "Outfit_Harbinger_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300084
+    },
+    {
+      "LocalizedName": "defb0688ca6146308f3f17f612fe38e0",
+      "DevName": "Outfit_Harbinger_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300085
+    },
+    {
+      "LocalizedName": "3ad3edf6014f4ad38a924a8be4304e64",
+      "DevName": "Outfit_Harbinger_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300086
+    },
+    {
+      "LocalizedName": "2a0556e8a5d043b7af9d479a77559c8e",
+      "DevName": "Outfit_Harbinger_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300087
+    },
+    {
+      "LocalizedName": "cfa34387d0b2443fb555b4c0b2a829e1",
+      "DevName": "Outfit_Alchemist_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300089
+    },
+    {
+      "LocalizedName": "0f542eaf41594b8da7f2c3e28b8ed21a",
+      "DevName": "Outfit_Alchemist_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300090
+    },
+    {
+      "LocalizedName": "58e027b20f244099b53e1ba4c5725594",
+      "DevName": "Outfit_Astronomer_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300092
+    },
+    {
+      "LocalizedName": "145595326a2945e7a747280137807efe",
+      "DevName": "Outfit_Stormcaller_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300093
+    },
+    {
+      "LocalizedName": "e8d4138bb8564a93bbf3b0fc85955e50",
+      "DevName": "Outfit_Stormcaller_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300094
+    },
+    {
+      "LocalizedName": "7f779b26fee845da824e0fc624fc7981",
+      "DevName": "Outfit_Stormcaller_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300095
+    },
+    {
+      "LocalizedName": "497a6481558644818c95df7032360d96",
+      "DevName": "Outfit_Stormcaller_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300096
+    },
+    {
+      "LocalizedName": "1d2d50a1c68b457f9b0b0056ef07a3d5",
+      "DevName": "Outfit_Bloodpriest_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300097
+    },
+    {
+      "LocalizedName": "6580bf7253144934b883b7244c05e700",
+      "DevName": "Outfit_Bloodpriest_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300098
+    },
+    {
+      "LocalizedName": "dbcbb0ad41c641908f55bc4d0da30fc2",
+      "DevName": "Outfit_Bloodpriest_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300099
+    },
+    {
+      "LocalizedName": "6b4fd00c71514f139dff5c83d284a411",
+      "DevName": "Outfit_Bloodpriest_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300100
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Swordmaster_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300105
+    },
+    {
+      "LocalizedName": "fc81839b36cd4a8cb58a34f0ec9d210e",
+      "DevName": "Outfit_Astronomer_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300106
+    },
+    {
+      "LocalizedName": "03a07efc77644c9f9fd25b2696015fad",
+      "DevName": "Outfit_Psychopomp_Winter01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300107
+    },
+    {
+      "LocalizedName": "cb89822de64547f4be1b013c1d9f57eb",
+      "DevName": "Outfit_Stormcaller_Winter01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300108
+    },
+    {
+      "LocalizedName": "bb3b93e84e5a4115a4bce7ba3ef3d399",
+      "DevName": "Outfit_Inhibitor_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300109
+    },
+    {
+      "LocalizedName": "09a72d750cd74c308593ecc2ad296453",
+      "DevName": "Outfit_Swordmaster_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300110
+    },
+    {
+      "LocalizedName": "666ec789da214e46a349cbb8a84301cd",
+      "DevName": "Outfit_Swordmaster_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300111
+    },
+    {
+      "LocalizedName": "0d42b6d2e7aa44bfb2c049d3ee8d145f",
+      "DevName": "Outfit_Swordmaster_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300112
+    },
+    {
+      "LocalizedName": "c282bf9f3bb0446f86a28ebe7fa47275",
+      "DevName": "Outfit_Swordmaster_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300113
+    },
+    {
+      "LocalizedName": "c9ff051b9e0541db82f0abfdf8b7da39",
+      "DevName": "Outfit_Herald_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300114
+    },
+    {
+      "LocalizedName": "2919b437053248b5b554385537dff2a7",
+      "DevName": "Outfit_Engineer_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300115
+    },
+    {
+      "LocalizedName": "43ab5cd1a4434ccaa1c74bc2a6a766ab",
+      "DevName": "Outfit_Engineer_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300116
+    },
+    {
+      "LocalizedName": "ec95405555494d12961f884245411f09",
+      "DevName": "Outfit_Herald_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300117
+    },
+    {
+      "LocalizedName": "459d442556ed4a2a84694ea155cebe5e",
+      "DevName": "Outfit_Psychopomp_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300118
+    },
+    {
+      "LocalizedName": "3b412f1801834ba98d8d83b5c1a8b960",
+      "DevName": "Outfit_Psychopomp_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300119
+    },
+    {
+      "LocalizedName": "10664af61382402798fadd46adb27b64",
+      "DevName": "Outfit_Inhibitor_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300120
+    },
+    {
+      "LocalizedName": "8bc9034e54d34d34a0f96e3b58eee672",
+      "DevName": "Outfit_Inhibitor_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300121
+    },
+    {
+      "LocalizedName": "656d2964bcae46c98fd6b9bd70b903ca",
+      "DevName": "Outfit_Glutton_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300122
+    },
+    {
+      "LocalizedName": "b7d4f364e0e34b3c83ff20e415dffb64",
+      "DevName": "Outfit_Inquisitor_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300123
+    },
+    {
+      "LocalizedName": "911a679babda45329ab4bbee1ba925a5",
+      "DevName": "Outfit_Inquisitor_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300124
+    },
+    {
+      "LocalizedName": "e9abff5e8d7940229746ffa45d9140e6",
+      "DevName": "Outfit_Spearmaster_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300125
+    },
+    {
+      "LocalizedName": "305cda262fb94d21b66a8d992199466f",
+      "DevName": "Outfit_Vanguard_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300126
+    },
+    {
+      "LocalizedName": "e9f6e3ad46b645298289a0e64dbdd889",
+      "DevName": "Outfit_Spearmaster_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300128
+    },
+    {
+      "LocalizedName": "583883b86bd045eca1a1c45389f2942c",
+      "DevName": "Outfit_Gunner_Classic_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300129
+    },
+    {
+      "LocalizedName": "720c16c1436b4417854b18331ad6319f",
+      "DevName": "Outfit_Ranid_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300130
+    },
+    {
+      "LocalizedName": "3f43f054a6dd40218ea645ffcdae41cb",
+      "DevName": "Outfit_Gunner_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300131
+    },
+    {
+      "LocalizedName": "fec6e4e893004cff8331134f49a50daf",
+      "DevName": "Outfit_Harbinger_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300132
+    },
+    {
+      "LocalizedName": "76f2e7f98255441aab72e4de8eea74d4",
+      "DevName": "Outfit_Nomad_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300133
+    },
+    {
+      "LocalizedName": "17339a022ae44a818237ed3ca0ad210f",
+      "DevName": "Outfit_Ravener_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300134
+    },
+    {
+      "LocalizedName": "1226f2b53059430b913c30bc29d951b9",
+      "DevName": "Outfit_Igniter_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300135
+    },
+    {
+      "LocalizedName": "555170d4410a4786b99df61db27c9d56",
+      "DevName": "Outfit_Stormcaller_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300136
+    },
+    {
+      "LocalizedName": "7f0ae89a2cc44ff7a940b07ac6b662db",
+      "DevName": "Outfit_Swordmaster_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300137
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Druid_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300138
+    },
+    {
+      "LocalizedName": "2f6e2f65caaf4d1d98c415587982886b",
+      "DevName": "Outfit_Druid_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300139
+    },
+    {
+      "LocalizedName": "012ef37b2aa448faaf37ae3265459ce8",
+      "DevName": "Outfit_Druid_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300140
+    },
+    {
+      "LocalizedName": "e40d5bc13a9d4266a5729a177b7c1219",
+      "DevName": "Outfit_Druid_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300141
+    },
+    {
+      "LocalizedName": "5b15c6cbf0214f3eb69dc45858bacbbb",
+      "DevName": "Outfit_Druid_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300142
+    },
+    {
+      "LocalizedName": "e08a31ac1286436e9d4faec399e4c8e3",
+      "DevName": "Outfit_Druid_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300143
+    },
+    {
+      "LocalizedName": "42ed1e6343b04e1f926ade25e5cc2b89",
+      "DevName": "Outfit_Seeker_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300145
+    },
+    {
+      "LocalizedName": "f162515de27145f49cfbd17cb4d2620b",
+      "DevName": "Outfit_Vanguard_Prehistoric01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300146
+    },
+    {
+      "LocalizedName": "ccb4db0ece344601935da20b3be2477c",
+      "DevName": "Outfit_Alchemist_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300147
+    },
+    {
+      "LocalizedName": "61d81a19a18a458fb5816bce4483c955",
+      "DevName": "Outfit_Vanguard_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300148
+    },
+    {
+      "LocalizedName": "e4730ee136db46429274e666c4b36394",
+      "DevName": "Outfit_Vanguard_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300149
+    },
+    {
+      "LocalizedName": "70ccda8dd0b4499ca5f258c11a91f4ac",
+      "DevName": "Outfit_Ranid_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300150
+    },
+    {
+      "LocalizedName": "a8ca0c669ca3479dae282ad36b2d29d6",
+      "DevName": "Outfit_Ranid_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300151
+    },
+    {
+      "LocalizedName": "612d03092aa04802a5dfd9233f333259",
+      "DevName": "Outfit_Seeker_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300152
+    },
+    {
+      "LocalizedName": "1391fe05eb6b406f886dde19398741ff",
+      "DevName": "Outfit_Seeker_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300153
+    },
+    {
+      "LocalizedName": "4393b0eca9bc431484e7b9df0614c9de",
+      "DevName": "Outfit_Ravener_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300154
+    },
+    {
+      "LocalizedName": "cdbc6d43b40a4ee9bd6c59d2778c7827",
+      "DevName": "Outfit_Ravener_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300155
+    },
+    {
+      "LocalizedName": "0a9eeeacf5c74a3484905031666a0e35",
+      "DevName": "Outfit_Swordmaster_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300156
+    },
+    {
+      "LocalizedName": "882dc4904b4c4c83a5985d030db040a8",
+      "DevName": "Outfit_Swordmaster_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300157
+    },
+    {
+      "LocalizedName": "9a85bdd0ed174bc399555bf06fc30f53",
+      "DevName": "Outfit_MetalWarden_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300159
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_MetalWarden_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300160
+    },
+    {
+      "LocalizedName": "c65b06cfa76e4e2ca3cbfce71a00b3e2",
+      "DevName": "Outfit_BloodPriest_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300161
+    },
+    {
+      "LocalizedName": "fd11974a57da40a2b3886473592060b5",
+      "DevName": "Outfit_Psychopomp_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300162
+    },
+    {
+      "LocalizedName": "78bbed7935824a51bd013ec92861cf3e",
+      "DevName": "Outfit_Psychopomp_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300163
+    },
+    {
+      "LocalizedName": "e66f7721c38a4d5bbc2b30da4abeb5ff",
+      "DevName": "Outfit_Herald_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300164
+    },
+    {
+      "LocalizedName": "1f1da32ee9ea4ced8157b63b5d0c9930",
+      "DevName": "Outfit_Herald_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300165
+    },
+    {
+      "LocalizedName": "3e83b351e2c541a7a3873472b097dd7a",
+      "DevName": "Outfit_BloodPriest_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300166
+    },
+    {
+      "LocalizedName": "71a0f2cb9510422786adc9f75a2d5361",
+      "DevName": "Outfit_BloodPriest_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300167
+    },
+    {
+      "LocalizedName": "0bc9e52124c345cfa380d350ba4bc575",
+      "DevName": "Outfit_Harbinger_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300168
+    },
+    {
+      "LocalizedName": "877ef5eda6d54eb083b71702cd3de72e",
+      "DevName": "Outfit_Harbinger_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300169
+    },
+    {
+      "LocalizedName": "41fac0ce62574e2e85f56bb2cb98a152",
+      "DevName": "Outfit_Igniter_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300170
+    },
+    {
+      "LocalizedName": "38653fd2d2fb45f3bd783006e34256d6",
+      "DevName": "Outfit_Igniter_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300171
+    },
+    {
+      "LocalizedName": "37cdb17b2f534b2d866e7b1f49009e90",
+      "DevName": "Outfit_Stormcaller_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300172
+    },
+    {
+      "LocalizedName": "3963fd717d56429885384a9c69d2a608",
+      "DevName": "Outfit_Stormcaller_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300173
+    },
+    {
+      "LocalizedName": "6a6eb1440741498284f4c84556e9514e",
+      "DevName": "Outfit_Spearmaster_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300174
+    },
+    {
+      "LocalizedName": "ca9c18a60a5642a1834c3656324aa255",
+      "DevName": "Outfit_Spearmaster_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300175
+    },
+    {
+      "LocalizedName": "3e65b1b06694498b89f18603c71cccc9",
+      "DevName": "Outfit_Astronomer_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300176
+    },
+    {
+      "LocalizedName": "d33a194b8b4b483888f5bbfce615a2ab",
+      "DevName": "Outfit_Astronomer_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300177
+    },
+    {
+      "LocalizedName": "27f9d5c5cd3540d9be5ac1e1a4f19539",
+      "DevName": "Outfit_Inhibitor_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300178
+    },
+    {
+      "LocalizedName": "fbbb8851f78f4322b514c90b90bed0a5",
+      "DevName": "Outfit_Inhibitor_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300179
+    },
+    {
+      "LocalizedName": "63efd1812d5f46b48fb1baa956ee0606",
+      "DevName": "Outfit_Nomad_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300180
+    },
+    {
+      "LocalizedName": "aad973ac5dde4e87a4fcf7f58196c3e1",
+      "DevName": "Outfit_Nomad_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300181
+    },
+    {
+      "LocalizedName": "9b2b5c7109a14bdb811f5461c2149e55",
+      "DevName": "Outfit_Alchemist_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300182
+    },
+    {
+      "LocalizedName": "1119a313a7274ee591bc0771d5a3ba6e",
+      "DevName": "Outfit_Gunner_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300183
+    },
+    {
+      "LocalizedName": "8ee8e0baa9c94bbab976ad1ea59ef417",
+      "DevName": "Outfit_Gunner_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300184
+    },
+    {
+      "LocalizedName": "061fe9a71aff4467b4087a10190d172f",
+      "DevName": "Outfit_Engineer_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300185
+    },
+    {
+      "LocalizedName": "e0162050724b4d77ba14782784dba712",
+      "DevName": "Outfit_Engineer_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300186
+    },
+    {
+      "LocalizedName": "f8dfde8835e546b89e649fad98377645",
+      "DevName": "Outfit_Druid_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300187
+    },
+    {
+      "LocalizedName": "b1f270fc93ff4b8ca1a93ebf6a897d36",
+      "DevName": "Outfit_Druid_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300188
+    },
+    {
+      "LocalizedName": "c4f5b3e8459d430582437589bdce7dd4",
+      "DevName": "Outfit_Inquisitor_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300189
+    },
+    {
+      "LocalizedName": "8664465ee8a84398ad25213b0261cf01",
+      "DevName": "Outfit_Inquisitor_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300190
+    },
+    {
+      "LocalizedName": "713df783946d4c93a9ae07ae557ae874",
+      "DevName": "Outfit_Glutton_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300191
+    },
+    {
+      "LocalizedName": "35943f976bd4472c94670fd5770708b8",
+      "DevName": "Outfit_Glutton_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300192
+    },
+    {
+      "LocalizedName": "6014d93302cc470d813c96b053dfd20d",
+      "DevName": "Outfit_Vanguard_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300193
+    },
+    {
+      "LocalizedName": "2219e41806de4f729d24409505cf0d8c",
+      "DevName": "Outfit_Seeker_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300194
+    },
+    {
+      "LocalizedName": "c8dcd4e2a254448086dfcbc710c68b4c",
+      "DevName": "Outfit_Swordmaster_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300195
+    },
+    {
+      "LocalizedName": "5b0e27f90e84414a853c9d034cc2715e",
+      "DevName": "Outfit_Glutton_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300196
+    },
+    {
+      "LocalizedName": "e4687c349fb24125b5692a6f6e262e64",
+      "DevName": "Outfit_Gunner_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300197
+    },
+    {
+      "LocalizedName": "881c2179dc9e40b98e82e2e958b564e5",
+      "DevName": "Outfit_Spearmaster_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300199
+    },
+    {
+      "LocalizedName": "6902e8798cd94a4291efe32f7cdafbda",
+      "DevName": "Outfit_Druid_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300201
+    },
+    {
+      "LocalizedName": "084143f3baa24079a88ba4c904d8c458",
+      "DevName": "Outfit_Herald_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300202
+    },
+    {
+      "LocalizedName": "01248113ccf94ad584041f81c125048a",
+      "DevName": "Outfit_Igniter_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300203
+    },
+    {
+      "LocalizedName": "6b47d79d153848fca485bfaf49a7c293",
+      "DevName": "Outfit_Igniter_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300204
+    },
+    {
+      "LocalizedName": "99ce0dea373c4df6ab8ab5e344a5c466",
+      "DevName": "Outfit_Glutton_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300205
+    },
+    {
+      "LocalizedName": "d9c154c3f90941acbb688adf279fe37e",
+      "DevName": "Outfit_Seeker_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300207
+    },
+    {
+      "LocalizedName": "565cc26dc9db442f98a343402fb9a200",
+      "DevName": "Outfit_Druid_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300208
+    },
+    {
+      "LocalizedName": "0efd0d6260ad401e98ff98dd936777df",
+      "DevName": "Outfit_Ranid_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300209
+    },
+    {
+      "LocalizedName": "a417fb5036614ed18dca1eaed0145254",
+      "DevName": "Outfit_Ranid_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300210
+    },
+    {
+      "LocalizedName": "bba635550a4b4be5bab0fdc0e11e3a8b",
+      "DevName": "Outfit_Swordmaster_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300211
+    },
+    {
+      "LocalizedName": "f7020424752541698ae239b25253f8e2",
+      "DevName": "Outfit_Ravener_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300212
+    },
+    {
+      "LocalizedName": "d6a0e5b416f34b74a36fb131061ee8f8",
+      "DevName": "Outfit_Ravener_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300213
+    },
+    {
+      "LocalizedName": "44cac50edaf44d3c8626554c0d7e3bec",
+      "DevName": "Outfit_Gunner_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300214
+    },
+    {
+      "LocalizedName": "9e99f88febd7422d9d421859e9e381e8",
+      "DevName": "Outfit_Alchemist_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300215
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Thorn_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300216
+    },
+    {
+      "LocalizedName": "c0a793e00a584290a32af845ddfc8ec0",
+      "DevName": "Outfit_Glutton_Halloween01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300217
+    },
+    {
+      "LocalizedName": "640aa4fea26e4570849478eb800297f5",
+      "DevName": "Outfit_Gunner_Halloween_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300218
+    },
+    {
+      "LocalizedName": "8778b3af21fb431195332036c347f9d6",
+      "DevName": "Outfit_Astronomer_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300219
+    },
+    {
+      "LocalizedName": "644137edd44a41509725c40e26792fee",
+      "DevName": "Outfit_Harbinger_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300220
+    },
+    {
+      "LocalizedName": "7a0b5b8f44dc4b31b0d7e33a59407efc",
+      "DevName": "Outfit_Harbinger_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300221
+    },
+    {
+      "LocalizedName": "d18935a3356d41a39eadf682660bf559",
+      "DevName": "Outfit_Swordmaster_Halloween01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300222
+    },
+    {
+      "LocalizedName": "3ae38f89712e4ae7aef913ef3f754e28",
+      "DevName": "Outfit_Inquisitor_Halloween01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300223
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_MirrorMage_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300224
+    },
+    {
+      "LocalizedName": "9fd98d262fde496fbc1881aface4d99c",
+      "DevName": "Outfit_BloodPriest_Legendary02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300225
+    },
+    {
+      "LocalizedName": "f358bcf82b514183b98b070583bec9a8",
+      "DevName": "Outfit_BloodPriest_Legendary03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300226
+    },
+    {
+      "LocalizedName": "ecd765e8e6f240d8b7952930f7b4b0f2",
+      "DevName": "Outfit_Vanguard_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300227
+    },
+    {
+      "LocalizedName": "aa94b39a846c4abfa4d7792bfb1243c2",
+      "DevName": "Outfit_Stormcaller_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300228
+    },
+    {
+      "LocalizedName": "bcb190a17ffc41f0a84c18ca14118f66",
+      "DevName": "Outfit_Stormcaller_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300229
+    },
+    {
+      "LocalizedName": "28956c76a5014897a4ccdda9b939f3e7",
+      "DevName": "Outfit_MetalWarden_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300230
+    },
+    {
+      "LocalizedName": "9d1345bddde34e75831c6cc97509b37f",
+      "DevName": "Outfit_MetalWarden_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300231
+    },
+    {
+      "LocalizedName": "0b8f430be6b94d55a13763eb3d8900e5",
+      "DevName": "Outfit_MetalWarden_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300232
+    },
+    {
+      "LocalizedName": "2aec2924c46b4e228a77824ac97147a5",
+      "DevName": "Outfit_MetalWarden_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300233
+    },
+    {
+      "LocalizedName": "eb0ac379af9441e9912bf31e2aae1c6b",
+      "DevName": "Outfit_MetalWarden_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300234
+    },
+    {
+      "LocalizedName": "79239b2969d54ad08e3afb62746d96cd",
+      "DevName": "Outfit_MetalWarden_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300235
+    },
+    {
+      "LocalizedName": "aa3f7e7a474d46888531298a9752f1da",
+      "DevName": "Outfit_MetalWarden_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300236
+    },
+    {
+      "LocalizedName": "1bd68ca030da4d5889b4ef9fcd04e997",
+      "DevName": "Outfit_MetalWarden_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300237
+    },
+    {
+      "LocalizedName": "c3c9f3092b03462eb9fb049815e85eb6",
+      "DevName": "Outfit_Nomad_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300238
+    },
+    {
+      "LocalizedName": "463e0e6618bb483091d7ad413ac0f609",
+      "DevName": "Outfit_Nomad_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300239
+    },
+    {
+      "LocalizedName": "006de779f02f4988bc7e7b1a8f22955c",
+      "DevName": "Outfit_Nomad_Prehistoric01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300240
+    },
+    {
+      "LocalizedName": "22aabd3c40d248bb903dacbb5e1a82d6",
+      "DevName": "Outfit_Thorn_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300241
+    },
+    {
+      "LocalizedName": "87fd2f21b3184f7380d44942195c4ba9",
+      "DevName": "Outfit_Thorn_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300242
+    },
+    {
+      "LocalizedName": "bafe7a7f8be24bda9c52871aef8cad5a",
+      "DevName": "Outfit_Thorn_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300243
+    },
+    {
+      "LocalizedName": "0ecc3c10dc364150a354231f5bf4032e",
+      "DevName": "Outfit_Thorn_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300244
+    },
+    {
+      "LocalizedName": "a248a20803274a02b45798954e7cc284",
+      "DevName": "Outfit_Thorn_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300245
+    },
+    {
+      "LocalizedName": "c1e16c9f75b04d77b611ab480a638ffd",
+      "DevName": "Outfit_Thorn_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300246
+    },
+    {
+      "LocalizedName": "1e695c8546504bdeb73bd2254e2b53b0",
+      "DevName": "Outfit_Thorn_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300247
+    },
+    {
+      "LocalizedName": "52eae07805dd4e4cb7dc7baa471f2157",
+      "DevName": "Outfit_Thorn_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300248
+    },
+    {
+      "LocalizedName": "5afb7bb7810a45df984c5e06eb433289",
+      "DevName": "Outfit_Thorn_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300249
+    },
+    {
+      "LocalizedName": "9e2e7600bc1a4b82bb6e95090528e5f8",
+      "DevName": "Outfit_Inquisitor_Prehistoric01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300251
+    },
+    {
+      "LocalizedName": "0af9f718b03743e2ac1d8150579705c3",
+      "DevName": "Outfit_Engineer_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300252
+    },
+    {
+      "LocalizedName": "118b3b9b77d946149abd09233a87b7d1",
+      "DevName": "Outfit_Gunner_Classic_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300253
+    },
+    {
+      "LocalizedName": "eb216e62a05f4052ab4cac7032683e20",
+      "DevName": "Outfit_Gunner_Classic_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300254
+    },
+    {
+      "LocalizedName": "ae19ec38932b46e591ae190cefd1ee58",
+      "DevName": "Outfit_Ranid_Winter01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300255
+    },
+    {
+      "LocalizedName": "262f69feefe447f7ab1ba8b1b68fd4fb",
+      "DevName": "Outfit_Inquisitor_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300256
+    },
+    {
+      "LocalizedName": "e2a422bda1a04efbb8604744396efa77",
+      "DevName": "Outfit_Psychopomp_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300260
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_FrostMage_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300261
+    },
+    {
+      "LocalizedName": "62153c3ca6df41c99a441d45dc6ab97a",
+      "DevName": "Outfit_Igniter_Twitch_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300262
+    },
+    {
+      "LocalizedName": "2a1fd797c7724166baa280f74d509e38",
+      "DevName": "Outfit_FrostMage_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300263
+    },
+    {
+      "LocalizedName": "d6ca8a8a8a36400fa7037ce7e0cf5bf9",
+      "DevName": "Outfit_Ravener_Winter01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300264
+    },
+    {
+      "LocalizedName": "5a600575a495419a8046968e328b7430",
+      "DevName": "Outfit_FrostMage_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300265
+    },
+    {
+      "LocalizedName": "ba572431085b43c3bd2995c39bd1e165",
+      "DevName": "Outfit_FrostMage_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300266
+    },
+    {
+      "LocalizedName": "11eb073e8701429d9137392864f31b58",
+      "DevName": "Outfit_MirrorMage_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300267
+    },
+    {
+      "LocalizedName": "f252ccb502bf40249e2970d2c34e03f1",
+      "DevName": "Outfit_MirrorMage_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300268
+    },
+    {
+      "LocalizedName": "6e050902cb8143799bfdaf50f1c49b40",
+      "DevName": "Outfit_MirrorMage_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300269
+    },
+    {
+      "LocalizedName": "f36ebfd28f5e44058c1ee5165a48a59c",
+      "DevName": "Outfit_MirrorMage_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300270
+    },
+    {
+      "LocalizedName": "9f07b2f9d423493ab6b3390c8a7642e5",
+      "DevName": "Outfit_MirrorMage_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300271
+    },
+    {
+      "LocalizedName": "fd6b226e587b4fb9937085c3b9aa96a3",
+      "DevName": "Outfit_MirrorMage_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300272
+    },
+    {
+      "LocalizedName": "be1754e023b348319a0060d091482212",
+      "DevName": "Outfit_MirrorMage_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300273
+    },
+    {
+      "LocalizedName": "7aa24a1c67c44d15a423275a4f694ee8",
+      "DevName": "Outfit_MirrorMage_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300274
+    },
+    {
+      "LocalizedName": "dcdde67c39bd427bafb127bc37995b00",
+      "DevName": "Outfit_MirrorMage_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300275
+    },
+    {
+      "LocalizedName": "458da08ebebc419887c03bdd15a424dd",
+      "DevName": "Outfit_FrostMage_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300276
+    },
+    {
+      "LocalizedName": "66cfe42b612646bc9630bd9a07c2364d",
+      "DevName": "Outfit_FrostMage_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300277
+    },
+    {
+      "LocalizedName": "0afb2f17a7ac431082316a803d5cf5e4",
+      "DevName": "Outfit_FrostMage_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300278
+    },
+    {
+      "LocalizedName": "4c57fb6f3d8543bea115d6f15d80a066",
+      "DevName": "Outfit_FrostMage_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300279
+    },
+    {
+      "LocalizedName": "393a2ac47ef94a2d968c1a0ac2e1046b",
+      "DevName": "Outfit_FrostMage_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300280
+    },
+    {
+      "LocalizedName": "049cf980f8344098b42a3edf32ea598a",
+      "DevName": "Outfit_FrostMage_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300281
+    },
+    {
+      "LocalizedName": "4c96d92d60404e64b70f14ab760c1470",
+      "DevName": "Outfit_Herald_Prehistoric01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300282
+    },
+    {
+      "LocalizedName": "dff187e3510d489dbeb6b32805eee378",
+      "DevName": "Outfit_Spearmaster_Prehistoric01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300283
+    },
+    {
+      "LocalizedName": "c661e47a1873480e9e2e1e37c79553e7",
+      "DevName": "Outfit_Stormcaller_Prehistoric01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300284
+    },
+    {
+      "LocalizedName": "005b8b2ab13f4fec97638fdf73084f31",
+      "DevName": "Outfit_Druid_Winter01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300285
+    },
+    {
+      "LocalizedName": "ae47e7d372754a24b6582e295243eccd",
+      "DevName": "Outfit_Thorn_Winter01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300286
+    },
+    {
+      "LocalizedName": "39d256271e16456e8ec352c3cb87d778",
+      "DevName": "Outfit_Stalker_01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300287
+    },
+    {
+      "LocalizedName": "d160459944654b078ee4ef9f3bcd1a65",
+      "DevName": "Outfit_Alchemist_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300288
+    },
+    {
+      "LocalizedName": "c36eaa5f47ef4e12a0a712f798148234",
+      "DevName": "Outfit_Gunner_Contest01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300289
+    },
+    {
+      "LocalizedName": "06e6b78ba1cf4491bd568a43e596d0f0",
+      "DevName": "Outfit_Swordmaster_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300291
+    },
+    {
+      "LocalizedName": "8c614d5521cb4798a935bdf0d15931d0",
+      "DevName": "Outfit_Astronomer_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300292
+    },
+    {
+      "LocalizedName": "ca188d01c76c4544a51a6031f28315e9",
+      "DevName": "Outfit_Harbinger_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300293
+    },
+    {
+      "LocalizedName": "56f6d1e9a06642d4aa4452d4e0c6f7e6",
+      "DevName": "Outfit_Stalker_02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300294
+    },
+    {
+      "LocalizedName": "47662a9a0bed4b6b9fc054b3227a28ef",
+      "DevName": "Outfit_Stalker_03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300295
+    },
+    {
+      "LocalizedName": "1dce3a45ca314a29ba045b502cc16b0d",
+      "DevName": "Outfit_Stalker_04",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300296
+    },
+    {
+      "LocalizedName": "ea626f93c5c847329a873ca5ebf94391",
+      "DevName": "Outfit_Stalker_05",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300297
+    },
+    {
+      "LocalizedName": "11f0db5378f440daada8d576cdc3a30a",
+      "DevName": "Outfit_Stalker_06",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300298
+    },
+    {
+      "LocalizedName": "7f0a3a9799ee46f3ae8ed1510604fcb4",
+      "DevName": "Outfit_Stalker_07",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300299
+    },
+    {
+      "LocalizedName": "ec206cc516734fba9f641479917f71a9",
+      "DevName": "Outfit_FrostMage_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300300
+    },
+    {
+      "LocalizedName": "73feac01e38b40168435fa80fd76b939",
+      "DevName": "Outfit_MetalWarden_Lunar01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300301
+    },
+    {
+      "LocalizedName": "3e6f433330024d78be220a3f17b29f07",
+      "DevName": "Outfit_Stalker_Legendary01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300304
+    },
+    {
+      "LocalizedName": "9e5bd5786454482b9269ae185d59cf49",
+      "DevName": "Outfit_Stalker_Legendary01_Tex02",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300305
+    },
+    {
+      "LocalizedName": "7ef0d9d0554547b69ea927ef99182c77",
+      "DevName": "Outfit_Stalker_Legendary01_Tex03",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300306
+    },
+    {
+      "LocalizedName": "f049cb180ef34a9ca1c60561c7c0b9c1",
+      "DevName": "Outfit_Vanguard_Crusader_01_Tex01",
+      "IdRangeName": "OutfitEnum",
+      "StackableRangeName": "Outfits",
+      "StackableId": 300307
     },
     {
       "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
@@ -13165,6 +13768,41 @@ const _stackable = _(
       "StackableId": 200201
     },
     {
+      "LocalizedName": "91f774938b5c448fb994a440b36c3b3f",
+      "DevName": "VictoryPose_Stalker_00",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200202
+    },
+    {
+      "LocalizedName": "6336b530cc254e2db4e826fcd371955c",
+      "DevName": "VictoryPose_Stalker_01",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200203
+    },
+    {
+      "LocalizedName": "02c41e70f00c4bfc9d698112a05ba3e2",
+      "DevName": "VictoryPose_Stalker_02",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200204
+    },
+    {
+      "LocalizedName": "5f1dc8792b9e43a1bebb7b08900d6b5d",
+      "DevName": "VictoryPose_Stalker_03",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200205
+    },
+    {
+      "LocalizedName": "c2b20aa903f54a81a0653fce2a6b055b",
+      "DevName": "VictoryPose_Stalker_04",
+      "IdRangeName": "VictoryPoseEnum",
+      "StackableRangeName": "VictoryPoses",
+      "StackableId": 200206
+    },
+    {
       "LocalizedName": "703f566d634d4ed6941a9d6d04f92979",
       "DevName": "Alchemist",
       "IdRangeName": "CharacterEnum",
@@ -13469,6 +14107,24 @@ const _stackable = _(
       "Icon": "f3e8949aa208a3346a497c336a7002cd",
       "WideIcon": "50404d271ae2a4f4f8b52de966688dc1",
       "StackableId": 10041
+    },
+    {
+      "LocalizedName": "8d1f894bb6d143919490d75770091c22",
+      "DevName": "Stalker",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "b0c0d446784f67545984958d4fb92ecc",
+      "WideIcon": "f283d6dda29cbc845b4f770a1482d75b",
+      "StackableId": 10043
+    },
+    {
+      "LocalizedName": "54211e1d9be54efeac2e3311e96b898b",
+      "DevName": "FFABakko",
+      "IdRangeName": "CharacterEnum",
+      "StackableRangeName": "Characters",
+      "Icon": "0a89df4b6bcde3d469185186eab7138b",
+      "WideIcon": "6154d6c0556261343844bf7caebb67a7",
+      "StackableId": 10045
     }
   ]
 );
